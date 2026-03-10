@@ -28,8 +28,8 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/huangzesen/xhelio-cdawebmcp"
-Repository = "https://github.com/huangzesen/xhelio-cdawebmcp"
+Homepage = "https://github.com/huangzesen/xhelio-cdaweb"
+Repository = "https://github.com/huangzesen/xhelio-cdaweb"
 
 [project.optional-dependencies]
 mcp = ["mcp>=1.26.0"]
