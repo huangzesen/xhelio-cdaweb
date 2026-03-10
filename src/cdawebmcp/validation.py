@@ -10,7 +10,6 @@ Override files are stored at:
 
 import json
 import logging
-import os
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -32,10 +31,8 @@ _SKIP_TYPES = {
 
 def _get_overrides_dir() -> Path:
     """Return the overrides directory."""
-    custom = os.environ.get("CDAWEBMCP_CACHE_DIR")
-    if custom:
-        return Path(custom) / "overrides"
-    return Path.home() / ".cdawebmcp" / "overrides"
+    from cdawebmcp.config import get_cache_root
+    return get_cache_root() / "overrides"
 
 
 def inspect_cdf_variables(cdf_path: Path) -> list[dict]:

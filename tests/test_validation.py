@@ -91,7 +91,7 @@ from cdawebmcp.validation import load_override, save_override
 
 def test_save_and_load_override(tmp_path, monkeypatch):
     """Override files should round-trip correctly."""
-    monkeypatch.setenv("CDAWEBMCP_CACHE_DIR", str(tmp_path))
+    monkeypatch.setattr("cdawebmcp.config._cache_dir", tmp_path)
 
     override = {
         "_validated": True,
@@ -114,14 +114,14 @@ def test_save_and_load_override(tmp_path, monkeypatch):
 
 def test_load_override_missing(tmp_path, monkeypatch):
     """load_override should return None for missing files."""
-    monkeypatch.setenv("CDAWEBMCP_CACHE_DIR", str(tmp_path))
+    monkeypatch.setattr("cdawebmcp.config._cache_dir", tmp_path)
     result = load_override("NONEXISTENT", mission_stem="fake")
     assert result is None
 
 
 def test_save_override_merges(tmp_path, monkeypatch):
     """Saving an override twice should deep-merge, not overwrite."""
-    monkeypatch.setenv("CDAWEBMCP_CACHE_DIR", str(tmp_path))
+    monkeypatch.setattr("cdawebmcp.config._cache_dir", tmp_path)
 
     save_override("AC_H2_MFI", {"_validated": True, "key1": "val1"}, mission_stem="ace")
     save_override("AC_H2_MFI", {"key2": "val2"}, mission_stem="ace")
@@ -141,7 +141,7 @@ from cdawebmcp.validation import sync_metadata
 
 def test_sync_metadata_detects_phantom(tmp_path, monkeypatch):
     """Parameters in metadata but not in data CDF should be marked as phantom."""
-    monkeypatch.setenv("CDAWEBMCP_CACHE_DIR", str(tmp_path))
+    monkeypatch.setattr("cdawebmcp.config._cache_dir", tmp_path)
 
     # Set up metadata cache with Magnitude and Phantom_Var
     meta_dir = tmp_path / "metadata"
@@ -189,7 +189,7 @@ def test_sync_metadata_detects_phantom(tmp_path, monkeypatch):
 
 def test_sync_metadata_detects_undocumented(tmp_path, monkeypatch):
     """Parameters in data CDF but not in metadata should be marked as undocumented."""
-    monkeypatch.setenv("CDAWEBMCP_CACHE_DIR", str(tmp_path))
+    monkeypatch.setattr("cdawebmcp.config._cache_dir", tmp_path)
 
     meta_dir = tmp_path / "metadata"
     meta_dir.mkdir()
@@ -236,7 +236,7 @@ def test_sync_metadata_detects_undocumented(tmp_path, monkeypatch):
 
 def test_sync_metadata_skips_already_validated(tmp_path, monkeypatch):
     """sync_metadata should skip if the same source_url was already validated."""
-    monkeypatch.setenv("CDAWEBMCP_CACHE_DIR", str(tmp_path))
+    monkeypatch.setattr("cdawebmcp.config._cache_dir", tmp_path)
 
     meta_dir = tmp_path / "metadata"
     meta_dir.mkdir()
@@ -267,7 +267,7 @@ def test_sync_metadata_skips_already_validated(tmp_path, monkeypatch):
 
 def test_sync_metadata_appends_validation(tmp_path, monkeypatch):
     """Multiple syncs with different source URLs should append to _validations."""
-    monkeypatch.setenv("CDAWEBMCP_CACHE_DIR", str(tmp_path))
+    monkeypatch.setattr("cdawebmcp.config._cache_dir", tmp_path)
 
     meta_dir = tmp_path / "metadata"
     meta_dir.mkdir()
@@ -308,7 +308,7 @@ from cdawebmcp.validation import get_quality_report
 
 def test_get_quality_report(tmp_path, monkeypatch):
     """get_quality_report should summarize discrepancies across validations."""
-    monkeypatch.setenv("CDAWEBMCP_CACHE_DIR", str(tmp_path))
+    monkeypatch.setattr("cdawebmcp.config._cache_dir", tmp_path)
 
     override_dir = tmp_path / "overrides" / "ace"
     override_dir.mkdir(parents=True)
@@ -341,6 +341,6 @@ def test_get_quality_report(tmp_path, monkeypatch):
 
 def test_get_quality_report_no_override(tmp_path, monkeypatch):
     """get_quality_report should return None if no override exists."""
-    monkeypatch.setenv("CDAWEBMCP_CACHE_DIR", str(tmp_path))
+    monkeypatch.setattr("cdawebmcp.config._cache_dir", tmp_path)
     report = get_quality_report("NONEXISTENT", mission_stem="fake")
     assert report is None

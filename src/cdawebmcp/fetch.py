@@ -40,11 +40,8 @@ _SKIP_TYPES = _EPOCH_TYPES | {"CDF_CHAR", "CDF_UCHAR"}
 
 def get_cache_dir() -> Path:
     """Return the CDF file cache directory."""
-    import os
-    custom = os.environ.get("CDAWEBMCP_CACHE_DIR")
-    if custom:
-        return Path(custom) / "cdf_cache"
-    return Path.home() / ".cdawebmcp" / "cdf_cache"
+    from cdawebmcp.config import get_cache_root
+    return get_cache_root() / "cdf_cache"
 
 
 def fetch_data(

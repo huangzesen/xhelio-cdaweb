@@ -248,6 +248,19 @@ def create_server() -> FastMCP:
 
 def serve():
     """Run the MCP server (stdio transport)."""
+    import argparse
+
+    parser = argparse.ArgumentParser(description="CDAWeb MCP server")
+    parser.add_argument(
+        "--cache-dir", type=str, default=None,
+        help="Root directory for all caches (default: ~/.cdawebmcp/)",
+    )
+    args = parser.parse_args()
+
+    if args.cache_dir:
+        from cdawebmcp.config import configure
+        configure(cache_dir=args.cache_dir)
+
     logging.basicConfig(level=logging.INFO)
     server = create_server()
     server.run()

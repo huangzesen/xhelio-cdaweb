@@ -42,9 +42,7 @@ With custom cache directory:
   "mcpServers": {
     "cdaweb": {
       "command": "xhelio-cdaweb-mcp",
-      "env": {
-        "CDAWEBMCP_CACHE_DIR": "/path/to/cache"
-      }
+      "args": ["--cache-dir", "/path/to/cache"]
     }
   }
 }
@@ -54,18 +52,23 @@ Or run directly:
 
 ```bash
 xhelio-cdaweb-mcp
+xhelio-cdaweb-mcp --cache-dir /path/to/cache
 python -m cdawebmcp
-
-# With custom cache directory
-CDAWEBMCP_CACHE_DIR=/path/to/cache xhelio-cdaweb-mcp
 ```
 
 ### Cache directory
 
-All runtime data is stored under a single root directory, configurable via the `CDAWEBMCP_CACHE_DIR` environment variable. Defaults to `~/.cdawebmcp/`.
+All runtime data is stored under a single root directory. Defaults to `~/.cdawebmcp/`.
+
+Configure via `--cache-dir` (MCP server) or `cdawebmcp.configure()` (library):
+
+```python
+import cdawebmcp
+cdawebmcp.configure(cache_dir="/path/to/cache")
+```
 
 ```
-$CDAWEBMCP_CACHE_DIR/          # default: ~/.cdawebmcp/
+~/.cdawebmcp/                  # or custom path via configure()
 ├── metadata/                  # Master CDF parameter metadata (user-fetched, supplements bundled data)
 ├── cdf_cache/                 # Downloaded CDF data files (permanent, reused across fetches)
 │   └── ace/mfi/               #   organized by mission/instrument path

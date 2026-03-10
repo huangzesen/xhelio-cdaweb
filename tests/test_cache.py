@@ -17,7 +17,7 @@ from cdawebmcp.cache import (
 @pytest.fixture
 def fake_cache(tmp_path, monkeypatch):
     """Set CDAWEBMCP_CACHE_DIR to a temp directory with fake cache files."""
-    monkeypatch.setenv("CDAWEBMCP_CACHE_DIR", str(tmp_path))
+    monkeypatch.setattr("cdawebmcp.config._cache_dir", tmp_path)
 
     # Create fake metadata cache
     meta_dir = tmp_path / "metadata"
@@ -51,7 +51,7 @@ def test_cache_status_returns_categories(fake_cache):
 
 
 def test_cache_status_empty(tmp_path, monkeypatch):
-    monkeypatch.setenv("CDAWEBMCP_CACHE_DIR", str(tmp_path))
+    monkeypatch.setattr("cdawebmcp.config._cache_dir", tmp_path)
     result = cache_status()
     assert result["status"] == "success"
     assert result["total_bytes"] == 0

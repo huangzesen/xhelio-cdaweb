@@ -8,7 +8,6 @@ import numpy as np
 
 logger = logging.getLogger(__name__)
 
-_DEFAULT_CACHE_DIR = Path.home() / ".cdawebmcp" / "metadata"
 _BUNDLED_METADATA_DIR = Path(__file__).parent / "data" / "metadata"
 
 MASTER_CDF_BASE = "https://cdaweb.gsfc.nasa.gov/pub/software/cdawlib/0MASTERS"
@@ -30,12 +29,9 @@ _SKIP_TYPES = {
 
 
 def get_cache_dir() -> Path:
-    """Return the metadata cache directory. Configurable via env var."""
-    import os
-    custom = os.environ.get("CDAWEBMCP_CACHE_DIR")
-    if custom:
-        return Path(custom) / "metadata"
-    return _DEFAULT_CACHE_DIR
+    """Return the metadata cache directory."""
+    from cdawebmcp.config import get_cache_root
+    return get_cache_root() / "metadata"
 
 
 def browse_parameters(

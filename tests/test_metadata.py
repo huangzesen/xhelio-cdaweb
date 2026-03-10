@@ -62,7 +62,7 @@ def test_browse_parameters_missing_dataset(tmp_path):
 
 def test_browse_parameters_includes_validation(tmp_path, monkeypatch):
     """browse_parameters should include validation status when override exists."""
-    monkeypatch.setenv("CDAWEBMCP_CACHE_DIR", str(tmp_path))
+    monkeypatch.setattr("cdawebmcp.config._cache_dir", tmp_path)
 
     # Set up metadata cache
     meta_dir = tmp_path / "metadata"

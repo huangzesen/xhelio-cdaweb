@@ -6,6 +6,8 @@ For MCP server: pip install xhelio-cdaweb[mcp]
 
 __version__ = "0.1.0"
 
+from cdawebmcp.config import configure
+
 
 def main():
     """Entry point for the MCP server (xhelio-cdaweb-mcp command).
