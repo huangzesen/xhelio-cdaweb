@@ -90,8 +90,8 @@ def create_server() -> FastMCP:
         parameters: list[str],
         start: str,
         stop: str,
+        output_dir: str,
         format: Literal["csv", "json"] = "csv",
-        output_dir: str | None = None,
     ) -> str:
         """Fetch timeseries data from CDAWeb, write to a file, return metadata + stats.
 
@@ -107,10 +107,9 @@ def create_server() -> FastMCP:
             parameters: List of parameter names to fetch (e.g., ['BGSEc', 'Magnitude']).
             start: Start time in ISO 8601 format (e.g., '2024-01-01').
             stop: End time in ISO 8601 format (e.g., '2024-01-07').
+            output_dir: Directory for the output file. Must be provided.
             format: Output file format — 'csv' (default) or 'json'.
-            output_dir: Directory for output file. Defaults to system temp dir.
         """
-        import tempfile
         from datetime import datetime
 
         # Call the library function — returns DataFrames
@@ -121,7 +120,7 @@ def create_server() -> FastMCP:
             stop=stop,
         )
 
-        out_dir = Path(output_dir) if output_dir else Path(tempfile.gettempdir())
+        out_dir = Path(output_dir)
         out_dir.mkdir(parents=True, exist_ok=True)
         suffix = datetime.now().strftime("%Y%m%d_%H%M%S")
 

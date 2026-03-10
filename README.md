@@ -49,7 +49,7 @@ python -m cdawebmcp
 | `browse_missions()` | List all 54 CDAWeb missions with descriptions, dataset counts, and instruments |
 | `load_mission(mission_id)` | Get the complete system prompt for a mission (role instructions + full dataset catalog) |
 | `browse_parameters(dataset_id)` | Browse all variables in a dataset — name, type, units, description, plus validation status if available |
-| `fetch_data(dataset_id, parameters, start, stop)` | Download CDF data, write to file, return metadata + per-column stats (min, max, mean, std, nan_ratio) |
+| `fetch_data(dataset_id, parameters, start, stop, output_dir)` | Download CDF data, write to file, return metadata + per-column stats (min, max, mean, std, nan_ratio) |
 | `manage_cache(action, ...)` | Cache management — status, clean, refresh metadata, refresh time ranges, rebuild catalog |
 
 ### Typical workflow
