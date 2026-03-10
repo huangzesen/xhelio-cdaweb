@@ -74,6 +74,18 @@ def browse_parameters(
             stop = info.get("stopDate", "")
             if start or stop:
                 entry["time_range"] = {"start": start, "stop": stop}
+            # Add validation status if available
+            try:
+                from cdawebmcp.validation import get_quality_report
+                from cdawebmcp.catalog import get_mission_stem_from_dataset
+                mission_stem = get_mission_stem_from_dataset(ds_id)
+                if mission_stem:
+                    report = get_quality_report(ds_id, mission_stem=mission_stem)
+                    if report:
+                        entry["validated"] = report["validated"]
+                        entry["quality_report"] = report
+            except Exception:
+                pass
         except Exception as e:
             logger.warning("Could not load parameters for %s: %s", ds_id, e)
             entry = {"parameters": [], "error": str(e)}

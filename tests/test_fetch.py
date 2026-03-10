@@ -60,3 +60,33 @@ def test_iso_to_cdaweb_time():
     assert _iso_to_cdaweb_time("2024-01-01T12:30:00") == "20240101T123000Z"
     assert _iso_to_cdaweb_time("2024-01-01T12:30:00Z") == "20240101T123000Z"
     assert _iso_to_cdaweb_time("2024-01-01T12:30:00+00:00") == "20240101T123000Z"
+
+
+def test_sync_after_download_is_called():
+    """_sync_after_download should be called on first CDF file in _fetch_single_parameter."""
+    from cdawebmcp.fetch import _sync_after_download
+
+    with patch("cdawebmcp.fetch._sync_after_download") as mock_sync:
+        with patch("cdawebmcp.fetch._get_cdf_file_list") as mock_files:
+            with patch("cdawebmcp.fetch._download_and_read") as mock_dl:
+                mock_files.return_value = [
+                    {"url": "https://example.com/f1.cdf", "start_time": "",
+                     "end_time": "", "size": 0}
+                ]
+                df = pd.DataFrame(
+                    {1: [1.0, 2.0]},
+                    index=pd.to_datetime(["2024-01-01T00:00:00", "2024-01-01T00:01:00"]),
+                )
+                df.index.name = "time"
+                mock_dl.return_value = (Path("/fake/f1.cdf"), df)
+
+                from cdawebmcp.fetch import _fetch_single_parameter
+                _fetch_single_parameter(
+                    "AC_H2_MFI", "Magnitude",
+                    "2024-01-01T00:00:00Z", "2024-01-01T01:00:00Z",
+                    {"parameters": []}, Path("/tmp/cache"), False,
+                )
+
+        mock_sync.assert_called_once()
+        args = mock_sync.call_args
+        assert args[0][0] == "AC_H2_MFI"

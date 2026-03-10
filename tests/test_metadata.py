@@ -58,3 +58,39 @@ def test_browse_parameters_missing_dataset(tmp_path):
 
     assert result["status"] == "success"
     mock_fetch.assert_called_once()
+
+
+def test_browse_parameters_includes_validation(tmp_path, monkeypatch):
+    """browse_parameters should include validation status when override exists."""
+    monkeypatch.setenv("CDAWEBMCP_CACHE_DIR", str(tmp_path))
+
+    # Set up metadata cache
+    meta_dir = tmp_path / "metadata"
+    meta_dir.mkdir()
+    meta = {
+        "parameters": [
+            {"name": "Time", "type": "isotime"},
+            {"name": "Magnitude", "type": "double", "units": "nT"},
+        ]
+    }
+    (meta_dir / "AC_H2_MFI.json").write_text(json.dumps(meta))
+
+    # Set up validation override
+    override_dir = tmp_path / "overrides" / "ace"
+    override_dir.mkdir(parents=True)
+    override = {
+        "_validated": True,
+        "_validations": [
+            {"version": 1, "validated_at": "2026-03-10T00:00:00",
+             "discrepancies": {}, "source_file": "test.cdf"},
+        ],
+    }
+    (override_dir / "AC_H2_MFI.json").write_text(json.dumps(override))
+
+    # Mock the mission stem lookup
+    with patch("cdawebmcp.metadata.get_cache_dir", return_value=meta_dir):
+        with patch("cdawebmcp.catalog.get_mission_stem_from_dataset", return_value="ace"):
+            result = browse_parameters(dataset_id="AC_H2_MFI")
+
+    assert result["status"] == "success"
+    assert result.get("validated") is True

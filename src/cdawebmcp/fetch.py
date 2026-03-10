@@ -15,6 +15,20 @@ import pandas as pd
 
 logger = logging.getLogger(__name__)
 
+
+def _sync_after_download(dataset_id: str, cdf_path: Path, source_url: str) -> None:
+    """Run metadata sync on the first CDF file. Non-blocking — errors are logged, not raised."""
+    try:
+        from cdawebmcp.validation import sync_metadata
+        sync_metadata(
+            dataset_id=dataset_id,
+            cdf_path=cdf_path,
+            source_url=source_url,
+        )
+    except Exception as e:
+        logger.debug("Metadata sync error for %s: %s", dataset_id, e)
+
+
 CDAWEB_REST_BASE = "https://cdaweb.gsfc.nasa.gov/WS/cdasr/1/dataviews/sp_phys"
 
 _WARN_THRESHOLD_BYTES = 500 * 1024 * 1024   # 500 MB
@@ -245,6 +259,8 @@ def _fetch_single_parameter(
                         pass
             except Exception:
                 pass
+            # Sync metadata against actual data CDF (first file only)
+            _sync_after_download(dataset_id, local_path, file_list[idx].get("url", ""))
         frames.append(data)
 
     if not frames:
