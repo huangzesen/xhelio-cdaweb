@@ -110,8 +110,6 @@ def create_server() -> FastMCP:
             output_dir: Directory for the output file. Must be provided.
             format: Output file format — 'csv' (default) or 'json'.
         """
-        from datetime import datetime
-
         # Call the library function — returns DataFrames
         lib_result = _fetch_data(
             dataset_id=dataset_id,
@@ -122,7 +120,10 @@ def create_server() -> FastMCP:
 
         out_dir = Path(output_dir)
         out_dir.mkdir(parents=True, exist_ok=True)
-        suffix = datetime.now().strftime("%Y%m%d_%H%M%S")
+
+        # Filename: dataset_startdate_stopdate.format, with _1 _2 etc. if exists
+        start_short = start[:10].replace("-", "")
+        stop_short = stop[:10].replace("-", "")
 
         # Merge all parameter DataFrames and write to file
         frames = []
@@ -151,8 +152,13 @@ def create_server() -> FastMCP:
         for f in frames[1:]:
             merged = merged.join(f, how="outer")
 
-        # Write to file
-        file_path = out_dir / f"{dataset_id}_{suffix}.{format}"
+        # Write to file — increment suffix if name already exists
+        base_name = f"{dataset_id}_{start_short}_{stop_short}"
+        file_path = out_dir / f"{base_name}.{format}"
+        counter = 1
+        while file_path.exists():
+            file_path = out_dir / f"{base_name}_{counter}.{format}"
+            counter += 1
         if format == "json":
             data = {"time": merged.index.strftime("%Y-%m-%dT%H:%M:%S.%f").tolist()}
             for col in merged.columns:
