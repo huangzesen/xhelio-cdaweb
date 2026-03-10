@@ -24,3 +24,6 @@ htmlcov/
 # Local cache
 .cdawebmcp/
 docs/plans/
+
+# Claude
+CLAUDE.md
