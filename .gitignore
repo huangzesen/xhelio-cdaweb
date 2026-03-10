@@ -1,5 +1,25 @@
-# .gitignore
+# Python
 __pycache__/
 *.pyc
+*.pyo
 *.egg-info/
+dist/
+build/
+*.egg
+
+# Testing
 .pytest_cache/
+htmlcov/
+.coverage
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# CDF data files
+*.cdf
+
+# Local cache
+.cdawebmcp/

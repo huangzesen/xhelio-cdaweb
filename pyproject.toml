@@ -28,8 +28,14 @@ dependencies = [
     "requests>=2.28",
 ]
 
+[project.optional-dependencies]
+dev = ["pytest", "pytest-cov"]
+
 [project.scripts]
 cdawebmcp = "cdawebmcp:main"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/cdawebmcp"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
