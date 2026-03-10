@@ -43,6 +43,7 @@ python -m cdawebmcp
 | `load_mission(mission_id)` | Get the complete system prompt for a mission (role instructions + dataset catalog) |
 | `browse_parameters(dataset_id)` | Browse all variables in a dataset (name, type, units, description) |
 | `fetch_data(dataset_id, parameters, start, stop)` | Download CDF data, write to file, return metadata + per-column stats |
+| `manage_cache(action, ...)` | Cache management — status, clean, refresh metadata, refresh time ranges, rebuild catalog |
 
 ## Python Library
 

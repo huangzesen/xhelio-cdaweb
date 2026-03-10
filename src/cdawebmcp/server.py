@@ -166,6 +166,77 @@ def create_server() -> FastMCP:
             "parameters": param_meta,
         }, indent=2, default=str)
 
+    @mcp.tool()
+    def manage_cache(
+        action: str,
+        category: str = "all",
+        mission: str | None = None,
+        dataset_ids: list[str] | None = None,
+        older_than_days: int | None = None,
+        dry_run: bool = True,
+        detail: bool = False,
+    ) -> str:
+        """Manage the local CDAWeb cache — view status, clean files, refresh metadata, or rebuild catalogs.
+
+        Actions:
+        - "status": Show disk usage for metadata and CDF caches. Set detail=True for per-subdirectory breakdown.
+        - "clean": Delete cached files. Defaults to dry_run=True (preview only). Filter by category, mission, or age.
+        - "refresh_metadata": Re-download Master CDF parameter metadata. Specify dataset_ids or mission to scope.
+        - "refresh_time_ranges": Update start/stop dates in mission catalog JSONs from CDAWeb API. Optionally filter by mission.
+        - "rebuild_catalog": Regenerate mission catalog JSONs from CDAWeb REST API. Optionally filter by mission.
+
+        Args:
+            action: One of "status", "clean", "refresh_metadata", "refresh_time_ranges", "rebuild_catalog".
+            category: For "clean" — "metadata", "cdf_cache", or "all" (default).
+            mission: Filter to a single mission stem (e.g., "ace", "psp").
+            dataset_ids: For "refresh_metadata" — specific dataset IDs to refresh.
+            older_than_days: For "clean" — only delete files older than N days.
+            dry_run: For "clean" — if True (default), preview without deleting.
+            detail: For "status" — if True, include per-subdirectory breakdown.
+        """
+        from cdawebmcp.cache import (
+            cache_status,
+            cache_clean,
+            refresh_metadata,
+            refresh_time_ranges,
+            rebuild_catalog,
+        )
+
+        if action == "status":
+            return json.dumps(cache_status(detail=detail), indent=2)
+        elif action == "clean":
+            missions_list = [mission] if mission else None
+            return json.dumps(
+                cache_clean(
+                    category=category,
+                    missions=missions_list,
+                    older_than_days=older_than_days,
+                    dry_run=dry_run,
+                ),
+                indent=2,
+            )
+        elif action == "refresh_metadata":
+            return json.dumps(
+                refresh_metadata(dataset_ids=dataset_ids, mission=mission),
+                indent=2,
+            )
+        elif action == "refresh_time_ranges":
+            return json.dumps(
+                refresh_time_ranges(mission=mission),
+                indent=2,
+            )
+        elif action == "rebuild_catalog":
+            return json.dumps(
+                rebuild_catalog(mission=mission),
+                indent=2,
+            )
+        else:
+            return json.dumps({
+                "status": "error",
+                "message": f"Unknown action: {action}. "
+                           "Valid: status, clean, refresh_metadata, refresh_time_ranges, rebuild_catalog",
+            })
+
     return mcp
 
 
