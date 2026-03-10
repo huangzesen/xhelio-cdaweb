@@ -1084,11 +1084,14 @@ python -m pytest tests/test_fetch.py -v
 This is the largest module. Extract core logic from `data_ops/fetch_cdf.py`:
 
 ```python
-"""CDF data fetching — download from CDAWeb and convert to JSON/CSV."""
+"""CDF data fetching — download from CDAWeb and return DataFrames.
+
+Library API: fetch_data() returns DataFrames + stats directly.
+MCP server wrapper (server.py) handles file-writing and metadata-only responses.
+"""
 
 import json
 import logging
-import tempfile
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 from urllib.parse import urlparse
@@ -1121,39 +1124,32 @@ def fetch_data(
     parameters: list[str],
     start: str,
     stop: str,
-    format: str = "csv",
-    output_dir: str | None = None,
     force: bool = False,
 ) -> dict:
-    """Fetch CDAWeb timeseries data, write to file, return metadata.
+    """Fetch CDAWeb timeseries data and return DataFrames with stats.
 
-    The data is written to a file in output_dir (or system temp dir).
-    Returns metadata + file_path — NOT the data itself. The caller is
-    responsible for reading the file and cleaning it up.
-
-    This follows the same pattern as heliospice's get_ephemeris handler.
+    This is the library API — returns DataFrames directly. The MCP server
+    wrapper in server.py handles file-writing and metadata-only responses.
 
     Args:
         dataset_id: CDAWeb dataset ID (e.g., 'AC_H2_MFI').
         parameters: List of parameter names to fetch.
         start: Start time in ISO 8601 format.
         stop: End time in ISO 8601 format.
-        format: Output file format — 'csv' (default) or 'json'.
-        output_dir: Directory for the output file. Defaults to system temp dir.
         force: Override the 1 GB download safety limit.
 
     Returns:
-        Dict with status, file_path, format, and per-parameter metadata
-        (units, description, columns, rows). No inline data.
+        Dict keyed by parameter_id. Each value has:
+        - data: pandas DataFrame with DatetimeIndex
+        - units: str
+        - description: str
+        - stats: dict of per-column {min, max, mean, std, nan_ratio}
+        On error, the value has just {"error": str}.
     """
-    import tempfile
     from cdawebmcp.metadata import _resolve_metadata
 
     cache_dir = get_cache_dir()
     cache_dir.mkdir(parents=True, exist_ok=True)
-
-    out_dir = Path(output_dir) if output_dir else Path(tempfile.gettempdir())
-    out_dir.mkdir(parents=True, exist_ok=True)
 
     # Resolve metadata for units/descriptions
     try:
@@ -1161,24 +1157,21 @@ def fetch_data(
     except Exception:
         info = {"parameters": []}
 
-    param_results = {}
-    all_frames = []
+    results = {}
     for param_id in parameters:
         try:
             result = _fetch_single_parameter(
                 dataset_id, param_id, start, stop, info, cache_dir, force
             )
             df = result["data"]
-            all_frames.append((param_id, df))
 
-            # Compute per-column statistics for LLM decision-making
-            col_names = [f"{param_id}.{c}" for c in df.columns]
+            # Compute per-column statistics
             stats = {}
-            for orig_col, named_col in zip(df.columns, col_names):
-                series = df[orig_col]
+            for col in df.columns:
+                series = df[col]
                 nan_count = int(series.isna().sum())
                 total = len(series)
-                stats[named_col] = {
+                stats[str(col)] = {
                     "min": round(float(series.min()), 4) if not series.isna().all() else None,
                     "max": round(float(series.max()), 4) if not series.isna().all() else None,
                     "mean": round(float(series.mean()), 4) if not series.isna().all() else None,
@@ -1186,39 +1179,16 @@ def fetch_data(
                     "nan_ratio": round(nan_count / total, 4) if total > 0 else 0.0,
                 }
 
-            param_results[param_id] = {
-                "status": "success",
+            results[param_id] = {
+                "data": df,
                 "units": result["units"],
                 "description": result["description"],
-                "rows": len(df),
-                "columns": col_names,
                 "stats": stats,
             }
         except Exception as e:
-            param_results[param_id] = {"status": "error", "message": str(e)}
+            results[param_id] = {"error": str(e)}
 
-    if not all_frames:
-        return {"status": "error", "message": "No data fetched for any parameter",
-                "parameters": param_results}
-
-    # Merge all parameter DataFrames into one file
-    merged = _merge_parameter_frames(all_frames)
-
-    # Write to file
-    if format == "json":
-        file_path = write_dataframe_json(merged, out_dir, dataset_id)
-    else:
-        file_path = write_dataframe_csv(merged, out_dir, dataset_id)
-
-    return {
-        "status": "success",
-        "file_path": str(file_path),
-        "format": format,
-        "dataset_id": dataset_id,
-        "parameters": param_results,
-        "time_range": {"start": start, "stop": stop},
-        "total_rows": len(merged),
-    }
+    return results
 
 
 def _fetch_single_parameter(
@@ -1349,69 +1319,28 @@ def _fetch_single_parameter(
     return {"data": df, "units": units, "description": description, "fill_value": fill_value}
 
 
-def write_dataframe_csv(df: pd.DataFrame, output_dir: Path, name: str) -> Path:
-    """Write DataFrame to a CSV file in output_dir.
+def compute_stats(df: pd.DataFrame) -> dict:
+    """Compute per-column summary statistics for a DataFrame.
 
-    Args:
-        df: DataFrame with DatetimeIndex.
-        output_dir: Directory to write the file.
-        name: Base name for the file (e.g., dataset_id).
+    Used by both the library API (fetch_data) and the MCP server wrapper.
 
     Returns:
-        Path to the written CSV file.
+        Dict keyed by column name with {min, max, mean, std, nan_ratio}.
     """
-    file_path = output_dir / f"{name}_{_timestamp_suffix()}.csv"
-    df.to_csv(file_path)
-    return file_path
-
-
-def write_dataframe_json(df: pd.DataFrame, output_dir: Path, name: str) -> Path:
-    """Write DataFrame to a JSON file in output_dir (column-oriented).
-
-    Args:
-        df: DataFrame with DatetimeIndex.
-        output_dir: Directory to write the file.
-        name: Base name for the file.
-
-    Returns:
-        Path to the written JSON file.
-    """
-    result = {"time": df.index.strftime("%Y-%m-%dT%H:%M:%S.%f").tolist()}
+    stats = {}
     for col in df.columns:
-        values = df[col].tolist()
-        result[str(col)] = [None if pd.isna(v) else v for v in values]
-
-    file_path = output_dir / f"{name}_{_timestamp_suffix()}.json"
-    with open(file_path, "w", encoding="utf-8") as f:
-        json.dump(result, f)
-    return file_path
-
-
-def _merge_parameter_frames(frames: list[tuple[str, pd.DataFrame]]) -> pd.DataFrame:
-    """Merge multiple parameter DataFrames (same time axis) into one.
-
-    Renames columns to include parameter name for disambiguation.
-    """
-    if len(frames) == 1:
-        param_id, df = frames[0]
-        # Rename columns: 1,2,3 → param_id.1, param_id.2, ...
-        df.columns = [f"{param_id}.{c}" for c in df.columns]
-        return df
-
-    merged = None
-    for param_id, df in frames:
-        df.columns = [f"{param_id}.{c}" for c in df.columns]
-        if merged is None:
-            merged = df
-        else:
-            merged = merged.join(df, how="outer")
-    return merged
-
-
-def _timestamp_suffix() -> str:
-    """Generate a timestamp suffix for unique filenames."""
-    from datetime import datetime
-    return datetime.now().strftime("%Y%m%d_%H%M%S")
+        series = df[col]
+        nan_count = int(series.isna().sum())
+        total = len(series)
+        all_nan = series.isna().all()
+        stats[str(col)] = {
+            "min": round(float(series.min()), 4) if not all_nan else None,
+            "max": round(float(series.max()), 4) if not all_nan else None,
+            "mean": round(float(series.mean()), 4) if not all_nan else None,
+            "std": round(float(series.std()), 4) if not all_nan else None,
+            "nan_ratio": round(nan_count / total, 4) if total > 0 else 0.0,
+        }
+    return stats
 
 
 # --- Internal helpers (extracted from xhelio's fetch_cdf.py) ---
@@ -1689,12 +1618,13 @@ def create_server() -> FastMCP:
         format: str = "csv",
         output_dir: str | None = None,
     ) -> str:
-        """Fetch timeseries data from CDAWeb, write to a file, return metadata.
+        """Fetch timeseries data from CDAWeb, write to a file, return metadata + stats.
 
         Downloads CDF files from NASA CDAWeb, extracts the requested parameters,
-        writes the data to a file on disk, and returns metadata + file path.
-        The data is NOT returned inline — read the file at the returned path.
+        writes the data to a file on disk, and returns rich metadata including
+        per-column statistics (min, max, mean, std, nan_ratio).
 
+        The data is NOT returned inline — read the file at the returned path.
         The caller is responsible for cleaning up the file when done.
 
         Args:
@@ -1705,15 +1635,68 @@ def create_server() -> FastMCP:
             format: Output file format — 'csv' (default) or 'json'.
             output_dir: Directory for output file. Defaults to system temp dir.
         """
-        result = _fetch_data(
+        import tempfile
+        from datetime import datetime
+
+        # Call the library function — returns DataFrames
+        lib_result = _fetch_data(
             dataset_id=dataset_id,
             parameters=parameters,
             start=start,
             stop=stop,
-            format=format,
-            output_dir=output_dir,
         )
-        return json.dumps(result, indent=2, default=str)
+
+        out_dir = Path(output_dir) if output_dir else Path(tempfile.gettempdir())
+        out_dir.mkdir(parents=True, exist_ok=True)
+        suffix = datetime.now().strftime("%Y%m%d_%H%M%S")
+
+        # Merge all parameter DataFrames and write to file
+        frames = []
+        param_meta = {}
+        for param_id, entry in lib_result.items():
+            if "error" in entry:
+                param_meta[param_id] = {"status": "error", "message": entry["error"]}
+                continue
+            df = entry["data"]
+            df.columns = [f"{param_id}.{c}" for c in df.columns]
+            frames.append(df)
+            param_meta[param_id] = {
+                "status": "success",
+                "units": entry["units"],
+                "description": entry["description"],
+                "rows": len(df),
+                "columns": list(df.columns),
+                "stats": entry["stats"],
+            }
+
+        if not frames:
+            return json.dumps({"status": "error", "message": "No data fetched",
+                               "parameters": param_meta}, indent=2)
+
+        merged = frames[0]
+        for f in frames[1:]:
+            merged = merged.join(f, how="outer")
+
+        # Write to file
+        file_path = out_dir / f"{dataset_id}_{suffix}.{format}"
+        if format == "json":
+            data = {"time": merged.index.strftime("%Y-%m-%dT%H:%M:%S.%f").tolist()}
+            for col in merged.columns:
+                data[col] = [None if pd.isna(v) else v for v in merged[col].tolist()]
+            with open(file_path, "w") as f:
+                json.dump(data, f)
+        else:
+            merged.to_csv(file_path)
+
+        return json.dumps({
+            "status": "success",
+            "file_path": str(file_path),
+            "format": format,
+            "dataset_id": dataset_id,
+            "time_range": {"start": start, "stop": stop},
+            "total_rows": len(merged),
+            "parameters": param_meta,
+        }, indent=2, default=str)
 
     return mcp
 
@@ -1870,13 +1853,13 @@ print(f"ACE prompt: {len(prompt)} chars")
 params = browse_parameters(dataset_id="AC_H2_MFI")
 print(f"AC_H2_MFI parameters: {len(params['parameters'])}")
 
-# Test 4: Fetch data (network call) — returns metadata + file path
+# Test 4: Fetch data (network call) — returns DataFrames directly
 result = fetch_data("AC_H2_MFI", ["Magnitude"], "2024-01-01", "2024-01-02")
-print(f"Fetched: {result['status']}, file: {result['file_path']}")
-assert Path(result["file_path"]).exists()
-print(f"File size: {Path(result['file_path']).stat().st_size} bytes")
-# Clean up temp file
-Path(result["file_path"]).unlink()
+mag = result["Magnitude"]
+print(f"Fetched: {len(mag['data'])} rows, units: {mag['units']}")
+print(f"Stats: {mag['stats']}")
+assert len(mag["data"]) > 0
+assert mag["stats"]["1"]["nan_ratio"] < 1.0  # not all NaN
 ```
 
 **Step 3: Create GitHub repo and push**

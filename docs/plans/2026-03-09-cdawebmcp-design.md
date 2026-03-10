@@ -53,13 +53,26 @@ Four tools, forming a natural discovery funnel:
 
 ### 4. `fetch_data(dataset_id, parameters, start, stop)`
 
-**Purpose:** Downloads CDF data from CDAWeb, writes to a temporary file, and returns metadata.
+**Purpose:** Downloads CDF data from CDAWeb and returns it.
+
+This tool has **two interfaces**:
+
+- **Python library** (`from cdawebmcp.fetch import fetch_data`): Returns a dict with DataFrames directly — `{parameter_id: {data: DataFrame, units, description, stats}}`. This is what xhelio uses.
+- **MCP server** (`server.py` wrapper): Writes data to a temp file, returns metadata + file path + stats. This is what Claude Desktop / other MCP consumers see.
+
+#### Library API
 
 **Parameters:**
 - `dataset_id` (required): CDAWeb dataset ID
 - `parameters` (required): List of parameter names to fetch
 - `start` (required): Start datetime (ISO 8601)
 - `stop` (required): End datetime (ISO 8601)
+
+**Returns:** Dict with per-parameter DataFrames, units, descriptions, and stats.
+
+#### MCP Tool API
+
+**Additional parameters:**
 - `format` (optional): `"csv"` (default) or `"json"` — output file format
 - `output_dir` (optional): Directory to write the output file. Defaults to system temp dir.
 
@@ -105,11 +118,11 @@ The `stats` block gives the LLM enough information to judge data quality without
 - **`min/max/mean/std`** — basic descriptive statistics. Helps catch fill-value leaks, unreasonable ranges, or flat signals.
 - **`rows`** — total data points. Too few → data gap, too many → consider if time range is correct.
 
-**Why file-based:** CDAWeb datasets can be hundreds of MB. Returning data inline would bloat MCP JSON responses and force double serialization (DataFrame → JSON string → parse). Writing to disk lets consumers (xhelio, Claude Desktop, scripts) handle the data in their own way. The rich metadata summary lets the LLM make informed load/skip decisions without reading the file.
+**Why two interfaces:** xhelio imports the library and gets DataFrames directly — no serialization overhead. MCP consumers (Claude Desktop, Cursor, other agents) can't receive DataFrames, so `server.py` writes to disk and returns rich metadata with stats so the LLM can judge quality before reading the file.
 
 **Size guard:** Warns for requests > 500 MB estimated, rejects > 1 GB unless `force: true` is passed.
 
-**Temp file lifecycle:** The MCP server writes the file but does NOT delete it. The caller is responsible for cleanup. In xhelio, the orchestrator cleans up session temp files at cycle end.
+**Temp file lifecycle (MCP only):** The MCP server writes the file but does NOT delete it. The caller is responsible for cleanup.
 
 ## Package Structure
 
@@ -266,17 +279,21 @@ Or with `uvx` (no install needed):
 }
 ```
 
-### As Python library
+### As Python library (what xhelio uses)
 
 ```python
-from cdawebmcp.catalog import browse_missions, load_mission
+from cdawebmcp.catalog import browse_missions
+from cdawebmcp.prompts import build_mission_prompt
 from cdawebmcp.metadata import browse_parameters
 from cdawebmcp.fetch import fetch_data
 
-missions = browse_missions()
-prompt = load_mission("ACE")
-params = browse_parameters("AC_H2_MFI")
-data = fetch_data("AC_H2_MFI", ["Magnitude"], "2024-01-01", "2024-01-07")
+missions = browse_missions()                          # list of mission summaries
+prompt = build_mission_prompt("ace")                   # full system prompt string
+params = browse_parameters("AC_H2_MFI")               # parameter metadata dict
+result = fetch_data("AC_H2_MFI", ["Magnitude", "BGSEc"], "2024-01-01", "2024-01-07")
+# result["Magnitude"]["data"] → pandas DataFrame
+# result["Magnitude"]["units"] → "nT"
+# result["Magnitude"]["stats"] → {"1": {"min": ..., "max": ..., "mean": ..., "std": ..., "nan_ratio": ...}}
 ```
 
 ## Integration with xhelio
@@ -293,13 +310,12 @@ Unlike SPICE (one mission = one envoy), CDAWeb is **one MCP server serving ~40+ 
 
 After `cdawebmcp` is published:
 
-1. xhelio adds `cdawebmcp` as a dependency
-2. `knowledge/envoys/cdaweb/client.py` — new file, MCP client singleton (same pattern as `spice/client.py`)
-3. `knowledge/envoys/cdaweb/handlers.py` — handlers become thin MCP proxies:
-   - `handle_browse_parameters` → calls MCP `browse_parameters`, returns result
-   - `handle_fetch_data_cdaweb` → calls MCP `fetch_data` with `output_dir=session_tmp_dir`, returns metadata + file path. No auto-ingestion — the envoy LLM decides whether to call `load_file`.
-4. `knowledge/envoys/cdaweb/__init__.py` — TOOLS schemas updated; GLOBAL_TOOLS includes `load_file` for ingestion
-5. The internal `knowledge/metadata_client.py`, `data_ops/fetch_cdf.py` are no longer used by envoys (may still be used by other parts of xhelio during transition)
+1. xhelio adds `cdawebmcp` as a dependency (direct Python import, NOT MCP subprocess)
+2. `knowledge/envoys/cdaweb/handlers.py` — handlers become thin wrappers around library calls:
+   - `handle_browse_parameters` → calls `cdawebmcp.metadata.browse_parameters()`, returns result
+   - `handle_fetch_data_cdaweb` → calls `cdawebmcp.fetch.fetch_data()`, gets DataFrames directly, stores in DataStore
+3. The internal `knowledge/metadata_client.py`, `data_ops/fetch_cdf.py`, mission JSONs, prompt templates all move out of xhelio into `cdawebmcp`
+4. No MCP client singleton needed — direct Python imports, no subprocess overhead
 
 This is a future migration — xhelio continues working as-is until the package is ready.
 
