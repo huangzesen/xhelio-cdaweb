@@ -35,12 +35,49 @@ pip install xhelio-cdaweb[mcp]
 }
 ```
 
+With custom cache directory:
+
+```json
+{
+  "mcpServers": {
+    "cdaweb": {
+      "command": "xhelio-cdaweb-mcp",
+      "env": {
+        "CDAWEBMCP_CACHE_DIR": "/path/to/cache"
+      }
+    }
+  }
+}
+```
+
 Or run directly:
 
 ```bash
 xhelio-cdaweb-mcp
 python -m cdawebmcp
+
+# With custom cache directory
+CDAWEBMCP_CACHE_DIR=/path/to/cache xhelio-cdaweb-mcp
 ```
+
+### Cache directory
+
+All runtime data is stored under a single root directory, configurable via the `CDAWEBMCP_CACHE_DIR` environment variable. Defaults to `~/.cdawebmcp/`.
+
+```
+$CDAWEBMCP_CACHE_DIR/          # default: ~/.cdawebmcp/
+├── metadata/                  # Master CDF parameter metadata (user-fetched, supplements bundled data)
+├── cdf_cache/                 # Downloaded CDF data files (permanent, reused across fetches)
+│   └── ace/mfi/               #   organized by mission/instrument path
+│       └── ac_h2_mfi_2024.cdf
+└── overrides/                 # Validation sync results (append-only)
+    └── ace/
+        └── AC_H2_MFI.json
+```
+
+- **`metadata/`** — User-fetched parameter metadata. Checked before bundled metadata and Master CDF download.
+- **`cdf_cache/`** — Permanent cache of downloaded CDF files. Once a CDF file is downloaded, it is never re-downloaded. Use `manage_cache(action="clean", category="cdf_cache")` to free disk space.
+- **`overrides/`** — Validation results from comparing fetched data against metadata. Append-only, one JSON per dataset.
 
 ### Tools
 
