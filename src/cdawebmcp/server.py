@@ -1,11 +1,21 @@
-"""MCP server — exposes CDAWeb tools via Model Context Protocol."""
+"""MCP server — exposes CDAWeb tools via Model Context Protocol.
+
+Requires the [mcp] extra: pip install xhelio-cdaweb[mcp]
+"""
 
 import json
 import logging
 from pathlib import Path
 
 import pandas as pd
-from mcp.server.fastmcp import FastMCP
+
+try:
+    from mcp.server.fastmcp import FastMCP
+except ImportError:
+    raise ImportError(
+        "MCP server requires the 'mcp' package. "
+        "Install with: pip install xhelio-cdaweb[mcp]"
+    )
 
 from cdawebmcp.catalog import browse_missions as _browse_missions
 from cdawebmcp.prompts import build_mission_prompt

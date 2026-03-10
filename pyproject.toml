@@ -3,16 +3,16 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "cdawebmcp"
+name = "xhelio-cdaweb"
 version = "0.1.0"
-description = "MCP server for NASA CDAWeb — browse missions, inspect parameters, fetch data"
+description = "NASA CDAWeb data access for heliophysics — browse missions, inspect parameters, fetch CDF data"
 readme = "README.md"
 license = "MIT"
 requires-python = ">=3.10"
 authors = [
     { name = "Zesen Huang" },
 ]
-keywords = ["mcp", "cdaweb", "nasa", "heliophysics", "space-weather"]
+keywords = ["cdaweb", "nasa", "heliophysics", "space-weather", "mcp", "cdf"]
 classifiers = [
     "Development Status :: 3 - Alpha",
     "Intended Audience :: Science/Research",
@@ -21,18 +21,25 @@ classifiers = [
     "Programming Language :: Python :: 3",
 ]
 dependencies = [
-    "mcp>=1.0",
     "cdflib>=1.0",
     "pandas>=2.0",
     "numpy>=1.24",
     "requests>=2.28",
 ]
 
+[project.urls]
+Homepage = "https://github.com/huangzesen/cdawebmcp"
+Repository = "https://github.com/huangzesen/cdawebmcp"
+
 [project.optional-dependencies]
-dev = ["pytest", "pytest-cov"]
+mcp = ["mcp>=1.26.0"]
+dev = [
+    "pytest>=7.0",
+    "mcp>=1.26.0",
+]
 
 [project.scripts]
-cdawebmcp = "cdawebmcp:main"
+xhelio-cdaweb-mcp = "cdawebmcp:main"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/cdawebmcp"]

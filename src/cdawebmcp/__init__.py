@@ -1,9 +1,23 @@
-"""cdawebmcp — MCP server for NASA CDAWeb data access."""
+"""cdawebmcp — NASA CDAWeb data access for heliophysics.
+
+Install as: pip install xhelio-cdaweb
+For MCP server: pip install xhelio-cdaweb[mcp]
+"""
 
 __version__ = "0.1.0"
 
 
 def main():
-    """Entry point for the cdawebmcp CLI."""
-    from cdawebmcp.server import serve
+    """Entry point for the MCP server (xhelio-cdaweb-mcp command).
+
+    Requires the [mcp] extra: pip install xhelio-cdaweb[mcp]
+    """
+    try:
+        from cdawebmcp.server import serve
+    except ImportError:
+        print(
+            "Error: MCP server requires the 'mcp' package.\n"
+            "Install with: pip install xhelio-cdaweb[mcp]"
+        )
+        raise SystemExit(1)
     serve()
