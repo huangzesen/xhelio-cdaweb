@@ -4,7 +4,7 @@ Install as: pip install xhelio-cdaweb
 For MCP server: pip install xhelio-cdaweb[mcp]
 """
 
-__version__ = "0.1.0"
+__version__ = "0.2.0"
 
 from cdawebmcp.config import configure
 
