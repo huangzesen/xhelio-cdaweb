@@ -1,0 +1,440 @@
+"""CDF data fetching — download from CDAWeb and return DataFrames.
+
+Library API: fetch_data() returns DataFrames + stats directly.
+MCP server wrapper (server.py) handles file-writing and metadata-only responses.
+"""
+
+import json
+import logging
+from concurrent.futures import ThreadPoolExecutor, as_completed
+from pathlib import Path
+from urllib.parse import urlparse
+
+import numpy as np
+import pandas as pd
+
+logger = logging.getLogger(__name__)
+
+CDAWEB_REST_BASE = "https://cdaweb.gsfc.nasa.gov/WS/cdasr/1/dataviews/sp_phys"
+
+_WARN_THRESHOLD_BYTES = 500 * 1024 * 1024   # 500 MB
+_BLOCK_THRESHOLD_BYTES = 1024 * 1024 * 1024  # 1 GB
+
+_EPOCH_TYPES = {"CDF_EPOCH", "CDF_EPOCH16", "CDF_TIME_TT2000"}
+_SKIP_TYPES = _EPOCH_TYPES | {"CDF_CHAR", "CDF_UCHAR"}
+
+
+def get_cache_dir() -> Path:
+    """Return the CDF file cache directory."""
+    import os
+    custom = os.environ.get("CDAWEBMCP_CACHE_DIR")
+    if custom:
+        return Path(custom) / "cdf_cache"
+    return Path.home() / ".cdawebmcp" / "cdf_cache"
+
+
+def fetch_data(
+    dataset_id: str,
+    parameters: list[str],
+    start: str,
+    stop: str,
+    force: bool = False,
+) -> dict:
+    """Fetch CDAWeb timeseries data and return DataFrames with stats.
+
+    This is the library API — returns DataFrames directly. The MCP server
+    wrapper in server.py handles file-writing and metadata-only responses.
+
+    Args:
+        dataset_id: CDAWeb dataset ID (e.g., 'AC_H2_MFI').
+        parameters: List of parameter names to fetch.
+        start: Start time in ISO 8601 format.
+        stop: End time in ISO 8601 format.
+        force: Override the 1 GB download safety limit.
+
+    Returns:
+        Dict keyed by parameter_id. Each value has:
+        - data: pandas DataFrame with DatetimeIndex
+        - units: str
+        - description: str
+        - stats: dict of per-column {min, max, mean, std, nan_ratio}
+        On error, the value has just {"error": str}.
+    """
+    from cdawebmcp.metadata import _resolve_metadata
+
+    cache_dir = get_cache_dir()
+    cache_dir.mkdir(parents=True, exist_ok=True)
+
+    # Resolve metadata for units/descriptions
+    try:
+        info = _resolve_metadata(dataset_id)
+    except Exception:
+        info = {"parameters": []}
+
+    results = {}
+    for param_id in parameters:
+        try:
+            result = _fetch_single_parameter(
+                dataset_id, param_id, start, stop, info, cache_dir, force
+            )
+            df = result["data"]
+            stats = compute_stats(df)
+
+            results[param_id] = {
+                "data": df,
+                "units": result["units"],
+                "description": result["description"],
+                "stats": stats,
+            }
+        except Exception as e:
+            results[param_id] = {"error": str(e)}
+
+    return results
+
+
+def compute_stats(df: pd.DataFrame) -> dict:
+    """Compute per-column summary statistics for a DataFrame.
+
+    Used by both the library API (fetch_data) and the MCP server wrapper.
+
+    Returns:
+        Dict keyed by column name with {min, max, mean, std, nan_ratio}.
+    """
+    stats = {}
+    for col in df.columns:
+        series = df[col]
+        nan_count = int(series.isna().sum())
+        total = len(series)
+        all_nan = series.isna().all()
+        stats[str(col)] = {
+            "min": round(float(series.min()), 4) if not all_nan else None,
+            "max": round(float(series.max()), 4) if not all_nan else None,
+            "mean": round(float(series.mean()), 4) if not all_nan else None,
+            "std": round(float(series.std()), 4) if not all_nan else None,
+            "nan_ratio": round(nan_count / total, 4) if total > 0 else 0.0,
+        }
+    return stats
+
+
+def write_dataframe_csv(df: pd.DataFrame, output_dir: Path, name: str) -> Path:
+    """Write a DataFrame to a CSV file.
+
+    Args:
+        df: DataFrame with DatetimeIndex.
+        output_dir: Directory to write the file.
+        name: Base name for the output file.
+
+    Returns:
+        Path to the written CSV file.
+    """
+    output_dir.mkdir(parents=True, exist_ok=True)
+    path = output_dir / f"{name}.csv"
+    df.to_csv(path)
+    return path
+
+
+def write_dataframe_json(df: pd.DataFrame, output_dir: Path, name: str) -> Path:
+    """Write a DataFrame to a JSON file.
+
+    Args:
+        df: DataFrame with DatetimeIndex.
+        output_dir: Directory to write the file.
+        name: Base name for the output file.
+
+    Returns:
+        Path to the written JSON file.
+    """
+    output_dir.mkdir(parents=True, exist_ok=True)
+    path = output_dir / f"{name}.json"
+    data = {"time": df.index.strftime("%Y-%m-%dT%H:%M:%S.%f").tolist()}
+    for col in df.columns:
+        data[str(col)] = [None if pd.isna(v) else v for v in df[col].tolist()]
+    with open(path, "w") as f:
+        json.dump(data, f)
+    return path
+
+
+# --- Internal helpers (extracted from xhelio's fetch_cdf.py) ---
+
+
+def _fetch_single_parameter(
+    dataset_id: str,
+    parameter_id: str,
+    time_min: str,
+    time_max: str,
+    info: dict,
+    cache_dir: Path,
+    force: bool,
+) -> dict:
+    """Fetch a single parameter from CDAWeb CDF files.
+
+    Returns dict with keys: data (DataFrame), units, description, fill_value.
+    """
+    import cdflib
+
+    # Look up parameter metadata
+    units = ""
+    description = ""
+    fill_value = None
+    cdf_native = False
+    try:
+        param_meta = _find_parameter_meta(info, parameter_id)
+        units = param_meta.get("units", "")
+        description = param_meta.get("description", "")
+        fill_value = param_meta.get("fill", None)
+    except ValueError:
+        cdf_native = True
+
+    # Get CDF file list
+    file_list = _get_cdf_file_list(dataset_id, time_min, time_max)
+    logger.info("Found %d CDF files for %s (%s to %s)",
+                len(file_list), dataset_id, time_min, time_max)
+
+    # Download and read each file
+    frames = []
+    validmin = None
+    validmax = None
+
+    max_workers = min(len(file_list), 6)
+    if len(file_list) > 1:
+        with ThreadPoolExecutor(max_workers=max_workers) as pool:
+            futures = {
+                pool.submit(_download_and_read, fi["url"], parameter_id, cache_dir): idx
+                for idx, fi in enumerate(file_list)
+            }
+            results_by_idx = {}
+            for future in as_completed(futures):
+                idx = futures[future]
+                results_by_idx[idx] = future.result()
+    else:
+        results_by_idx = {}
+        for idx, fi in enumerate(file_list):
+            results_by_idx[idx] = _download_and_read(fi["url"], parameter_id, cache_dir)
+
+    for idx in range(len(file_list)):
+        local_path, data = results_by_idx[idx]
+        if not frames:
+            try:
+                cdf = cdflib.CDF(str(local_path))
+                attrs = cdf.varattsget(parameter_id)
+                if cdf_native:
+                    units = attrs.get("UNITS", "") or ""
+                    if isinstance(units, np.ndarray):
+                        units = str(units)
+                    description = (attrs.get("CATDESC", "")
+                                   or attrs.get("FIELDNAM", "") or "")
+                    if isinstance(description, np.ndarray):
+                        description = str(description)
+                fv = attrs.get("FILLVAL", None)
+                if fv is not None:
+                    try:
+                        fill_value = float(fv)
+                    except (ValueError, TypeError):
+                        pass
+                vmin = attrs.get("VALIDMIN", None)
+                vmax = attrs.get("VALIDMAX", None)
+                if vmin is not None:
+                    try:
+                        validmin = float(vmin)
+                    except (ValueError, TypeError):
+                        pass
+                if vmax is not None:
+                    try:
+                        validmax = float(vmax)
+                    except (ValueError, TypeError):
+                        pass
+            except Exception:
+                pass
+        frames.append(data)
+
+    if not frames:
+        raise ValueError(f"No data for {dataset_id}/{parameter_id} in {time_min} to {time_max}")
+
+    # Concatenate and clean
+    df = pd.concat(frames)
+    df.sort_index(inplace=True)
+    df = df[~df.index.duplicated(keep="first")]
+
+    t_start = _strip_utc_suffix(time_min)
+    t_stop = _strip_utc_suffix(time_max)
+    df = df.loc[t_start:t_stop]
+
+    if len(df) == 0:
+        raise ValueError(f"No data rows in range {time_min} to {time_max}")
+
+    for col in df.columns:
+        df[col] = pd.to_numeric(df[col], errors="coerce").astype(np.float64)
+
+    if fill_value is not None:
+        try:
+            fill_f = float(fill_value)
+            for col in df.columns:
+                mask = np.isclose(df[col].values, fill_f, rtol=1e-6, equal_nan=False)
+                df.loc[mask, col] = np.nan
+        except (ValueError, TypeError):
+            pass
+
+    if validmin is not None or validmax is not None:
+        for col in df.columns:
+            if validmin is not None:
+                df.loc[df[col] < validmin, col] = np.nan
+            if validmax is not None:
+                df.loc[df[col] > validmax, col] = np.nan
+
+    return {"data": df, "units": units, "description": description, "fill_value": fill_value}
+
+
+def _find_parameter_meta(info: dict, parameter_id: str) -> dict:
+    """Find metadata for a specific parameter in the resolved metadata."""
+    for param in info.get("parameters", []):
+        if param.get("name") == parameter_id:
+            return param
+    raise ValueError(f"Parameter '{parameter_id}' not found in metadata")
+
+
+def _get_cdf_file_list(dataset_id: str, time_min: str, time_max: str) -> list[dict]:
+    """Query CDAWeb REST API for CDF file URLs covering a time range."""
+    from cdawebmcp.http import request_with_retry
+
+    start_str = _iso_to_cdaweb_time(time_min)
+    stop_str = _iso_to_cdaweb_time(time_max)
+
+    url = f"{CDAWEB_REST_BASE}/datasets/{dataset_id}/orig_data/{start_str},{stop_str}"
+    resp = request_with_retry(url, headers={"Accept": "application/json"})
+    data = resp.json()
+
+    file_descs = (data.get("FileDescription")
+                  or data.get("FileDescriptionList", {}).get("FileDescription")
+                  or [])
+
+    if not file_descs:
+        raise ValueError(f"No CDF files found for {dataset_id} in {time_min} to {time_max}")
+
+    return [
+        {"url": fd.get("Name", ""), "start_time": fd.get("StartTime", ""),
+         "end_time": fd.get("EndTime", ""), "size": fd.get("Length", 0)}
+        for fd in file_descs if fd.get("Name")
+    ]
+
+
+def _download_and_read(url: str, parameter_id: str, cache_dir: Path):
+    """Download a CDF file and read one parameter. Thread-safe."""
+    local_path = _download_cdf_file(url, cache_dir)
+    data = _read_cdf_parameter(local_path, parameter_id)
+    return local_path, data
+
+
+def _download_cdf_file(url: str, cache_base: Path) -> Path:
+    """Download a CDF file, using local cache if available."""
+    from cdawebmcp.http import request_with_retry
+
+    parsed = urlparse(url)
+    path = parsed.path
+    marker = "sp_phys/data/"
+    idx = path.find(marker)
+    if idx >= 0:
+        rel_path = path[idx + len(marker):]
+    else:
+        rel_path = Path(parsed.path).name
+
+    local_path = cache_base / rel_path
+
+    if local_path.exists() and local_path.stat().st_size > 0:
+        return local_path
+
+    logger.info("Downloading: %s", Path(parsed.path).name)
+    local_path.parent.mkdir(parents=True, exist_ok=True)
+
+    resp = request_with_retry(url)
+
+    import os
+    tmp_path = local_path.with_suffix(".tmp")
+    tmp_path.write_bytes(resp.content)
+    os.replace(tmp_path, local_path)
+
+    return local_path
+
+
+def _read_cdf_parameter(cdf_path: Path, parameter_id: str) -> pd.DataFrame:
+    """Extract one parameter from a CDF file. Returns DataFrame."""
+    import cdflib
+
+    cdf = cdflib.CDF(str(cdf_path))
+    info = cdf.cdf_info()
+
+    try:
+        param_data = cdf.varget(parameter_id)
+    except Exception as e:
+        all_vars = info.zVariables + info.rVariables
+        raise ValueError(
+            f"Variable '{parameter_id}' not found in {cdf_path.name}. Available: {all_vars}"
+        ) from e
+
+    # Find epoch variable
+    epoch_var = _find_epoch_variable(cdf, info)
+    epoch_data = cdf.varget(epoch_var)
+    times = cdflib.cdfepoch.to_datetime(epoch_data)
+
+    if param_data.ndim == 1:
+        df = pd.DataFrame({1: param_data}, index=times)
+    elif param_data.ndim == 2:
+        ncols = param_data.shape[1]
+        df = pd.DataFrame({i + 1: param_data[:, i] for i in range(ncols)}, index=times)
+    else:
+        # Flatten higher dimensions for MCP transport
+        flat = param_data.reshape(param_data.shape[0], -1)
+        ncols = flat.shape[1]
+        df = pd.DataFrame({i + 1: flat[:, i] for i in range(ncols)}, index=times)
+
+    df.index.name = "time"
+    return df
+
+
+def _find_epoch_variable(cdf, info) -> str:
+    """Find the epoch/time variable in a CDF file."""
+    all_vars = info.zVariables + info.rVariables
+
+    for name in ["Epoch", "EPOCH", "epoch", "Epoch1"]:
+        if name in all_vars:
+            return name
+
+    for var_name in all_vars:
+        try:
+            var_info = cdf.varinq(var_name)
+            if var_info.Data_Type_Description in _EPOCH_TYPES:
+                return var_name
+        except Exception:
+            continue
+
+    raise ValueError(f"No epoch variable found. Variables: {all_vars}")
+
+
+def _strip_utc_suffix(iso_time: str) -> str:
+    """Strip timezone suffix from ISO 8601 string."""
+    for suffix in ("+00:00", "+0000", "Z"):
+        if iso_time.endswith(suffix):
+            return iso_time[:-len(suffix)]
+    return iso_time
+
+
+def _iso_to_cdaweb_time(iso_time: str) -> str:
+    """Convert ISO 8601 to CDAWeb REST API format (YYYYMMDDTHHmmSSZ)."""
+    t = iso_time
+    for suffix in ("+00:00", "+0000"):
+        if t.endswith(suffix):
+            t = t[:-len(suffix)] + "Z"
+            break
+    t = t.replace("-", "").replace(":", "")
+    if not t.endswith("Z"):
+        t += "Z"
+    if "T" in t:
+        date_part, time_z = t.split("T", 1)
+        time_part = time_z.rstrip("Z")
+        if "." in time_part:
+            time_part = time_part.split(".", 1)[0]
+        time_part = time_part[:6].ljust(6, "0")
+        t = f"{date_part}T{time_part}Z"
+    else:
+        # Date-only: add T000000Z
+        t = t.rstrip("Z") + "T000000Z"
+    return t
