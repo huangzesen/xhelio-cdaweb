@@ -6,6 +6,7 @@ Requires the [mcp] extra: pip install xhelio-cdaweb[mcp]
 import json
 import logging
 from pathlib import Path
+from typing import Literal
 
 import pandas as pd
 
@@ -60,7 +61,7 @@ def create_server() -> FastMCP:
 
     @mcp.tool()
     def browse_parameters(
-        dataset_id: str | None = None,
+        dataset_id: str,
         dataset_ids: list[str] | None = None,
     ) -> str:
         """Browse all parameters (variables) for one or more CDAWeb datasets.
@@ -71,10 +72,16 @@ def create_server() -> FastMCP:
         Metadata is fetched on demand from CDAWeb Master CDF files and cached locally.
 
         Args:
-            dataset_id: Single dataset ID (e.g., 'AC_H2_MFI', 'PSP_FLD_L2_MAG_RTN_1MIN').
-            dataset_ids: Multiple dataset IDs to query at once.
+            dataset_id: Dataset ID (e.g., 'AC_H2_MFI', 'PSP_FLD_L2_MAG_RTN_1MIN').
+            dataset_ids: Additional dataset IDs to query at once (batched with dataset_id).
         """
-        result = _browse_parameters(dataset_id=dataset_id, dataset_ids=dataset_ids)
+        all_ids = [dataset_id]
+        if dataset_ids:
+            all_ids.extend(dataset_ids)
+        if len(all_ids) == 1:
+            result = _browse_parameters(dataset_id=all_ids[0])
+        else:
+            result = _browse_parameters(dataset_ids=all_ids)
         return json.dumps(result, indent=2)
 
     @mcp.tool()
@@ -83,7 +90,7 @@ def create_server() -> FastMCP:
         parameters: list[str],
         start: str,
         stop: str,
-        format: str = "csv",
+        format: Literal["csv", "json"] = "csv",
         output_dir: str | None = None,
     ) -> str:
         """Fetch timeseries data from CDAWeb, write to a file, return metadata + stats.
@@ -168,8 +175,8 @@ def create_server() -> FastMCP:
 
     @mcp.tool()
     def manage_cache(
-        action: str,
-        category: str = "all",
+        action: Literal["status", "clean", "refresh_metadata", "refresh_time_ranges", "rebuild_catalog"],
+        category: Literal["metadata", "cdf_cache", "all"] = "all",
         mission: str | None = None,
         dataset_ids: list[str] | None = None,
         older_than_days: int | None = None,
