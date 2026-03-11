@@ -401,8 +401,8 @@ def _read_cdf_parameter(cdf_path: Path, parameter_id: str) -> pd.DataFrame:
             f"Variable '{parameter_id}' not found in {cdf_path.name}. Available: {all_vars}"
         ) from e
 
-    # Find epoch variable
-    epoch_var = _find_epoch_variable(cdf, info)
+    # Find epoch variable — prefer DEPEND_0 attribute, fall back to generic search
+    epoch_var = _find_epoch_for_parameter(cdf, info, parameter_id)
     epoch_data = cdf.varget(epoch_var)
     times = cdflib.cdfepoch.to_datetime(epoch_data)
 
@@ -421,8 +421,27 @@ def _read_cdf_parameter(cdf_path: Path, parameter_id: str) -> pd.DataFrame:
     return df
 
 
+def _find_epoch_for_parameter(cdf, info, parameter_id: str) -> str:
+    """Find the epoch variable for a specific parameter.
+
+    CDF files can have multiple epoch variables (e.g., Epoch and Epoch2) with
+    different record counts. The DEPEND_0 attribute on each variable specifies
+    which epoch it uses. We check that first, falling back to the generic search.
+    """
+    try:
+        attrs = cdf.varattsget(parameter_id)
+        depend_0 = attrs.get("DEPEND_0")
+        if depend_0:
+            all_vars = info.zVariables + info.rVariables
+            if depend_0 in all_vars:
+                return depend_0
+    except Exception:
+        pass
+    return _find_epoch_variable(cdf, info)
+
+
 def _find_epoch_variable(cdf, info) -> str:
-    """Find the epoch/time variable in a CDF file."""
+    """Find the epoch/time variable in a CDF file (generic fallback)."""
     all_vars = info.zVariables + info.rVariables
 
     for name in ["Epoch", "EPOCH", "epoch", "Epoch1"]:
