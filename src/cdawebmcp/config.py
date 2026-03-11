@@ -10,6 +10,7 @@ Or from internal modules:
 
 import logging
 import shutil
+import threading
 from pathlib import Path
 
 logger = logging.getLogger(__name__)
@@ -59,9 +60,30 @@ def get_cache_root() -> Path:
 
 
 def _bootstrap(root: Path) -> None:
-    """Copy bundled missions and metadata into cache dir if not already present."""
+    """Copy bundled missions and metadata into cache dir if not already present.
+
+    Also kicks off a background refresh of dataset time ranges from CDAWeb
+    so that start/stop dates stay current.
+    """
     _copy_bundled_dir(_BUNDLED_MISSIONS, root / "missions")
     _copy_bundled_dir(_BUNDLED_METADATA, root / "metadata")
+    _refresh_time_ranges_background()
+
+
+def _refresh_time_ranges_background() -> None:
+    """Refresh dataset time ranges from CDAWeb in a background thread."""
+    def _run():
+        try:
+            from cdawebmcp.cache import refresh_time_ranges
+            result = refresh_time_ranges()
+            updated = result.get("datasets_updated", 0)
+            if updated:
+                logger.info("Background refresh: updated %d dataset time ranges", updated)
+        except Exception as e:
+            logger.debug("Background time range refresh failed: %s", e)
+
+    thread = threading.Thread(target=_run, daemon=True)
+    thread.start()
 
 
 def _copy_bundled_dir(src: Path, dst: Path) -> None:
