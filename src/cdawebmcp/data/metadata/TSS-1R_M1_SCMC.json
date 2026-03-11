@@ -1,0 +1,110 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "SV_Ovflow",
+      "type": "double",
+      "units": "unitless",
+      "description": "SA Overflow",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SV_Ovflow",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for SV/Ovflow",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Current_Sign_SV_Ovflow_CAL",
+      "type": "double",
+      "units": "unitless",
+      "description": "Current Sign for SV/Ovflow",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SV_Achk_S",
+      "type": "double",
+      "units": "unitless",
+      "description": "SA Autocheck Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SV_Achk_S",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for SV/Achk/S",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Current_Sign_SV_Achk_S_CAL",
+      "type": "double",
+      "units": "unitless",
+      "description": "Current Sign for SV/Achk/S",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SV_AChk",
+      "type": "double",
+      "units": "unitless",
+      "description": "SA Autocheck Field",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SV_AChk",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for SV/AChk",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Current_Sign_SV_AChk_CAL",
+      "type": "double",
+      "units": "unitless",
+      "description": "Current Sign for SV/AChk",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Tether_I_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "SA Measured Field",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Tether_I_2_current_milliamps",
+      "type": "double",
+      "units": "milliamps",
+      "description": "SA Measured Field",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Tether_I",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Tether/I",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Current_Sign_Tether_I_CAL",
+      "type": "double",
+      "units": "unitless",
+      "description": "Current Sign for Tether/I",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "MODE0_Satellite_Ampmeter_Range",
+      "type": "double",
+      "units": "unitless",
+      "description": "Status Indicator Gain",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

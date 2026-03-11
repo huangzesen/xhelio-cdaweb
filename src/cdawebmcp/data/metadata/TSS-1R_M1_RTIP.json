@@ -1,0 +1,33 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "Ion_Probe_I_1_Telemetry_Unitless",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Ion Probe Current",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Ion_Probe_I_2_Current_amps",
+      "type": "double",
+      "units": "amps",
+      "description": "Ion Probe Current",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Ion_Probe_I",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for Ion Probe I",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

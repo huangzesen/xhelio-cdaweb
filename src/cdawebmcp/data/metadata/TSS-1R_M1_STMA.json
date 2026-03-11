@@ -1,0 +1,68 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "Heater_Pwr",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Heater Power Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Dqual_Heater_Pwr",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Heater Pwr",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SRPA_Pwr",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SRPA Power Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Dqual_SRPA_Pwr",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SRPA Pwr",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SPIB_Pwr",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SPIB Power Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Dqual_SPIB_Pwr",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SPIB Pwr",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "AMAG_Pwr",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "AMAG Power Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Dqual_AMAG_Pwr",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for AMAG Pwr",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

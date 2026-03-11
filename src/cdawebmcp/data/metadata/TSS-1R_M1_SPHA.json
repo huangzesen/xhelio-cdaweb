@@ -1,0 +1,348 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "DPU_Base_Plate_T_1_Telemetry_Unitless",
+      "type": "double",
+      "units": "Unitless",
+      "description": "DPU Base Plate Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DPU_Base_Plate_T_2_T_degrees_C",
+      "type": "double",
+      "units": "degrees C",
+      "description": "DPU Base Plate Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_DPU_Base_Plate_T",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for DPU Base Plate T",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DPU_Pwr_Supply_T_1_Telemetry_Unitless",
+      "type": "double",
+      "units": "Unitless",
+      "description": "DPU Base Power Supply Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DPU_Pwr_Supply_T_2_T_degrees_C",
+      "type": "double",
+      "units": "degrees C",
+      "description": "DPU Base Power Supply Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_DPU_Pwr_Supply_T",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for DPU Pwr Supply T",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DPU_FDR1_Casing_T_1_Telemetry_Unitless",
+      "type": "double",
+      "units": "Unitless",
+      "description": "DPU Monitored FDR1 Casing Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DPU_FDR1_Casing_T_2_T_degrees_C",
+      "type": "double",
+      "units": "degrees C",
+      "description": "DPU Monitored FDR1 Casing Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_DPU_FDR1_Casing_T",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for DPU FDR1 Casing T",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DPU_FDR2_Casing_T_1_Telemetry_Unitless",
+      "type": "double",
+      "units": "Unitless",
+      "description": "DPU Monitored FDR2 Casing Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DPU_FDR2_Casing_T_2_T_degrees_C",
+      "type": "double",
+      "units": "degrees C",
+      "description": "DPU Monitored FDR2 Casing Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_DPU_FDR2_Casing_T",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for DPU FDR2 Casing T",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "HV_A_Temp_1_Telemetry_Unitless",
+      "type": "double",
+      "units": "Unitless",
+      "description": "High Voltage A Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "HV_A_Temp_2_T_degrees_C",
+      "type": "double",
+      "units": "degrees C",
+      "description": "High Voltage A Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_HV_A_Temp",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for HV A Temp",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "HV_B_Temp_1_Telemetry_Unitless",
+      "type": "double",
+      "units": "Unitless",
+      "description": "High Voltage B Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "HV_B_Temp_2_T_degrees_C",
+      "type": "double",
+      "units": "degrees C",
+      "description": "High Voltage B Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_HV_B_Temp",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for HV B Temp",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "MCP_A_Temp_1_Telemetry_Unitless",
+      "type": "double",
+      "units": "Unitless",
+      "description": "MCP A Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "MCP_A_Temp_2_T_degrees_C",
+      "type": "double",
+      "units": "degrees C",
+      "description": "MCP A Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_MCP_A_Temp",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for MCP A Temp",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "MCP_B_Temp_1_Telemetry_Unitless",
+      "type": "double",
+      "units": "Unitless",
+      "description": "MCP B Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "MCP_B_Temp_2_T_degrees_C",
+      "type": "double",
+      "units": "degrees C",
+      "description": "MCP B Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_MCP_B_Temp",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for MCP B Temp",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "RTMD_A_Motor_T_1_Telemetry_Unitless",
+      "type": "double",
+      "units": "Unitless",
+      "description": "RTMD A Motor Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "RTMD_A_Motor_T_2_T_degrees_C",
+      "type": "double",
+      "units": "degrees C",
+      "description": "RTMD A Motor Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_RTMD_A_Motor_T",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for RTMD A Motor T",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "RTMD_B_Motor_T_1_Telemetry_Unitless",
+      "type": "double",
+      "units": "Unitless",
+      "description": "RTMD B Motor Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "RTMD_B_Motor_T_2_T_degrees_C",
+      "type": "double",
+      "units": "degrees C",
+      "description": "RTMD B Motor Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_RTMD_B_Motor_T",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for RTMD B Motor T",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "MCP_A_V_1_Telemetry_Unitless",
+      "type": "double",
+      "units": "Unitless",
+      "description": "MCP A Voltage",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "MCP_A_V_2_T_degrees_C",
+      "type": "double",
+      "units": "degrees C",
+      "description": "MCP A Voltage",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_MCP_A_V",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for MCP A V",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "MCP_B_V_1_Telemetry_Unitless",
+      "type": "double",
+      "units": "Unitless",
+      "description": "MCP B Voltage",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "MCP_B_V_2_T_degrees_C",
+      "type": "double",
+      "units": "degrees C",
+      "description": "MCP B Voltage",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_MCP_B_V",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for MCP B V",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Positive_5V_Line_V_1_Telemetry_Unitless",
+      "type": "double",
+      "units": "Unitless",
+      "description": "+5 Volt Line Monitor",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Positive_5V_Line_V_2_Voltage_volts",
+      "type": "double",
+      "units": "volts",
+      "description": "+5 Volt Line Monitor",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Positive_5V_Line_V",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Positive 5V Line V",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Positive_12V_Line_V_1_Telemetry_Unitless",
+      "type": "double",
+      "units": "Unitless",
+      "description": "+12 Volt Line Monitor",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Positive_12V_Line_V_2_Voltage_volts",
+      "type": "double",
+      "units": "volts",
+      "description": "+12 Volt Line Monitor",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Positive_12V_Line_V",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Positive 12V Line V",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Dif_Plate_A_V_1_Telemetry_Unitless",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Deflection Plate A Voltage",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Dif_Plate_A_V_2_Voltage_volts",
+      "type": "double",
+      "units": "volts",
+      "description": "Deflection Plate A Voltage",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Dif_Plate_A_V",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Dif Plate A V",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Dif_Plate_B_V_1_Telemetry_Unitless",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Deflection Plate B Voltage",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Dif_Plate_B_V_2_Voltage_volts",
+      "type": "double",
+      "units": "volts",
+      "description": "Deflection Plate B Voltage",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Dif_Plate_B_V",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Dif Plate B V",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

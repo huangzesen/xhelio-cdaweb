@@ -1,0 +1,488 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "No_TECS_in_Buf",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Number Of TECS in Buffer",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_No_TECS_in_Buf",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for No TECS in Buf",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "GMT_Nxt_TEC_to_Exec",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "GMT-Next TEC To Execution",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_GMT_Nxt_TEC_to_Exec",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for GMT-Nxt TEC to Exec",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "TmLine_Lst_Cmd_Exec",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Timeline-Last Cmd Executed (CDTID)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_TmLine_Lst_Cmd_Exec",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for TmLine Lst Cmd Exec",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "TmLine_Master_Exec_Stat",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Timeline-Master Execution Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_TmLine_Master_Exec_Stat",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for TmLine Master Exec Stat",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "TmLine_Sub_Exec_Stat",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Timeline-Sub Execution Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_TmLine_Sub_Exec_Stat",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for TmLine Sub Exec Stat",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "TmLine_Entry___of_Lst_Cmd",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Timeline-Entry Number of Next Cmd",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_TmLine_Entry___of_Lst_Cmd",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for TmLine Entry # of Lst Cmd",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "TmLine_Eff_GMT_of_Lst_Cmd",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Timeline-Effective GMT of Next Cmd",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_TmLine_Eff_GMT_of_Lst_Cmd",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for TmLine Eff GMT of Lst Cmd",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DDCS_MF_Cntr",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "DDCS Major Frame Counter",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_DDCS_MF_Cntr",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for DDCS MF Cntr",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "TmLine_Fname_C1",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Timeline Filename (Char 1)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_TmLine_Fname_C1",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for TmLine Fname C1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "TmLine_Fname_C2",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Timeline Filename (Char 2)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_TmLine_Fname_C2",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for TmLine Fname C2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "TmLine_Fname_C3",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Timeline Filename (Char 3)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_TmLine_Fname_C3",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for TmLine Fname C3",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "TmLine_Fname_C4",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Timeline Filename (Char 4)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_TmLine_Fname_C4",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for TmLine Fname C4",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "TmLine_Fname_C5",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Timeline Filename (Char 5)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_TmLine_Fname_C5",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for TmLine Fname C5",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "TmLine_Fname_C6",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Timeline Filename (Char 6)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_TmLine_Fname_C6",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for TmLine Fname C6",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "TmLine_Fname_C7",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Timeline Filename (Char 7)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_TmLine_Fname_C7",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for TmLine Fname C7",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "TmLine_Fname_C8",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Timeline Filename (Char 8)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_TmLine_Fname_C8",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for TmLine Fname C8",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "TmLine_Exten_C1",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Timeline-Extension (Master or Sub) (Char 1)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_TmLine_Exten_C1",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for TmLine Exten C1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "TmLine_Exten_C2",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Timeline-Extension (Master or Sub) (Char 2)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_TmLine_Exten_C2",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for TmLine Exten C2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "TmLine_Exten_C3",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Timeline-Extension (Master or Sub) (Char 3)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_TmLine_Exten_C3",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for TmLine Exten C3",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Bkgnd_Master_C1",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Background Master (Char 1)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Bkgnd_Master_C1",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Bkgnd Master C1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Bkgnd_Master_C2",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Background Master (Char 2)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Bkgnd_Master_C2",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Bkgnd Master C2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Bkgnd_Master_C3",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Background Master (Char 3)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Bkgnd_Master_C3",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Bkgnd Master C3",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Bkgnd_Master_C4",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Background Master (Char 4)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Bkgnd_Master_C4",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Bkgnd Master C4",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Bkgnd_Master_C5",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Background Master (Char 5)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Bkgnd_Master_C5",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Bkgnd Master C5",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Bkgnd_Sub_C1",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Background Sub (Char 1)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Bkgnd_Sub_C1",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Bkgnd Sub C1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Bkgnd_Sub_C2",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Background Sub (Char 2)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Bkgnd_Sub_C2",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Bkgnd Sub C2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Bkgnd_Sub_C3",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Background Sub (Char 3)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Bkgnd_Sub_C3",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Bkgnd Sub C3",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Bkgnd_Sub_C4",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Background Sub (Char 4)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Bkgnd_Sub_C4",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Bkgnd Sub C4",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DDCS_GMT_Day",
+      "type": "double",
+      "units": "Day",
+      "description": "DDCS: GMT-Day",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_DDCS_GMT_Day",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for DDCS GMT-Day",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DDCS_GMT_Sec",
+      "type": "double",
+      "units": "Sec",
+      "description": "DDCS: GMT-Sec (from Jan. 1)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_DDCS_GMT_Sec",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for DDCS GMT-Sec",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DDCS_RS422_Sync_Stat",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "DDCS: RS-422 Sync Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_DDCS_RS422_Sync_Stat",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for DDCS RS422 Sync Stat",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "No_Of_Invald_Uplnk_Cmd",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Number of Invalid Uplink Command",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_No_Of_Invald_Uplnk_Cmd",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for No Of Invald Uplnk Cmd",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DDCS_Sys_Perf",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "DDCS System Performance",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_DDCS_Sys_Perf",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for DDCS Sys Perf",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Dsply_No_Sel",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Display Number Selected",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Dsply_No_Sel",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Dsply No Sel",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

@@ -1,78 +1,40 @@
 {
-  "id": "SAMPEX",
+  "id": "sampex",
   "name": "SAMPEX",
-  "keywords": [
-    "sampex",
-    "se"
-  ],
   "profile": {
-    "description": "SAMPEX spacecraft data from CDAWeb.",
+    "description": "SAMPEX data from CDAWeb.",
     "coordinate_systems": [],
     "typical_cadence": "",
-    "data_caveats": [],
-    "analysis_patterns": []
+    "data_caveats": []
   },
   "instruments": {
-    "ground-based_vlf_elf_ulf,_photometers": {
-      "name": "Ground-Based VLF/ELF/ULF, Photometers",
-      "keywords": [],
-      "datasets": {
-        "SE_K0_FPI": {
-          "description": "SESAME Fabry-Perot Interferometer, Key Parameters - J.R. Dudeney (British Antarctic Survey)",
-          "start_date": "1992-07-22T00:00:00.000Z",
-          "stop_date": "1995-09-13T01:30:00.000Z",
-          "pi_name": "J.R. Dudeney",
-          "pi_affiliation": "British Antarctic Survey",
-          "notes_url": "https://cdaweb.gsfc.nasa.gov/misc/NotesS.html#SE_K0_FPI"
-        },
-        "SE_K0_VLF": {
-          "description": "SESAME VLF/ELF Logger Experiment (VELOX)Key Parameters - J. Dudeney (British Antarctic Survey)",
-          "start_date": "1992-07-22T00:00:35.000Z",
-          "stop_date": "2001-10-17T15:31:00.000Z",
-          "pi_name": "J. Dudeney",
-          "pi_affiliation": "British Antarctic Survey",
-          "notes_url": "https://cdaweb.gsfc.nasa.gov/misc/NotesS.html#SE_K0_VLF"
-        }
-      }
-    },
-    "ground_mag": {
-      "name": "Ground-Based Magnetometers",
+    "particles": {
+      "name": "Energetic Particles",
       "keywords": [
-        "ground",
-        "magnetometer",
-        "riometer"
+        "particle",
+        "energetic",
+        "cosmic ray"
       ],
       "datasets": {
-        "SE_K0_RIO": {
-          "description": "SESAME 30MHz Riometer Array, Key Parameters - J. Dudeney (British Antarctic Survey)",
-          "start_date": "1994-01-02T00:00:00.000Z",
-          "stop_date": "2001-10-16T23:59:00.000Z",
-          "pi_name": "J. Dudeney",
-          "pi_affiliation": "British Antarctic Survey",
-          "notes_url": "https://cdaweb.gsfc.nasa.gov/misc/NotesS.html#SE_K0_RIO"
+        "SX_K0_POF": {
+          "description": "SAMPEX POLARCAP Averages: 4 Instruments - G.MASON  (JHU/APL )",
+          "start_date": "1992-07-06T00:04:34.000Z",
+          "stop_date": "2004-06-30T12:10:01.000Z",
+          "pi_name": "G.MASON",
+          "doi": "10.48322/m7w8-8d83"
         },
-        "SE_K0_AIS": {
-          "description": "SESAME Advanced Ionospheric Sounder, Key Parameters - J. Dudeney (British Antarctic Survey)",
-          "start_date": "1992-09-01T00:00:21.000Z",
-          "stop_date": "2001-10-17T23:45:00.000Z",
-          "pi_name": "J. Dudeney",
-          "pi_affiliation": "British Antarctic Survey",
-          "notes_url": "https://cdaweb.gsfc.nasa.gov/misc/NotesS.html#SE_K0_AIS"
-        },
-        "SE_K0_MAG": {
-          "description": "SESAME Fluxgate Magnetometer Key Parameters - J. Dudeney (British Antarctic Survey)",
-          "start_date": "1993-12-09T00:00:00.000Z",
-          "stop_date": "2001-10-17T23:59:00.000Z",
-          "pi_name": "J. Dudeney",
-          "pi_affiliation": "British Antarctic Survey",
-          "notes_url": "https://cdaweb.gsfc.nasa.gov/misc/NotesS.html#SE_K0_MAG"
+        "SX_K0_30F": {
+          "description": "30-s averaged fluxes: 4 Instruments  - Glenn Mason  (JHU/APL )",
+          "start_date": "1992-07-06T00:00:04.000Z",
+          "stop_date": "2004-06-30T12:23:31.000Z",
+          "pi_name": "Glenn Mason",
+          "doi": "10.48322/2x9v-jv02"
         }
       }
     }
   },
-  "observatory_group": "Ground-Based Investigations",
   "_meta": {
-    "generated_at": "2026-03-03T22:37:52Z",
-    "source": "CDAS REST + Master CDF"
+    "generated_at": "2026-03-11T01:11:24Z",
+    "source": "CDAWeb REST API"
   }
 }

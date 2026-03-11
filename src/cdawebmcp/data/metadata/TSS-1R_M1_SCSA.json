@@ -1,0 +1,82 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "P_L_Pwr",
+      "type": "double",
+      "units": "unitless",
+      "description": "SLA (P/L) Power Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_P_L_Pwr",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for P/L Pwr",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "H_K_Pwr",
+      "type": "double",
+      "units": "unitless",
+      "description": "SLA (H/K) Power Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_H_K_Pwr",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for H/K Pwr",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "P_L_05_SA_Pwr",
+      "type": "double",
+      "units": "unitless",
+      "description": "P/L 05 SCORE SA Power Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_P_L_05_SA_Pwr",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for P/L 05 SA Pwr",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "P_L_10_SLA_Pwr",
+      "type": "double",
+      "units": "unitless",
+      "description": "P/L 10 SCORE SLA Power Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_P_L_10_SLA_Pwr",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for P/L 10 SLA Pwr",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "P_L_11_HTR_Pwr",
+      "type": "double",
+      "units": "unitless",
+      "description": "P/L 11 SCORE Heater Power Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_P_L_11_HTR_Pwr",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for P/L 11 HTR Pwr",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

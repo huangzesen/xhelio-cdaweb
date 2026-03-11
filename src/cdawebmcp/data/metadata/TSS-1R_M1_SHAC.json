@@ -1,0 +1,166 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "X_Gyro_Rate_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "X Gyro Rate",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "X_Gyro_Rate_2_rate_degrees_sec",
+      "type": "double",
+      "units": "degrees/sec",
+      "description": "X Gyro Rate",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_X_Gyro_Rate",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for X Gyro Rate",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Y_Gyro_Rate_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Y Gyro Rate",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Y_Gyro_Rate_2_rate_degrees_sec",
+      "type": "double",
+      "units": "degrees/sec",
+      "description": "Y Gyro Rate",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Y_Gyro_Rate",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Y Gyro Rate",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Z_Gyro_Rate_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Z Gyro Rate",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Z_Gyro_Rate_2_rate_degrees_sec",
+      "type": "double",
+      "units": "degrees/sec",
+      "description": "Z Gyro Rate",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Z_Gyro_Rate",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Z Gyro Rate",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "S_Gyro_Rate_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Skew-Gyro Rate",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "S_Gyro_Rate_2_rate_degrees_sec",
+      "type": "double",
+      "units": "degrees/sec",
+      "description": "Skew-Gyro Rate",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_S_Gyro_Rate",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for S Gyro Rate",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "ES1_Sun_Pres_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "ES1 Sun Presence",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "ES1_Sun_Pres_2_Voltage_Volts",
+      "type": "double",
+      "units": "Volts",
+      "description": "ES1 Sun Presence",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_ES1_Sun_Pres",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for ES1 Sun Pres",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "ES2_Sun_Pres_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "ES2 Sun Presence",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "ES2_Sun_Pres_2_Voltage_Volts",
+      "type": "double",
+      "units": "Volts",
+      "description": "ES2 Sun Presence",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_ES2_Sun_Pres",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for ES2 Sun Pres",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "MODE0_X_Mode_Status",
+      "type": "double",
+      "units": "unitless",
+      "description": "Status Indicator X Mode Gain Flag",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "MODE1_Y_Mode_Status",
+      "type": "double",
+      "units": "unitless",
+      "description": "Status Indicator Y Mode Gain Flag",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "MODE2_Z_Mode_Status",
+      "type": "double",
+      "units": "unitless",
+      "description": "Status Indicator Z Mode Gain Flag",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "MODE3_Skew_Mode_Status",
+      "type": "double",
+      "units": "unitless",
+      "description": "Status Indicator S Mode Gain Flag",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

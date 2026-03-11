@@ -1,0 +1,348 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "DifV_0VD_0VR_1_telemetry_raw",
+      "type": "double",
+      "units": "raw",
+      "description": "Deflection Voltage When 0V Deflection / 0V Retard",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DifV_0VD_0VR_2_voltage_volts",
+      "type": "double",
+      "units": "volts",
+      "description": "Deflection Voltage When 0V Deflection / 0V Retard",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_DifV_0VD_0VR",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for DifV 0VD:0VR",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DifV_Plus_Minus_25VD_0VR_1_telemetry_raw",
+      "type": "double",
+      "units": "raw",
+      "description": "Deflection Voltage When +/- 25V Deflection / 0V Retard",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DifV_Plus_Minus_25VD_0VR_2_voltage_volts",
+      "type": "double",
+      "units": "volts",
+      "description": "Deflection Voltage When +/- 25V Deflection / 0V Retard",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_DifV_Plus_Minus_25VD_0VR",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for DifV Plus/Minus 25VD:0VR",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DifV_Plus_Minus_50VD_0VR_1_telemetry_raw",
+      "type": "double",
+      "units": "raw",
+      "description": "Deflection Voltage When +/- 50V Deflection / 0V Retard",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DifV_Plus_Minus_50VD_0VR_2_voltage_volts",
+      "type": "double",
+      "units": "volts",
+      "description": "Deflection Voltage When +/- 50V Deflection / 0V Retard",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_DifV_Plus_Minus_50VD_0VR",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for DifV Plus/Minus 50VD:0VR",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DifV_Plus_Minus_75VD_0VR_1_telemetry_raw",
+      "type": "double",
+      "units": "raw",
+      "description": "Deflection Voltage When +/- 75V Deflection / 0V Retard",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DifV_Plus_Minus_75VD_0VR_2_voltage_volts",
+      "type": "double",
+      "units": "volts",
+      "description": "Deflection Voltage When +/- 75V Deflection / 0V Retard",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_DifV_Plus_Minus_75VD_0VR",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for DifV Plus/Minus 75VD:0VR",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DifV_Minus_Plus_75VD_0VR_1_telemetry_raw",
+      "type": "double",
+      "units": "raw",
+      "description": "Deflection Voltage When -/+ 75V Deflection / 0V Retard",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DifV_Minus_Plus_75VD_0VR_2_voltage_volts",
+      "type": "double",
+      "units": "volts",
+      "description": "Deflection Voltage When -/+ 75V Deflection / 0V Retard",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_DifV_Minus_Plus_75VD_0VR",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for DifV Minus/Plus 75VD:0VR",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DifV_Minus_Plus_50VD_0VR_1_telemetry_raw",
+      "type": "double",
+      "units": "raw",
+      "description": "Deflection Voltage When -/+ 50V Deflection / 0V Retard",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DifV_Minus_Plus_50VD_0VR_2_voltage_volts",
+      "type": "double",
+      "units": "volts",
+      "description": "Deflection Voltage When -/+ 50V Deflection / 0V Retard",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_DifV_Minus_Plus_50VD_0VR",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for DifV Minus/Plus 50VD:0VR",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DifV_Minus_Plus_25VD_0VR_1_telemetry_raw",
+      "type": "double",
+      "units": "raw",
+      "description": "Deflection Voltage When -/+ 25V Deflection / 0V Retard",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DifV_Minus_Plus_25VD_0VR_2_voltage_volts",
+      "type": "double",
+      "units": "volts",
+      "description": "Deflection Voltage When -/+ 25V Deflection / 0V Retard",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_DifV_Minus_Plus_25VD_0VR",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for DifV Minus/Plus 25VD:0VR",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "RtdV_0VD_50VR_1_telemetry_raw",
+      "type": "double",
+      "units": "raw",
+      "description": "Retard Voltage When 0V Deflection / 50V Retard",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "RtdV_0VD_50VR_2_voltage_volts",
+      "type": "double",
+      "units": "volts",
+      "description": "Retard Voltage When 0V Deflection / 50V Retard",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_RtdV_0VD_50VR",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for RtdV 0VD:50VR",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "ColI_0VD_0VR_1_telemetry_raw",
+      "type": "double",
+      "units": "raw",
+      "description": "Collector Current When 0V Deflection / 0V Retard",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "ColI_0VD_0VR_2_current_amps",
+      "type": "double",
+      "units": "amps",
+      "description": "Collector Current When 0V Deflection / 0V Retard",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_ColI_0VD_0VR",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for ColI 0VD:0VR",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "ColI_Plus_Minus_25VD_0VR_1_telemetry_raw",
+      "type": "double",
+      "units": "raw",
+      "description": "Collector Current When +/- 25V Deflection / 0V Retard",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "ColI_Plus_Minus_25VD_0VR_2_current_amps",
+      "type": "double",
+      "units": "amps",
+      "description": "Collector Current When +/- 25V Deflection / 0V Retard",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_ColI_Plus_Minus_25VD_0VR",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for ColI Plus/Minus 25VD:0VR",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "ColI_Plus_Minus_50VD_0VR_1_telemetry_raw",
+      "type": "double",
+      "units": "raw",
+      "description": "Collector Current When +/- 50V Deflection / 0V Retard",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "ColI_Plus_Minus_50VD_0VR_2_current_amps",
+      "type": "double",
+      "units": "amps",
+      "description": "Collector Current When +/- 50V Deflection / 0V Retard",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_ColI_Plus_Minus_50VD_0VR",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for ColI Plus/Minus 50VD:0VR",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "ColI_Plus_Minus_75VD_0VR_1_telemetry_raw",
+      "type": "double",
+      "units": "raw",
+      "description": "Collector Current When +/- 75V Deflection / 0V Retard",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "ColI_Plus_Minus_75VD_0VR_2_current_amps",
+      "type": "double",
+      "units": "amps",
+      "description": "Collector Current When +/- 75V Deflection / 0V Retard",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_ColI_Plus_Minus_75VD_0VR",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for ColI Plus/Minus 75VD:0VR",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "ColI_Minus_Plus_75VD_0VR_1_telemetry_raw",
+      "type": "double",
+      "units": "raw",
+      "description": "Collector Current When -/+ 75V Deflection / 0V Retard",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "ColI_Minus_Plus_75VD_0VR_2_current_amps",
+      "type": "double",
+      "units": "amps",
+      "description": "Collector Current When -/+ 75V Deflection / 0V Retard",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_ColI_Minus_Plus_75VD_0VR",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for ColI Minus/Plus 75VD:0VR",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "ColI_Minus_Plus_50VD_0VR_1_telemetry_raw",
+      "type": "double",
+      "units": "raw",
+      "description": "Collector Current When -/+ 50V Deflection / 0V Retard",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "ColI_Minus_Plus_50VD_0VR_2_current_amps",
+      "type": "double",
+      "units": "amps",
+      "description": "Collector Current When -/+ 50V Deflection / 0V Retard",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_ColI_Minus_Plus_50VD_0VR",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for ColI Minus/Plus 50VD:0VR",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "ColI_Minus_Plus_25VD_0VR_1_telemetry_raw",
+      "type": "double",
+      "units": "raw",
+      "description": "Collector Current When -/+ 25V Deflection / 0V Retard",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "ColI_Minus_Plus_25VD_0VR_2_current_amps",
+      "type": "double",
+      "units": "amps",
+      "description": "Collector Current When -/+ 25V Deflection / 0V Retard",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_ColI_Minus_Plus_25VD_0VR",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for ColI Minus/Plus 25VD:0VR",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "ColI_0VD_50VR_1_telemetry_raw",
+      "type": "double",
+      "units": "raw",
+      "description": "Collector Current When 0V Deflection / 50V Retard",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "ColI_0VD_50VR_2_current_amps",
+      "type": "double",
+      "units": "amps",
+      "description": "Collector Current When 0V Deflection / 50V Retard",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_ColI_0VD_50VR",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for ColI 0VD:50VR",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

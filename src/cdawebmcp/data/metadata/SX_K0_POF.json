@@ -1,0 +1,146 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "lica_flag",
+      "type": "integer",
+      "units": "",
+      "description": "4 LICA quality/saturation flags.",
+      "fill": "-32768.0",
+      "size": [
+        4
+      ]
+    },
+    {
+      "name": "HILT_flag",
+      "type": "integer",
+      "units": "",
+      "description": "6 HILT quality flags.",
+      "fill": "-32768.0",
+      "size": [
+        6
+      ]
+    },
+    {
+      "name": "MAST_flag",
+      "type": "integer",
+      "units": "",
+      "description": "3 MAST quality flags",
+      "fill": "-32768.0",
+      "size": [
+        3
+      ]
+    },
+    {
+      "name": "PET_flag",
+      "type": "integer",
+      "units": "",
+      "description": "3 PET quality flag",
+      "fill": "-32768.0",
+      "size": [
+        3
+      ]
+    },
+    {
+      "name": "zGT2_DIF_FLX",
+      "type": "double",
+      "units": "1/(cm2 s sr MeV/n",
+      "description": "Z>2 dif fluxes, 9 channels (0.5-220 MeV/nu)from LICA, HILT,and MAST detectors",
+      "fill": "-9.999999848243207e+30",
+      "size": [
+        9
+      ]
+    },
+    {
+      "name": "He_dif_flux",
+      "type": "double",
+      "units": "1/(cm2 s sr MeV/n)",
+      "description": "He Dif Fluxes, 4 channels (0.5-38 MeV/nu); from LICA, HILT, and MAST detectors",
+      "fill": "-9.999999848243207e+30",
+      "size": [
+        4
+      ]
+    },
+    {
+      "name": "Prot_Dif_Flux",
+      "type": "double",
+      "units": "1/(cm2 s sr MeV)",
+      "description": "H+ (mainly) Dif Fluxes, 2 channels:from MAST and PET detectors",
+      "fill": "-9.999999848243207e+30",
+      "size": [
+        2
+      ]
+    },
+    {
+      "name": "Elect_Dif_Flx",
+      "type": "double",
+      "units": "1/(cm2 s sr MeV)",
+      "description": "Electr Dif Fluxes, 2 channels (1.5-14 MeV)from PET instrument.",
+      "fill": "-9.999999848243207e+30",
+      "size": [
+        2
+      ]
+    },
+    {
+      "name": "Int_Flux",
+      "type": "double",
+      "units": "1/(cm2 s sr)",
+      "description": "Integral Flux, E- or H from LICA.E>0.6 MeV electrons and/or E>0.8 MeV protons",
+      "fill": "-9.999999848243207e+30"
+    },
+    {
+      "name": "zGT2_FLX_SIG",
+      "type": "double",
+      "units": "1/(cm2 s sr MeV/n",
+      "description": "Sigma:Z>2 dif fluxes, 9 channels (0.5-MeV/nu)from LICA,HILT,and MAST detectors",
+      "fill": "-9.999999848243207e+30",
+      "size": [
+        9
+      ]
+    },
+    {
+      "name": "He_flx_sigma",
+      "type": "double",
+      "units": "1/(cm2 s sr MeV/n)",
+      "description": "Sigma: He Dif Fluxes, 4 channels;(0.5-38 MeV/nu):from LICA, HILT, and MAST detectors",
+      "fill": "-9.999999848243207e+30",
+      "size": [
+        4
+      ]
+    },
+    {
+      "name": "Prot_Flux_Sigma",
+      "type": "double",
+      "units": "1/(cm2 s sr MeV)",
+      "description": "Sigma: H+ (mainly) Dif Fluxes, 2 channels:from MAST and PET detectors",
+      "fill": "-9.999999848243207e+30",
+      "size": [
+        2
+      ]
+    },
+    {
+      "name": "Elect_Flx_Sigma",
+      "type": "double",
+      "units": "1/(cm2 s sr MeV)",
+      "description": "Sigma: Electr Dif Fluxes, 2 channels;(1.5-14 MeV) from PET instrument.",
+      "fill": "-9.999999848243207e+30",
+      "size": [
+        2
+      ]
+    },
+    {
+      "name": "Int_Flux_sigma",
+      "type": "double",
+      "units": "1/(cm2 sec sr)",
+      "description": "Sigma: Integral Flux, E- or H from LICA.E>0.6 MeV electrons and/orE>0.8 MeV protons",
+      "fill": "-9.999999848243207e+30"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

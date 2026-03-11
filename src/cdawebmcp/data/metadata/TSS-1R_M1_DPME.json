@@ -1,0 +1,369 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "Ctrl_Law_Param_00",
+      "type": "double",
+      "units": "unitless",
+      "description": "Control Law Parameter 00",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Ctrl_Law_Param_00",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Ctrl Law Param 00",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Estimated_Reel_Rad",
+      "type": "double",
+      "units": "meters",
+      "description": "Estimated Reel Radius",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Estimated_Reel_Rad",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Estimated Reel Rad",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Cmded_Strtched_Tether_Len_1_Length_meters",
+      "type": "double",
+      "units": "meters",
+      "description": "Commanded Stretched Tether Length",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Cmded_Strtched_Tether_Len_2_Length_km",
+      "type": "double",
+      "units": "km",
+      "description": "Commanded Stretched Tether Length",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Cmded_Strtched_Tether_Len",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Cmded Strtched Tether Len",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Cmded_UnStrtched_Tether_Len_1_Length_meters",
+      "type": "double",
+      "units": "meters",
+      "description": "Commanded Unstretched Tether Length",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Cmded_UnStrtched_Tether_Len_2_Length_km",
+      "type": "double",
+      "units": "km",
+      "description": "Commanded Unstretched Tether Length",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Cmded_UnStrtched_Tether_Len",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Cmded UnStrtched Tether Len",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Spooled_UnStrtched_Tether_Len_1_Length_meters",
+      "type": "double",
+      "units": "meters",
+      "description": "Spooled Unstretched Tether Length",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Spooled_UnStrtched_Tether_Len_2_Length_km",
+      "type": "double",
+      "units": "km",
+      "description": "Spooled Unstretched Tether Length",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Spooled_UnStrtched_Tether_Len",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Spooled UnStrtched Tether Len",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Cmded_Vel",
+      "type": "double",
+      "units": "m/s",
+      "description": "Commanded Velocity",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Cmded_Vel",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Cmded Vel",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Spool_Tether_Vel",
+      "type": "double",
+      "units": "m/s",
+      "description": "Spool Tether Velocity",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Spool_Tether_Vel",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Spool Tether Vel",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Cmded_In_Pl_Libr_Ang_Vel",
+      "type": "double",
+      "units": "radians/s",
+      "description": "Commanded In-plane Libration Angular Velocity",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Cmded_In_Pl_Libr_Ang_Vel",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Cmded In-Pl Libr Ang Vel",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Est_Reel_Motor_Ang_Vel",
+      "type": "double",
+      "units": "radians/s",
+      "description": "Estimated Reel Motor Angular Velocity",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Est_Reel_Motor_Ang_Vel",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Est Reel Motor Ang Vel",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Cmded_Acc",
+      "type": "double",
+      "units": "m/s**2",
+      "description": "Commanded Acceleration",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Cmded_Acc",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Cmded Acc",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Cmded_In_Pl_Libr_Ang_Acc",
+      "type": "double",
+      "units": "radians/s**2",
+      "description": "Commanded In-plane Libration Angular Acceleration",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Cmded_In_Pl_Libr_Ang_Acc",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Cmded In-Pl Libr Ang Acc",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Cmded_Outbd_Tension",
+      "type": "double",
+      "units": "newtons",
+      "description": "Commanded Outboard Tension",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Cmded_Outbd_Tension",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Cmded Outbd Tension",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Outbd_Blended_Tension",
+      "type": "double",
+      "units": "newtons",
+      "description": "Measured Outboard Blended Tension",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Outbd_Blended_Tension",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Outbd Blended Tension",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Elapsed_Manu_Time",
+      "type": "double",
+      "units": "seconds",
+      "description": "Elapsed Maneuver Time",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Elapsed_Manu_Time",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Elapsed Manu Time",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Motor_Gen_Pulsewidth",
+      "type": "double",
+      "units": "unitless",
+      "description": "Motor/Generator Pulsewidth",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Motor_Gen_Pulsewidth",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Motor/Gen Pulsewidth",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Cmded_Load_Res",
+      "type": "double",
+      "units": "ohms",
+      "description": "Commanded Loadbank Resistance",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Cmded_Load_Res",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Cmded Load Res",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Cmded_Reel_Motor_Ter_V",
+      "type": "double",
+      "units": "volts",
+      "description": "Commanded Reel Motor Terminal Voltage",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Cmded_Reel_Motor_Ter_V",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Cmded Reel Motor Ter V",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Ctrl_Law_Param_12",
+      "type": "double",
+      "units": "unitless",
+      "description": "Control Law Parameter 12",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Ctrl_Law_Param_12",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Ctrl Law Param 12",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Ctrl_Law_Param_18",
+      "type": "double",
+      "units": "unitless",
+      "description": "Control Law Parameter 18",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Ctrl_Law_Param_18",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Ctrl Law Param 18",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Cur_Seg_Dur_Time",
+      "type": "double",
+      "units": "seconds",
+      "description": "Current Segment Duration Time",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Cur_Seg_Dur_Time",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Cur Seg Dur Time",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Cur_Seg_Init_Libr_Ang",
+      "type": "double",
+      "units": "degrees",
+      "description": "Current Segment Initial Libration Angle",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Cur_Seg_Init_Libr_Ang",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Cur Seg Init Libr Ang",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Cur_Seg_End_Libr_Ang",
+      "type": "double",
+      "units": "degrees",
+      "description": "Current Segment Final Libration Angle",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Cur_Seg_End_Libr_Ang",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Cur Seg End Libr Ang",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Cur_Seg_Type",
+      "type": "double",
+      "units": "unitless",
+      "description": "Current Segment Type",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Cur_Seg_Type",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Cur Seg Type",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Cmded_In_Pl_Libr_Ang",
+      "type": "double",
+      "units": "radians",
+      "description": "Commanded In-plane Libration Angle",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Cmded_In_Pl_Libr_Ang",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Cmded In-Pl Libr Ang",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

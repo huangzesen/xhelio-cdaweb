@@ -1,0 +1,22 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "AKRf",
+      "type": "double",
+      "units": "W/(m^2 Hz)",
+      "description": "Radioemission flux at 3 freq (100, 252, 500 kHz)",
+      "fill": "-9.999999848243207e+30",
+      "size": [
+        3
+      ]
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

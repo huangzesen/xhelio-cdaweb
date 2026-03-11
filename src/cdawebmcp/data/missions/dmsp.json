@@ -1,15 +1,11 @@
 {
-  "id": "DMSP",
+  "id": "dmsp",
   "name": "DMSP",
-  "keywords": [
-    "dmsp"
-  ],
   "profile": {
-    "description": "DMSP spacecraft data from CDAWeb.",
+    "description": "DMSP data from CDAWeb.",
     "coordinate_systems": [],
     "typical_cadence": "",
-    "data_caveats": [],
-    "analysis_patterns": []
+    "data_caveats": []
   },
   "instruments": {
     "particles": {
@@ -24,127 +20,97 @@
           "description": "Precipitating electrons and ions observed at nominally 850km. - Staff (AFRL, NCEI, CU)",
           "start_date": "1987-06-25T00:00:00.000Z",
           "stop_date": "1987-12-27T23:59:59.000Z",
-          "pi_name": "Staff",
-          "pi_affiliation": "AFRL, NCEI, CU",
-          "notes_url": "https://cdaweb.gsfc.nasa.gov/misc/NotesD.html#DMSP-F08_SSJ_PRECIPITATING-ELECTRONS-IONS"
+          "pi_name": "Staff"
         },
         "DMSP_R0_SSJ4": {
           "description": "Link to DMSP low energy electron/ion plots and data at JHU/APL - Hardy (AFGL)",
           "start_date": "1983-01-01T00:00:00.000Z",
           "stop_date": "1983-01-01T01:00:00.000Z",
-          "pi_name": "Hardy",
-          "pi_affiliation": "AFGL",
-          "notes_url": "https://cdaweb.gsfc.nasa.gov/misc/NotesD.html#DMSP_R0_SSJ4"
+          "pi_name": "Hardy"
         },
         "DMSP-F12_SSJ_PRECIPITATING-ELECTRONS-IONS": {
           "description": "Precipitating electrons and ions observed at nominally 850km. - Staff (AFRL, NCEI, CU)",
           "start_date": "2000-12-28T00:00:00.000Z",
           "stop_date": "2002-07-27T23:59:59.000Z",
-          "pi_name": "Staff",
-          "pi_affiliation": "AFRL, NCEI, CU",
-          "notes_url": "https://cdaweb.gsfc.nasa.gov/misc/NotesD.html#DMSP-F12_SSJ_PRECIPITATING-ELECTRONS-IONS"
+          "pi_name": "Staff"
         },
         "DMSP-F06_SSJ_PRECIPITATING-ELECTRONS-IONS": {
           "description": "Precipitating electrons and ions observed at nominally 850km. - Staff (AFRL, NCEI, CU)",
           "start_date": "1987-01-01T00:00:00.000Z",
           "stop_date": "1987-07-21T23:59:59.000Z",
-          "pi_name": "Staff",
-          "pi_affiliation": "AFRL, NCEI, CU",
-          "notes_url": "https://cdaweb.gsfc.nasa.gov/misc/NotesD.html#DMSP-F06_SSJ_PRECIPITATING-ELECTRONS-IONS"
+          "pi_name": "Staff"
         },
         "DMSP-F17_SSJ_PRECIPITATING-ELECTRONS-IONS": {
           "description": "Precipitating electrons and ions observed at nominally 850km. - Staff (AFRL, NCEI, CU)",
           "start_date": "2009-01-01T00:00:00.000Z",
           "stop_date": "2014-12-31T23:59:59.000Z",
           "pi_name": "Staff",
-          "pi_affiliation": "AFRL, NCEI, CU",
-          "doi": "10.48322/zjs1-0y88",
-          "notes_url": "https://cdaweb.gsfc.nasa.gov/misc/NotesD.html#DMSP-F17_SSJ_PRECIPITATING-ELECTRONS-IONS"
+          "doi": "10.48322/zjs1-0y88"
         },
         "DMSP-F16_SSIES-3_THERMAL-PLASMA": {
           "description": "DMSP thermal plasma data - William Hanson, Rod Heelis, Marc Hairston (University of Texas Dallas, Center for Space Sciences)",
           "start_date": "2003-10-25T05:41:12.000Z",
           "stop_date": "2025-08-01T23:27:59.000Z",
           "pi_name": "William Hanson, Rod Heelis, Marc Hairston",
-          "pi_affiliation": "University of Texas Dallas, Center for Space Sciences",
-          "doi": "10.48322/hcdm-vz96",
-          "notes_url": "https://cdaweb.gsfc.nasa.gov/misc/NotesD.html#DMSP-F16_SSIES-3_THERMAL-PLASMA"
+          "doi": "10.48322/hcdm-vz96"
         },
         "DMSP-F09_SSJ_PRECIPITATING-ELECTRONS-IONS": {
           "description": "Precipitating electrons and ions observed at nominally 850km. - Staff (AFRL, NCEI, CU)",
           "start_date": "1988-03-24T00:00:00.000Z",
           "stop_date": "1988-07-12T23:59:59.000Z",
-          "pi_name": "Staff",
-          "pi_affiliation": "AFRL, NCEI, CU",
-          "notes_url": "https://cdaweb.gsfc.nasa.gov/misc/NotesD.html#DMSP-F09_SSJ_PRECIPITATING-ELECTRONS-IONS"
+          "pi_name": "Staff"
         },
         "DMSP-F18_SSJ_PRECIPITATING-ELECTRONS-IONS": {
           "description": "Precipitating electrons and ions observed at nominally 850km. - Staff (AFRL, NCEI, CU)",
           "start_date": "2009-10-24T00:00:00.000Z",
           "stop_date": "2014-12-31T23:59:59.000Z",
           "pi_name": "Staff",
-          "pi_affiliation": "AFRL, NCEI, CU",
-          "doi": "10.48322/34mn-w272",
-          "notes_url": "https://cdaweb.gsfc.nasa.gov/misc/NotesD.html#DMSP-F18_SSJ_PRECIPITATING-ELECTRONS-IONS"
+          "doi": "10.48322/34mn-w272"
         },
         "DMSP-F07_SSJ_PRECIPITATING-ELECTRONS-IONS": {
           "description": "Precipitating electrons and ions observed at nominally 850km. - Staff (AFRL, NCEI, CU)",
           "start_date": "1987-01-01T00:00:00.000Z",
           "stop_date": "1987-12-19T23:59:59.000Z",
-          "pi_name": "Staff",
-          "pi_affiliation": "AFRL, NCEI, CU",
-          "notes_url": "https://cdaweb.gsfc.nasa.gov/misc/NotesD.html#DMSP-F07_SSJ_PRECIPITATING-ELECTRONS-IONS"
+          "pi_name": "Staff"
         },
         "DMSP-F17_SSIES-3_THERMAL-PLASMA": {
           "description": "DMSP thermal plasma data - William Hanson, Rod Heelis, Marc Hairston (University of Texas Dallas, Center for Space Sciences)",
           "start_date": "2006-11-08T17:33:48.000Z",
           "stop_date": "2025-04-30T13:03:04.000Z",
           "pi_name": "William Hanson, Rod Heelis, Marc Hairston",
-          "pi_affiliation": "University of Texas Dallas, Center for Space Sciences",
-          "doi": "10.48322/3skz-xt83",
-          "notes_url": "https://cdaweb.gsfc.nasa.gov/misc/NotesD.html#DMSP-F17_SSIES-3_THERMAL-PLASMA"
+          "doi": "10.48322/3skz-xt83"
         },
         "DMSP-F16_SSJ_PRECIPITATING-ELECTRONS-IONS": {
           "description": "Precipitating electrons and ions observed at nominally 850km. - Staff (AFRL, NCEI, CU)",
           "start_date": "2003-10-29T00:00:00.000Z",
           "stop_date": "2014-12-31T23:59:59.000Z",
           "pi_name": "Staff",
-          "pi_affiliation": "AFRL, NCEI, CU",
-          "doi": "10.48322/1rnz-f067",
-          "notes_url": "https://cdaweb.gsfc.nasa.gov/misc/NotesD.html#DMSP-F16_SSJ_PRECIPITATING-ELECTRONS-IONS"
+          "doi": "10.48322/1rnz-f067"
         },
         "DMSP-F18_SSIES-3_THERMAL-PLASMA": {
           "description": "DMSP thermal plasma data - William Hanson, Rod Heelis, Marc Hairston (University of Texas Dallas, Center for Space Sciences)",
           "start_date": "2009-10-22T16:31:30.000Z",
           "stop_date": "2025-08-01T23:23:56.000Z",
           "pi_name": "William Hanson, Rod Heelis, Marc Hairston",
-          "pi_affiliation": "University of Texas Dallas, Center for Space Sciences",
-          "doi": "10.48322/cxc3-w323",
-          "notes_url": "https://cdaweb.gsfc.nasa.gov/misc/NotesD.html#DMSP-F18_SSIES-3_THERMAL-PLASMA"
+          "doi": "10.48322/cxc3-w323"
         },
         "DMSP-F15_SSJ_PRECIPITATING-ELECTRONS-IONS": {
           "description": "Precipitating electrons and ions observed at nominally 850km. - Staff (AFRL, NCEI, CU)",
           "start_date": "2000-12-28T00:00:00.000Z",
           "stop_date": "2009-03-24T23:59:59.000Z",
-          "pi_name": "Staff",
-          "pi_affiliation": "AFRL, NCEI, CU",
-          "notes_url": "https://cdaweb.gsfc.nasa.gov/misc/NotesD.html#DMSP-F15_SSJ_PRECIPITATING-ELECTRONS-IONS"
+          "pi_name": "Staff"
         },
         "DMSP-F14_SSJ_PRECIPITATING-ELECTRONS-IONS": {
           "description": "Precipitating electrons and ions observed at nominally 850km. - Staff (AFRL, NCEI, CU)",
           "start_date": "2000-12-28T00:00:00.000Z",
           "stop_date": "2005-09-29T23:59:59.000Z",
-          "pi_name": "Staff",
-          "pi_affiliation": "AFRL, NCEI, CU",
-          "notes_url": "https://cdaweb.gsfc.nasa.gov/misc/NotesD.html#DMSP-F14_SSJ_PRECIPITATING-ELECTRONS-IONS"
+          "pi_name": "Staff"
         },
         "DMSP-F13_SSJ_PRECIPITATING-ELECTRONS-IONS": {
           "description": "Precipitating electrons and ions observed at nominally 850km. - Staff (AFRL, NCEI, CU)",
           "start_date": "2000-01-01T00:00:00.000Z",
           "stop_date": "2007-12-30T23:59:59.000Z",
-          "pi_name": "Staff",
-          "pi_affiliation": "AFRL, NCEI, CU",
-          "notes_url": "https://cdaweb.gsfc.nasa.gov/misc/NotesD.html#DMSP-F13_SSJ_PRECIPITATING-ELECTRONS-IONS"
+          "pi_name": "Staff"
         }
       }
     },
@@ -161,25 +127,19 @@
           "description": "Links to DMSP F18 SSUSI NetCDF data, KMZ image files and other sources. - Larry Paxton (JHUAPL)",
           "start_date": "2006-11-01T00:00:00.000Z",
           "stop_date": "2006-11-01T01:00:00.000Z",
-          "pi_name": "Larry Paxton",
-          "pi_affiliation": "JHUAPL",
-          "notes_url": "https://cdaweb.gsfc.nasa.gov/misc/NotesD.html#DMSPF18_R0_SSUSI"
+          "pi_name": "Larry Paxton"
         },
         "DMSPF17_R0_SSUSI": {
           "description": "Links to DMSP F17 SSUSI NetCDF data, KZM image files and other sources. - Larry Paxton (JHUAPL)",
           "start_date": "2006-11-01T00:00:00.000Z",
           "stop_date": "2006-11-01T01:00:00.000Z",
-          "pi_name": "Larry Paxton",
-          "pi_affiliation": "JHUAPL",
-          "notes_url": "https://cdaweb.gsfc.nasa.gov/misc/NotesD.html#DMSPF17_R0_SSUSI"
+          "pi_name": "Larry Paxton"
         },
         "DMSPF16_R0_SSUSI": {
           "description": "Links to DMSP F16 SSUSI NetCDF data, KZM image files and other sources. - Larry Paxton (JHUAPL)",
           "start_date": "2006-11-01T00:00:00.000Z",
           "stop_date": "2006-11-01T01:00:00.000Z",
-          "pi_name": "Larry Paxton",
-          "pi_affiliation": "JHUAPL",
-          "notes_url": "https://cdaweb.gsfc.nasa.gov/misc/NotesD.html#DMSPF16_R0_SSUSI"
+          "pi_name": "Larry Paxton"
         }
       }
     },
@@ -199,27 +159,21 @@
           "start_date": "2009-01-01T00:00:00.000Z",
           "stop_date": "2015-01-01T23:59:59.000Z",
           "pi_name": "Staff",
-          "pi_affiliation": "AFRL, NGDC, CU",
-          "doi": "10.48322/bh8f-yy31",
-          "notes_url": "https://cdaweb.gsfc.nasa.gov/misc/NotesD.html#DMSP-F16_SSM_MAGNETOMETER"
+          "doi": "10.48322/bh8f-yy31"
         },
         "DMSP-F17_SSM_MAGNETOMETER": {
           "description": "Defense Meteorolgy Satellite Program F17 Vector Magnetometer Measurements (850km Altitude) - Staff (AFRL, NGDC, CU)",
           "start_date": "2009-01-01T00:00:00.000Z",
           "stop_date": "2015-01-01T23:59:59.000Z",
           "pi_name": "Staff",
-          "pi_affiliation": "AFRL, NGDC, CU",
-          "doi": "10.48322/1c9w-jd85",
-          "notes_url": "https://cdaweb.gsfc.nasa.gov/misc/NotesD.html#DMSP-F17_SSM_MAGNETOMETER"
+          "doi": "10.48322/1c9w-jd85"
         },
         "DMSP-F18_SSM_MAGNETOMETER": {
           "description": "Defense Meteorolgy Satellite Program F18 Vector Magnetometer Measurements (850km Altitude) - Staff (AFRL, NGDC, CU)",
           "start_date": "2010-01-01T00:00:00.000Z",
           "stop_date": "2015-01-01T23:59:59.000Z",
           "pi_name": "Staff",
-          "pi_affiliation": "AFRL, NGDC, CU",
-          "doi": "10.48322/cj1v-6g43",
-          "notes_url": "https://cdaweb.gsfc.nasa.gov/misc/NotesD.html#DMSP-F18_SSM_MAGNETOMETER"
+          "doi": "10.48322/cj1v-6g43"
         }
       }
     },
@@ -240,16 +194,13 @@
           "description": "Link to DMSP thermal plasma data from the Center for Space Sciences, University of Texas at Dallas. - Center for Space Sciences (UTD)",
           "start_date": "1983-01-01T00:00:00.000Z",
           "stop_date": "1983-01-01T01:00:00.000Z",
-          "pi_name": "Center for Space Sciences",
-          "pi_affiliation": "UTD",
-          "notes_url": "https://cdaweb.gsfc.nasa.gov/misc/NotesD.html#DMSP_R0_SSIES"
+          "pi_name": "Center for Space Sciences"
         }
       }
     }
   },
-  "observatory_group": "DMSP",
   "_meta": {
-    "generated_at": "2026-03-03T22:37:51Z",
-    "source": "CDAS REST + Master CDF"
+    "generated_at": "2026-03-11T01:11:24Z",
+    "source": "CDAWeb REST API"
   }
 }

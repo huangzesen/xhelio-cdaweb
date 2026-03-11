@@ -1,0 +1,54 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "EGA1_Offset_I_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "EGA1 Tether Current Offset",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "EGA1_Offset_I_2_current_milliamps",
+      "type": "double",
+      "units": "milliamps",
+      "description": "EGA1 Tether Current Offset",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_EGA1_Offset_I",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for EGA1 Offset I",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "EGA2_Offset_I_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "EGA2 Tether Current Offset",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "EGA2_Offset_I_2_current_milliamps",
+      "type": "double",
+      "units": "milliamps",
+      "description": "EGA2 Tether Current Offset",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_EGA2_Offset_I",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for EGA2 Offset I",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

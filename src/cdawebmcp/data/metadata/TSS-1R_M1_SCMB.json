@@ -1,0 +1,54 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "SA_Temp_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "SA Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SA_Temp_2_T_deg_C",
+      "type": "double",
+      "units": "deg C",
+      "description": "SA Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SA_Temp",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for SA:Temp",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SA_OverTemp_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "SA Input Overtemperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SA_OverTemp_2_Voltage_V_dc",
+      "type": "double",
+      "units": "V-dc",
+      "description": "SA Input Overtemperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SA_OverTemp",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for SA:OverTemp",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

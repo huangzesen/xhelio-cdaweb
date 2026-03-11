@@ -1,18 +1,11 @@
 {
-  "id": "MESSENGER",
+  "id": "messenger",
   "name": "MESSENGER",
-  "keywords": [
-    "mess",
-    "messenger",
-    "pds3:mess-",
-    "urn:nasa:pds:mess-"
-  ],
   "profile": {
-    "description": "MESSENGER spacecraft data from CDAWeb.",
+    "description": "MESSENGER data from CDAWeb.",
     "coordinate_systems": [],
     "typical_cadence": "",
-    "data_caveats": [],
-    "analysis_patterns": []
+    "data_caveats": []
   },
   "instruments": {
     "ephemeris": {
@@ -24,22 +17,12 @@
         "position"
       ],
       "datasets": {
-        "MESSENGER_HELIO1DAY_POSITION": {
-          "description": "Position in heliocentric coordinates from SPDF Helioweb - Natalia Papitashvili (NASA/GSFC/SPDF)",
-          "start_date": "2004-08-05T00:00:00.000Z",
-          "stop_date": "2015-05-01T00:00:00.000Z",
-          "pi_name": "Natalia Papitashvili",
-          "pi_affiliation": "NASA/GSFC/SPDF",
-          "doi": "10.48322/sx90-xh93",
-          "notes_url": "https://cdaweb.gsfc.nasa.gov/misc/NotesM.html#MESSENGER_HELIO1DAY_POSITION"
-        },
         "MESSENGER_HELIO1HR_POSITION": {
           "description": "Position in heliocentric coordinates from SPDF Helioweb - Natalia Papitashvili (NASA/GSFC/SPDF)",
           "start_date": "2004-08-04T00:00:00.000Z",
           "stop_date": "2015-04-30T23:00:00.000Z",
           "pi_name": "Natalia Papitashvili",
-          "pi_affiliation": "NASA/GSFC/SPDF",
-          "notes_url": "https://cdaweb.gsfc.nasa.gov/misc/NotesM.html#MESSENGER_HELIO1HR_POSITION"
+          "doi": "10.48322/ygb8-6c34"
         }
       }
     },
@@ -59,16 +42,13 @@
           "start_date": "2004-08-12T17:44:08.000Z",
           "stop_date": "2015-04-30T15:08:14.000Z",
           "pi_name": "Prof. Sean C. Solomon",
-          "pi_affiliation": "Carnegie Institution of Washington",
-          "doi": "10.48322/9wyq-j955",
-          "notes_url": "https://cdaweb.gsfc.nasa.gov/misc/NotesM.html#MESSENGER_MAG_RTN"
+          "doi": "10.48322/9wyq-j955"
         }
       }
     }
   },
-  "observatory_group": "MESSENGER",
   "_meta": {
-    "generated_at": "2026-03-03T22:37:51Z",
-    "source": "CDAS REST + Master CDF"
+    "generated_at": "2026-03-11T01:11:24Z",
+    "source": "CDAWeb REST API"
   }
 }

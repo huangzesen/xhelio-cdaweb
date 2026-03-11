@@ -1,0 +1,404 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "Low_Freq_MMU_0",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Low Frequency MMU 0 Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Low_Freq_MMU_0",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for Low Freq MMU 0",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Low_Freq_MMU_1",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Low Frequency MMU 1 Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Low_Freq_MMU_1",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for Low Freq MMU 1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Low_Freq_MMU_2",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Low Frequency MMU 2 Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Low_Freq_MMU_2",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for Low Freq MMU 2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Low_Freq_MMU_3",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Low Frequency MMU 3 Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Low_Freq_MMU_3",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for Low Freq MMU 3",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Low_Freq_MMU_4",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Low Frequency MMU 4 Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Low_Freq_MMU_4",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for Low Freq MMU 4",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Low_Freq_MMU_5",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Low Frequency MMU 5 Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Low_Freq_MMU_5",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for Low Freq MMU 5",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Low_Freq_MMU_6",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Low Frequency MMU 6 Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Low_Freq_MMU_6",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for Low Freq MMU 6",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Low_Freq_MMU_7",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Low Frequency MMU 7 Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Low_Freq_MMU_7",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for Low Freq MMU 7",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Low_Freq_MMU_8",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Low Frequency MMU 8 Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Low_Freq_MMU_8",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for Low Freq MMU 8",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Low_Freq_MMU_9",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Low Frequency MMU 9 Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Low_Freq_MMU_9",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for Low Freq MMU 9",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Low_Freq_MMU_10",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Low Frequency MMU 10 Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Low_Freq_MMU_10",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for Low Freq MMU 10",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Low_Freq_MMU_11",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Low Frequency MMU 11 Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Low_Freq_MMU_11",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for Low Freq MMU 11",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Space_Proc_Flow_Mon_b0",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Space Processing Flow Monitor Bit 0",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Space_Proc_Flow_Mon_b0",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for Space Proc Flow Mon b0",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Space_Proc_Flow_Mon_b1",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Space Processing Flow Monitor Bit 1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Space_Proc_Flow_Mon_b1",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for Space Proc Flow Mon b1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Space_Proc_Flow_Mon_b2",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Space Processing Flow Monitor Bit 2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Space_Proc_Flow_Mon_b2",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for Space Proc Flow Mon b2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Space_Proc_Flow_Mon_b3",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Space Processing Flow Monitor Bit 3",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Space_Proc_Flow_Mon_b3",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for Space Proc Flow Mon b3",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Space_Proc_Flow_Mon_b4",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Space Processing Flow Monitor Bit 4",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Space_Proc_Flow_Mon_b4",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for Space Proc Flow Mon b4",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Space_Proc_Flow_Mon_b5",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Space Processing Flow Monitor Bit 5",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Space_Proc_Flow_Mon_b5",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for Space Proc Flow Mon b5",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Space_Proc_Flow_Mon_b6",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Space Processing Flow Monitor Bit 6",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Space_Proc_Flow_Mon_b6",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for Space Proc Flow Mon b6",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Space_Proc_Flow_Mon_b7",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Space Processing Flow Monitor Bit 7",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Space_Proc_Flow_Mon_b7",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for Space Proc Flow Mon b7",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Space_Proc_Flow_Mon_b8",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Space Processing Flow Monitor Bit 8",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Space_Proc_Flow_Mon_b8",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for Space Proc Flow Mon b8",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Space_Proc_Flow_Mon_b9",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Space Processing Flow Monitor Bit 9",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Space_Proc_Flow_Mon_b9",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for Space Proc Flow Mon b9",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Space_Proc_Flow_Mon_b10",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Space Processing Flow Monitor Bit 10",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Space_Proc_Flow_Mon_b10",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for Space Proc Flow Mon b10",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Space_Proc_Flow_Mon_b11",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Space Processing Flow Monitor Bit 11",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Space_Proc_Flow_Mon_b11",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for Space Proc Flow Mon b11",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Space_Proc_Flow_Mon_b12",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Space Processing Flow Monitor Bit 12",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Space_Proc_Flow_Mon_b12",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for Space Proc Flow Mon b12",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Space_Proc_Flow_Mon_b13",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Space Processing Flow Monitor Bit 13",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Space_Proc_Flow_Mon_b13",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for Space Proc Flow Mon b13",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Space_Proc_Flow_Mon_b14",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Space Processing Flow Monitor Bit 14",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Space_Proc_Flow_Mon_b14",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for Space Proc Flow Mon b14",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Space_Proc_Flow_Mon_b15",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Space Processing Flow Monitor Bit 15",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Space_Proc_Flow_Mon_b15",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for Space Proc Flow Mon b15",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

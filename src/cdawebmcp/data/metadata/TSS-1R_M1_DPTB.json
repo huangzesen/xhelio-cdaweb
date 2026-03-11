@@ -1,0 +1,705 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "Latch_1_Motor_T_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Latch 1 Motor Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Latch_1_Motor_T_2_T_degrees_C",
+      "type": "double",
+      "units": "degrees C",
+      "description": "Latch 1 Motor Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Latch_1_Motor_T",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Latch 1 Motor T",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Latch_2_Motor_T_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Latch 2 Motor Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Latch_2_Motor_T_2_T_degrees_C",
+      "type": "double",
+      "units": "degrees C",
+      "description": "Latch 2 Motor Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Latch_2_Motor_T",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Latch 2 Motor T",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Latch_3_Motor_T_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Latch 3 Motor Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Latch_3_Motor_T_2_T_degrees_C",
+      "type": "double",
+      "units": "degrees C",
+      "description": "Latch 3 Motor Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Latch_3_Motor_T",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Latch 3 Motor T",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Latch_4_Motor_T_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Latch 4 Motor Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Latch_4_Motor_T_2_T_degrees_C",
+      "type": "double",
+      "units": "degrees C",
+      "description": "Latch 4 Motor Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Latch_4_Motor_T",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Latch 4 Motor T",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Latch_5_Motor_T_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Latch 5 Motor Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Latch_5_Motor_T_2_T_degrees_C",
+      "type": "double",
+      "units": "degrees C",
+      "description": "Latch 5 Motor Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Latch_5_Motor_T",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Latch 5 Motor T",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Latch_6_Motor_T_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Latch 6 Motor Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Latch_6_Motor_T_2_T_degrees_C",
+      "type": "double",
+      "units": "degrees C",
+      "description": "Latch 6 Motor Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Latch_6_Motor_T",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Latch 6 Motor T",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Dock_Ring_Motor_T_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Docking Ring Motor Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Dock_Ring_Motor_T_2_T_degrees_C",
+      "type": "double",
+      "units": "degrees C",
+      "description": "Docking Ring Motor Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Dock_Ring_Motor_T",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Dock Ring Motor T",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Lnch_Lock_Diseng_Motor_T_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Launch Lock Disengage Motor Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Lnch_Lock_Diseng_Motor_T_2_T_degrees_C",
+      "type": "double",
+      "units": "degrees C",
+      "description": "Launch Lock Disengage Motor Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Lnch_Lock_Diseng_Motor_T",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Lnch Lock Diseng Motor T",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Load_Bank_1_T_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Load Bank 1 Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Load_Bank_1_T_2_T_degrees_C",
+      "type": "double",
+      "units": "degrees C",
+      "description": "Load Bank 1 Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Load_Bank_1_T",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Load Bank 1 T",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Load_Bank_2_T_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Load Bank 2 Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Load_Bank_2_T_2_T_degrees_C",
+      "type": "double",
+      "units": "degrees C",
+      "description": "Load Bank 2 Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Load_Bank_2_T",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Load Bank 2 T",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Load_Bank_3_T_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Load Bank 3 Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Load_Bank_3_T_2_T_degrees_C",
+      "type": "double",
+      "units": "degrees C",
+      "description": "Load Bank 3 Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Load_Bank_3_T",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Load Bank 3 T",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Load_Bank_4_T_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Load Bank 4 Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Load_Bank_4_T_2_T_degrees_C",
+      "type": "double",
+      "units": "degrees C",
+      "description": "Load Bank 4 Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Load_Bank_4_T",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Load Bank 4 T",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Struc_Struts_T1_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Structure Struts Temperature 1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Struc_Struts_T1_2_T_degrees_C",
+      "type": "double",
+      "units": "degrees C",
+      "description": "Structure Struts Temperature 1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Struc_Struts_T1",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Struc Struts T1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Struc_Struts_T2_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Structure Struts Temperature 2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Struc_Struts_T2_2_T_degrees_C",
+      "type": "double",
+      "units": "degrees C",
+      "description": "Structure Struts Temperature 2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Struc_Struts_T2",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Struc Struts T2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Sat_Sup_Struc_T1_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Satellite Support Struct Temperature 1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Sat_Sup_Struc_T1_2_T_degrees_C",
+      "type": "double",
+      "units": "degrees C",
+      "description": "Satellite Support Struct Temperature 1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Sat_Sup_Struc_T1",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Sat Sup Struc T1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Sat_Sup_Struc_T2_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Satellite Support Struct Temperature 2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Sat_Sup_Struc_T2_2_T_degrees_C",
+      "type": "double",
+      "units": "degrees C",
+      "description": "Satellite Support Struct Temperature 2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Sat_Sup_Struc_T2",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Sat Sup Struc T2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DACA_PICA_Cld_Plate_5_T_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "DACA-PICA Cold Plate (5) Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DACA_PICA_Cld_Plate_5_T_2_T_degrees_C",
+      "type": "double",
+      "units": "degrees C",
+      "description": "DACA-PICA Cold Plate (5) Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_DACA_PICA_Cld_Plate_5_T",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for DACA-PICA Cld Plate 5 T",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "MCA_Cld_Plate_6_T_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "MCA Cold Plate (6) Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "MCA_Cld_Plate_6_T_2_T_degrees_C",
+      "type": "double",
+      "units": "degrees C",
+      "description": "MCA Cold Plate (6) Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_MCA_Cld_Plate_6_T",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for MCA Cld Plate 6 T",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "MPC_Cld_Plate_10_T_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "MPC Cold Plate (10) Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "MPC_Cld_Plate_10_T_2_T_degrees_C",
+      "type": "double",
+      "units": "degrees C",
+      "description": "MPC Cold Plate (10) Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_MPC_Cld_Plate_10_T",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for MPC Cld Plate 10 T",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "LTCM_Load_Cell_T_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "LTCM Load Cell Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "LTCM_Load_Cell_T_2_T_degrees_C",
+      "type": "double",
+      "units": "degrees C",
+      "description": "LTCM Load Cell Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_LTCM_Load_Cell_T",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for LTCM Load Cell T",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "LTCM_Encoder_T_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "LTCM Encoder Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "LTCM_Encoder_T_2_T_degrees_C",
+      "type": "double",
+      "units": "degrees C",
+      "description": "LTCM Encoder Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_LTCM_Encoder_T",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for LTCM Encoder T",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Pallet_T1_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Pallet Temperature 1 (Front Torque Box)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Pallet_T1_2_T_degrees_C",
+      "type": "double",
+      "units": "degrees C",
+      "description": "Pallet Temperature 1 (Front Torque Box)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Pallet_T1",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Pallet T1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Pallet_T2_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Pallet Temperature 2 (Side Torque Box)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Pallet_T2_2_T_degrees_C",
+      "type": "double",
+      "units": "degrees C",
+      "description": "Pallet Temperature 2 (Side Torque Box)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Pallet_T2",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Pallet T2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "HVRA_T1_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "HVRA Temperature 1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "HVRA_T1_2_T_degrees_C",
+      "type": "double",
+      "units": "degrees C",
+      "description": "HVRA Temperature 1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_HVRA_T1",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for HVRA T1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "HVRA_T2_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "HVRA Temperature 2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "HVRA_T2_2_T_degrees_C",
+      "type": "double",
+      "units": "degrees C",
+      "description": "HVRA Temperature 2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_HVRA_T2",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for HVRA T2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "PICA_1_T_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "PICA 1 Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "PICA_1_T_2_T_degrees_C",
+      "type": "double",
+      "units": "degrees C",
+      "description": "PICA 1 Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_PICA_1_T",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for PICA 1 T",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "PICA_2_T_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "PICA 2 Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "PICA_2_T_2_T_degrees_C",
+      "type": "double",
+      "units": "degrees C",
+      "description": "PICA 2 Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_PICA_2_T",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for PICA 2 T",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "MCA_T_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "MCA Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "MCA_T_2_T_degrees_C",
+      "type": "double",
+      "units": "degrees C",
+      "description": "MCA Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_MCA_T",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for MCA T",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DACA_T_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "DACA Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DACA_T_2_T_degrees_C",
+      "type": "double",
+      "units": "degrees C",
+      "description": "DACA Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_DACA_T",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for DACA T",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "UTCM_Struc_T_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "UTCM Structure Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "UTCM_Struc_T_2_T_degrees_C",
+      "type": "double",
+      "units": "degrees C",
+      "description": "UTCM Structure Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_UTCM_Struc_T",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for UTCM Struc T",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Ver_Motor_T_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Vernier Motor Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Ver_Motor_T_2_T_degrees_C",
+      "type": "double",
+      "units": "degrees C",
+      "description": "Vernier Motor Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Ver_Motor_T",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Ver Motor T",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Ver_Motor_Ele_T_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Vernier Motor Electronics Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Ver_Motor_Ele_T_2_T_degrees_C",
+      "type": "double",
+      "units": "degrees C",
+      "description": "Vernier Motor Electronics Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Ver_Motor_Ele_T",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Ver Motor Ele T",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "MPC_T_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "MPC Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "MPC_T_2_T_degrees_C",
+      "type": "double",
+      "units": "degrees C",
+      "description": "MPC Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_MPC_T",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for MPC T",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

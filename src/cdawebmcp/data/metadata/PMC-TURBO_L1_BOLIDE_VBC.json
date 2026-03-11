@@ -1,0 +1,50 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "Azimuth",
+      "type": "double",
+      "units": "deg",
+      "description": "Beam pointing clockwise from north, from gondola yaw angle + 90 deg of CSBFs TDRSS log",
+      "fill": "9.969209968386869e+36"
+    },
+    {
+      "name": "Floating_altitude",
+      "type": "double",
+      "units": "km",
+      "description": "Balloon floating altitude from onboard GPS sensors",
+      "fill": "9.969209968386869e+36"
+    },
+    {
+      "name": "Latitude",
+      "type": "double",
+      "units": "deg",
+      "description": "Latitude of lidar beam at 82 km altitude, given azimuth, floating altitude and 28 deg off-zenith beam angle",
+      "fill": "9.969209968386869e+36"
+    },
+    {
+      "name": "Longitude",
+      "type": "double",
+      "units": "deg",
+      "description": "Longitude of lidar beam at 82 km altitude, given azimuth, floating altitude and 28 deg off-zenith beam angle",
+      "fill": "9.969209968386869e+36"
+    },
+    {
+      "name": "Volume_backscatter_coefficient",
+      "type": "double",
+      "units": "10^{-10}/m/sr",
+      "description": "volume backscatter coefficient beta derived from Rayleigh lidar data at a threshold of 2.5 sigma above background",
+      "fill": "9.96921e+36",
+      "size": [
+        701
+      ]
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

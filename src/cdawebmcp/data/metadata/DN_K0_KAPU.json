@@ -1,0 +1,23 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "vel",
+      "type": "double",
+      "units": "m/s",
+      "description": "Ionospheric Convection Velocity (east, north) at 30 geographic positions along scan",
+      "fill": "-9.999999848243207e+30",
+      "size": [
+        2,
+        30
+      ]
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

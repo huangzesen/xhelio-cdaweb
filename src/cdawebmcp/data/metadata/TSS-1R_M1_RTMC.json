@@ -1,0 +1,4412 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "Ex__Input_1_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Ex: Input 1",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Ex__Input_1_2_Pwr_uV__2",
+      "type": "double",
+      "units": "uV**2",
+      "description": "Ex: Input 1",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Ex__Input_1_3_PwDen_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Ex: Input 1",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Ex__Input_1_4_PwDen_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Ex: Input 1",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Ex__Input_1_5_Power_Den_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Ex: Input 1",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Automatic_Gain_Correction__Input_1_Ex__Input_1_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 1: AutoMatic Gain Correction for Ex: Input 1",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Setting__Input_1_Ex__Input_1_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 1: Attenuation for Ex: Input 1",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Source__Input_1_Ex__Input_1_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 1: Attenuation Source for Ex: Input 1",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Automatic_Gain_Correction__Input_2_Ex__Input_1_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 2: AutoMatic Gain Correction for Ex: Input 1",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Setting__Input_2_Ex__Input_1_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 2: Attenuation for Ex: Input 1",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Source__Input_2_Ex__Input_1_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 2: Attenuation Source for Ex: Input 1",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Ey__Input_1_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Ey: Input 1",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Ey__Input_1_2_Pwr_uV__2",
+      "type": "double",
+      "units": "uV**2",
+      "description": "Ey: Input 1",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Ey__Input_1_3_PwDen_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Ey: Input 1",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Ey__Input_1_4_PwDen_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Ey: Input 1",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Ey__Input_1_5_Power_Den_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Ey: Input 1",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Automatic_Gain_Correction__Input_1_Ey__Input_1_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 1: AutoMatic Gain Correction for Ey: Input 1",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Setting__Input_1_Ey__Input_1_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 1: Attenuation for Ey: Input 1",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Source__Input_1_Ey__Input_1_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 1: Attenuation Source for Ey: Input 1",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Automatic_Gain_Correction__Input_2_Ey__Input_1_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 2: AutoMatic Gain Correction for Ey: Input 1",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Setting__Input_2_Ey__Input_1_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 2: Attenuation for Ey: Input 1",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Source__Input_2_Ey__Input_1_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 2: Attenuation Source for Ey: Input 1",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Ez__Input_1_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Ez: Input 1",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Ez__Input_1_2_Pwr_uV__2",
+      "type": "double",
+      "units": "uV**2",
+      "description": "Ez: Input 1",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Ez__Input_1_3_PwDen_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Ez: Input 1",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Ez__Input_1_4_PwDen_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Ez: Input 1",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Ez__Input_1_5_Power_Den_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Ez: Input 1",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Automatic_Gain_Correction__Input_1_Ez__Input_1_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 1: AutoMatic Gain Correction for Ez: Input 1",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Setting__Input_1_Ez__Input_1_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 1: Attenuation for Ez: Input 1",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Source__Input_1_Ez__Input_1_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 1: Attenuation Source for Ez: Input 1",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Automatic_Gain_Correction__Input_2_Ez__Input_1_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 2: AutoMatic Gain Correction for Ez: Input 1",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Setting__Input_2_Ez__Input_1_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 2: Attenuation for Ez: Input 1",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Source__Input_2_Ez__Input_1_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 2: Attenuation Source for Ez: Input 1",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Bx__Input_1_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Bx: Input 1",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Bx__Input_1_2_Pwr_uV__2",
+      "type": "double",
+      "units": "uV**2",
+      "description": "Bx: Input 1",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Bx__Input_1_3_PwDen_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Bx: Input 1",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Bx__Input_1_4_PwDen_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Bx: Input 1",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Bx__Input_1_5_Power_Den_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Bx: Input 1",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Automatic_Gain_Correction__Input_1_Bx__Input_1_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 1: AutoMatic Gain Correction for Bx: Input 1",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Setting__Input_1_Bx__Input_1_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 1: Attenuation for Bx: Input 1",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Source__Input_1_Bx__Input_1_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 1: Attenuation Source for Bx: Input 1",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Automatic_Gain_Correction__Input_2_Bx__Input_1_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 2: AutoMatic Gain Correction for Bx: Input 1",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Setting__Input_2_Bx__Input_1_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 2: Attenuation for Bx: Input 1",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Source__Input_2_Bx__Input_1_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 2: Attenuation Source for Bx: Input 1",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Bz__Input_1_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Bz: Input 1",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Bz__Input_1_2_Pwr_uV__2",
+      "type": "double",
+      "units": "uV**2",
+      "description": "Bz: Input 1",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Bz__Input_1_3_PwDen_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Bz: Input 1",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Bz__Input_1_4_PwDen_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Bz: Input 1",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Bz__Input_1_5_Power_Den_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Bz: Input 1",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Automatic_Gain_Correction__Input_1_Bz__Input_1_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 1: AutoMatic Gain Correction for Bz: Input 1",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Setting__Input_1_Bz__Input_1_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 1: Attenuation for Bz: Input 1",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Source__Input_1_Bz__Input_1_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 1: Attenuation Source for Bz: Input 1",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Automatic_Gain_Correction__Input_2_Bz__Input_1_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 2: AutoMatic Gain Correction for Bz: Input 1",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Setting__Input_2_Bz__Input_1_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 2: Attenuation for Bz: Input 1",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Source__Input_2_Bz__Input_1_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 2: Attenuation Source for Bz: Input 1",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Ex__Input_2_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Ex: Input 2",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Ex__Input_2_2_Pwr_uV__2",
+      "type": "double",
+      "units": "uV**2",
+      "description": "Ex: Input 2",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Ex__Input_2_3_PwDen_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Ex: Input 2",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Ex__Input_2_4_PwDen_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Ex: Input 2",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Ex__Input_2_5_Power_Den_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Ex: Input 2",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Automatic_Gain_Correction__Input_1_Ex__Input_2_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 1: AutoMatic Gain Correction for Ex: Input 2",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Setting__Input_1_Ex__Input_2_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 1: Attenuation for Ex: Input 2",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Source__Input_1_Ex__Input_2_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 1: Attenuation Source for Ex: Input 2",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Automatic_Gain_Correction__Input_2_Ex__Input_2_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 2: AutoMatic Gain Correction for Ex: Input 2",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Setting__Input_2_Ex__Input_2_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 2: Attenuation for Ex: Input 2",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Source__Input_2_Ex__Input_2_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 2: Attenuation Source for Ex: Input 2",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Ey__Input_2_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Ey: Input 2",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Ey__Input_2_2_Pwr_uV__2",
+      "type": "double",
+      "units": "uV**2",
+      "description": "Ey: Input 2",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Ey__Input_2_3_PwDen_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Ey: Input 2",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Ey__Input_2_4_PwDen_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Ey: Input 2",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Ey__Input_2_5_Power_Den_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Ey: Input 2",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Automatic_Gain_Correction__Input_1_Ey__Input_2_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 1: AutoMatic Gain Correction for Ey: Input 2",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Setting__Input_1_Ey__Input_2_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 1: Attenuation for Ey: Input 2",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Source__Input_1_Ey__Input_2_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 1: Attenuation Source for Ey: Input 2",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Automatic_Gain_Correction__Input_2_Ey__Input_2_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 2: AutoMatic Gain Correction for Ey: Input 2",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Setting__Input_2_Ey__Input_2_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 2: Attenuation for Ey: Input 2",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Source__Input_2_Ey__Input_2_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 2: Attenuation Source for Ey: Input 2",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Ez__Input_2_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Ez: Input 2",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Ez__Input_2_2_Pwr_uV__2",
+      "type": "double",
+      "units": "uV**2",
+      "description": "Ez: Input 2",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Ez__Input_2_3_PwDen_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Ez: Input 2",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Ez__Input_2_4_PwDen_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Ez: Input 2",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Ez__Input_2_5_Power_Den_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Ez: Input 2",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Automatic_Gain_Correction__Input_1_Ez__Input_2_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 1: AutoMatic Gain Correction for Ez: Input 2",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Setting__Input_1_Ez__Input_2_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 1: Attenuation for Ez: Input 2",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Source__Input_1_Ez__Input_2_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 1: Attenuation Source for Ez: Input 2",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Automatic_Gain_Correction__Input_2_Ez__Input_2_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 2: AutoMatic Gain Correction for Ez: Input 2",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Setting__Input_2_Ez__Input_2_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 2: Attenuation for Ez: Input 2",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Source__Input_2_Ez__Input_2_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 2: Attenuation Source for Ez: Input 2",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Bx__Input_2_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Bx: Input 2",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Bx__Input_2_2_Pwr_uV__2",
+      "type": "double",
+      "units": "uV**2",
+      "description": "Bx: Input 2",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Bx__Input_2_3_PwDen_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Bx: Input 2",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Bx__Input_2_4_PwDen_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Bx: Input 2",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Bx__Input_2_5_Power_Den_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Bx: Input 2",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Automatic_Gain_Correction__Input_1_Bx__Input_2_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 1: AutoMatic Gain Correction for Bx: Input 2",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Setting__Input_1_Bx__Input_2_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 1: Attenuation for Bx: Input 2",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Source__Input_1_Bx__Input_2_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 1: Attenuation Source for Bx: Input 2",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Automatic_Gain_Correction__Input_2_Bx__Input_2_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 2: AutoMatic Gain Correction for Bx: Input 2",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Setting__Input_2_Bx__Input_2_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 2: Attenuation for Bx: Input 2",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Source__Input_2_Bx__Input_2_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 2: Attenuation Source for Bx: Input 2",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Bz__Input_2_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Bz: Input 2",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Bz__Input_2_2_Pwr_uV__2",
+      "type": "double",
+      "units": "uV**2",
+      "description": "Bz: Input 2",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Bz__Input_2_3_PwDen_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Bz: Input 2",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Bz__Input_2_4_PwDen_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Bz: Input 2",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Bz__Input_2_5_Power_Den_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Bz: Input 2",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Automatic_Gain_Correction__Input_1_Bz__Input_2_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 1: AutoMatic Gain Correction for Bz: Input 2",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Setting__Input_1_Bz__Input_2_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 1: Attenuation for Bz: Input 2",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Source__Input_1_Bz__Input_2_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 1: Attenuation Source for Bz: Input 2",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Automatic_Gain_Correction__Input_2_Bz__Input_2_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 2: AutoMatic Gain Correction for Bz: Input 2",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Setting__Input_2_Bz__Input_2_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 2: Attenuation for Bz: Input 2",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Source__Input_2_Bz__Input_2_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 2: Attenuation Source for Bz: Input 2",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Imag_Xcor_Spec_Ex_Ex_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Imaginary part of cross correlation spectrum (Ex,Ex)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Imag_Xcor_Spec_Ex_Ex_2_Pwr_uV__2",
+      "type": "double",
+      "units": "uV**2",
+      "description": "Imaginary part of cross correlation spectrum (Ex,Ex)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Imag_Xcor_Spec_Ex_Ex_3_PwDen_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Imaginary part of cross correlation spectrum (Ex,Ex)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Imag_Xcor_Spec_Ex_Ex_4_PwDen_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Imaginary part of cross correlation spectrum (Ex,Ex)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Imag_Xcor_Spec_Ex_Ex_5_Power_Den_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Imaginary part of cross correlation spectrum (Ex,Ex)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Automatic_Gain_Correction__Input_1_Imag_Xcor_Spec_Ex_Ex_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 1: AutoMatic Gain Correction for Imag Xcor Spec (Ex,Ex)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Setting__Input_1_Imag_Xcor_Spec_Ex_Ex_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 1: Attenuation for Imag Xcor Spec (Ex,Ex)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Source__Input_1_Imag_Xcor_Spec_Ex_Ex_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 1: Attenuation Source for Imag Xcor Spec (Ex,Ex)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Automatic_Gain_Correction__Input_2_Imag_Xcor_Spec_Ex_Ex_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 2: AutoMatic Gain Correction for Imag Xcor Spec (Ex,Ex)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Setting__Input_2_Imag_Xcor_Spec_Ex_Ex_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 2: Attenuation for Imag Xcor Spec (Ex,Ex)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Source__Input_2_Imag_Xcor_Spec_Ex_Ex_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 2: Attenuation Source for Imag Xcor Spec (Ex,Ex)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Imag_Xcor_Spec_Ex_Ey_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Imaginary part of cross correlation spectrum (Ex,Ey)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Imag_Xcor_Spec_Ex_Ey_2_Pwr_uV__2",
+      "type": "double",
+      "units": "uV**2",
+      "description": "Imaginary part of cross correlation spectrum (Ex,Ey)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Imag_Xcor_Spec_Ex_Ey_3_PwDen_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Imaginary part of cross correlation spectrum (Ex,Ey)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Imag_Xcor_Spec_Ex_Ey_4_PwDen_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Imaginary part of cross correlation spectrum (Ex,Ey)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Imag_Xcor_Spec_Ex_Ey_5_Power_Den_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Imaginary part of cross correlation spectrum (Ex,Ey)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Automatic_Gain_Correction__Input_1_Imag_Xcor_Spec_Ex_Ey_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 1: AutoMatic Gain Correction for Imag Xcor Spec (Ex,Ey)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Setting__Input_1_Imag_Xcor_Spec_Ex_Ey_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 1: Attenuation for Imag Xcor Spec (Ex,Ey)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Source__Input_1_Imag_Xcor_Spec_Ex_Ey_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 1: Attenuation Source for Imag Xcor Spec (Ex,Ey)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Automatic_Gain_Correction__Input_2_Imag_Xcor_Spec_Ex_Ey_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 2: AutoMatic Gain Correction for Imag Xcor Spec (Ex,Ey)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Setting__Input_2_Imag_Xcor_Spec_Ex_Ey_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 2: Attenuation for Imag Xcor Spec (Ex,Ey)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Source__Input_2_Imag_Xcor_Spec_Ex_Ey_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 2: Attenuation Source for Imag Xcor Spec (Ex,Ey)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Imag_Xcor_Spec_Ex_Ez_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Imaginary part of cross correlation spectrum (Ex,Ez)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Imag_Xcor_Spec_Ex_Ez_2_Pwr_uV__2",
+      "type": "double",
+      "units": "uV**2",
+      "description": "Imaginary part of cross correlation spectrum (Ex,Ez)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Imag_Xcor_Spec_Ex_Ez_3_PwDen_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Imaginary part of cross correlation spectrum (Ex,Ez)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Imag_Xcor_Spec_Ex_Ez_4_PwDen_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Imaginary part of cross correlation spectrum (Ex,Ez)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Imag_Xcor_Spec_Ex_Ez_5_Power_Den_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Imaginary part of cross correlation spectrum (Ex,Ez)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Automatic_Gain_Correction__Input_1_Imag_Xcor_Spec_Ex_Ez_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 1: AutoMatic Gain Correction for Imag Xcor Spec (Ex,Ez)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Setting__Input_1_Imag_Xcor_Spec_Ex_Ez_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 1: Attenuation for Imag Xcor Spec (Ex,Ez)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Source__Input_1_Imag_Xcor_Spec_Ex_Ez_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 1: Attenuation Source for Imag Xcor Spec (Ex,Ez)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Automatic_Gain_Correction__Input_2_Imag_Xcor_Spec_Ex_Ez_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 2: AutoMatic Gain Correction for Imag Xcor Spec (Ex,Ez)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Setting__Input_2_Imag_Xcor_Spec_Ex_Ez_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 2: Attenuation for Imag Xcor Spec (Ex,Ez)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Source__Input_2_Imag_Xcor_Spec_Ex_Ez_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 2: Attenuation Source for Imag Xcor Spec (Ex,Ez)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Imag_Xcor_Spec_Ex_Bx_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Imaginary part of cross correlation spectrum (Ex,Bx)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Imag_Xcor_Spec_Ex_Bx_2_Pwr_uV__2",
+      "type": "double",
+      "units": "uV**2",
+      "description": "Imaginary part of cross correlation spectrum (Ex,Bx)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Imag_Xcor_Spec_Ex_Bx_3_PwDen_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Imaginary part of cross correlation spectrum (Ex,Bx)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Imag_Xcor_Spec_Ex_Bx_4_PwDen_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Imaginary part of cross correlation spectrum (Ex,Bx)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Imag_Xcor_Spec_Ex_Bx_5_Power_Den_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Imaginary part of cross correlation spectrum (Ex,Bx)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Automatic_Gain_Correction__Input_1_Imag_Xcor_Spec_Ex_Bx_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 1: AutoMatic Gain Correction for Imag Xcor Spec (Ex,Bx)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Setting__Input_1_Imag_Xcor_Spec_Ex_Bx_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 1: Attenuation for Imag Xcor Spec (Ex,Bx)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Source__Input_1_Imag_Xcor_Spec_Ex_Bx_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 1: Attenuation Source for Imag Xcor Spec (Ex,Bx)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Automatic_Gain_Correction__Input_2_Imag_Xcor_Spec_Ex_Bx_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 2: AutoMatic Gain Correction for Imag Xcor Spec (Ex,Bx)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Setting__Input_2_Imag_Xcor_Spec_Ex_Bx_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 2: Attenuation for Imag Xcor Spec (Ex,Bx)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Source__Input_2_Imag_Xcor_Spec_Ex_Bx_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 2: Attenuation Source for Imag Xcor Spec (Ex,Bx)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Imag_Xcor_Spec_Ex_Bz_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Imaginary part of cross correlation spectrum (Ex,Bz)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Imag_Xcor_Spec_Ex_Bz_2_Pwr_uV__2",
+      "type": "double",
+      "units": "uV**2",
+      "description": "Imaginary part of cross correlation spectrum (Ex,Bz)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Imag_Xcor_Spec_Ex_Bz_3_PwDen_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Imaginary part of cross correlation spectrum (Ex,Bz)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Imag_Xcor_Spec_Ex_Bz_4_PwDen_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Imaginary part of cross correlation spectrum (Ex,Bz)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Imag_Xcor_Spec_Ex_Bz_5_Power_Den_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Imaginary part of cross correlation spectrum (Ex,Bz)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Automatic_Gain_Correction__Input_1_Imag_Xcor_Spec_Ex_Bz_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 1: AutoMatic Gain Correction for Imag Xcor Spec (Ex,Bz)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Setting__Input_1_Imag_Xcor_Spec_Ex_Bz_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 1: Attenuation for Imag Xcor Spec (Ex,Bz)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Source__Input_1_Imag_Xcor_Spec_Ex_Bz_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 1: Attenuation Source for Imag Xcor Spec (Ex,Bz)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Automatic_Gain_Correction__Input_2_Imag_Xcor_Spec_Ex_Bz_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 2: AutoMatic Gain Correction for Imag Xcor Spec (Ex,Bz)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Setting__Input_2_Imag_Xcor_Spec_Ex_Bz_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 2: Attenuation for Imag Xcor Spec (Ex,Bz)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Source__Input_2_Imag_Xcor_Spec_Ex_Bz_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 2: Attenuation Source for Imag Xcor Spec (Ex,Bz)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Imag_Xcor_Spec_Ey_Ey_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Imaginary part of cross correlation spectrum (Ey,Ey)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Imag_Xcor_Spec_Ey_Ey_2_Pwr_uV__2",
+      "type": "double",
+      "units": "uV**2",
+      "description": "Imaginary part of cross correlation spectrum (Ey,Ey)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Imag_Xcor_Spec_Ey_Ey_3_PwDen_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Imaginary part of cross correlation spectrum (Ey,Ey)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Imag_Xcor_Spec_Ey_Ey_4_PwDen_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Imaginary part of cross correlation spectrum (Ey,Ey)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Imag_Xcor_Spec_Ey_Ey_5_Power_Den_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Imaginary part of cross correlation spectrum (Ey,Ey)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Automatic_Gain_Correction__Input_1_Imag_Xcor_Spec_Ey_Ey_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 1: AutoMatic Gain Correction for Imag Xcor Spec (Ey,Ey)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Setting__Input_1_Imag_Xcor_Spec_Ey_Ey_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 1: Attenuation for Imag Xcor Spec (Ey,Ey)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Source__Input_1_Imag_Xcor_Spec_Ey_Ey_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 1: Attenuation Source for Imag Xcor Spec (Ey,Ey)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Automatic_Gain_Correction__Input_2_Imag_Xcor_Spec_Ey_Ey_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 2: AutoMatic Gain Correction for Imag Xcor Spec (Ey,Ey)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Setting__Input_2_Imag_Xcor_Spec_Ey_Ey_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 2: Attenuation for Imag Xcor Spec (Ey,Ey)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Source__Input_2_Imag_Xcor_Spec_Ey_Ey_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 2: Attenuation Source for Imag Xcor Spec (Ey,Ey)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Imag_Xcor_Spec_Ey_Ez_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Imaginary part of cross correlation spectrum (Ey,Ez)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Imag_Xcor_Spec_Ey_Ez_2_Pwr_uV__2",
+      "type": "double",
+      "units": "uV**2",
+      "description": "Imaginary part of cross correlation spectrum (Ey,Ez)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Imag_Xcor_Spec_Ey_Ez_3_PwDen_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Imaginary part of cross correlation spectrum (Ey,Ez)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Imag_Xcor_Spec_Ey_Ez_4_PwDen_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Imaginary part of cross correlation spectrum (Ey,Ez)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Imag_Xcor_Spec_Ey_Ez_5_Power_Den_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Imaginary part of cross correlation spectrum (Ey,Ez)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Automatic_Gain_Correction__Input_1_Imag_Xcor_Spec_Ey_Ez_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 1: AutoMatic Gain Correction for Imag Xcor Spec (Ey,Ez)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Setting__Input_1_Imag_Xcor_Spec_Ey_Ez_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 1: Attenuation for Imag Xcor Spec (Ey,Ez)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Source__Input_1_Imag_Xcor_Spec_Ey_Ez_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 1: Attenuation Source for Imag Xcor Spec (Ey,Ez)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Automatic_Gain_Correction__Input_2_Imag_Xcor_Spec_Ey_Ez_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 2: AutoMatic Gain Correction for Imag Xcor Spec (Ey,Ez)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Setting__Input_2_Imag_Xcor_Spec_Ey_Ez_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 2: Attenuation for Imag Xcor Spec (Ey,Ez)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Source__Input_2_Imag_Xcor_Spec_Ey_Ez_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 2: Attenuation Source for Imag Xcor Spec (Ey,Ez)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Imag_Xcor_Spec_Ey_Bx_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Imaginary part of cross correlation spectrum (Ey,Bx)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Imag_Xcor_Spec_Ey_Bx_2_Pwr_uV__2",
+      "type": "double",
+      "units": "uV**2",
+      "description": "Imaginary part of cross correlation spectrum (Ey,Bx)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Imag_Xcor_Spec_Ey_Bx_3_PwDen_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Imaginary part of cross correlation spectrum (Ey,Bx)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Imag_Xcor_Spec_Ey_Bx_4_PwDen_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Imaginary part of cross correlation spectrum (Ey,Bx)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Imag_Xcor_Spec_Ey_Bx_5_Power_Den_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Imaginary part of cross correlation spectrum (Ey,Bx)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Automatic_Gain_Correction__Input_1_Imag_Xcor_Spec_Ey_Bx_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 1: AutoMatic Gain Correction for Imag Xcor Spec (Ey,Bx)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Setting__Input_1_Imag_Xcor_Spec_Ey_Bx_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 1: Attenuation for Imag Xcor Spec (Ey,Bx)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Source__Input_1_Imag_Xcor_Spec_Ey_Bx_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 1: Attenuation Source for Imag Xcor Spec (Ey,Bx)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Automatic_Gain_Correction__Input_2_Imag_Xcor_Spec_Ey_Bx_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 2: AutoMatic Gain Correction for Imag Xcor Spec (Ey,Bx)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Setting__Input_2_Imag_Xcor_Spec_Ey_Bx_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 2: Attenuation for Imag Xcor Spec (Ey,Bx)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Source__Input_2_Imag_Xcor_Spec_Ey_Bx_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 2: Attenuation Source for Imag Xcor Spec (Ey,Bx)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Imag_Xcor_Spec_Ey_Bz_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Imaginary part of cross correlation spectrum (Ey,Bz)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Imag_Xcor_Spec_Ey_Bz_2_Pwr_uV__2",
+      "type": "double",
+      "units": "uV**2",
+      "description": "Imaginary part of cross correlation spectrum (Ey,Bz)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Imag_Xcor_Spec_Ey_Bz_3_PwDen_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Imaginary part of cross correlation spectrum (Ey,Bz)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Imag_Xcor_Spec_Ey_Bz_4_PwDen_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Imaginary part of cross correlation spectrum (Ey,Bz)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Imag_Xcor_Spec_Ey_Bz_5_Power_Den_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Imaginary part of cross correlation spectrum (Ey,Bz)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Automatic_Gain_Correction__Input_1_Imag_Xcor_Spec_Ey_Bz_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 1: AutoMatic Gain Correction for Imag Xcor Spec (Ey,Bz)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Setting__Input_1_Imag_Xcor_Spec_Ey_Bz_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 1: Attenuation for Imag Xcor Spec (Ey,Bz)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Source__Input_1_Imag_Xcor_Spec_Ey_Bz_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 1: Attenuation Source for Imag Xcor Spec (Ey,Bz)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Automatic_Gain_Correction__Input_2_Imag_Xcor_Spec_Ey_Bz_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 2: AutoMatic Gain Correction for Imag Xcor Spec (Ey,Bz)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Setting__Input_2_Imag_Xcor_Spec_Ey_Bz_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 2: Attenuation for Imag Xcor Spec (Ey,Bz)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Source__Input_2_Imag_Xcor_Spec_Ey_Bz_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 2: Attenuation Source for Imag Xcor Spec (Ey,Bz)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Imag_Xcor_Spec_Ez_Ez_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Imaginary part of cross correlation spectrum (Ez,Ez)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Imag_Xcor_Spec_Ez_Ez_2_Pwr_uV__2",
+      "type": "double",
+      "units": "uV**2",
+      "description": "Imaginary part of cross correlation spectrum (Ez,Ez)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Imag_Xcor_Spec_Ez_Ez_3_PwDen_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Imaginary part of cross correlation spectrum (Ez,Ez)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Imag_Xcor_Spec_Ez_Ez_4_PwDen_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Imaginary part of cross correlation spectrum (Ez,Ez)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Imag_Xcor_Spec_Ez_Ez_5_Power_Den_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Imaginary part of cross correlation spectrum (Ez,Ez)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Automatic_Gain_Correction__Input_1_Imag_Xcor_Spec_Ez_Ez_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 1: AutoMatic Gain Correction for Imag Xcor Spec (Ez,Ez)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Setting__Input_1_Imag_Xcor_Spec_Ez_Ez_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 1: Attenuation for Imag Xcor Spec (Ez,Ez)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Source__Input_1_Imag_Xcor_Spec_Ez_Ez_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 1: Attenuation Source for Imag Xcor Spec (Ez,Ez)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Automatic_Gain_Correction__Input_2_Imag_Xcor_Spec_Ez_Ez_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 2: AutoMatic Gain Correction for Imag Xcor Spec (Ez,Ez)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Setting__Input_2_Imag_Xcor_Spec_Ez_Ez_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 2: Attenuation for Imag Xcor Spec (Ez,Ez)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Source__Input_2_Imag_Xcor_Spec_Ez_Ez_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 2: Attenuation Source for Imag Xcor Spec (Ez,Ez)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Imag_Xcor_Spec_Ez_Bx_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Imaginary part of cross correlation spectrum (Ez,Bx)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Imag_Xcor_Spec_Ez_Bx_2_Pwr_uV__2",
+      "type": "double",
+      "units": "uV**2",
+      "description": "Imaginary part of cross correlation spectrum (Ez,Bx)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Imag_Xcor_Spec_Ez_Bx_3_PwDen_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Imaginary part of cross correlation spectrum (Ez,Bx)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Imag_Xcor_Spec_Ez_Bx_4_PwDen_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Imaginary part of cross correlation spectrum (Ez,Bx)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Imag_Xcor_Spec_Ez_Bx_5_Power_Den_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Imaginary part of cross correlation spectrum (Ez,Bx)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Automatic_Gain_Correction__Input_1_Imag_Xcor_Spec_Ez_Bx_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 1: AutoMatic Gain Correction for Imag Xcor Spec (Ez,Bx)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Setting__Input_1_Imag_Xcor_Spec_Ez_Bx_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 1: Attenuation for Imag Xcor Spec (Ez,Bx)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Source__Input_1_Imag_Xcor_Spec_Ez_Bx_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 1: Attenuation Source for Imag Xcor Spec (Ez,Bx)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Automatic_Gain_Correction__Input_2_Imag_Xcor_Spec_Ez_Bx_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 2: AutoMatic Gain Correction for Imag Xcor Spec (Ez,Bx)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Setting__Input_2_Imag_Xcor_Spec_Ez_Bx_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 2: Attenuation for Imag Xcor Spec (Ez,Bx)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Source__Input_2_Imag_Xcor_Spec_Ez_Bx_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 2: Attenuation Source for Imag Xcor Spec (Ez,Bx)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Imag_Xcor_Spec_Ez_Bz_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Imaginary part of cross correlation spectrum (Ez,Bz)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Imag_Xcor_Spec_Ez_Bz_2_Pwr_uV__2",
+      "type": "double",
+      "units": "uV**2",
+      "description": "Imaginary part of cross correlation spectrum (Ez,Bz)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Imag_Xcor_Spec_Ez_Bz_3_PwDen_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Imaginary part of cross correlation spectrum (Ez,Bz)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Imag_Xcor_Spec_Ez_Bz_4_PwDen_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Imaginary part of cross correlation spectrum (Ez,Bz)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Imag_Xcor_Spec_Ez_Bz_5_Power_Den_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Imaginary part of cross correlation spectrum (Ez,Bz)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Automatic_Gain_Correction__Input_1_Imag_Xcor_Spec_Ez_Bz_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 1: AutoMatic Gain Correction for Imag Xcor Spec (Ez,Bz)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Setting__Input_1_Imag_Xcor_Spec_Ez_Bz_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 1: Attenuation for Imag Xcor Spec (Ez,Bz)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Source__Input_1_Imag_Xcor_Spec_Ez_Bz_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 1: Attenuation Source for Imag Xcor Spec (Ez,Bz)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Automatic_Gain_Correction__Input_2_Imag_Xcor_Spec_Ez_Bz_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 2: AutoMatic Gain Correction for Imag Xcor Spec (Ez,Bz)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Setting__Input_2_Imag_Xcor_Spec_Ez_Bz_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 2: Attenuation for Imag Xcor Spec (Ez,Bz)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Source__Input_2_Imag_Xcor_Spec_Ez_Bz_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 2: Attenuation Source for Imag Xcor Spec (Ez,Bz)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Imag_Xcor_Spec_Bx_Bx_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Imaginary part of cross correlation spectrum (Bx,Bx)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Imag_Xcor_Spec_Bx_Bx_2_Pwr_uV__2",
+      "type": "double",
+      "units": "uV**2",
+      "description": "Imaginary part of cross correlation spectrum (Bx,Bx)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Imag_Xcor_Spec_Bx_Bx_3_PwDen_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Imaginary part of cross correlation spectrum (Bx,Bx)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Imag_Xcor_Spec_Bx_Bx_4_PwDen_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Imaginary part of cross correlation spectrum (Bx,Bx)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Imag_Xcor_Spec_Bx_Bx_5_Power_Den_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Imaginary part of cross correlation spectrum (Bx,Bx)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Automatic_Gain_Correction__Input_1_Imag_Xcor_Spec_Bx_Bx_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 1: AutoMatic Gain Correction for Imag Xcor Spec (Bx,Bx)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Setting__Input_1_Imag_Xcor_Spec_Bx_Bx_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 1: Attenuation for Imag Xcor Spec (Bx,Bx)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Source__Input_1_Imag_Xcor_Spec_Bx_Bx_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 1: Attenuation Source for Imag Xcor Spec (Bx,Bx)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Automatic_Gain_Correction__Input_2_Imag_Xcor_Spec_Bx_Bx_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 2: AutoMatic Gain Correction for Imag Xcor Spec (Bx,Bx)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Setting__Input_2_Imag_Xcor_Spec_Bx_Bx_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 2: Attenuation for Imag Xcor Spec (Bx,Bx)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Source__Input_2_Imag_Xcor_Spec_Bx_Bx_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 2: Attenuation Source for Imag Xcor Spec (Bx,Bx)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Imag_Xcor_Spec_Bx_Bz_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Imaginary part of cross correlation spectrum (Bx,Bz)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Imag_Xcor_Spec_Bx_Bz_2_Pwr_uV__2",
+      "type": "double",
+      "units": "uV**2",
+      "description": "Imaginary part of cross correlation spectrum (Bx,Bz)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Imag_Xcor_Spec_Bx_Bz_3_PwDen_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Imaginary part of cross correlation spectrum (Bx,Bz)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Imag_Xcor_Spec_Bx_Bz_4_PwDen_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Imaginary part of cross correlation spectrum (Bx,Bz)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Imag_Xcor_Spec_Bx_Bz_5_Power_Den_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Imaginary part of cross correlation spectrum (Bx,Bz)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Automatic_Gain_Correction__Input_1_Imag_Xcor_Spec_Bx_Bz_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 1: AutoMatic Gain Correction for Imag Xcor Spec (Bx,Bz)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Setting__Input_1_Imag_Xcor_Spec_Bx_Bz_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 1: Attenuation for Imag Xcor Spec (Bx,Bz)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Source__Input_1_Imag_Xcor_Spec_Bx_Bz_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 1: Attenuation Source for Imag Xcor Spec (Bx,Bz)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Automatic_Gain_Correction__Input_2_Imag_Xcor_Spec_Bx_Bz_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 2: AutoMatic Gain Correction for Imag Xcor Spec (Bx,Bz)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Setting__Input_2_Imag_Xcor_Spec_Bx_Bz_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 2: Attenuation for Imag Xcor Spec (Bx,Bz)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Source__Input_2_Imag_Xcor_Spec_Bx_Bz_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 2: Attenuation Source for Imag Xcor Spec (Bx,Bz)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Imag_Xcor_Spec_Bz_Bz_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Imaginary part of cross correlation spectrum (Bz,Bz)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Imag_Xcor_Spec_Bz_Bz_2_Pwr_uV__2",
+      "type": "double",
+      "units": "uV**2",
+      "description": "Imaginary part of cross correlation spectrum (Bz,Bz)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Imag_Xcor_Spec_Bz_Bz_3_PwDen_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Imaginary part of cross correlation spectrum (Bz,Bz)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Imag_Xcor_Spec_Bz_Bz_4_PwDen_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Imaginary part of cross correlation spectrum (Bz,Bz)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Imag_Xcor_Spec_Bz_Bz_5_Power_Den_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Imaginary part of cross correlation spectrum (Bz,Bz)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Automatic_Gain_Correction__Input_1_Imag_Xcor_Spec_Bz_Bz_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 1: AutoMatic Gain Correction for Imag Xcor Spec (Bz,Bz)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Setting__Input_1_Imag_Xcor_Spec_Bz_Bz_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 1: Attenuation for Imag Xcor Spec (Bz,Bz)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Source__Input_1_Imag_Xcor_Spec_Bz_Bz_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 1: Attenuation Source for Imag Xcor Spec (Bz,Bz)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Automatic_Gain_Correction__Input_2_Imag_Xcor_Spec_Bz_Bz_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 2: AutoMatic Gain Correction for Imag Xcor Spec (Bz,Bz)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Setting__Input_2_Imag_Xcor_Spec_Bz_Bz_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 2: Attenuation for Imag Xcor Spec (Bz,Bz)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Source__Input_2_Imag_Xcor_Spec_Bz_Bz_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 2: Attenuation Source for Imag Xcor Spec (Bz,Bz)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Real_Xcor_Spec_Ex_Ex_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Real part of cross correlation spectrum (Ex,Ex)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Real_Xcor_Spec_Ex_Ex_2_Pwr_uV__2",
+      "type": "double",
+      "units": "uV**2",
+      "description": "Real part of cross correlation spectrum (Ex,Ex)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Real_Xcor_Spec_Ex_Ex_3_PwDen_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Real part of cross correlation spectrum (Ex,Ex)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Real_Xcor_Spec_Ex_Ex_4_PwDen_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Real part of cross correlation spectrum (Ex,Ex)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Real_Xcor_Spec_Ex_Ex_5_Power_Den_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Real part of cross correlation spectrum (Ex,Ex)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Automatic_Gain_Correction__Input_1_Real_Xcor_Spec_Ex_Ex_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 1: AutoMatic Gain Correction for Real Xcor Spec (Ex,Ex)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Setting__Input_1_Real_Xcor_Spec_Ex_Ex_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 1: Attenuation for Real Xcor Spec (Ex,Ex)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Source__Input_1_Real_Xcor_Spec_Ex_Ex_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 1: Attenuation Source for Real Xcor Spec (Ex,Ex)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Automatic_Gain_Correction__Input_2_Real_Xcor_Spec_Ex_Ex_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 2: AutoMatic Gain Correction for Real Xcor Spec (Ex,Ex)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Setting__Input_2_Real_Xcor_Spec_Ex_Ex_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 2: Attenuation for Real Xcor Spec (Ex,Ex)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Source__Input_2_Real_Xcor_Spec_Ex_Ex_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 2: Attenuation Source for Real Xcor Spec (Ex,Ex)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Real_Xcor_Spec_Ex_Ey_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Real part of cross correlation spectrum (Ex,Ey)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Real_Xcor_Spec_Ex_Ey_2_Pwr_uV__2",
+      "type": "double",
+      "units": "uV**2",
+      "description": "Real part of cross correlation spectrum (Ex,Ey)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Real_Xcor_Spec_Ex_Ey_3_PwDen_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Real part of cross correlation spectrum (Ex,Ey)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Real_Xcor_Spec_Ex_Ey_4_PwDen_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Real part of cross correlation spectrum (Ex,Ey)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Real_Xcor_Spec_Ex_Ey_5_Power_Den_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Real part of cross correlation spectrum (Ex,Ey)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Automatic_Gain_Correction__Input_1_Real_Xcor_Spec_Ex_Ey_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 1: AutoMatic Gain Correction for Real Xcor Spec (Ex,Ey)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Setting__Input_1_Real_Xcor_Spec_Ex_Ey_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 1: Attenuation for Real Xcor Spec (Ex,Ey)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Source__Input_1_Real_Xcor_Spec_Ex_Ey_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 1: Attenuation Source for Real Xcor Spec (Ex,Ey)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Automatic_Gain_Correction__Input_2_Real_Xcor_Spec_Ex_Ey_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 2: AutoMatic Gain Correction for Real Xcor Spec (Ex,Ey)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Setting__Input_2_Real_Xcor_Spec_Ex_Ey_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 2: Attenuation for Real Xcor Spec (Ex,Ey)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Source__Input_2_Real_Xcor_Spec_Ex_Ey_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 2: Attenuation Source for Real Xcor Spec (Ex,Ey)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Real_Xcor_Spec_Ex_Ez_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Real part of cross correlation spectrum (Ex,Ez)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Real_Xcor_Spec_Ex_Ez_2_Pwr_uV__2",
+      "type": "double",
+      "units": "uV**2",
+      "description": "Real part of cross correlation spectrum (Ex,Ez)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Real_Xcor_Spec_Ex_Ez_3_PwDen_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Real part of cross correlation spectrum (Ex,Ez)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Real_Xcor_Spec_Ex_Ez_4_PwDen_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Real part of cross correlation spectrum (Ex,Ez)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Real_Xcor_Spec_Ex_Ez_5_Power_Den_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Real part of cross correlation spectrum (Ex,Ez)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Automatic_Gain_Correction__Input_1_Real_Xcor_Spec_Ex_Ez_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 1: AutoMatic Gain Correction for Real Xcor Spec (Ex,Ez)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Setting__Input_1_Real_Xcor_Spec_Ex_Ez_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 1: Attenuation for Real Xcor Spec (Ex,Ez)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Source__Input_1_Real_Xcor_Spec_Ex_Ez_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 1: Attenuation Source for Real Xcor Spec (Ex,Ez)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Automatic_Gain_Correction__Input_2_Real_Xcor_Spec_Ex_Ez_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 2: AutoMatic Gain Correction for Real Xcor Spec (Ex,Ez)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Setting__Input_2_Real_Xcor_Spec_Ex_Ez_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 2: Attenuation for Real Xcor Spec (Ex,Ez)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Source__Input_2_Real_Xcor_Spec_Ex_Ez_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 2: Attenuation Source for Real Xcor Spec (Ex,Ez)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Real_Xcor_Spec_Ex_Bx_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Real part of cross correlation spectrum (Ex,Bx)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Real_Xcor_Spec_Ex_Bx_2_Pwr_uV__2",
+      "type": "double",
+      "units": "uV**2",
+      "description": "Real part of cross correlation spectrum (Ex,Bx)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Real_Xcor_Spec_Ex_Bx_3_PwDen_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Real part of cross correlation spectrum (Ex,Bx)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Real_Xcor_Spec_Ex_Bx_4_PwDen_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Real part of cross correlation spectrum (Ex,Bx)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Real_Xcor_Spec_Ex_Bx_5_Power_Den_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Real part of cross correlation spectrum (Ex,Bx)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Automatic_Gain_Correction__Input_1_Real_Xcor_Spec_Ex_Bx_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 1: AutoMatic Gain Correction for Real Xcor Spec (Ex,Bx)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Setting__Input_1_Real_Xcor_Spec_Ex_Bx_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 1: Attenuation for Real Xcor Spec (Ex,Bx)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Source__Input_1_Real_Xcor_Spec_Ex_Bx_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 1: Attenuation Source for Real Xcor Spec (Ex,Bx)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Automatic_Gain_Correction__Input_2_Real_Xcor_Spec_Ex_Bx_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 2: AutoMatic Gain Correction for Real Xcor Spec (Ex,Bx)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Setting__Input_2_Real_Xcor_Spec_Ex_Bx_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 2: Attenuation for Real Xcor Spec (Ex,Bx)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Source__Input_2_Real_Xcor_Spec_Ex_Bx_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 2: Attenuation Source for Real Xcor Spec (Ex,Bx)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Real_Xcor_Spec_Ex_Bz_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Real part of cross correlation spectrum (Ex,Bz)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Real_Xcor_Spec_Ex_Bz_2_Pwr_uV__2",
+      "type": "double",
+      "units": "uV**2",
+      "description": "Real part of cross correlation spectrum (Ex,Bz)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Real_Xcor_Spec_Ex_Bz_3_PwDen_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Real part of cross correlation spectrum (Ex,Bz)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Real_Xcor_Spec_Ex_Bz_4_PwDen_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Real part of cross correlation spectrum (Ex,Bz)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Real_Xcor_Spec_Ex_Bz_5_Power_Den_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Real part of cross correlation spectrum (Ex,Bz)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Automatic_Gain_Correction__Input_1_Real_Xcor_Spec_Ex_Bz_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 1: AutoMatic Gain Correction for Real Xcor Spec (Ex,Bz)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Setting__Input_1_Real_Xcor_Spec_Ex_Bz_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 1: Attenuation for Real Xcor Spec (Ex,Bz)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Source__Input_1_Real_Xcor_Spec_Ex_Bz_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 1: Attenuation Source for Real Xcor Spec (Ex,Bz)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Automatic_Gain_Correction__Input_2_Real_Xcor_Spec_Ex_Bz_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 2: AutoMatic Gain Correction for Real Xcor Spec (Ex,Bz)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Setting__Input_2_Real_Xcor_Spec_Ex_Bz_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 2: Attenuation for Real Xcor Spec (Ex,Bz)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Source__Input_2_Real_Xcor_Spec_Ex_Bz_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 2: Attenuation Source for Real Xcor Spec (Ex,Bz)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Real_Xcor_Spec_Ey_Ey_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Real part of cross correlation spectrum (Ey,Ey)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Real_Xcor_Spec_Ey_Ey_2_Pwr_uV__2",
+      "type": "double",
+      "units": "uV**2",
+      "description": "Real part of cross correlation spectrum (Ey,Ey)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Real_Xcor_Spec_Ey_Ey_3_PwDen_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Real part of cross correlation spectrum (Ey,Ey)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Real_Xcor_Spec_Ey_Ey_4_PwDen_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Real part of cross correlation spectrum (Ey,Ey)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Real_Xcor_Spec_Ey_Ey_5_Power_Den_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Real part of cross correlation spectrum (Ey,Ey)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Automatic_Gain_Correction__Input_1_Real_Xcor_Spec_Ey_Ey_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 1: AutoMatic Gain Correction for Real Xcor Spec (Ey,Ey)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Setting__Input_1_Real_Xcor_Spec_Ey_Ey_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 1: Attenuation for Real Xcor Spec (Ey,Ey)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Source__Input_1_Real_Xcor_Spec_Ey_Ey_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 1: Attenuation Source for Real Xcor Spec (Ey,Ey)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Automatic_Gain_Correction__Input_2_Real_Xcor_Spec_Ey_Ey_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 2: AutoMatic Gain Correction for Real Xcor Spec (Ey,Ey)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Setting__Input_2_Real_Xcor_Spec_Ey_Ey_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 2: Attenuation for Real Xcor Spec (Ey,Ey)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Source__Input_2_Real_Xcor_Spec_Ey_Ey_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 2: Attenuation Source for Real Xcor Spec (Ey,Ey)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Real_Xcor_Spec_Ey_Ez_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Real part of cross correlation spectrum (Ey,Ez)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Real_Xcor_Spec_Ey_Ez_2_Pwr_uV__2",
+      "type": "double",
+      "units": "uV**2",
+      "description": "Real part of cross correlation spectrum (Ey,Ez)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Real_Xcor_Spec_Ey_Ez_3_PwDen_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Real part of cross correlation spectrum (Ey,Ez)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Real_Xcor_Spec_Ey_Ez_4_PwDen_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Real part of cross correlation spectrum (Ey,Ez)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Real_Xcor_Spec_Ey_Ez_5_Power_Den_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Real part of cross correlation spectrum (Ey,Ez)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Automatic_Gain_Correction__Input_1_Real_Xcor_Spec_Ey_Ez_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 1: AutoMatic Gain Correction for Real Xcor Spec (Ey,Ez)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Setting__Input_1_Real_Xcor_Spec_Ey_Ez_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 1: Attenuation for Real Xcor Spec (Ey,Ez)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Source__Input_1_Real_Xcor_Spec_Ey_Ez_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 1: Attenuation Source for Real Xcor Spec (Ey,Ez)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Automatic_Gain_Correction__Input_2_Real_Xcor_Spec_Ey_Ez_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 2: AutoMatic Gain Correction for Real Xcor Spec (Ey,Ez)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Setting__Input_2_Real_Xcor_Spec_Ey_Ez_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 2: Attenuation for Real Xcor Spec (Ey,Ez)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Source__Input_2_Real_Xcor_Spec_Ey_Ez_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 2: Attenuation Source for Real Xcor Spec (Ey,Ez)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Real_Xcor_Spec_Ey_Bx_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Real part of cross correlation spectrum (Ey,Bx)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Real_Xcor_Spec_Ey_Bx_2_Pwr_uV__2",
+      "type": "double",
+      "units": "uV**2",
+      "description": "Real part of cross correlation spectrum (Ey,Bx)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Real_Xcor_Spec_Ey_Bx_3_PwDen_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Real part of cross correlation spectrum (Ey,Bx)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Real_Xcor_Spec_Ey_Bx_4_PwDen_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Real part of cross correlation spectrum (Ey,Bx)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Real_Xcor_Spec_Ey_Bx_5_Power_Den_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Real part of cross correlation spectrum (Ey,Bx)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Automatic_Gain_Correction__Input_1_Real_Xcor_Spec_Ey_Bx_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 1: AutoMatic Gain Correction for Real Xcor Spec (Ey,Bx)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Setting__Input_1_Real_Xcor_Spec_Ey_Bx_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 1: Attenuation for Real Xcor Spec (Ey,Bx)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Source__Input_1_Real_Xcor_Spec_Ey_Bx_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 1: Attenuation Source for Real Xcor Spec (Ey,Bx)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Automatic_Gain_Correction__Input_2_Real_Xcor_Spec_Ey_Bx_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 2: AutoMatic Gain Correction for Real Xcor Spec (Ey,Bx)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Setting__Input_2_Real_Xcor_Spec_Ey_Bx_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 2: Attenuation for Real Xcor Spec (Ey,Bx)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Source__Input_2_Real_Xcor_Spec_Ey_Bx_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 2: Attenuation Source for Real Xcor Spec (Ey,Bx)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Real_Xcor_Spec_Ey_Bz_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Real part of cross correlation spectrum (Ey,Bz)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Real_Xcor_Spec_Ey_Bz_2_Pwr_uV__2",
+      "type": "double",
+      "units": "uV**2",
+      "description": "Real part of cross correlation spectrum (Ey,Bz)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Real_Xcor_Spec_Ey_Bz_3_PwDen_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Real part of cross correlation spectrum (Ey,Bz)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Real_Xcor_Spec_Ey_Bz_4_PwDen_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Real part of cross correlation spectrum (Ey,Bz)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Real_Xcor_Spec_Ey_Bz_5_Power_Den_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Real part of cross correlation spectrum (Ey,Bz)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Automatic_Gain_Correction__Input_1_Real_Xcor_Spec_Ey_Bz_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 1: AutoMatic Gain Correction for Real Xcor Spec (Ey,Bz)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Setting__Input_1_Real_Xcor_Spec_Ey_Bz_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 1: Attenuation for Real Xcor Spec (Ey,Bz)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Source__Input_1_Real_Xcor_Spec_Ey_Bz_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 1: Attenuation Source for Real Xcor Spec (Ey,Bz)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Automatic_Gain_Correction__Input_2_Real_Xcor_Spec_Ey_Bz_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 2: AutoMatic Gain Correction for Real Xcor Spec (Ey,Bz)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Setting__Input_2_Real_Xcor_Spec_Ey_Bz_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 2: Attenuation for Real Xcor Spec (Ey,Bz)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Source__Input_2_Real_Xcor_Spec_Ey_Bz_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 2: Attenuation Source for Real Xcor Spec (Ey,Bz)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Real_Xcor_Spec_Ez_Ez_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Real part of cross correlation spectrum (Ez,Ez)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Real_Xcor_Spec_Ez_Ez_2_Pwr_uV__2",
+      "type": "double",
+      "units": "uV**2",
+      "description": "Real part of cross correlation spectrum (Ez,Ez)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Real_Xcor_Spec_Ez_Ez_3_PwDen_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Real part of cross correlation spectrum (Ez,Ez)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Real_Xcor_Spec_Ez_Ez_4_PwDen_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Real part of cross correlation spectrum (Ez,Ez)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Real_Xcor_Spec_Ez_Ez_5_Power_Den_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Real part of cross correlation spectrum (Ez,Ez)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Automatic_Gain_Correction__Input_1_Real_Xcor_Spec_Ez_Ez_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 1: AutoMatic Gain Correction for Real Xcor Spec (Ez,Ez)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Setting__Input_1_Real_Xcor_Spec_Ez_Ez_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 1: Attenuation for Real Xcor Spec (Ez,Ez)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Source__Input_1_Real_Xcor_Spec_Ez_Ez_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 1: Attenuation Source for Real Xcor Spec (Ez,Ez)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Automatic_Gain_Correction__Input_2_Real_Xcor_Spec_Ez_Ez_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 2: AutoMatic Gain Correction for Real Xcor Spec (Ez,Ez)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Setting__Input_2_Real_Xcor_Spec_Ez_Ez_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 2: Attenuation for Real Xcor Spec (Ez,Ez)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Source__Input_2_Real_Xcor_Spec_Ez_Ez_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 2: Attenuation Source for Real Xcor Spec (Ez,Ez)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Real_Xcor_Spec_Ez_Bx_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Real part of cross correlation spectrum (Ez,Bx)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Real_Xcor_Spec_Ez_Bx_2_Pwr_uV__2",
+      "type": "double",
+      "units": "uV**2",
+      "description": "Real part of cross correlation spectrum (Ez,Bx)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Real_Xcor_Spec_Ez_Bx_3_PwDen_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Real part of cross correlation spectrum (Ez,Bx)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Real_Xcor_Spec_Ez_Bx_4_PwDen_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Real part of cross correlation spectrum (Ez,Bx)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Real_Xcor_Spec_Ez_Bx_5_Power_Den_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Real part of cross correlation spectrum (Ez,Bx)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Automatic_Gain_Correction__Input_1_Real_Xcor_Spec_Ez_Bx_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 1: AutoMatic Gain Correction for Real Xcor Spec (Ez,Bx)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Setting__Input_1_Real_Xcor_Spec_Ez_Bx_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 1: Attenuation for Real Xcor Spec (Ez,Bx)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Source__Input_1_Real_Xcor_Spec_Ez_Bx_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 1: Attenuation Source for Real Xcor Spec (Ez,Bx)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Automatic_Gain_Correction__Input_2_Real_Xcor_Spec_Ez_Bx_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 2: AutoMatic Gain Correction for Real Xcor Spec (Ez,Bx)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Setting__Input_2_Real_Xcor_Spec_Ez_Bx_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 2: Attenuation for Real Xcor Spec (Ez,Bx)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Source__Input_2_Real_Xcor_Spec_Ez_Bx_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 2: Attenuation Source for Real Xcor Spec (Ez,Bx)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Real_Xcor_Spec_Ez_Bz_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Real part of cross correlation spectrum (Ez,Bz)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Real_Xcor_Spec_Ez_Bz_2_Pwr_uV__2",
+      "type": "double",
+      "units": "uV**2",
+      "description": "Real part of cross correlation spectrum (Ez,Bz)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Real_Xcor_Spec_Ez_Bz_3_PwDen_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Real part of cross correlation spectrum (Ez,Bz)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Real_Xcor_Spec_Ez_Bz_4_PwDen_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Real part of cross correlation spectrum (Ez,Bz)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Real_Xcor_Spec_Ez_Bz_5_Power_Den_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Real part of cross correlation spectrum (Ez,Bz)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Automatic_Gain_Correction__Input_1_Real_Xcor_Spec_Ez_Bz_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 1: AutoMatic Gain Correction for Real Xcor Spec (Ez,Bz)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Setting__Input_1_Real_Xcor_Spec_Ez_Bz_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 1: Attenuation for Real Xcor Spec (Ez,Bz)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Source__Input_1_Real_Xcor_Spec_Ez_Bz_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 1: Attenuation Source for Real Xcor Spec (Ez,Bz)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Automatic_Gain_Correction__Input_2_Real_Xcor_Spec_Ez_Bz_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 2: AutoMatic Gain Correction for Real Xcor Spec (Ez,Bz)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Setting__Input_2_Real_Xcor_Spec_Ez_Bz_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 2: Attenuation for Real Xcor Spec (Ez,Bz)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Source__Input_2_Real_Xcor_Spec_Ez_Bz_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 2: Attenuation Source for Real Xcor Spec (Ez,Bz)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Real_Xcor_Spec_Bx_Bx_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Real part of cross correlation spectrum (Bx,Bx)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Real_Xcor_Spec_Bx_Bx_2_Pwr_uV__2",
+      "type": "double",
+      "units": "uV**2",
+      "description": "Real part of cross correlation spectrum (Bx,Bx)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Real_Xcor_Spec_Bx_Bx_3_PwDen_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Real part of cross correlation spectrum (Bx,Bx)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Real_Xcor_Spec_Bx_Bx_4_PwDen_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Real part of cross correlation spectrum (Bx,Bx)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Real_Xcor_Spec_Bx_Bx_5_Power_Den_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Real part of cross correlation spectrum (Bx,Bx)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Automatic_Gain_Correction__Input_1_Real_Xcor_Spec_Bx_Bx_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 1: AutoMatic Gain Correction for Real Xcor Spec (Bx,Bx)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Setting__Input_1_Real_Xcor_Spec_Bx_Bx_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 1: Attenuation for Real Xcor Spec (Bx,Bx)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Source__Input_1_Real_Xcor_Spec_Bx_Bx_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 1: Attenuation Source for Real Xcor Spec (Bx,Bx)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Automatic_Gain_Correction__Input_2_Real_Xcor_Spec_Bx_Bx_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 2: AutoMatic Gain Correction for Real Xcor Spec (Bx,Bx)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Setting__Input_2_Real_Xcor_Spec_Bx_Bx_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 2: Attenuation for Real Xcor Spec (Bx,Bx)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Source__Input_2_Real_Xcor_Spec_Bx_Bx_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 2: Attenuation Source for Real Xcor Spec (Bx,Bx)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Real_Xcor_Spec_Bx_Bz_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Real part of cross correlation spectrum (Bx,Bz)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Real_Xcor_Spec_Bx_Bz_2_Pwr_uV__2",
+      "type": "double",
+      "units": "uV**2",
+      "description": "Real part of cross correlation spectrum (Bx,Bz)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Real_Xcor_Spec_Bx_Bz_3_PwDen_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Real part of cross correlation spectrum (Bx,Bz)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Real_Xcor_Spec_Bx_Bz_4_PwDen_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Real part of cross correlation spectrum (Bx,Bz)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Real_Xcor_Spec_Bx_Bz_5_Power_Den_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Real part of cross correlation spectrum (Bx,Bz)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Automatic_Gain_Correction__Input_1_Real_Xcor_Spec_Bx_Bz_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 1: AutoMatic Gain Correction for Real Xcor Spec (Bx,Bz)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Setting__Input_1_Real_Xcor_Spec_Bx_Bz_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 1: Attenuation for Real Xcor Spec (Bx,Bz)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Source__Input_1_Real_Xcor_Spec_Bx_Bz_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 1: Attenuation Source for Real Xcor Spec (Bx,Bz)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Automatic_Gain_Correction__Input_2_Real_Xcor_Spec_Bx_Bz_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 2: AutoMatic Gain Correction for Real Xcor Spec (Bx,Bz)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Setting__Input_2_Real_Xcor_Spec_Bx_Bz_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 2: Attenuation for Real Xcor Spec (Bx,Bz)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Source__Input_2_Real_Xcor_Spec_Bx_Bz_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 2: Attenuation Source for Real Xcor Spec (Bx,Bz)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Real_Xcor_Spec_Bz_Bz_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Real part of cross correlation spectrum (Bz,Bz)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Real_Xcor_Spec_Bz_Bz_2_Pwr_uV__2",
+      "type": "double",
+      "units": "uV**2",
+      "description": "Real part of cross correlation spectrum (Bz,Bz)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Real_Xcor_Spec_Bz_Bz_3_PwDen_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Real part of cross correlation spectrum (Bz,Bz)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Real_Xcor_Spec_Bz_Bz_4_PwDen_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Real part of cross correlation spectrum (Bz,Bz)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Real_Xcor_Spec_Bz_Bz_5_Power_Den_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Real part of cross correlation spectrum (Bz,Bz)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Automatic_Gain_Correction__Input_1_Real_Xcor_Spec_Bz_Bz_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 1: AutoMatic Gain Correction for Real Xcor Spec (Bz,Bz)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Setting__Input_1_Real_Xcor_Spec_Bz_Bz_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 1: Attenuation for Real Xcor Spec (Bz,Bz)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Source__Input_1_Real_Xcor_Spec_Bz_Bz_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 1: Attenuation Source for Real Xcor Spec (Bz,Bz)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Automatic_Gain_Correction__Input_2_Real_Xcor_Spec_Bz_Bz_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 2: AutoMatic Gain Correction for Real Xcor Spec (Bz,Bz)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Setting__Input_2_Real_Xcor_Spec_Bz_Bz_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 2: Attenuation for Real Xcor Spec (Bz,Bz)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Source__Input_2_Real_Xcor_Spec_Bz_Bz_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input 2: Attenuation Source for Real Xcor Spec (Bz,Bz)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

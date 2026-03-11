@@ -1,0 +1,250 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "Fuel_Cell_Auto_Purge",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Fuel Cell Auto-Purge On",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Fuel_Cell_Auto_Purge",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for Fuel Cell Auto Purge",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "FCP_1_Purge_V_MNL",
+      "type": "double",
+      "units": "Unitless",
+      "description": "FCP 1 Purge Valve MNL Open A",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_FCP_1_Purge_V_MNL",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for FCP 1 Purge V MNL",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "FCP_2_Purge_V_MNL",
+      "type": "double",
+      "units": "Unitless",
+      "description": "FCP 2 Purge Valve MNL Open A",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_FCP_2_Purge_V_MNL",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for FCP 2 Purge V MNL",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "FCP_3_Purge_V_MNL",
+      "type": "double",
+      "units": "Unitless",
+      "description": "FCP 3 Purge Valve MNL Open A",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_FCP_3_Purge_V_MNL",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for FCP 3 Purge V MNL",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "FCP_1_Purge_V_GPC",
+      "type": "double",
+      "units": "Unitless",
+      "description": "FCP 1 Purge Valve GPC A Open",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_FCP_1_Purge_V_GPC",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for FCP 1 Purge V GPC",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "FCP_2_Purge_V_GPC",
+      "type": "double",
+      "units": "Unitless",
+      "description": "FCP 2 Purge Valve GPC A Open",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_FCP_2_Purge_V_GPC",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for FCP 2 Purge V GPC",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "FCP_3_Purge_V_GPC",
+      "type": "double",
+      "units": "Unitless",
+      "description": "FCP 3 Purge Valve GPC A Open",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_FCP_3_Purge_V_GPC",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for FCP 3 Purge V GPC",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Suply_H20_Dmp_ISLN_V",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Supply Water Dump ISLN Valve Open",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Suply_H20_Dmp_ISLN_V",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for Suply H20 Dmp ISLN V",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Suply_H20_Dmp_Valve",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Supply Water Dump Valve Open",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Suply_H20_Dmp_Valve",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for Suply H20 Dmp Valve",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Waste_H20_Dmp_ISLN_V",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Waste Water Dump ISLN Valve Open",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Waste_H20_Dmp_ISLN_V",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for Waste H20 Dmp ISLN V",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Waste_H20_Dmp_Valve",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Waste Water Dump Valve Open",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Waste_H20_Dmp_Valve",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for Waste H20 Dmp Valve",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Flash_Evap_Cntrl_Pri_A_GPC_CMD",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Flash Evap Controller Pri A-GPC CMD",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Flash_Evap_Cntrl_Pri_A_GPC_CMD",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for Flash Evap Cntrl Pri A-GPC CMD",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Flash_Evap_Cntrl_Pri_B_GPC_CMD",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Flash Evap Controller Pri B-GPC CMD",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Flash_Evap_Cntrl_Pri_B_GPC_CMD",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for Flash Evap Cntrl Pri B-GPC CMD",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Flash_Evap_Cntrl_Pri_A_CMD",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Flash Evap Controller Pri A CMD On",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Flash_Evap_Cntrl_Pri_A_CMD",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for Flash Evap Cntrl Pri A CMD",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Flash_Evap_Cntrl_Pri_B_CMD",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Flash Evap Controller Pri B CMD On",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Flash_Evap_Cntrl_Pri_B_CMD",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for Flash Evap Cntrl Pri B CMD",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "PL_Pri_Main_B_Pwr",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Payload Primary Main B Power-On",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_PL_Pri_Main_B_Pwr",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for PL Pri Main B Pwr",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "PL_Pri_Main_C_Pwr",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Payload Primary Main C Power-On",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_PL_Pri_Main_C_Pwr",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for PL Pri Main C Pwr",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

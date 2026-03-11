@@ -1,0 +1,152 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "FDR1_Filemark",
+      "type": "double",
+      "units": "Unitless",
+      "description": "FDR1 Filemark Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_FDR1_Filemark",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for FDR1 Filemark",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "FDR1_Begin_or_EOT",
+      "type": "double",
+      "units": "Unitless",
+      "description": "FDR1 Logical Beginning or EOT Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_FDR1_Begin_or_EOT",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for FDR1 Begin or EOT",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "FDR1_CTS",
+      "type": "double",
+      "units": "Unitless",
+      "description": "FDR1 Cartridge Tape Subsystem (CTS) Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_FDR1_CTS",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for FDR1 CTS",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "FDR1_Pwr_Fail_Rec",
+      "type": "double",
+      "units": "Unitless",
+      "description": "FDR1 Power Failure/Recording Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_FDR1_Pwr_Fail_Rec",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for FDR1 Pwr Fail/Rec",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "FDR1_Sense_Key",
+      "type": "double",
+      "units": "Unitless",
+      "description": "FDR1 Sence Key Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_FDR1_Sense_Key",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for FDR1 Sense Key",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "FDR2_Filemark",
+      "type": "double",
+      "units": "Unitless",
+      "description": "FDR2 Filemark Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_FDR2_Filemark",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for FDR2 Filemark",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "FDR2_Begin_or_EOT",
+      "type": "double",
+      "units": "Unitless",
+      "description": "FDR2 Logical Beginning or EOT Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_FDR2_Begin_or_EOT",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for FDR2 Begin or EOT",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "FDR2_CTS",
+      "type": "double",
+      "units": "Unitless",
+      "description": "FDR2 Cartridge Tape Subsystem (CTS) Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_FDR2_CTS",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for FDR2 CTS",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "FDR2_Pwr_Fail_Rec",
+      "type": "double",
+      "units": "Unitless",
+      "description": "FDR2 Power Failure/Recording Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_FDR2_Pwr_Fail_Rec",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for FDR2 Pwr Fail/Rec",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "FDR2_Sense_Key",
+      "type": "double",
+      "units": "Unitless",
+      "description": "FDR2 Sence Key Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_FDR2_Sense_Key",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for FDR2 Sense Key",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

@@ -1,0 +1,558 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "Latch_Gr1_Motor_I_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Latch Group 1 Motor Current",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Latch_Gr1_Motor_I_2_Current_amps",
+      "type": "double",
+      "units": "amps",
+      "description": "Latch Group 1 Motor Current",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Latch_Gr1_Motor_I",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Latch Gr1 Motor I",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Latch_Gr2_Motor_I_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Latch Group 2 Motor Current",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Latch_Gr2_Motor_I_2_Current_amps",
+      "type": "double",
+      "units": "amps",
+      "description": "Latch Group 2 Motor Current",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Latch_Gr2_Motor_I",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Latch Gr2 Motor I",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Boom_Motors_I_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Boom Motors Current",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Boom_Motors_I_2_Current_amps",
+      "type": "double",
+      "units": "amps",
+      "description": "Boom Motors Current",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Boom_Motors_I",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Boom Motors I",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "MCA_Reel_Motor_I_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "MCA-Reel Motor Current",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "MCA_Reel_Motor_I_2_Current_amps",
+      "type": "double",
+      "units": "amps",
+      "description": "MCA-Reel Motor Current",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_MCA_Reel_Motor_I",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for MCA-Reel Motor I",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Sat_Bat_Htr_I_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Satellite Battery Heater Current",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Sat_Bat_Htr_I_2_Current_amps",
+      "type": "double",
+      "units": "amps",
+      "description": "Satellite Battery Heater Current",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Sat_Bat_Htr_I",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Sat Bat Htr I",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Sat_P_L_Mod_Htr_I_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Satellite P/L Module Heater Current",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Sat_P_L_Mod_Htr_I_2_Current_amps",
+      "type": "double",
+      "units": "amps",
+      "description": "Satellite P/L Module Heater Current",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Sat_P_L_Mod_Htr_I",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Sat P/L Mod Htr I",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Sat_Serv_Mod_Htr_I_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Satellite Service Module Heater Current",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Sat_Serv_Mod_Htr_I_2_Current_amps",
+      "type": "double",
+      "units": "amps",
+      "description": "Satellite Service Module Heater Current",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Sat_Serv_Mod_Htr_I",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Sat Serv Mod Htr I",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "MPC_MCA_I_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "MPC-MCA Current",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "MPC_MCA_I_2_Current_amps",
+      "type": "double",
+      "units": "amps",
+      "description": "MPC-MCA Current",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_MPC_MCA_I",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for MPC-MCA I",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "MPC_Input_I_Hi_Rng_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "MPC Input Current High Range",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "MPC_Input_I_Hi_Rng_2_Current_amps",
+      "type": "double",
+      "units": "amps",
+      "description": "MPC Input Current High Range",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_MPC_Input_I_Hi_Rng",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for MPC Input I Hi Rng",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "MPC_Input_I_Low_Rng_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "MPC Input Current Low Range",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "MPC_Input_I_Low_Rng_2_Current_amps",
+      "type": "double",
+      "units": "amps",
+      "description": "MPC Input Current Low Range",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_MPC_Input_I_Low_Rng",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for MPC Input I Low Rng",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Sat_Ext_Pwr_I_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Satellite External Power Current",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Sat_Ext_Pwr_I_2_Current_amps",
+      "type": "double",
+      "units": "amps",
+      "description": "Satellite External Power Current",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Sat_Ext_Pwr_I",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Sat Ext Pwr I",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "MCP_V_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "MPC Voltage",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "MCP_V_2_Voltage_volts",
+      "type": "double",
+      "units": "volts",
+      "description": "MPC Voltage",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_MCP_V",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for MCP V",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Sat_Ext_Pwr_V_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Satellite External Power Voltage",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Sat_Ext_Pwr_V_2_Voltage_volts",
+      "type": "double",
+      "units": "volts",
+      "description": "Satellite External Power Voltage",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Sat_Ext_Pwr_V",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Sat Ext Pwr V",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Pri_Upper_Tether_Cut_V_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Primary Upper Tether Cut Voltage",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Pri_Upper_Tether_Cut_V_2_Voltage_volts",
+      "type": "double",
+      "units": "volts",
+      "description": "Primary Upper Tether Cut Voltage",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Pri_Upper_Tether_Cut_V",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Pri Upper Tether Cut V",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Pri_Lower_Tether_Cut_V_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Primary Lower Tether Cut Voltage",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Pri_Lower_Tether_Cut_V_2_Voltage_volts",
+      "type": "double",
+      "units": "volts",
+      "description": "Primary Lower Tether Cut Voltage",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Pri_Lower_Tether_Cut_V",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Pri Lower Tether Cut V",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Pri_Boom_Eject_V1_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Primary Boom Eject Voltage 1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Pri_Boom_Eject_V1_2_Voltage_volts",
+      "type": "double",
+      "units": "volts",
+      "description": "Primary Boom Eject Voltage 1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Pri_Boom_Eject_V1",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Pri Boom Eject V1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Pri_Boom_Eject_V2_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Primary Boom Eject Voltage 2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Pri_Boom_Eject_V2_2_Voltage_volts",
+      "type": "double",
+      "units": "volts",
+      "description": "Primary Boom Eject Voltage 2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Pri_Boom_Eject_V2",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Pri Boom Eject V2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Pri_Boom_Eject_V3_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Primary Boom Eject Voltage 3",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Pri_Boom_Eject_V3_2_Voltage_volts",
+      "type": "double",
+      "units": "volts",
+      "description": "Primary Boom Eject Voltage 3",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Pri_Boom_Eject_V3",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Pri Boom Eject V3",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Sec_Upper_Tether_Cut_V_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Secondary Upper Tether Cut Voltage",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Sec_Upper_Tether_Cut_V_2_Voltage_volts",
+      "type": "double",
+      "units": "volts",
+      "description": "Secondary Upper Tether Cut Voltage",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Sec_Upper_Tether_Cut_V",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Sec Upper Tether Cut V",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Sec_Lower_Tether_Cut_V_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Secondary Lower Tether Cut Voltage",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Sec_Lower_Tether_Cut_V_2_Voltage_volts",
+      "type": "double",
+      "units": "volts",
+      "description": "Secondary Lower Tether Cut Voltage",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Sec_Lower_Tether_Cut_V",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Sec Lower Tether Cut V",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Sec_Boom_Eject_V1_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Secondary Boom Eject Voltage 1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Sec_Boom_Eject_V1_2_Voltage_volts",
+      "type": "double",
+      "units": "volts",
+      "description": "Secondary Boom Eject Voltage 1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Sec_Boom_Eject_V1",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Sec Boom Eject V1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Sec_Boom_Eject_V2_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Secondary Boom Eject Voltage 2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Sec_Boom_Eject_V2_2_Voltage_volts",
+      "type": "double",
+      "units": "volts",
+      "description": "Secondary Boom Eject Voltage 2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Sec_Boom_Eject_V2",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Sec Boom Eject V2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Sec_Boom_Eject_V3_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Secondary Boom Eject Voltage 3",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Sec_Boom_Eject_V3_2_Voltage_volts",
+      "type": "double",
+      "units": "volts",
+      "description": "Secondary Boom Eject Voltage 3",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Sec_Boom_Eject_V3",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Sec Boom Eject V3",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Outbrd_Fine_Tether_Ten_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Outboard Fine Tether Tension",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Outbrd_Fine_Tether_Ten_2_Tension_newtons",
+      "type": "double",
+      "units": "newtons",
+      "description": "Outboard Fine Tether Tension",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Outbrd_Fine_Tether_Ten",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Outbrd Fine Tether Ten",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Outbrd_Coarse_Tether_Ten_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Outboard Coarse Tether Tension",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Outbrd_Coarse_Tether_Ten_2_Tension_newtons",
+      "type": "double",
+      "units": "newtons",
+      "description": "Outboard Coarse Tether Tension",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Outbrd_Coarse_Tether_Ten",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Outbrd Coarse Tether Ten",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Inbrd_Tether_Ten_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Inboard Tether Tension",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Inbrd_Tether_Ten_2_Tension_newtons",
+      "type": "double",
+      "units": "newtons",
+      "description": "Inboard Tether Tension",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Inbrd_Tether_Ten",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Inbrd Tether Ten",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

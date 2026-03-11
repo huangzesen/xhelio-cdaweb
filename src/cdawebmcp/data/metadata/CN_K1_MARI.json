@@ -1,0 +1,32 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "Rio",
+      "type": "double",
+      "units": "dB",
+      "description": "Riometer Absorption at 4 sites (corrected for inst. charac.)",
+      "fill": "-9.999999848243207e+30",
+      "size": [
+        4
+      ]
+    },
+    {
+      "name": "Site_Up",
+      "type": "integer",
+      "units": "",
+      "description": "Site Availability (0 no data; 1 data available)",
+      "fill": "-128.0",
+      "size": [
+        4
+      ]
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

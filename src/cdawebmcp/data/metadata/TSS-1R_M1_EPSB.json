@@ -1,0 +1,838 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "SFMDM_EReg_PS_Byte_Err",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM Err Reg P. S. Byte Error",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_EReg_PS_Byte_Err",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM EReg PS Byte Err",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_EReg_Parity_Err",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM Err Reg Parity Error",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_EReg_Parity_Err",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM EReg Parity Err",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_EReg_Int_Bus",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM Err Reg Internal Bus Error",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_EReg_Int_Bus",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM EReg Int Bus",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_EReg_Data__Xfer",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM Err Reg Data Not Transferred",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_EReg_Data__Xfer",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM EReg Data !Xfer",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_EReg_Ch__Pres",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM Err Reg Channel Not Present",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_EReg_Ch__Pres",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM EReg Ch !Pres",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_EReg_BSDIO_Mod_Err",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM Err Reg BSDIO Module Error",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_EReg_BSDIO_Mod_Err",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM EReg BSDIO Mod Err",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_EReg_Pwr_Int_Err",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM Err Reg Power Interrupt Error",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_EReg_Pwr_Int_Err",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM EReg Pwr Int Err",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_GMT_Invld",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM GMT Invalid",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_GMT_Invld",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM GMT Invld",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_UART_Frm_Err",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM UART Framing Error",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_UART_Frm_Err",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM UART Frm Err",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_UART_Ovrn_Err",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM UART Overrun Error",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_UART_Ovrn_Err",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM UART Ovrn Err",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_UART_Parity_Err",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM UART Parity Error",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_UART_Parity_Err",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM UART Parity Err",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_UART_Byte_Mode_Req",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM UART Byte Mode Requested",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_UART_Byte_Mode_Req",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM UART Byte Mode Req",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_RS422_Stop_Bit",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM RS-422 Stop Bit",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_RS422_Stop_Bit",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM RS422 Stop Bit",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_IO_Xfer_Parity_Err",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM IO Transfer Parity Error",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_IO_Xfer_Parity_Err",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM IO Xfer Parity Err",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_IO_Xfer_Int_Bus_Err",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM IO Transfer Internal Bus Error",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_IO_Xfer_Int_Bus_Err",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM IO Xfer Int Bus Err",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_IO_Xfer_Data__Xfer",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM IO Transfer Data Not Transferred",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_IO_Xfer_Data__Xfer",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM IO Xfer Data !Xfer",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_IO_Xfer_Ch__Pres",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM IO Transfer Channel Not Present",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_IO_Xfer_Ch__Pres",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM IO Xfer Ch !Pres",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_IO_Xfer__Suc",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM IO Transfer Not Successful",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_IO_Xfer__Suc",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM IO Xfer !Suc",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_IO_Xfer_Re_EXEC_Fail",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM IO Transfer Re-EXEC Try Fail",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_IO_Xfer_Re_EXEC_Fail",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM IO Xfer Re-EXEC Fail",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_BSR_EPROM_Byte_Fail",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM BSR EEPROM Byte Fail",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_BSR_EPROM_Byte_Fail",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM BSR EPROM Byte Fail",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_BSR_RAM_Byte_Fail",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM BSR RAM Byte Fail",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_BSR_RAM_Byte_Fail",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM BSR RAM Byte Fail",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_BSR_ADC_Byte_Fail",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM BSR A/D Converter Byte Fail",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_BSR_ADC_Byte_Fail",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM BSR ADC Byte Fail",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_BSR_CPU_Byte_Fail",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM BSR CPU Byte Fail",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_BSR_CPU_Byte_Fail",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM BSR CPU Byte Fail",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_BSR_APU_Byte_Fail",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM BSR APU Byte Fail",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_BSR_APU_Byte_Fail",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM BSR APU Byte Fail",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_BSR_Mem_Mod_Byte_Fail",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM BSR Memory Module Byte Fail",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_BSR_Mem_Mod_Byte_Fail",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM BSR Mem Mod Byte Fail",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_BSR_Pwr_Sup_Byte_Fail",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM BSR Power Supply Byte Fail",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_BSR_Pwr_Sup_Byte_Fail",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM BSR Pwr Sup Byte Fail",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_BSR_DCO_Byte_Fail",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM BSR DCO Byte Fail",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_BSR_DCO_Byte_Fail",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM BSR DCO Byte Fail",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_BSR_SDIO_Byte_Fail",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM BSR SDIO Byte Fail",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_BSR_SDIO_Byte_Fail",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM BSR SDIO Byte Fail",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_BSR_DO5_Byte_Fail",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM BSR DO5 Byte Fail",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_BSR_DO5_Byte_Fail",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM BSR DO5 Byte Fail",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_BSR_RS422_SI_Byte_Fail",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM BSR RS422 SI Byte Fail",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_BSR_RS422_SI_Byte_Fail",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM BSR RS422 SI Byte Fail",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_BSR_PO5_Byte_Fail",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM BSR PO5 Byte Fail",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_BSR_PO5_Byte_Fail",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM BSR PO5 Byte Fail",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_BSR_DI5_Byte_Fail",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM BSR DI5 Byte Fail",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_BSR_DI5_Byte_Fail",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM BSR DI5 Byte Fail",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_BSR_RIOUM1_Byte_Fail",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM BSR RIOUM 1 Byte Fail",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_BSR_RIOUM1_Byte_Fail",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM BSR RIOUM1 Byte Fail",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_BSR_RIOUM2_Byte_Fail",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM BSR RIOUM 2 Byte Fail",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_BSR_RIOUM2_Byte_Fail",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM BSR RIOUM2 Byte Fail",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_BSR_DCIN_Byte_Fail",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM BSR DCIN Byte Fail",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_BSR_DCIN_Byte_Fail",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM BSR DCIN Byte Fail",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_BSR_PO28_Byte_Fail",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM BSR PO28 Byte Fail",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_BSR_PO28_Byte_Fail",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM BSR PO28 Byte Fail",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_BSR_DO28_Byte_Fail",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM BSR DO28 Byte Fail",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_BSR_DO28_Byte_Fail",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM BSR DO28 Byte Fail",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_BSR_DI28_Byte_Fail",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM BSR DI28 Byte Fail",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_BSR_DI28_Byte_Fail",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM BSR DI28 Byte Fail",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_BSR_GMTI_Byte_Fail",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM BSR GMTI Byte Fail",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_BSR_GMTI_Byte_Fail",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM BSR GMTI Byte Fail",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_BSR_DLM_Byte_Fail",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM BSR DLM Byte Fail",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_BSR_DLM_Byte_Fail",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM BSR DLM Byte Fail",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_BSR_PRGI_Byte_Fail",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM BSR PRGI Byte Fail",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_BSR_PRGI_Byte_Fail",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM BSR PRGI Byte Fail",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_BSR_PSPI_Byte_Fail",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM BSR PSPI Byte Fail",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_BSR_PSPI_Byte_Fail",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM BSR PSPI Byte Fail",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_RS232_SW_Mon_Enab",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM RS232 SW Monitor Enabled",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_RS232_SW_Mon_Enab",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM RS232 SW Mon Enab",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_RS232_SW_Ext_Inpt",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM RS232 SW Ext Input Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_RS232_SW_Ext_Inpt",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM RS232 SW Ext Inpt",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_RS232_SW_Frm_Err",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM RS232 SW Framing Error",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_RS232_SW_Frm_Err",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM RS232 SW Frm Err",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_RS232_SW_Ovrn_Err",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM RS232 SW Overrun Error",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_RS232_SW_Ovrn_Err",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM RS232 SW Ovrn Err",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_RS232_SW_Parity_Err",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM RS232 SW Parity Error",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_RS232_SW_Parity_Err",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM RS232 SW Parity Err",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_RS232_SW_Xfer_Buf_Emp",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM RS232 SW Transfer Buffer Empty",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_RS232_SW_Xfer_Buf_Emp",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM RS232 SW Xfer Buf Emp",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_RS232_SW_Data_Rec",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM RS232 SW Data Received",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_RS232_SW_Data_Rec",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM RS232 SW Data Rec",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_Maint_Pri_Core_Act",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM Maint Primary Core Active",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_Maint_Pri_Core_Act",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM Maint Pri Core Act",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_Maint_Bkup_Core_Act",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM Maint Backup Core Active",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_Maint_Bkup_Core_Act",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM Maint Bkup Core Act",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_Maint_Othr_Core_Fail",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM Maint Other Core Failed",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_Maint_Othr_Core_Fail",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM Maint Othr Core Fail",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_Maint_Parbuf_Unavail",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM Maint Parbuff Unavailable",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_Maint_Parbuf_Unavail",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM Maint Parbuf Unavail",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_Maint_Prsr_Rej_Cmd",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM Maint Command Rejected By Parser",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_Maint_Prsr_Rej_Cmd",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM Maint Prsr Rej Cmd",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_Maint_Sync_Loss_w_DDCU",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM Maint Sync Loss With DDCU (SPARE)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_Maint_Sync_Loss_w_DDCU",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM Maint Sync Loss w/DDCU",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_Maint_Invld_Sync_Sour",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM Maint Invalid Sync/Source",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_Maint_Invld_Sync_Sour",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM Maint Invld Sync/Sour",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_Maint_Invld_IOM_CMD_Id",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM Maint Invalid IOM/CMD ID",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_Maint_Invld_IOM_CMD_Id",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM Maint Invld IOM/CMD Id",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_Maint_Invld_Chksum",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM Maint Invalid Checksum",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_Maint_Invld_Chksum",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM Maint Invld Chksum",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_Maint_Wd_Cnt",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM Maint Invalid Word Count",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_Maint_Wd_Cnt",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM Maint Wd Cnt",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

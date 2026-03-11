@@ -1,0 +1,201 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "Out_Temp_1_Telemetry_Integer",
+      "type": "double",
+      "units": "Integer",
+      "description": "Outboard Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Out_Temp_2_Voltage_volts",
+      "type": "double",
+      "units": "volts",
+      "description": "Outboard Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Out_Temp_3_T_degC",
+      "type": "double",
+      "units": "deg(C)",
+      "description": "Outboard Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Out_Temp",
+      "type": "double",
+      "units": "Integer",
+      "description": "Data Quality Indicator for Out/Temp",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "In_Temp_1_Telemetry_Integer",
+      "type": "double",
+      "units": "Integer",
+      "description": "Inboard Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "In_Temp_2_Voltage_volts",
+      "type": "double",
+      "units": "volts",
+      "description": "Inboard Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "In_Temp_3_T_degC",
+      "type": "double",
+      "units": "deg(C)",
+      "description": "Inboard Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_In_Temp",
+      "type": "double",
+      "units": "Integer",
+      "description": "Data Quality Indicator for In/Temp",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Ele_Temp_1_Telemetry_Integer",
+      "type": "double",
+      "units": "Integer",
+      "description": "Electronics Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Ele_Temp_2_Voltage_volts",
+      "type": "double",
+      "units": "volts",
+      "description": "Electronics Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Ele_Temp_3_T_degC",
+      "type": "double",
+      "units": "deg(C)",
+      "description": "Electronics Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Ele_Temp",
+      "type": "double",
+      "units": "Integer",
+      "description": "Data Quality Indicator for Ele/Temp",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Negative_8V_Ref_1_Telemetry_Integer",
+      "type": "double",
+      "units": "Integer",
+      "description": "-8 volt Reference Voltage",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Negative_8V_Ref_2_Voltage_volts",
+      "type": "double",
+      "units": "volts",
+      "description": "-8 volt Reference Voltage",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Negative_8V_Ref",
+      "type": "double",
+      "units": "Integer",
+      "description": "Data Quality Indicator for Negative 8V Ref",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Plus_12V_Sup_1_Telemetry_Integer",
+      "type": "double",
+      "units": "Integer",
+      "description": "+12 volt Supply Voltage",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Plus_12V_Sup_2_Voltage_volts",
+      "type": "double",
+      "units": "volts",
+      "description": "+12 volt Supply Voltage",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Plus_12V_Sup",
+      "type": "double",
+      "units": "Integer",
+      "description": "Data Quality Indicator for Plus 12V Sup",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Negative_12V_Sup_1_Telemetry_Integer",
+      "type": "double",
+      "units": "Integer",
+      "description": "-12 volt Supply Voltage",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Negative_12V_Sup_2_Voltage_volts",
+      "type": "double",
+      "units": "volts",
+      "description": "-12 volt Supply Voltage",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Negative_12V_Sup",
+      "type": "double",
+      "units": "Integer",
+      "description": "Data Quality Indicator for Negative 12V Sup",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Plus_5V_Ref_1_Telemetry_Integer",
+      "type": "double",
+      "units": "Integer",
+      "description": "+5 volt Reference Voltage",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Plus_5V_Ref_2_Voltage_volts",
+      "type": "double",
+      "units": "volts",
+      "description": "+5 volt Reference Voltage",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Plus_5V_Ref",
+      "type": "double",
+      "units": "Integer",
+      "description": "Data Quality Indicator for Plus 5V Ref",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Spare_1_Telemetry_Integer",
+      "type": "double",
+      "units": "Integer",
+      "description": "SPARE",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Spare_2_Voltage_volts",
+      "type": "double",
+      "units": "volts",
+      "description": "SPARE",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Spare",
+      "type": "double",
+      "units": "Integer",
+      "description": "Data Quality Indicator for Spare",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

@@ -1,0 +1,96 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "OBDH_ASMIN_CH_T1_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Onboard Data Handling ASMN CH Test 1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "OBDH_ASMIN_CH_T1_2_Voltage_volts",
+      "type": "double",
+      "units": "volts",
+      "description": "Onboard Data Handling ASMN CH Test 1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_OBDH_ASMIN_CH_T1",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for OBDH ASMIN CH T1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "OBDH_ASMIN_CH_T2_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Onboard Data Handling ASMN CH Test 2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "OBDH_ASMIN_CH_T2_2_Voltage_volts",
+      "type": "double",
+      "units": "volts",
+      "description": "Onboard Data Handling ASMN CH Test 2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_OBDH_ASMIN_CH_T2",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for OBDH ASMIN CH T2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "OBDH_ASMIN_CH_T1_RTUP_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Onboard Data Handling ASMN CH Test 1 RTUP",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "OBDH_ASMIN_CH_T1_RTUP_2_Voltage_volts",
+      "type": "double",
+      "units": "volts",
+      "description": "Onboard Data Handling ASMN CH Test 1 RTUP",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_OBDH_ASMIN_CH_T1_RTUP",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for OBDH ASMIN CH T1 RTUP",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "OBDH_ASMIN_CH_T2_RTUP_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Onboard Data Handling ASMN CH Test 2 RTUP",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "OBDH_ASMIN_CH_T2_RTUP_2_Voltage_volts",
+      "type": "double",
+      "units": "volts",
+      "description": "Onboard Data Handling ASMN CH Test 2 RTUP",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_OBDH_ASMIN_CH_T2_RTUP",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for OBDH ASMIN CH T2 RTUP",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

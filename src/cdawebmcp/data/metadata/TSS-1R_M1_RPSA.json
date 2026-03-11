@@ -1,0 +1,138 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "SPES_1_Grid",
+      "type": "double",
+      "units": "unitless",
+      "description": "SPES 1 Grid Bias",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SPES_1_Grid",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for SPES 1 Grid",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SPES_2_Grid",
+      "type": "double",
+      "units": "unitless",
+      "description": "SPES 2 Grid Bias",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SPES_2_Grid",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for SPES 2 Grid",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SPES_3_Grid",
+      "type": "double",
+      "units": "unitless",
+      "description": "SPES 3 Grid Bias",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SPES_3_Grid",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for SPES 3 Grid",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SPES_4_Grid",
+      "type": "double",
+      "units": "unitless",
+      "description": "SPES 4 Grid Bias",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SPES_4_Grid",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for SPES 4 Grid",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SPES_5_Grid",
+      "type": "double",
+      "units": "unitless",
+      "description": "SPES 5 Grid Bias",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SPES_5_Grid",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for SPES 5 Grid",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "HVPS_1_State",
+      "type": "double",
+      "units": "unitless",
+      "description": "High Voltage Power Supply 1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_HVPS_1_State",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for HVPS 1 State",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "HVPS_2_State",
+      "type": "double",
+      "units": "unitless",
+      "description": "High Voltage Power Supply 2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_HVPS_2_State",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for HVPS 2 State",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "PPS_1_State",
+      "type": "double",
+      "units": "unitless",
+      "description": "Programmable Power Supply 1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_PPS_1_State",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for PPS 1 State",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "PPS_2_State",
+      "type": "double",
+      "units": "unitless",
+      "description": "Programmable Power Supply 2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_PPS_2_State",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for PPS 2 State",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

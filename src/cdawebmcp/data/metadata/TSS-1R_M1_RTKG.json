@@ -1,0 +1,40 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "LF_Mode",
+      "type": "double",
+      "units": "Integer",
+      "description": "LF Mode",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_LF_Mode",
+      "type": "double",
+      "units": "Integer",
+      "description": "Data Quality Indicator for LF Mode",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "LF_Sens",
+      "type": "double",
+      "units": "Integer",
+      "description": "LF Sensors",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_LF_Sens",
+      "type": "double",
+      "units": "Integer",
+      "description": "Data Quality Indicator for LF Sens",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

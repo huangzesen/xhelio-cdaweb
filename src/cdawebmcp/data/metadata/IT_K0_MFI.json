@@ -1,0 +1,49 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "B_GSE",
+      "type": "double",
+      "units": "nT",
+      "description": "Magnetic Field, 3 coord cartesian GSE",
+      "fill": "-9.999999848243207e+30",
+      "size": [
+        3
+      ]
+    },
+    {
+      "name": "B_GSM",
+      "type": "double",
+      "units": "nT",
+      "description": "Magnetic Field, 3 coord cartesian GSM",
+      "fill": "-9.999999848243207e+30",
+      "size": [
+        3
+      ]
+    },
+    {
+      "name": "B_abs",
+      "type": "double",
+      "units": "nT",
+      "description": "Magnetic Field absolute value, scalar",
+      "fill": "-9.999999848243207e+30"
+    },
+    {
+      "name": "Mf",
+      "type": "double",
+      "units": "nT/sqrt(Hz)",
+      "description": "Magnetic Field Fluctuations at 2 freq (2 and 725 Hz)",
+      "fill": "-9.999999848243207e+30",
+      "size": [
+        2
+      ]
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

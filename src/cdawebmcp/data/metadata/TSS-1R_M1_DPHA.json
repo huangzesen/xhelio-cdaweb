@@ -1,0 +1,47 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "SFMDM_Cmd_Cnt",
+      "type": "double",
+      "units": "Unitless",
+      "description": "SFMDM Command Count",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_Cmd_Cnt",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM Cmd Cnt",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Cmded_Pwidth_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Commanded Pulsewidth",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Cmded_Pwidth_2_Pulsewidth_Unitless",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Commanded Pulsewidth",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Cmded_Pwidth",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Cmded Pwidth",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

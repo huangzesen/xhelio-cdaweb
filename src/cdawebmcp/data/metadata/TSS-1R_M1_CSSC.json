@@ -1,0 +1,628 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "RJDF1_Jet_F1F",
+      "type": "double",
+      "units": "Unitless",
+      "description": "RJDF1 Jet F1F Driver Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_RJDF1_Jet_F1F",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for RJDF1 Jet F1F",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "RJDF1_Jet_F1L",
+      "type": "double",
+      "units": "Unitless",
+      "description": "RJDF1 Jet F1L Driver Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_RJDF1_Jet_F1L",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for RJDF1 Jet F1L",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "RJDF1_Jet_F1U",
+      "type": "double",
+      "units": "Unitless",
+      "description": "RJDF1 Jet F1U Driver Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_RJDF1_Jet_F1U",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for RJDF1 Jet F1U",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "RJDF1_Jet_F1D",
+      "type": "double",
+      "units": "Unitless",
+      "description": "RJDF1 Jet F1D Driver Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_RJDF1_Jet_F1D",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for RJDF1 Jet F1D",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "RJDF1_Jet_F2F",
+      "type": "double",
+      "units": "Unitless",
+      "description": "RJDF1 Jet F2F Driver Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_RJDF1_Jet_F2F",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for RJDF1 Jet F2F",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "RJDF1_Jet_F2R",
+      "type": "double",
+      "units": "Unitless",
+      "description": "RJDF1 Jet F2R Driver Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_RJDF1_Jet_F2R",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for RJDF1 Jet F2R",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "RJDF1_Jet_F2U",
+      "type": "double",
+      "units": "Unitless",
+      "description": "RJDF1 Jet F2U Driver Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_RJDF1_Jet_F2U",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for RJDF1 Jet F2U",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "RJDF1_Jet_F2D",
+      "type": "double",
+      "units": "Unitless",
+      "description": "RJDF1 Jet F2D Driver Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_RJDF1_Jet_F2D",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for RJDF1 Jet F2D",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "RJDF2_Jet_F3F",
+      "type": "double",
+      "units": "Unitless",
+      "description": "RJDF2 Jet F3F Driver Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_RJDF2_Jet_F3F",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for RJDF2 Jet F3F",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "RJDF2_Jet_F3L",
+      "type": "double",
+      "units": "Unitless",
+      "description": "RJDF2 Jet F3L Driver Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_RJDF2_Jet_F3L",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for RJDF2 Jet F3L",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "RJDF2_Jet_F3U",
+      "type": "double",
+      "units": "Unitless",
+      "description": "RJDF2 Jet F3U Driver Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_RJDF2_Jet_F3U",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for RJDF2 Jet F3U",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "RJDF2_Jet_F3D",
+      "type": "double",
+      "units": "Unitless",
+      "description": "RJDF2 Jet F3D Driver Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_RJDF2_Jet_F3D",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for RJDF2 Jet F3D",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "RJDF2_Jet_F4R",
+      "type": "double",
+      "units": "Unitless",
+      "description": "RJDF2 Jet F4R Driver Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_RJDF2_Jet_F4R",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for RJDF2 Jet F4R",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "RJDF2_Jet_F4D",
+      "type": "double",
+      "units": "Unitless",
+      "description": "RJDF2 Jet F4D Driver Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_RJDF2_Jet_F4D",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for RJDF2 Jet F4D",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "RJDF2_Jet_F5L_Vernier",
+      "type": "double",
+      "units": "Unitless",
+      "description": "RJDF2 Jet F5L Driver Vernier Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_RJDF2_Jet_F5L_Vernier",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for RJDF2 Jet F5L Vernier",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "RJDF2_Jet_F5R_Vernier",
+      "type": "double",
+      "units": "Unitless",
+      "description": "RJDF2 Jet F5R Driver Vernier Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_RJDF2_Jet_F5R_Vernier",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for RJDF2 Jet F5R Vernier",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "RJDA1_Jet_L1A",
+      "type": "double",
+      "units": "Unitless",
+      "description": "RJDA1 Jet L1A Driver Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_RJDA1_Jet_L1A",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for RJDA1 Jet L1A",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "RJDA1_Jet_L1L",
+      "type": "double",
+      "units": "Unitless",
+      "description": "RJDA1 Jet L1L Driver Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_RJDA1_Jet_L1L",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for RJDA1 Jet L1L",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "RJDA1_Jet_L1U",
+      "type": "double",
+      "units": "Unitless",
+      "description": "RJDA1 Jet L1U Driver Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_RJDA1_Jet_L1U",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for RJDA1 Jet L1U",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "RJDA1_Jet_L2L",
+      "type": "double",
+      "units": "Unitless",
+      "description": "RJDA1 Jet L2L Driver Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_RJDA1_Jet_L2L",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for RJDA1 Jet L2L",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "RJDA1_Jet_L2U",
+      "type": "double",
+      "units": "Unitless",
+      "description": "RJDA1 Jet L2U Driver Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_RJDA1_Jet_L2U",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for RJDA1 Jet L2U",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "RJDA1_Jet_L2D",
+      "type": "double",
+      "units": "Unitless",
+      "description": "RJDA1 Jet L2D Driver Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_RJDA1_Jet_L2D",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for RJDA1 Jet L2D",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "RJDA1_Jet_R1A",
+      "type": "double",
+      "units": "Unitless",
+      "description": "RJDA1 Jet R1A Driver Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_RJDA1_Jet_R1A",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for RJDA1 Jet R1A",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "RJDA1_Jet_R1R",
+      "type": "double",
+      "units": "Unitless",
+      "description": "RJDA1 Jet R1R Driver Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_RJDA1_Jet_R1R",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for RJDA1 Jet R1R",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "RJDA1_Jet_R1U",
+      "type": "double",
+      "units": "Unitless",
+      "description": "RJDA1 Jet R1U Driver Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_RJDA1_Jet_R1U",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for RJDA1 Jet R1U",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "RJDA1_Jet_R2R",
+      "type": "double",
+      "units": "Unitless",
+      "description": "RJDA1 Jet R2R Driver Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_RJDA1_Jet_R2R",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for RJDA1 Jet R2R",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "RJDA1_Jet_R2U",
+      "type": "double",
+      "units": "Unitless",
+      "description": "RJDA1 Jet R2U Driver Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_RJDA1_Jet_R2U",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for RJDA1 Jet R2U",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "RJDA1_Jet_R2D",
+      "type": "double",
+      "units": "Unitless",
+      "description": "RJDA1 Jet R2D Driver Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_RJDA1_Jet_R2D",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for RJDA1 Jet R2D",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "RJDA1_Jet_L5D_Vernier",
+      "type": "double",
+      "units": "Unitless",
+      "description": "RJDA1 Jet L5D Driver Vernier Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_RJDA1_Jet_L5D_Vernier",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for RJDA1 Jet L5D Vernier",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "RJDA1_Jet_L5L_Vernier",
+      "type": "double",
+      "units": "Unitless",
+      "description": "RJDA1 Jet L5L Driver Vernier Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_RJDA1_Jet_L5L_Vernier",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for RJDA1 Jet L5L Vernier",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "RJDA2_Jet_L3A",
+      "type": "double",
+      "units": "Unitless",
+      "description": "RJDA2 Jet L3A Driver Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_RJDA2_Jet_L3A",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for RJDA2 Jet L3A",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "RJDA2_Jet_L3L",
+      "type": "double",
+      "units": "Unitless",
+      "description": "RJDA2 Jet L3L Driver Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_RJDA2_Jet_L3L",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for RJDA2 Jet L3L",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "RJDA2_Jet_L3D",
+      "type": "double",
+      "units": "Unitless",
+      "description": "RJDA2 Jet L3D Driver Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_RJDA2_Jet_L3D",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for RJDA2 Jet L3D",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "RJDA2_Jet_L4L",
+      "type": "double",
+      "units": "Unitless",
+      "description": "RJDA2 Jet L4L Driver Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_RJDA2_Jet_L4L",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for RJDA2 Jet L4L",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "RJDA2_Jet_L4U",
+      "type": "double",
+      "units": "Unitless",
+      "description": "RJDA2 Jet L4U Driver Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_RJDA2_Jet_L4U",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for RJDA2 Jet L4U",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "RJDA2_Jet_L4D",
+      "type": "double",
+      "units": "Unitless",
+      "description": "RJDA2 Jet L4D Driver Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_RJDA2_Jet_L4D",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for RJDA2 Jet L4D",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "RJDA2_Jet_R3A",
+      "type": "double",
+      "units": "Unitless",
+      "description": "RJDA2 Jet R3A Driver Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_RJDA2_Jet_R3A",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for RJDA2 Jet R3A",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "RJDA2_Jet_R3R",
+      "type": "double",
+      "units": "Unitless",
+      "description": "RJDA2 Jet R3R Driver Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_RJDA2_Jet_R3R",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for RJDA2 Jet R3R",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "RJDA2_Jet_R3D",
+      "type": "double",
+      "units": "Unitless",
+      "description": "RJDA2 Jet R3D Driver Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_RJDA2_Jet_R3D",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for RJDA2 Jet R3D",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "RJDA2_Jet_R4R",
+      "type": "double",
+      "units": "Unitless",
+      "description": "RJDA2 Jet R4R Driver Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_RJDA2_Jet_R4R",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for RJDA2 Jet R4R",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "RJDA2_Jet_R4U",
+      "type": "double",
+      "units": "Unitless",
+      "description": "RJDA2 Jet R4U Driver Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_RJDA2_Jet_R4U",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for RJDA2 Jet R4U",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "RJDA2_Jet_R4D",
+      "type": "double",
+      "units": "Unitless",
+      "description": "RJDA2 Jet R4D Driver Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_RJDA2_Jet_R4D",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for RJDA2 Jet R4D",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "RJDA2_Jet_R5R_Vernier",
+      "type": "double",
+      "units": "Unitless",
+      "description": "RJDA2 Jet R5R Driver Vernier Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_RJDA2_Jet_R5R_Vernier",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for RJDA2 Jet R5R Vernier",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "RJDA2_Jet_R5D_Vernier",
+      "type": "double",
+      "units": "Unitless",
+      "description": "RJDA2 Jet R5D Driver Vernier Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_RJDA2_Jet_R5D_Vernier",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for RJDA2 Jet R5D Vernier",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

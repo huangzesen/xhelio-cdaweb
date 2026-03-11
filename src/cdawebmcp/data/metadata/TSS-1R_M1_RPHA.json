@@ -1,0 +1,124 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "FmtCntr_Lo",
+      "type": "double",
+      "units": "unitless",
+      "description": "Format Counter Lo Byte",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_FmtCntr_Lo",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for FmtCntr/Lo",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "FmtCntr_Hi",
+      "type": "double",
+      "units": "unitless",
+      "description": "Format Counter Hi Byte",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_FmtCntr_Hi",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for FmtCntr/Hi",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Cyc_Cntr",
+      "type": "double",
+      "units": "unitless",
+      "description": "Cycle Counter",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Cyc_Cntr",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Cyc/Cntr",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Cmd_Word",
+      "type": "double",
+      "units": "unitless",
+      "description": "Reflected Command Word",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Cmd_Word",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Cmd/Word",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DIFP_E_T_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "DIFP-E Temperature Monitor",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DIFP_E_T_2_T_degC",
+      "type": "double",
+      "units": "deg(C)",
+      "description": "DIFP-E Temperature Monitor",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_DIFP_E_T",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for DIFP-E/T",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DIFP_S_T_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "DIFP-S Temperature Monitor",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DIFP_S_T_2_T_degC",
+      "type": "double",
+      "units": "deg(C)",
+      "description": "DIFP-S Temperature Monitor",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_DIFP_S_T",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for DIFP-S/T",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "EPROM_Chksm",
+      "type": "double",
+      "units": "unitless",
+      "description": "EPROM Check Sum Byte",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_EPROM_Chksm",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for EPROM/Chksm",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

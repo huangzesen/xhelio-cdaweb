@@ -1,0 +1,61 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "RX_Coherent_AGC_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "RX Coherent AGC",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "RX_Coherent_AGC_2_Power_DbM",
+      "type": "double",
+      "units": "DbM",
+      "description": "RX Coherent AGC",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_RX_Coherent_AGC",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for RX Coherent AGC",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Loop_Stress_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Loop Stress",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Loop_Stress_2_angle_degrees",
+      "type": "double",
+      "units": "degrees",
+      "description": "Loop Stress",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Loop_Stress",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Loop Stress",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "MODE0_RX_Temperature_Range",
+      "type": "double",
+      "units": "unitless",
+      "description": "Status Indicator RX Temperature Range",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

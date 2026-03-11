@@ -1,0 +1,40 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "RETE_Mode",
+      "type": "double",
+      "units": "Integer",
+      "description": "RETE Mode",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_RETE_Mode",
+      "type": "double",
+      "units": "Integer",
+      "description": "Data Quality Indicator for RETE Mode",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "RETE_Pg_",
+      "type": "double",
+      "units": "Integer",
+      "description": "RETE Page Number",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_RETE_Pg_",
+      "type": "double",
+      "units": "Integer",
+      "description": "Data Quality Indicator for RETE Pg#",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

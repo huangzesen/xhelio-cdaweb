@@ -1,0 +1,131 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "sc_position_x_ss",
+      "type": "double",
+      "units": "km",
+      "description": "Spacecraft Position x in MSO coordinates.",
+      "fill": "nan"
+    },
+    {
+      "name": "sc_position_y_ss",
+      "type": "double",
+      "units": "km",
+      "description": "Spacecraft Position y in MSO coordinates.",
+      "fill": "nan"
+    },
+    {
+      "name": "sc_position_z_ss",
+      "type": "double",
+      "units": "km",
+      "description": "Spacecraft Position z in MSO coordinates.",
+      "fill": "nan"
+    },
+    {
+      "name": "sc_position_x_pc",
+      "type": "double",
+      "units": "km",
+      "description": "Spacecraft Position x in planetocentric coordinates.",
+      "fill": "nan"
+    },
+    {
+      "name": "sc_position_y_pc",
+      "type": "double",
+      "units": "km",
+      "description": "Spacecraft Position y in planetocentric coordinates.",
+      "fill": "nan"
+    },
+    {
+      "name": "sc_position_z_pc",
+      "type": "double",
+      "units": "km",
+      "description": "Spacecraft Position z in planetocentric coordinates.",
+      "fill": "nan"
+    },
+    {
+      "name": "altitude",
+      "type": "double",
+      "units": "km",
+      "description": "Altitude",
+      "fill": "nan"
+    },
+    {
+      "name": "decimal_day",
+      "type": "double",
+      "units": "days",
+      "description": "Decimal Day",
+      "fill": "-999.0"
+    },
+    {
+      "name": "b_range_hss",
+      "type": "double",
+      "units": "none",
+      "description": "Magnetic Field Range Sunstate",
+      "fill": "nan"
+    },
+    {
+      "name": "bx_hss",
+      "type": "double",
+      "units": "nT",
+      "description": "Magnetic Field X MSO",
+      "fill": "nan"
+    },
+    {
+      "name": "by_hss",
+      "type": "double",
+      "units": "nT",
+      "description": "Magnetic Field Y MSO",
+      "fill": "nan"
+    },
+    {
+      "name": "bz_hss",
+      "type": "double",
+      "units": "nT",
+      "description": "Magnetic Field Z MSO",
+      "fill": "nan"
+    },
+    {
+      "name": "b_range_high_pl",
+      "type": "double",
+      "units": "none",
+      "description": "Magnetic Field Range Payload",
+      "fill": "nan"
+    },
+    {
+      "name": "bx_high_pl",
+      "type": "double",
+      "units": "nT",
+      "description": "Magnetic Field X Payload",
+      "fill": "nan"
+    },
+    {
+      "name": "by_high_pl",
+      "type": "double",
+      "units": "nT",
+      "description": "Magnetic Field Y Payload",
+      "fill": "nan"
+    },
+    {
+      "name": "bz_high_pl",
+      "type": "double",
+      "units": "nT",
+      "description": "Magnetic Field Z Payload",
+      "fill": "nan"
+    },
+    {
+      "name": "magnitude",
+      "type": "double",
+      "units": "nT",
+      "description": "Magnetic Field Magnitude",
+      "fill": "nan"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

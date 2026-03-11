@@ -8,8 +8,6 @@ import numpy as np
 
 logger = logging.getLogger(__name__)
 
-_BUNDLED_METADATA_DIR = Path(__file__).parent / "data" / "metadata"
-
 MASTER_CDF_BASE = "https://cdaweb.gsfc.nasa.gov/pub/software/cdawlib/0MASTERS"
 
 # CDF type string -> parameter type mapping
@@ -108,15 +106,6 @@ def _resolve_metadata(dataset_id: str) -> dict:
     if cache_file.exists():
         try:
             with open(cache_file, "r", encoding="utf-8") as f:
-                return json.load(f)
-        except (json.JSONDecodeError, OSError):
-            pass
-
-    # Try bundled metadata
-    bundled_file = _BUNDLED_METADATA_DIR / f"{dataset_id}.json"
-    if bundled_file.exists():
-        try:
-            with open(bundled_file, "r", encoding="utf-8") as f:
                 return json.load(f)
         except (json.JSONDecodeError, OSError):
             pass

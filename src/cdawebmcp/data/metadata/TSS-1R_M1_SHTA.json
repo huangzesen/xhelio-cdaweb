@@ -1,0 +1,138 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "Gyro_Pkg_1_Temp_X_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Gyro Package 1 Temperature X",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Gyro_Pkg_1_Temp_X_2_T_degC",
+      "type": "double",
+      "units": "deg(C)",
+      "description": "Gyro Package 1 Temperature X",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Gyro_Pkg_1_Temp_X",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Gyro Pkg 1 Temp X",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Gyro_Pkg_1_Temp_Z_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Gyro Package 1 Temperature Z",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Gyro_Pkg_1_Temp_Z_2_T_degC",
+      "type": "double",
+      "units": "deg(C)",
+      "description": "Gyro Package 1 Temperature Z",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Gyro_Pkg_1_Temp_Z",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Gyro Pkg 1 Temp Z",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Gyro_Pkg_2_Temp_Y_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Gyro Package 2 Temperature Y",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Gyro_Pkg_2_Temp_Y_2_T_degC",
+      "type": "double",
+      "units": "deg(C)",
+      "description": "Gyro Package 2 Temperature Y",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Gyro_Pkg_2_Temp_Y",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Gyro Pkg 2 Temp Y",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Gyro_Pkg_1_Temp_S_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Gyro Package 2 Temperature Skew",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Gyro_Pkg_1_Temp_S_2_T_degC",
+      "type": "double",
+      "units": "deg(C)",
+      "description": "Gyro Package 2 Temperature Skew",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Gyro_Pkg_1_Temp_S",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Gyro Pkg 1 Temp S",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "ES1_Int_Temp_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "ES1 Internal Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "ES1_Int_Temp_2_T_degC",
+      "type": "double",
+      "units": "deg(C)",
+      "description": "ES1 Internal Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_ES1_Int_Temp",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for ES1 Int Temp",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "ES2_Int_Temp_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "ES2 Internal Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "ES2_Int_Temp_2_T_degC",
+      "type": "double",
+      "units": "deg(C)",
+      "description": "ES2 Internal Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_ES2_Int_Temp",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for ES2 Int Temp",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

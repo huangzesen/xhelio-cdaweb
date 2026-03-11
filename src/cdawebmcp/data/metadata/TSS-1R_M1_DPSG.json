@@ -1,0 +1,530 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "MPC",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "MPC Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_MPC",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for MPC",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "MPC_VCMD",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "MPC VCMD Setpoint",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_MPC_VCMD",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for MPC VCMD",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "JTS_Enable_HARD",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "JTS Enable Status HARD",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_JTS_Enable_HARD",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for JTS Enable HARD",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "JTS_Enable_D_Buf",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "JTS Enable Status D-Buff",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_JTS_Enable_D_Buf",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for JTS Enable D-Buf",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "JTS_Fire_HARD",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "JTS Fire Status HARD",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_JTS_Fire_HARD",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for JTS Fire HARD",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "JTS_Fire_D_Buf",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "JTS Fire Status D-Buff",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_JTS_Fire_D_Buf",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for JTS Fire D-Buf",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DPY_RTR_Enable_HARD",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "DPY/RTR Enable Status Hard",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_DPY_RTR_Enable_HARD",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for DPY/RTR Enable HARD",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DPY_RTR_Enable_DBuf",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "DPY/RTR Enable Status D-Buff",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_DPY_RTR_Enable_DBuf",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for DPY/RTR Enable DBuf",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DPY_RTR_Status_HARD",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "DPY/RTR Status Hard",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_DPY_RTR_Status_HARD",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for DPY/RTR Status HARD",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DPY_RTR_Status_DBuf",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "DPY/RTR Status D-Buff",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_DPY_RTR_Status_DBuf",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for DPY/RTR Status DBuf",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Gyro_Status_DBuf",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Gyro Status D-Buff",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Gyro_Status_DBuf",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Gyro Status DBuf",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "OBDH_SlfChk_DBuf",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "OBDH Self-Check Status D-Buff",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_OBDH_SlfChk_DBuf",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for OBDH SlfChk DBuf",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "RAM_Chkout",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "RAM Checkout Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_RAM_Chkout",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for RAM Chkout",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "ROM_Chkout",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "ROM Checkout Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_ROM_Chkout",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for ROM Chkout",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Sat_InLn_Thrus_DACA",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Satellite In-line Thrusters Status DACA",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Sat_InLn_Thrus_DACA",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Sat InLn Thrus DACA",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Sat_InLn_Thrus_Nec",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Satellite In-line Thrusters Necessary",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Sat_InLn_Thrus_Nec",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Sat InLn Thrus Nec",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Sat_Hunt_Mode",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Satellite Hunt Mode (Sat TLM)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Sat_Hunt_Mode",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Sat Hunt Mode",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Sat_TLM_Buf_Full",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Satellite TLM Buffer Full (Sat TLM)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Sat_TLM_Buf_Full",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Sat TLM Buf Full",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Update_Par_Mode",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Update Parameter Mode",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Update_Par_Mode",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Update Par Mode",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Brake_Sen_Under_V1",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Brake Sensor Under Voltage 1 Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Brake_Sen_Under_V1",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Brake Sen Under V1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Brake_Sen_Under_V2",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Brake Sensor Under Voltage 2 Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Brake_Sen_Under_V2",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Brake Sen Under V2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Reel_Lock_Diseng2",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Reel Lock Disengaged 2 Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Reel_Lock_Diseng2",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Reel Lock Diseng2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Torq_Test1",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Torque Test 1 Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Torq_Test1",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Torq Test1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Torq_Test2",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Torque Test 2 Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Torq_Test2",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Torq Test2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Prop_Basic_Ctrl_Mode",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Proportional/Basic Control Mode",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Prop_Basic_Ctrl_Mode",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Prop/Basic Ctrl Mode",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "St_Const_PW_Ret_Enabled",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Start Constant PW Retrieval Enabled",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_St_Const_PW_Ret_Enabled",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for St Const PW Ret Enabled",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Ctrl_Laws_Active",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Control Laws Active",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Ctrl_Laws_Active",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Ctrl Laws Active",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Inst_Tether_Dir1",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Instantaneous Tether Direction 1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Inst_Tether_Dir1",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Inst Tether Dir1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Inst_Tether_Dir2",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Instantaneous Tether Direction 2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Inst_Tether_Dir2",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Inst Tether Dir2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Motor_Gen_Enable",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Motor/Generator Mode",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Motor_Gen_Enable",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Motor/Gen Enable",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Resis_Bank1",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Resistor Bank 1 Enable",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Resis_Bank1",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Resis Bank1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Resis_Bank2",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Resistor Bank 2 Enable",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Resis_Bank2",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Resis Bank2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Reel_Motor_Enable",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Reel Motor Enable",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Reel_Motor_Enable",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Reel Motor Enable",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Torq_Test_Cmd2",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Torque Test Cmd 2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Torq_Test_Cmd2",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Torq Test Cmd2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "APS_Pres_DBuf",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "APS Pressure Status D-Buff",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_APS_Pres_DBuf",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for APS Pres DBuf",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Bat_Temp_DBuf",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Battery Temperature Status - D-Buff",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Bat_Temp_DBuf",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Bat Temp DBuf",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Gyro_Temp_DBuf",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Gyro Temperature Status D-Buff",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Gyro_Temp_DBuf",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Gyro Temp DBuf",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

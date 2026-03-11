@@ -1,0 +1,68 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "Cur_Seg_Num_In_Prof",
+      "type": "double",
+      "units": "unitless",
+      "description": "Current Segment Number In Profile",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Cur_Seg_Num_In_Prof",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Cur Seg Num In Prof",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "I_Time_Ellapsed_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Percent Of Time Elapsed In Segment",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "I_Time_Ellapsed_2_Percentage__",
+      "type": "double",
+      "units": "%",
+      "description": "Percent Of Time Elapsed In Segment",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality___Time_Ellapsed",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for % Time Ellapsed",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Time_Remain_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Time Remaining In Segment",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Time_Remain_2_Time_seconds",
+      "type": "double",
+      "units": "seconds",
+      "description": "Time Remaining In Segment",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Time_Remain",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Time Remain",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

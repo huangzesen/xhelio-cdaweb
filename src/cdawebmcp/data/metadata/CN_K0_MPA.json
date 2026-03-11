@@ -1,0 +1,29 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "i_max",
+      "type": "integer",
+      "units": "Rayleighs",
+      "description": "Brightest Intensity from Geodetic Lat 46-67, Long=265",
+      "fill": "-2147483648.0"
+    },
+    {
+      "name": "scan",
+      "type": "integer",
+      "units": "Ray*254/i_max",
+      "description": "42 Values of 5577A Intensities from Geodetic Lat 46-67, Long=265",
+      "fill": "255.0",
+      "size": [
+        42
+      ]
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

@@ -1,0 +1,40 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "Ne",
+      "type": "double",
+      "units": "no/cc",
+      "description": "Electron Number Density, full energy range",
+      "fill": "-9.999999848243207e+30"
+    },
+    {
+      "name": "Te",
+      "type": "double",
+      "units": "eV",
+      "description": "Electron mean energy, full energy range",
+      "fill": "-9.999999848243207e+30"
+    },
+    {
+      "name": "Ne1",
+      "type": "double",
+      "units": "no/cc",
+      "description": "Electron Density, lowest energies cut off",
+      "fill": "-9.999999848243207e+30"
+    },
+    {
+      "name": "Te1",
+      "type": "double",
+      "units": "eV",
+      "description": "Electron mean energy, lowest energies cut off",
+      "fill": "-9.999999848243207e+30"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

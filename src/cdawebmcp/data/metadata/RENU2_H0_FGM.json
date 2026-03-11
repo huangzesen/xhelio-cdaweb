@@ -1,0 +1,22 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "B",
+      "type": "double",
+      "units": "Gauss",
+      "description": "magnetic field - in geomagneticcoordinates, despun",
+      "fill": "-9.999999848243207e+30",
+      "size": [
+        3
+      ]
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

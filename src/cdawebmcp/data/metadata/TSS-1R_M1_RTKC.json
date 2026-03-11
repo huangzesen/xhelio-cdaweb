@@ -1,0 +1,152 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "Ram_Add_Line",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Ram Address Line Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Ram_Add_Line",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for Ram Add Line",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Checksum",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Checksum Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Checksum",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for Checksum",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Exceeding_Data",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Exceeding Data Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Exceeding_Data",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for Exceeding Data",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Overrun",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Overrun Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Overrun",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for Overrun",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Framing",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Framing Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Framing",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for Framing",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Parity",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Parity Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Parity",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for Parity",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "HF_TimeOut",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "HF Time Out Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_HF_TimeOut",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for HF TimeOut",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "MF_TimeOut",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "MF Time Out Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_MF_TimeOut",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for MF TimeOut",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "LF_TimeOut",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "LF Time Out Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_LF_TimeOut",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for LF TimeOut",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Exceeding_Samp",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Exceeding Sampling Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Exceeding_Samp",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for Exceeding Samp",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

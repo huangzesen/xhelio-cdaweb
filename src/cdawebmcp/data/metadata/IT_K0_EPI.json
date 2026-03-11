@@ -1,0 +1,54 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "Fe1",
+      "type": "double",
+      "units": "no/cm^2/s/keV/st",
+      "description": "Electron Flux, 21-26 keV (DOK-2 first electron sensor, fixed)",
+      "fill": "-9.999999848243207e+30"
+    },
+    {
+      "name": "Fe2",
+      "type": "double",
+      "units": "no/cm^2/s/keV/st",
+      "description": "Electron Flux, 76-95 keV (DOK-2 first electron sensor, fixed)",
+      "fill": "-9.999999848243207e+30"
+    },
+    {
+      "name": "Fp1",
+      "type": "double",
+      "units": "no/cm^2/s/keV/st",
+      "description": "Proton Flux, 22-28 keV (DOK-2 first proton sensor, fixed)",
+      "fill": "-9.999999848243207e+30"
+    },
+    {
+      "name": "Fp2",
+      "type": "double",
+      "units": "no/cm^2/s/keV/st",
+      "description": "Proton Flux, 21-27 keV (DOK-2 second proton sensor, scan)",
+      "fill": "-9.999999848243207e+30"
+    },
+    {
+      "name": "Fe3",
+      "type": "double",
+      "units": "no/cm^2/s/keV/st",
+      "description": "Electron Flux, 150-500 keV (SKA-2 electron sensor)",
+      "fill": "-9.999999848243207e+30"
+    },
+    {
+      "name": "Fp3",
+      "type": "double",
+      "units": "no/cm^2/s/keV/st",
+      "description": "Proton Flux, 1-3 MeV (SKA-2 proton sensor)",
+      "fill": "-9.999999848243207e+30"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

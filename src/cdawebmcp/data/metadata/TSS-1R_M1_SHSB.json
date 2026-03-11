@@ -1,0 +1,180 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "X_Gyro_Convtr",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "X Converter Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_X_Gyro_Convtr",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for X Gyro Convtr",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Y_Gyro_Convtr",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Y Converter Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Y_Gyro_Convtr",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Y Gyro Convtr",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Z_Gyro_Convtr",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Z Converter Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Z_Gyro_Convtr",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Z Gyro Convtr",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "S_Gyro_Convtr",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Skew Converter Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_S_Gyro_Convtr",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for S Gyro Convtr",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "X_Gyro_Heating",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "X Heating Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_X_Gyro_Heating",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for X Gyro Heating",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Y_Gyro_Heating",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Y Heating Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Y_Gyro_Heating",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Y Gyro Heating",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Z_Gyro_Heating",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Z Heating Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Z_Gyro_Heating",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Z Gyro Heating",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "S_Gyro_Heating",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Skew Heating Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_S_Gyro_Heating",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for S Gyro Heating",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "X_Gyro_Wheel",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "X Wheel Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_X_Gyro_Wheel",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for X Gyro Wheel",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Y_Gyro_Wheel",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Y Wheel Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Y_Gyro_Wheel",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Y Gyro Wheel",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Z_Gyro_Wheel",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Z Wheel Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Z_Gyro_Wheel",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Z Gyro Wheel",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "S_Gyro_Wheel",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Skew Wheel Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_S_Gyro_Wheel",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for S Gyro Wheel",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

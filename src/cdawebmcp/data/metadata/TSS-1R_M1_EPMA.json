@@ -1,0 +1,292 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "EMP_PCB_T_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "EMP PCB Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "EMP_PCB_T_2_T_degrees_F",
+      "type": "double",
+      "units": "degrees F",
+      "description": "EMP PCB Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_EMP_PCB_T",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for EMP PCB T",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "EMP_SFMDM_Pri_Core_T_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "EMP SFMDM Primary Core Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "EMP_SFMDM_Pri_Core_T_2_T_degrees_F",
+      "type": "double",
+      "units": "degrees F",
+      "description": "EMP SFMDM Primary Core Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_EMP_SFMDM_Pri_Core_T",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for EMP SFMDM Pri Core T",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "EMP_SFMDM_Sec_Core_T_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "EMP SFMDM Backup Core Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "EMP_SFMDM_Sec_Core_T_2_T_degrees_F",
+      "type": "double",
+      "units": "degrees F",
+      "description": "EMP SFMDM Backup Core Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_EMP_SFMDM_Sec_Core_T",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for EMP SFMDM Sec Core T",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "EMP_Freon_Pmp_Out_T_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "EMP Freon Pump Outlet Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "EMP_Freon_Pmp_Out_T_2_T_degrees_F",
+      "type": "double",
+      "units": "degrees F",
+      "description": "EMP Freon Pump Outlet Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_EMP_Freon_Pmp_Out_T",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for EMP Freon Pmp Out T",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "EMP_Freon_Inlet_T_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "EMP Freon Inlet Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "EMP_Freon_Inlet_T_2_T_degrees_F",
+      "type": "double",
+      "units": "degrees F",
+      "description": "EMP Freon Inlet Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_EMP_Freon_Inlet_T",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for EMP Freon Inlet T",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "EMP_Exp_Freon_Ret_T_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "EMP Exp Freon Return Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "EMP_Exp_Freon_Ret_T_2_T_degrees_F",
+      "type": "double",
+      "units": "degrees F",
+      "description": "EMP Exp Freon Return Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_EMP_Exp_Freon_Ret_T",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for EMP Exp Freon Ret T",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "EMP_Pallet_Struc_T1_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Hot Nest Temperature (Pallet Structure Temp 1)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "EMP_Pallet_Struc_T1_2_T_degrees_F",
+      "type": "double",
+      "units": "degrees F",
+      "description": "Hot Nest Temperature (Pallet Structure Temp 1)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_EMP_Pallet_Struc_T1",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for EMP Pallet Struc T1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "EMP_Pallet_Struc_T2_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "EMP Pallet Structure Temperature No. 2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "EMP_Pallet_Struc_T2_2_T_degrees_F",
+      "type": "double",
+      "units": "degrees F",
+      "description": "EMP Pallet Structure Temperature No. 2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_EMP_Pallet_Struc_T2",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for EMP Pallet Struc T2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DMS_Temp_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "DMS Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DMS_Temp_2_T_degrees_F",
+      "type": "double",
+      "units": "degrees F",
+      "description": "DMS Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_DMS_Temp",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for DMS Temp",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "EMP_Exp_DC_V_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "EMP Experiment DC Voltage",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "EMP_Exp_DC_V_2_Voltage_volts",
+      "type": "double",
+      "units": "volts",
+      "description": "EMP Experiment DC Voltage",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_EMP_Exp_DC_V",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for EMP Exp DC V",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "EMP_Exp_DC_Cur",
+      "type": "double",
+      "units": "amps",
+      "description": "EMP Experiment DC Current",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_EMP_Exp_DC_Cur",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for EMP Exp DC Cur",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "EMP_Freon_Pmp_Inlet_Pres",
+      "type": "double",
+      "units": "psi",
+      "description": "EMP Freon Pump Inlet Pressure",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_EMP_Freon_Pmp_Inlet_Pres",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for EMP Freon Pmp Inlet Pres",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "EMP_Freon_Pmp_Dlta_Pres_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "EMP Freon Pump Delta Pressure",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "EMP_Freon_Pmp_Dlta_Pres_2_Pressure_psi",
+      "type": "double",
+      "units": "psi",
+      "description": "EMP Freon Pump Delta Pressure",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_EMP_Freon_Pmp_Dlta_Pres",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for EMP Freon Pmp Dlta Pres",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "EMP_Freon_Pmp_Acc_Quan_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "EMP Freon Pump Accumulator Quantity",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "EMP_Freon_Pmp_Acc_Quan_2_Volume_cubic_ft",
+      "type": "double",
+      "units": "cubic ft",
+      "description": "EMP Freon Pump Accumulator Quantity",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_EMP_Freon_Pmp_Acc_Quan",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for EMP Freon Pmp Acc Quan",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

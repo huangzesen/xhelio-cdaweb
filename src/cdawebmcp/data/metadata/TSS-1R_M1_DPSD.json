@@ -1,0 +1,236 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "Latch_1_Closed",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Latch 1 Closed Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Latch_1_Closed",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Latch 1 Closed",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Latch_2_Closed",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Latch 2 Closed Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Latch_2_Closed",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Latch 2 Closed",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Latch_3_Closed",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Latch 3 Closed Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Latch_3_Closed",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Latch 3 Closed",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Latch_4_Closed",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Latch 4 Closed Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Latch_4_Closed",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Latch 4 Closed",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Latch_5_Closed",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Latch 5 Closed Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Latch_5_Closed",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Latch 5 Closed",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Latch_6_Closed",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Latch 6 Closed Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Latch_6_Closed",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Latch 6 Closed",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Latch_Grp1_Open",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Latch Group 1 Open Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Latch_Grp1_Open",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Latch Grp1 Open",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Latch_Grp2_Open",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Latch Group 2 Open Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Latch_Grp2_Open",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Latch Grp2 Open",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Open_Latch_Grp1_Rly_Cmd",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Open Latch Group 1 Relay Command Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Open_Latch_Grp1_Rly_Cmd",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Open Latch Grp1 Rly Cmd",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Open_Latch_Grp2_Rly_Cmd",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Open Latch Group 2 Relay Command Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Open_Latch_Grp2_Rly_Cmd",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Open Latch Grp2 Rly Cmd",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Close_Latch_Grp1_Rly_Cmd",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Close Latch Group 1 Relay Command Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Close_Latch_Grp1_Rly_Cmd",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Close Latch Grp1 Rly Cmd",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Close_Latch_Grp2_Rly_Cmd",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Close Latch Group 2 Relay Command Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Close_Latch_Grp2_Rly_Cmd",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Close Latch Grp2 Rly Cmd",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Latch_Open_Dir_Rly_Cmd",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Latch Open Direction Relay Command Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Latch_Open_Dir_Rly_Cmd",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Latch Open Dir Rly Cmd",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Latch_Open_Enable",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Latch Open Enable Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Latch_Open_Enable",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Latch Open Enable",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Latch_Open_Dir",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Latch Open Direction Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Latch_Open_Dir",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Latch Open Dir",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "At_Least_4_Latches_Clsd",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "At Least 4 Latches Closed Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_At_Least_4_Latches_Clsd",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for At Least 4 Latches Clsd",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

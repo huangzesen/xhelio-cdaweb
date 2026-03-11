@@ -1,0 +1,208 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "DRBA_Stow_SW_Main_1",
+      "type": "double",
+      "units": "unitless",
+      "description": "Boom A Stowed SW Main (1)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_DRBA_Stow_SW_Main_1",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for DRBA Stow SW Main:1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DRBA_Stow_SW_Main_2",
+      "type": "double",
+      "units": "unitless",
+      "description": "Boom A Stowed SW Main (2)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_DRBA_Stow_SW_Main_2",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for DRBA Stow SW Main:2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DRBA_Stow_SW_Red_1",
+      "type": "double",
+      "units": "unitless",
+      "description": "Boom A Stowed SW Red (1)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_DRBA_Stow_SW_Red_1",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for DRBA Stow SW Red:1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DRBA_Stow_SW_Red_2",
+      "type": "double",
+      "units": "unitless",
+      "description": "Boom A Stowed SW Red (2)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_DRBA_Stow_SW_Red_2",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for DRBA Stow SW Red:2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DRBD_Stow_SW_Main_1",
+      "type": "double",
+      "units": "unitless",
+      "description": "Boom D Stowed SW Main (1)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_DRBD_Stow_SW_Main_1",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for DRBD Stow SW Main:1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DRBD_Stow_SW_Main_2",
+      "type": "double",
+      "units": "unitless",
+      "description": "Boom D Stowed SW Main (2)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_DRBD_Stow_SW_Main_2",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for DRBD Stow SW Main:2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DRBD_Stow_SW_Red_1",
+      "type": "double",
+      "units": "unitless",
+      "description": "Boom D Stowed SW Red (1)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_DRBD_Stow_SW_Red_1",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for DRBD Stow SW Red:1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DRBD_Stow_SW_Red_2",
+      "type": "double",
+      "units": "unitless",
+      "description": "Boom D Stowed SW Red (2)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_DRBD_Stow_SW_Red_2",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for DRBD Stow SW Red:2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Motor_1",
+      "type": "double",
+      "units": "unitless",
+      "description": "Motor On/Off (1)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Motor_1",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Motor:1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Motor_2",
+      "type": "double",
+      "units": "unitless",
+      "description": "Motor On/Off (2)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Motor_2",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Motor:2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "CPU_Watchdog_1",
+      "type": "double",
+      "units": "unitless",
+      "description": "CPU Watch Dog (1)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_CPU_Watchdog_1",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for CPU Watchdog:1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "CPU_Watchdog_2",
+      "type": "double",
+      "units": "unitless",
+      "description": "CPU Watch Dog (2)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_CPU_Watchdog_2",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for CPU Watchdog:2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DPT_RTR",
+      "type": "double",
+      "units": "unitless",
+      "description": "DPY/RTR Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_DPT_RTR",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for DPT/RTR",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "JTS_Fire",
+      "type": "double",
+      "units": "unitless",
+      "description": "JTS Fire Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_JTS_Fire",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for JTS Fire",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

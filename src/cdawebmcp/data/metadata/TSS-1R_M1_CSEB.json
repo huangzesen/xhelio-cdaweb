@@ -1,0 +1,117 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "Sup_H2O_Tank_A_Quan_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Supply Water Tank A Quantity",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Sup_H2O_Tank_A_Quan_2_Percentage_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Supply Water Tank A Quantity",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Sup_H2O_Tank_A_Quan",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Sup H2O Tank A Quan",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Sup_H2O_Tank_B_Quan_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Supply Water Tank B Quantity",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Sup_H2O_Tank_B_Quan_2_Percentage_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Supply Water Tank B Quantity",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Sup_H2O_Tank_B_Quan",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Sup H2O Tank B Quan",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Sup_H2O_Tank_C_Quan_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Supply Water Tank C Quantity",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Sup_H2O_Tank_C_Quan_2_Percentage_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Supply Water Tank C Quantity",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Sup_H2O_Tank_C_Quan",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Sup H2O Tank C Quan",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Sup_H2O_Tank_D_Quan_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Supply Water Tank D Quantity",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Sup_H2O_Tank_D_Quan_2_Percentage_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Supply Water Tank D Quantity",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Sup_H2O_Tank_D_Quan",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Sup H2O Tank D Quan",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Waste_H2O_Tank_Quan_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Waste Water Tank Quantity",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Waste_H2O_Tank_Quan_2_Percentage_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Waste Water Tank Quantity",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Waste_H2O_Tank_Quan",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Waste H2O Tank Quan",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

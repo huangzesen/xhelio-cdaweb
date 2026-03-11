@@ -1,0 +1,243 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "Outbd_Blended_Tether_Ten_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Outboard Blended Tether Tension",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Outbd_Blended_Tether_Ten_2_Tension_newtons",
+      "type": "double",
+      "units": "newtons",
+      "description": "Outboard Blended Tether Tension",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Outbd_Blended_Tether_Ten",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Outbd Blended Tether Ten",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Cmded_Outbd_Tether_Ten_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Commanded Outboard (UTCM) Tension",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Cmded_Outbd_Tether_Ten_2_Tension_newtons",
+      "type": "double",
+      "units": "newtons",
+      "description": "Commanded Outboard (UTCM) Tension",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Cmded_Outbd_Tether_Ten",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Cmded Outbd Tether Ten",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "IBit_Inbd_Tether_Ten_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Inboard Tether Tension-8",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "IBit_Inbd_Tether_Ten_2_Tension_newtons",
+      "type": "double",
+      "units": "newtons",
+      "description": "Inboard Tether Tension-8",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_8Bit_Inbd_Tether_Ten",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for 8Bit Inbd Tether Ten",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "I_Basic_Ctrl_Mode_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Percent Basic Control Mode",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "I_Basic_Ctrl_Mode_2_Percent__",
+      "type": "double",
+      "units": "%",
+      "description": "Percent Basic Control Mode",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality___Basic_Ctrl_Mode",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for % Basic Ctrl Mode",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Cmded_Tether_Acc_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Commanded Tether Acceleration",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Cmded_Tether_Acc_2_Acc_m_s__2",
+      "type": "double",
+      "units": "m/s**2",
+      "description": "Commanded Tether Acceleration",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Cmded_Tether_Acc",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Cmded Tether Acc",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Cmded_Libra_Vel_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Commanded Libration Velocity",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Cmded_Libra_Vel_2_Velocity_m_s",
+      "type": "double",
+      "units": "m/s",
+      "description": "Commanded Libration Velocity",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Cmded_Libra_Vel",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Cmded Libra Vel",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Cmded_Libra_Ang_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Commanded Libration Angle",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Cmded_Libra_Ang_2_Angle_degree",
+      "type": "double",
+      "units": "degree",
+      "description": "Commanded Libration Angle",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Cmded_Libra_Ang",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Cmded Libra Ang",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Blended_Ten_Filt_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Blended Tension Filter",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Blended_Ten_Filt_2_Voltage_volts",
+      "type": "double",
+      "units": "volts",
+      "description": "Blended Tension Filter",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Blended_Ten_Filt",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Blended Ten Filt",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Tether_Len_Filt_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Tether Length Filter",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Tether_Len_Filt_2_Voltage_volts",
+      "type": "double",
+      "units": "volts",
+      "description": "Tether Length Filter",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Tether_Len_Filt",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Tether Len Filt",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "REG_V_Prop_Ctrl_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "REG Voltage/Prop Control",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "REG_V_Prop_Ctrl_2_Voltage_volts",
+      "type": "double",
+      "units": "volts",
+      "description": "REG Voltage/Prop Control",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_REG_V_Prop_Ctrl",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for REG V/Prop Ctrl",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Reg_Volt_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Regulatory / Voltage",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Reg_Volt_2_Voltage_volts",
+      "type": "double",
+      "units": "volts",
+      "description": "Regulatory / Voltage",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Reg_Volt",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Reg/Volt",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

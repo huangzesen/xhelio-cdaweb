@@ -1,0 +1,124 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "SDIO_Ch00_Act",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SDIO Channel 0 Activated",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SDIO_Ch00_Act",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SDIO Ch00 Act",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SDIO_Ch00_Rec",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SDIO Channel 0 Receiving Data",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SDIO_Ch00_Rec",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SDIO Ch00 Rec",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SDIO_Ch01_Act",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SDIO Channel 1 Activated",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SDIO_Ch01_Act",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SDIO Ch01 Act",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SDIO_Ch01_Rec",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SDIO Channel 1 Receiving Data",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SDIO_Ch01_Rec",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SDIO Ch01 Rec",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SDIO_Ch02_Act",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SDIO Channel 2 Activated",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SDIO_Ch02_Act",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SDIO Ch02 Act",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SDIO_Ch02_Rec",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SDIO Channel 2 Receiving Data",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SDIO_Ch02_Rec",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SDIO Ch02 Rec",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SDIO_Ch03_Act",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SDIO Channel 3 Activated",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SDIO_Ch03_Act",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SDIO Ch03 Act",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SDIO_Ch03_Rec",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SDIO Channel 3 Receiving Data",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SDIO_Ch03_Rec",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SDIO Ch03 Rec",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

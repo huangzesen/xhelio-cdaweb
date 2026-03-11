@@ -1,0 +1,502 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "FPEG_Current_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "FPEG Current",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "FPEG_Current_2_Current_amps",
+      "type": "double",
+      "units": "amps",
+      "description": "FPEG Current",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_FPEG_Current",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for FPEG Current",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Gun1_Focus_Cur_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Gun 1 Focus Current",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Gun1_Focus_Cur_2_Current_amps",
+      "type": "double",
+      "units": "amps",
+      "description": "Gun 1 Focus Current",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Gun1_Focus_Cur",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Gun1 Focus Cur",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Gun1_Anode_Cur_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Gun 1 Anode Current",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Gun1_Anode_Cur_2_Current_amps",
+      "type": "double",
+      "units": "amps",
+      "description": "Gun 1 Anode Current",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Gun1_Anode_Cur",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Gun1 Anode Cur",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Gun1_HV_Conv_Cur_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Gun 1 HV Power Converter Current",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Gun1_HV_Conv_Cur_2_Current_amps",
+      "type": "double",
+      "units": "amps",
+      "description": "Gun 1 HV Power Converter Current",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Gun1_HV_Conv_Cur",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Gun1 HV Conv Cur",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Gun2_Focus_Cur_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Gun 2 Focus Current",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Gun2_Focus_Cur_2_Current_amps",
+      "type": "double",
+      "units": "amps",
+      "description": "Gun 2 Focus Current",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Gun2_Focus_Cur",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Gun2 Focus Cur",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Gun2_Anode_Cur_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Gun 2 Anode Current",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Gun2_Anode_Cur_2_Current_amps",
+      "type": "double",
+      "units": "amps",
+      "description": "Gun 2 Anode Current",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Gun2_Anode_Cur",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Gun2 Anode Cur",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Gun2_HV_Conv_Cur_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Gun 2 HV Power Converter Current",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Gun2_HV_Conv_Cur_2_Current_amps",
+      "type": "double",
+      "units": "amps",
+      "description": "Gun 2 HV Power Converter Current",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Gun2_HV_Conv_Cur",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Gun2 HV Conv Cur",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Gun1_Charge_Out_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Gun 1 Charge Output",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Gun1_Charge_Out_2_Charge_coulombs",
+      "type": "double",
+      "units": "coulombs",
+      "description": "Gun 1 Charge Output",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Gun1_Charge_Out",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Gun1 Charge Out",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Gun2_Charge_Out_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Gun 2 Charge Output",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Gun2_Charge_Out_2_Charge_coulombs",
+      "type": "double",
+      "units": "coulombs",
+      "description": "Gun 2 Charge Output",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Gun2_Charge_Out",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Gun2 Charge Out",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Gun1_Pre_reg_Plus_20V_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Gun 1 +20 Pre-reg Voltage",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Gun1_Pre_reg_Plus_20V_2_Voltage_volts",
+      "type": "double",
+      "units": "volts",
+      "description": "Gun 1 +20 Pre-reg Voltage",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Gun1_Pre_reg_Plus_20V",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Gun1 Pre-reg Plus 20V",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Gun1_HVPS_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Gun 1 HV Supply Voltage",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Gun1_HVPS_2_Voltage_volts",
+      "type": "double",
+      "units": "volts",
+      "description": "Gun 1 HV Supply Voltage",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Gun1_HVPS",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Gun1 HVPS",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Gun2_Pre_reg_Plus_20V_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Gun 2 +20 Pre-reg Voltage",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Gun2_Pre_reg_Plus_20V_2_Voltage_volts",
+      "type": "double",
+      "units": "volts",
+      "description": "Gun 2 +20 Pre-reg Voltage",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Gun2_Pre_reg_Plus_20V",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Gun2 Pre-reg Plus 20V",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Gun2_HVPS_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Gun 2 HV Supply Voltage",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Gun2_HVPS_2_Voltage_volts",
+      "type": "double",
+      "units": "volts",
+      "description": "Gun 2 HV Supply Voltage",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Gun2_HVPS",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Gun2 HVPS",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Gun1_Fila_Conv_T_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Gun 1 Filament Converter Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Gun1_Fila_Conv_T_2_T_degrees_C",
+      "type": "double",
+      "units": "degrees C",
+      "description": "Gun 1 Filament Converter Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Gun1_Fila_Conv_T",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Gun1 Fila Conv T",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Gun2_Fila_Conv_T_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Gun 2 Filament Converter Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Gun2_Fila_Conv_T_2_T_degrees_C",
+      "type": "double",
+      "units": "degrees C",
+      "description": "Gun 2 Filament Converter Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Gun2_Fila_Conv_T",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Gun2 Fila Conv T",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Gun_Elec_T_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Gun Electronics Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Gun_Elec_T_2_T_degrees_C",
+      "type": "double",
+      "units": "degrees C",
+      "description": "Gun Electronics Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Gun_Elec_T",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Gun Elec T",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "FPEG_Plus_15V_Bus_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "FPEG +15V Bus Voltage",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "FPEG_Plus_15V_Bus_2_Voltage_volts",
+      "type": "double",
+      "units": "volts",
+      "description": "FPEG +15V Bus Voltage",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_FPEG_Plus_15V_Bus",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for FPEG Plus 15V Bus",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "FPEG_Plus_5V_Bus_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "FPEG +5V Bus Voltage",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "FPEG_Plus_5V_Bus_2_Voltage_volts",
+      "type": "double",
+      "units": "volts",
+      "description": "FPEG +5V Bus Voltage",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_FPEG_Plus_5V_Bus",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for FPEG Plus 5V Bus",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "FPEG_Neg_15V_Bus_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "FPEG -15V Bus Voltage",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "FPEG_Neg_15V_Bus_2_Voltage_volts",
+      "type": "double",
+      "units": "volts",
+      "description": "FPEG -15V Bus Voltage",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_FPEG_Neg_15V_Bus",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for FPEG Neg 15V Bus",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "FPEG_Num_Pulses_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "FPEG Number Of Pulses",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "FPEG_Num_Pulses_2_Pulses_integer",
+      "type": "double",
+      "units": "integer",
+      "description": "FPEG Number Of Pulses",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_FPEG_Num_Pulses",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for FPEG Num Pulses",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "FPEG_Pulse_Off_Tm_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "FPEG Pulse Off Time",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "FPEG_Pulse_Off_Tm_2_Time_sec",
+      "type": "double",
+      "units": "sec",
+      "description": "FPEG Pulse Off Time",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_FPEG_Pulse_Off_Tm",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for FPEG Pulse Off Tm",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "FPEG_Pulse_On_Tm_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "FPEG Pulse On Time",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "FPEG_Pulse_On_Tm_2_Time_sec",
+      "type": "double",
+      "units": "sec",
+      "description": "FPEG Pulse On Time",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_FPEG_Pulse_On_Tm",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for FPEG Pulse On Tm",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Time_FPEG_Fila_On",
+      "type": "double",
+      "units": "seconds",
+      "description": "Time Since FPEG Filament Turned On",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Time_FPEG_Fila_On",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Time FPEG Fila On",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "FPEG_Cmd_Cntr",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "FPEG Command Counter",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_FPEG_Cmd_Cntr",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for FPEG Cmd Cntr",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

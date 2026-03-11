@@ -1,0 +1,47 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "DC_EF__V1_V2_1_Telemetry_Unitless",
+      "type": "double",
+      "units": "Unitless",
+      "description": "DC Electric Field: (V1-V2)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DC_EF__V1_V2_2_Voltage_volts",
+      "type": "double",
+      "units": "volts",
+      "description": "DC Electric Field: (V1-V2)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_DC_EF__V1_V2",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for DC-EF: (V1-V2)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "MODE0_Gain_Flag",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Status Indicator Gain Flag",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "MODE1_Bias_Flag",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Status Indicator Bias Flag",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

@@ -1,0 +1,60 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "Dose_Rate",
+      "type": "double",
+      "units": "uGy/min",
+      "description": "Dose rate in silicon",
+      "fill": "nan"
+    },
+    {
+      "name": "Dose_Rate_Error",
+      "type": "double",
+      "units": "uGy/min",
+      "description": "Error in dose rate in silicon",
+      "fill": "nan"
+    },
+    {
+      "name": "LET_Hist",
+      "type": "double",
+      "units": "cts/(cm^2.sr.s.keV/um)",
+      "description": "Differential LET histogram",
+      "fill": "nan",
+      "size": [
+        160
+      ]
+    },
+    {
+      "name": "LET_Hist_Err",
+      "type": "double",
+      "units": "cts/(cm^2.sr.s.keV/um)",
+      "description": "Error in Differential LET histogram",
+      "fill": "nan",
+      "size": [
+        160
+      ]
+    },
+    {
+      "name": "XCounts_5_1000",
+      "type": "double",
+      "units": "Counts",
+      "description": "X-ray Counts 5-100 keV energy deposit",
+      "fill": "nan"
+    },
+    {
+      "name": "XCounts_5_1000_Err",
+      "type": "double",
+      "units": "Counts",
+      "description": "Error in X-ray Counts 5-100 keV energy deposit",
+      "fill": "nan"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

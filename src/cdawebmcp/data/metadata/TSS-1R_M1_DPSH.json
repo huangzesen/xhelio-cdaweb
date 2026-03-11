@@ -1,0 +1,138 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "DACA_Rdy_For_Cmd",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "DACA Ready For Command",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_DACA_Rdy_For_Cmd",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for DACA Rdy For Cmd",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DACA_Cmd_Auth",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "DACA Command Authenticated",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_DACA_Cmd_Auth",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for DACA Cmd Auth",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DACA_Cmd_Exe_Suc",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "DACA Command Execution Success",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_DACA_Cmd_Exe_Suc",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for DACA Cmd Exe Suc",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "TLM_Mode",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Telemetry Mode",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_TLM_Mode",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for TLM Mode",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "StaKping_Man_Hold",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Stationskeeping Maneuver Hold",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_StaKping_Man_Hold",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for StaKping Man Hold",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "On_Sta_Status",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "On Station Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_On_Sta_Status",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for On Sta Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "TmOut_Abort",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Timeout Abort Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_TmOut_Abort",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for TmOut Abort",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Nom_Cmd_Mode",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Nominal Command Mode Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Nom_Cmd_Mode",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Nom Cmd Mode",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Motor_Gen_Mode",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Motor / Generator Mode Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Motor_Gen_Mode",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Motor/Gen Mode",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

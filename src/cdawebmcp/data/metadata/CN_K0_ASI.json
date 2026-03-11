@@ -1,0 +1,30 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "I_max",
+      "type": "integer",
+      "units": "counts",
+      "description": "Max intensity of high-latitude Ionosphere",
+      "fill": "-2147483648.0"
+    },
+    {
+      "name": "Image",
+      "type": "integer",
+      "units": "Cnts*254/I_max",
+      "description": "20x20 (Y,X) Image of high-latitude Ionosphere",
+      "fill": "255.0",
+      "size": [
+        20,
+        20
+      ]
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

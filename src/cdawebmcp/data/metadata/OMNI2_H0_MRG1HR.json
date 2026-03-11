@@ -45,7 +45,7 @@
       "name": "ABS_B",
       "type": "double",
       "units": "nT",
-      "description": "1AU IP Average B Field Magnitude, nT, (last currently-available OMNI B-field data Dec 24, 2025)",
+      "description": "1AU IP Average B Field Magnitude, nT, (last currently-available OMNI B-field data Feb 03, 2026)",
       "fill": "999.9000244140625"
     },
     {
@@ -143,7 +143,7 @@
       "name": "T",
       "type": "double",
       "units": "Deg K",
-      "description": "1AU IP Plasma Temperature, deg K, (last currently-available OMNI plasma data Jan 07, 2026)",
+      "description": "1AU IP Plasma Temperature, deg K, (last currently-available OMNI plasma data Feb 14, 2026)",
       "fill": "9999999.0"
     },
     {
@@ -311,28 +311,28 @@
       "name": "R",
       "type": "integer",
       "units": "",
-      "description": "Daily sunspot number V2, from  http://sidc.oma.be/silso/datafiles/ (1963/001-2025/334)",
+      "description": "Daily sunspot number V2, from  http://sidc.oma.be/silso/datafiles/ (1963/001-2026/031)",
       "fill": "999.0"
     },
     {
       "name": "F10_INDEX",
       "type": "double",
       "units": "",
-      "description": "F10.7 - Daily 10.7 cm solar radio flux, units: 10**(-22) Joules/second/square-meter/Hertz, from NGDC (1963/001-2026/012)",
+      "description": "F10.7 - Daily 10.7 cm solar radio flux, units: 10**(-22) Joules/second/square-meter/Hertz, from NGDC (1963/001-2026/049)",
       "fill": "999.9000244140625"
     },
     {
       "name": "KP",
       "type": "integer",
       "units": "",
-      "description": "Kp - 3-hour Kp*10 (Kp=1-,1,1+ corresponds to 7,10,13), fromNGDC (1963/001-2026/012)",
+      "description": "Kp - 3-hour Kp*10 (Kp=1-,1,1+ corresponds to 7,10,13), fromNGDC (1963/001-2026/049)",
       "fill": "99.0"
     },
     {
       "name": "DST",
       "type": "integer",
       "units": "nT",
-      "description": "Dst - 1-hour Dst index (1963/001-2014/366), Provisional Dst (2021/001-2025/181), Quick-look Dst (2025/182-2026/012), from WDC Kyoto",
+      "description": "Dst - 1-hour Dst index (1963/001-2014/366), Provisional Dst (2021/001-2025/181), Quick-look Dst (2025/182-2026/049), from WDC Kyoto",
       "fill": "99999.0"
     },
     {
@@ -346,7 +346,7 @@
       "name": "AP_INDEX",
       "type": "integer",
       "units": "nT",
-      "description": "ap - 3-hour ap-index (1963/001-2026/012), from NGDC",
+      "description": "ap - 3-hour ap-index (1963/001-2026/049), from NGDC",
       "fill": "999.0"
     },
     {
@@ -374,7 +374,7 @@
       "name": "Solar_Lyman_alpha",
       "type": "double",
       "units": "W/m^2",
-      "description": "Solar Lyman-alpha (1963/001-2026/011)",
+      "description": "Solar Lyman-alpha (1963/001-2026/032)",
       "fill": "0.9999989867210388"
     },
     {
@@ -423,7 +423,7 @@
       "name": "ABS_B1800",
       "type": "double",
       "units": "nT",
-      "description": "1AU IP Average B Field Magnitude, nT, (last currently-available OMNI B-field data Dec 24, 2025) (half-hour midpoint)",
+      "description": "1AU IP Average B Field Magnitude, nT, (last currently-available OMNI B-field data Feb 03, 2026) (half-hour midpoint)",
       "fill": "999.9000244140625"
     },
     {
@@ -521,7 +521,7 @@
       "name": "T1800",
       "type": "double",
       "units": "Deg K",
-      "description": "1AU IP Plasma Temperature, deg K, (last currently-available OMNI plasma data Jan 07, 2026) (half-hour midpoint)",
+      "description": "1AU IP Plasma Temperature, deg K, (last currently-available OMNI plasma data Feb 14, 2026) (half-hour midpoint)",
       "fill": "9999999.0"
     },
     {
@@ -689,28 +689,28 @@
       "name": "R1800",
       "type": "integer",
       "units": "",
-      "description": "Daily sunspot number V2, from  http://sidc.oma.be/silso/datafiles/ (1963/001-2025/334) (half-hour midpoint)",
+      "description": "Daily sunspot number V2, from  http://sidc.oma.be/silso/datafiles/ (1963/001-2026/031) (half-hour midpoint)",
       "fill": "999.0"
     },
     {
       "name": "F10_INDEX1800",
       "type": "double",
       "units": "",
-      "description": "F10.7 - Daily 10.7 cm solar radio flux, units: 10**(-22) Joules/second/square-meter/Hertz, from NGDC (1963/001-2026/012), (half-hour midpoint)",
+      "description": "F10.7 - Daily 10.7 cm solar radio flux, units: 10**(-22) Joules/second/square-meter/Hertz, from NGDC (1963/001-2026/049), (half-hour midpoint)",
       "fill": "999.9000244140625"
     },
     {
       "name": "KP1800",
       "type": "integer",
       "units": "",
-      "description": "Kp - 3-hour Kp*10 (Kp=1-,1,1+ corresponds to 7,10,13), fromNGDC (1963/001-2026/012) (half-hour midpoint)",
+      "description": "Kp - 3-hour Kp*10 (Kp=1-,1,1+ corresponds to 7,10,13), fromNGDC (1963/001-2026/049) (half-hour midpoint)",
       "fill": "99.0"
     },
     {
       "name": "DST1800",
       "type": "integer",
       "units": "nT",
-      "description": "Dst - 1-hour Dst index (1963/001-2014/366), Provisional Dst (2021/001-2025/181), Quick-look Dst (2025/182-2026/012), from WDC Kyoto (half-hour midpoint)",
+      "description": "Dst - 1-hour Dst index (1963/001-2014/366), Provisional Dst (2021/001-2025/181), Quick-look Dst (2025/182-2026/049), from WDC Kyoto (half-hour midpoint)",
       "fill": "99999.0"
     },
     {
@@ -724,7 +724,7 @@
       "name": "AP_INDEX1800",
       "type": "integer",
       "units": "nT",
-      "description": "ap - 3-hour ap-index (1963/001-2026/012), from NGDC (half-hour midpoint)",
+      "description": "ap - 3-hour ap-index (1963/001-2026/049), from NGDC (half-hour midpoint)",
       "fill": "999.0"
     },
     {
@@ -752,7 +752,7 @@
       "name": "Solar_Lyman_alpha1800",
       "type": "double",
       "units": "W/m^2",
-      "description": "Solar Lyman-alpha (1963/001-2026/011) (half-hour midpoint)",
+      "description": "Solar Lyman-alpha (1963/001-2026/032) (half-hour midpoint)",
       "fill": "0.9999989867210388"
     },
     {
@@ -763,6 +763,6 @@
       "fill": "9.999899864196777"
     }
   ],
-  "startDate": "1963-01-01T00:00:00.000Z",
-  "stopDate": "2026-02-19T12:00:00.000Z"
+  "startDate": "",
+  "stopDate": ""
 }

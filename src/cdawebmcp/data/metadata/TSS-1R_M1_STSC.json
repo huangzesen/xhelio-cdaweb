@@ -1,0 +1,201 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "Htr_Cur_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Heater Current",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Htr_Cur_2_Current_amps",
+      "type": "double",
+      "units": "amps",
+      "description": "Heater Current",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Htr_Cur",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Htr Cur",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SRPA_Cur_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SRPA Current",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SRPA_Cur_2_Current_amps",
+      "type": "double",
+      "units": "amps",
+      "description": "SRPA Current",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SRPA_Cur",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SRPA Cur",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Plus_6V_SRPA_Bus_V_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "+6 V SRPA Bus Voltage",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Plus_6V_SRPA_Bus_V_2_Voltage_volts",
+      "type": "double",
+      "units": "volts",
+      "description": "+6 V SRPA Bus Voltage",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Plus_6V_SRPA_Bus_V",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Plus 6V SRPA Bus V",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Neg_6V_SRPA_Bus_V_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "-6 V SRPA Bus Voltage",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Neg_6V_SRPA_Bus_V_2_Voltage_volts",
+      "type": "double",
+      "units": "volts",
+      "description": "-6 V SRPA Bus Voltage",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Neg_6V_SRPA_Bus_V",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Neg 6V SRPA Bus V",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "I0_5_kHz_Ampl_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "10.5 kHz Amplitude",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "I0_5_kHz_Ampl_2_Power_dB",
+      "type": "double",
+      "units": "dB",
+      "description": "10.5 kHz Amplitude",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_10_5_kHz_Ampl",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for 10.5 kHz Ampl",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "I_5_kHz_Ampl_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "8.5 kHz Amplitude",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "I_5_kHz_Ampl_2_Power_dB",
+      "type": "double",
+      "units": "dB",
+      "description": "8.5 kHz Amplitude",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_8_5_kHz_Ampl",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for 8.5 kHz Ampl",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "LP_3_2_kHz_Ampl_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Langmuir Probe 3.2 kHz Amplitude",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "LP_3_2_kHz_Ampl_2_Power_dB",
+      "type": "double",
+      "units": "dB",
+      "description": "Langmuir Probe 3.2 kHz Amplitude",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_LP_3_2_kHz_Ampl",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for LP 3.2 kHz Ampl",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Analyzer_Elec_T_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Analyser Electronics Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Analyzer_Elec_T_2_Tmp_degrees_C",
+      "type": "double",
+      "units": "degrees C",
+      "description": "Analyser Electronics Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Analyzer_Elec_T",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Analyzer Elec T",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Preamp_T_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Preamplifier Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Preamp_T_2_Tmp_degrees_C",
+      "type": "double",
+      "units": "degrees C",
+      "description": "Preamplifier Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Preamp_T",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Preamp T",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

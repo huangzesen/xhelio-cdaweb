@@ -1,0 +1,859 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "PM_Sec1_T1_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "PM Section 1 Temperature 1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "PM_Sec1_T1_2_T_degC",
+      "type": "double",
+      "units": "deg(C)",
+      "description": "PM Section 1 Temperature 1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_PM_Sec1_T1",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for PM Sec1 T1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "PM_Sec1_T2_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "PM Section 1 Temperature 2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "PM_Sec1_T2_2_T_degC",
+      "type": "double",
+      "units": "deg(C)",
+      "description": "PM Section 1 Temperature 2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_PM_Sec1_T2",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for PM Sec1 T2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "PM_Sec2_T1_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "PM Section 2 Temperature 1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "PM_Sec2_T1_2_T_degC",
+      "type": "double",
+      "units": "deg(C)",
+      "description": "PM Section 2 Temperature 1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_PM_Sec2_T1",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for PM Sec2 T1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "PM_Sec2_T2_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "PM Section 2 Temperature 2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "PM_Sec2_T2_2_T_degC",
+      "type": "double",
+      "units": "deg(C)",
+      "description": "PM Section 2 Temperature 2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_PM_Sec2_T2",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for PM Sec2 T2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "PM_Sec3_T1_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "PM Section 3 Temperature 1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "PM_Sec3_T1_2_T_degC",
+      "type": "double",
+      "units": "deg(C)",
+      "description": "PM Section 3 Temperature 1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_PM_Sec3_T1",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for PM Sec3 T1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "PM_Sec3_T2_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "PM Section 3 Temperature 2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "PM_Sec3_T2_2_T_degC",
+      "type": "double",
+      "units": "deg(C)",
+      "description": "PM Section 3 Temperature 2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_PM_Sec3_T2",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for PM Sec3 T2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "PM_Sec4_T1_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "PM Section 4 Temperature 1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "PM_Sec4_T1_2_T_degC",
+      "type": "double",
+      "units": "deg(C)",
+      "description": "PM Section 4 Temperature 1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_PM_Sec4_T1",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for PM Sec4 T1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "PM_Sec4_T2_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "PM Section 4 Temperature 2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "PM_Sec4_T2_2_T_degC",
+      "type": "double",
+      "units": "deg(C)",
+      "description": "PM Section 4 Temperature 2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_PM_Sec4_T2",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for PM Sec4 T2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "PM_Skin_Sec1_T1_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "PM Section 1 Skin Temperature 1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "PM_Skin_Sec1_T1_2_T_degC",
+      "type": "double",
+      "units": "deg(C)",
+      "description": "PM Section 1 Skin Temperature 1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_PM_Skin_Sec1_T1",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for PM Skin Sec1 T1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "PM_Skin_Sec1_T2_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "PM Section 1 Skin Temperature 2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "PM_Skin_Sec1_T2_2_T_degC",
+      "type": "double",
+      "units": "deg(C)",
+      "description": "PM Section 1 Skin Temperature 2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_PM_Skin_Sec1_T2",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for PM Skin Sec1 T2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "PM_Skin_Sec2_T1_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "PM Section 2 Skin Temperature 1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "PM_Skin_Sec2_T1_2_T_degC",
+      "type": "double",
+      "units": "deg(C)",
+      "description": "PM Section 2 Skin Temperature 1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_PM_Skin_Sec2_T1",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for PM Skin Sec2 T1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "PM_Skin_Sec2_T2_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "PM Section 2 Skin Temperature 2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "PM_Skin_Sec2_T2_2_T_degC",
+      "type": "double",
+      "units": "deg(C)",
+      "description": "PM Section 2 Skin Temperature 2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_PM_Skin_Sec2_T2",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for PM Skin Sec2 T2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "PM_Skin_Sec3_T1_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "PM Section 3 Skin Temperature 1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "PM_Skin_Sec3_T1_2_T_degC",
+      "type": "double",
+      "units": "deg(C)",
+      "description": "PM Section 3 Skin Temperature 1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "PM_Skin_Sec3_T1_3_CorTM_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "PM Section 3 Skin Temperature 1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_PM_Skin_Sec3_T1",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for PM Skin Sec3 T1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "PM_Skin_Sec3_T2_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "PM Section 3 Skin Temperature 2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "PM_Skin_Sec3_T2_2_T_degC",
+      "type": "double",
+      "units": "deg(C)",
+      "description": "PM Section 3 Skin Temperature 2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_PM_Skin_Sec3_T2",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for PM Skin Sec3 T2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "PM_Skin_Sec4_T1_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "PM Section 4 Skin Temperature 1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "PM_Skin_Sec4_T1_2_T_degC",
+      "type": "double",
+      "units": "deg(C)",
+      "description": "PM Section 4 Skin Temperature 1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_PM_Skin_Sec4_T1",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for PM Skin Sec4 T1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "PM_Skin_Sec4_T2_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "PM Section 4 Skin Temperature 2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "PM_Skin_Sec4_T2_2_T_degC",
+      "type": "double",
+      "units": "deg(C)",
+      "description": "PM Section 4 Skin Temperature 2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_PM_Skin_Sec4_T2",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for PM Skin Sec4 T2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SM_Env_T1_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "SM Env. Temperature 1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SM_Env_T1_2_T_degC",
+      "type": "double",
+      "units": "deg(C)",
+      "description": "SM Env. Temperature 1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SM_Env_T1",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for SM Env T1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SM_Env_T2_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "SM Env. Temperature 2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SM_Env_T2_2_T_degC",
+      "type": "double",
+      "units": "deg(C)",
+      "description": "SM Env. Temperature 2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SM_Env_T2",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for SM Env T2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SM_Env_T3_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "SM Env. Temperature 3",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SM_Env_T3_2_T_degC",
+      "type": "double",
+      "units": "deg(C)",
+      "description": "SM Env. Temperature 3",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SM_Env_T3",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for SM Env T3",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SM_Env_T4_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "SM Env. Temperature 4",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SM_Env_T4_2_T_degC",
+      "type": "double",
+      "units": "deg(C)",
+      "description": "SM Env. Temperature 4",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SM_Env_T4",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for SM Env T4",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SM_Env_T5_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "SM Env. Temperature 5",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SM_Env_T5_2_T_degC",
+      "type": "double",
+      "units": "deg(C)",
+      "description": "SM Env. Temperature 5",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SM_Env_T5",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for SM Env T5",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SM_Env_T6_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "SM Env. Temperature 6",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SM_Env_T6_2_T_degC",
+      "type": "double",
+      "units": "deg(C)",
+      "description": "SM Env. Temperature 6",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SM_Env_T6",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for SM Env T6",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SM_Env_T7_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "SM Env. Temperature 7",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SM_Env_T7_2_T_degC",
+      "type": "double",
+      "units": "deg(C)",
+      "description": "SM Env. Temperature 7",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SM_Env_T7",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for SM Env T7",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SM_Env_T8_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "SM Env. Temperature 8",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SM_Env_T8_2_T_degC",
+      "type": "double",
+      "units": "deg(C)",
+      "description": "SM Env. Temperature 8",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SM_Env_T8",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for SM Env T8",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SM_Env_T9_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "SM Env. Temperature 9",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SM_Env_T9_2_T_degC",
+      "type": "double",
+      "units": "deg(C)",
+      "description": "SM Env. Temperature 9",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SM_Env_T9",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for SM Env T9",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SM_Env_T10_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "SM Env. Temperature 10",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SM_Env_T10_2_T_degC",
+      "type": "double",
+      "units": "deg(C)",
+      "description": "SM Env. Temperature 10",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SM_Env_T10",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for SM Env T10",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SM_Env_T11_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "SM Env. Temperature 11",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SM_Env_T11_2_T_degC",
+      "type": "double",
+      "units": "deg(C)",
+      "description": "SM Env. Temperature 11",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SM_Env_T11",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for SM Env T11",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SM_Env_T12_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "SM Env. Temperature 12",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SM_Env_T12_2_T_degC",
+      "type": "double",
+      "units": "deg(C)",
+      "description": "SM Env. Temperature 12",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SM_Env_T12",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for SM Env T12",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SM_Env_T13_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "SM Env. Temperature 13",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SM_Env_T13_2_T_degC",
+      "type": "double",
+      "units": "deg(C)",
+      "description": "SM Env. Temperature 13",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SM_Env_T13",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for SM Env T13",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SM_Env_T14_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "SM Env. Temperature 14",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SM_Env_T14_2_T_degC",
+      "type": "double",
+      "units": "deg(C)",
+      "description": "SM Env. Temperature 14",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SM_Env_T14",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for SM Env T14",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SM_Env_T15_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "SM Env. Temperature 15",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SM_Env_T15_2_T_degC",
+      "type": "double",
+      "units": "deg(C)",
+      "description": "SM Env. Temperature 15",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SM_Env_T15",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for SM Env T15",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SM_Env_T16_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "SM Env. Temperature 16",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SM_Env_T16_2_T_degC",
+      "type": "double",
+      "units": "deg(C)",
+      "description": "SM Env. Temperature 16",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SM_Env_T16",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for SM Env T16",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SM_Skin_T1_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "SM Skin Temperature 1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SM_Skin_T1_2_T_degC",
+      "type": "double",
+      "units": "deg(C)",
+      "description": "SM Skin Temperature 1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SM_Skin_T1",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for SM Skin T1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SM_Skin_T2_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "SM Skin Temperature 2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SM_Skin_T2_2_T_degC",
+      "type": "double",
+      "units": "deg(C)",
+      "description": "SM Skin Temperature 2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SM_Skin_T2",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for SM Skin T2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SM_Skin_T3_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "SM Skin Temperature 3",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SM_Skin_T3_2_T_degC",
+      "type": "double",
+      "units": "deg(C)",
+      "description": "SM Skin Temperature 3",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SM_Skin_T3",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for SM Skin T3",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SM_Skin_T4_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "SM Skin Temperature 4",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SM_Skin_T4_2_T_degC",
+      "type": "double",
+      "units": "deg(C)",
+      "description": "SM Skin Temperature 4",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SM_Skin_T4",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for SM Skin T4",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SM_Skin_T5_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "SM Skin Temperature 5",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SM_Skin_T5_2_T_degC",
+      "type": "double",
+      "units": "deg(C)",
+      "description": "SM Skin Temperature 5",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SM_Skin_T5",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for SM Skin T5",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SM_Skin_T6_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "SM Skin Temperature 6",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SM_Skin_T6_2_T_degC",
+      "type": "double",
+      "units": "deg(C)",
+      "description": "SM Skin Temperature 6",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SM_Skin_T6",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for SM Skin T6",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SM_Skin_T7_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "SM Skin Temperature 7",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SM_Skin_T7_2_T_degC",
+      "type": "double",
+      "units": "deg(C)",
+      "description": "SM Skin Temperature 7",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SM_Skin_T7",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for SM Skin T7",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SM_Skin_T8_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "SM Skin Temperature 8",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SM_Skin_T8_2_T_degC",
+      "type": "double",
+      "units": "deg(C)",
+      "description": "SM Skin Temperature 8",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SM_Skin_T8",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for SM Skin T8",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

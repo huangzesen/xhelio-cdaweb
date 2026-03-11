@@ -1,0 +1,899 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "ALIVE_TIME",
+      "type": "double",
+      "units": "seconds",
+      "description": "Actual instrument observation time",
+      "fill": "-9.999999848243207e+30"
+    },
+    {
+      "name": "DEAD_TIME",
+      "type": "double",
+      "units": "seconds",
+      "description": "Amount of time hardware could not accept a new trigger",
+      "fill": "-9.999999848243207e+30"
+    },
+    {
+      "name": "DURATION",
+      "type": "integer",
+      "units": "seconds",
+      "description": "Total duration of the observation including dead and alive time",
+      "fill": "65535.0"
+    },
+    {
+      "name": "START_TEMPERATURE",
+      "type": "double",
+      "units": "C",
+      "description": "Temperature at beginning of observation",
+      "fill": "-9.999999848243207e+30"
+    },
+    {
+      "name": "FSW_XSUM",
+      "type": "integer",
+      "units": "NA",
+      "description": "RAD Flight Software checksum",
+      "fill": "4294967295.0"
+    },
+    {
+      "name": "EVIL_XSUM",
+      "type": "integer",
+      "units": "NA",
+      "description": "EVIL Table checksum",
+      "fill": "4294967295.0"
+    },
+    {
+      "name": "SETUP_XSUM",
+      "type": "integer",
+      "units": "NA",
+      "description": "Setup Table checksum",
+      "fill": "4294967295.0"
+    },
+    {
+      "name": "TEMP_XSUM",
+      "type": "integer",
+      "units": "NA",
+      "description": "Temperature adjustment table checksum",
+      "fill": "4294967295.0"
+    },
+    {
+      "name": "OBS_ID",
+      "type": "integer",
+      "units": "ID",
+      "description": "Observation id in database as primary key",
+      "fill": "4294967295.0"
+    },
+    {
+      "name": "BEGIN_SCLK",
+      "type": "integer",
+      "units": "Seconds",
+      "description": "Spacecraft Clock at beginning of observation",
+      "fill": "4294967295.0"
+    },
+    {
+      "name": "END_SCLK",
+      "type": "integer",
+      "units": "Seconds",
+      "description": "Spacecraft Clock at end of observation",
+      "fill": "4294967295.0"
+    },
+    {
+      "name": "SOL",
+      "type": "integer",
+      "units": "Sol",
+      "description": "Martian Sol",
+      "fill": "65535.0"
+    },
+    {
+      "name": "BEGIN_SOL",
+      "type": "double",
+      "units": "Sol",
+      "description": "Precise Sol at start of observation",
+      "fill": "-1e+31"
+    },
+    {
+      "name": "END_SOL",
+      "type": "double",
+      "units": "Sol",
+      "description": "Precise Sol at end of observation",
+      "fill": "-1e+31"
+    },
+    {
+      "name": "ROVER_LAT",
+      "type": "double",
+      "units": "Degrees",
+      "description": "Rover Latitude",
+      "fill": "-1e+31"
+    },
+    {
+      "name": "ROVER_LONG",
+      "type": "double",
+      "units": "Degrees",
+      "description": "Rover Longitude",
+      "fill": "-1e+31"
+    },
+    {
+      "name": "ROVER_ELEVATION",
+      "type": "double",
+      "units": "Meters",
+      "description": "Rover Elevation",
+      "fill": "-1e+31"
+    },
+    {
+      "name": "ROVER_AZMITH",
+      "type": "double",
+      "units": "radians",
+      "description": "Rover Azmith Where to get this??",
+      "fill": "-1e+31"
+    },
+    {
+      "name": "ROVER_ZENITH",
+      "type": "double",
+      "units": "radians",
+      "description": "Rover Zenith angle",
+      "fill": "-1e+31"
+    },
+    {
+      "name": "ROVER_TILT",
+      "type": "double",
+      "units": "radians",
+      "description": "Rover Tilt Angle",
+      "fill": "-9.999999848243207e+30"
+    },
+    {
+      "name": "SOLAR_ZENITH",
+      "type": "double",
+      "units": "radians",
+      "description": "Solar Zenith",
+      "fill": "-1e+31"
+    },
+    {
+      "name": "SOLAR_LONG",
+      "type": "double",
+      "units": "Degrees",
+      "description": "Solar Longitude",
+      "fill": "-1e+31"
+    },
+    {
+      "name": "SOLAR_MODE",
+      "type": "integer",
+      "units": "T/F",
+      "description": "Did RAD detect a solar event during intialization?",
+      "fill": "255.0"
+    },
+    {
+      "name": "DAN_POWERED",
+      "type": "integer",
+      "units": "T/F",
+      "description": "True if DAN was enabled during RAD observation",
+      "fill": "255.0"
+    },
+    {
+      "name": "FAST_TRIG_COUNT",
+      "type": "integer",
+      "units": "Count",
+      "description": "How many fast triggers hardware detected",
+      "fill": "4294967295.0"
+    },
+    {
+      "name": "LET_A1_f",
+      "type": "double",
+      "units": "counts (good Q",
+      "description": "[Quality filtered] LET in A1 silicon detector",
+      "fill": "-1e+31",
+      "size": [
+        52
+      ]
+    },
+    {
+      "name": "LET_A1",
+      "type": "double",
+      "units": "counts (All Q)",
+      "description": "[All quality] LET in A1 silicon detector",
+      "fill": "-1e+31",
+      "size": [
+        52
+      ]
+    },
+    {
+      "name": "LET_A2_f",
+      "type": "double",
+      "units": "counts (good Q)",
+      "description": "[Quality filtered] LET in A2 silicon detector",
+      "fill": "-1e+31",
+      "size": [
+        52
+      ]
+    },
+    {
+      "name": "LET_A2",
+      "type": "double",
+      "units": "counts (All Q)",
+      "description": "[All quality] LET in A2 silicon detector",
+      "fill": "-1e+31",
+      "size": [
+        52
+      ]
+    },
+    {
+      "name": "CHANNEL_COUNTERS_FAST_02",
+      "type": "integer",
+      "units": "Count",
+      "description": "Triggers for Fast channel 0 (F2H)",
+      "fill": "4294967295.0"
+    },
+    {
+      "name": "CHANNEL_COUNTERS_SLOW_02",
+      "type": "integer",
+      "units": "Count",
+      "description": "Triggers for Slow channel 0 (F2H)",
+      "fill": "4294967295.0"
+    },
+    {
+      "name": "CHANNEL_COUNTERS_FAST_03",
+      "type": "integer",
+      "units": "Count",
+      "description": "Triggers for Fast channel 1 (EL)",
+      "fill": "4294967295.0"
+    },
+    {
+      "name": "CHANNEL_COUNTERS_SLOW_03",
+      "type": "integer",
+      "units": "Count",
+      "description": "Triggers for Slow channel 1 (EL)",
+      "fill": "4294967295.0"
+    },
+    {
+      "name": "CHANNEL_COUNTERS_FAST_04",
+      "type": "integer",
+      "units": "Count",
+      "description": "Triggers for Fast channel 2 (EN)",
+      "fill": "4294967295.0"
+    },
+    {
+      "name": "CHANNEL_COUNTERS_SLOW_04",
+      "type": "integer",
+      "units": "Count",
+      "description": "Triggers for Slow channel 2 (EN)",
+      "fill": "4294967295.0"
+    },
+    {
+      "name": "CHANNEL_COUNTERS_FAST_05",
+      "type": "integer",
+      "units": "Count",
+      "description": "Triggers for Fast channel 3 (EM)",
+      "fill": "4294967295.0"
+    },
+    {
+      "name": "CHANNEL_COUNTERS_SLOW_05",
+      "type": "integer",
+      "units": "Count",
+      "description": "Triggers for Slow channel 3 (EM)",
+      "fill": "4294967295.0"
+    },
+    {
+      "name": "CHANNEL_COUNTERS_FAST_06",
+      "type": "integer",
+      "units": "Count",
+      "description": "Triggers for Fast channel 4 (EI)",
+      "fill": "4294967295.0"
+    },
+    {
+      "name": "CHANNEL_COUNTERS_SLOW_06",
+      "type": "integer",
+      "units": "Count",
+      "description": "Triggers for Slow channel 4 (EI)",
+      "fill": "4294967295.0"
+    },
+    {
+      "name": "CHANNEL_COUNTERS_FAST_07",
+      "type": "integer",
+      "units": "Count",
+      "description": "Triggers for Fast channel 5 (EH)",
+      "fill": "4294967295.0"
+    },
+    {
+      "name": "CHANNEL_COUNTERS_SLOW_07",
+      "type": "integer",
+      "units": "Count",
+      "description": "Triggers for Slow channel 5 (EH)",
+      "fill": "4294967295.0"
+    },
+    {
+      "name": "CHANNEL_COUNTERS_FAST_08",
+      "type": "integer",
+      "units": "Count",
+      "description": "Triggers for Fast channel 6 (EU)",
+      "fill": "4294967295.0"
+    },
+    {
+      "name": "CHANNEL_COUNTERS_SLOW_08",
+      "type": "integer",
+      "units": "Count",
+      "description": "Triggers for Slow channel 6 (EU)",
+      "fill": "4294967295.0"
+    },
+    {
+      "name": "CHANNEL_COUNTERS_FAST_09",
+      "type": "integer",
+      "units": "Count",
+      "description": "Triggers for Fast channel 7 (DL)",
+      "fill": "4294967295.0"
+    },
+    {
+      "name": "CHANNEL_COUNTERS_SLOW_09",
+      "type": "integer",
+      "units": "Count",
+      "description": "Triggers for Slow channel 7 (DL)",
+      "fill": "4294967295.0"
+    },
+    {
+      "name": "CHANNEL_COUNTERS_FAST_10",
+      "type": "integer",
+      "units": "Count",
+      "description": "Triggers for Fast channel 8 (DN)",
+      "fill": "4294967295.0"
+    },
+    {
+      "name": "CHANNEL_COUNTERS_SLOW_10",
+      "type": "integer",
+      "units": "Count",
+      "description": "Triggers for Slow channel 8 (DN)",
+      "fill": "4294967295.0"
+    },
+    {
+      "name": "CHANNEL_COUNTERS_FAST_11",
+      "type": "integer",
+      "units": "Count",
+      "description": "Triggers for Fast channel 9 (DM)",
+      "fill": "4294967295.0"
+    },
+    {
+      "name": "CHANNEL_COUNTERS_SLOW_11",
+      "type": "integer",
+      "units": "Count",
+      "description": "Triggers for Slow channel 9 (DM)",
+      "fill": "4294967295.0"
+    },
+    {
+      "name": "CHANNEL_COUNTERS_FAST_12",
+      "type": "integer",
+      "units": "Count",
+      "description": "Triggers for Fast channel 10 (DI)",
+      "fill": "4294967295.0"
+    },
+    {
+      "name": "CHANNEL_COUNTERS_SLOW_12",
+      "type": "integer",
+      "units": "Count",
+      "description": "Triggers for Slow channel 10 (DI)",
+      "fill": "4294967295.0"
+    },
+    {
+      "name": "CHANNEL_COUNTERS_FAST_13",
+      "type": "integer",
+      "units": "Count",
+      "description": "Triggers for Fast channel 11 (DH)",
+      "fill": "4294967295.0"
+    },
+    {
+      "name": "CHANNEL_COUNTERS_SLOW_13",
+      "type": "integer",
+      "units": "Count",
+      "description": "Triggers for Slow channel 11 (DH)",
+      "fill": "4294967295.0"
+    },
+    {
+      "name": "CHANNEL_COUNTERS_FAST_14",
+      "type": "integer",
+      "units": "Count",
+      "description": "Triggers for Fast channel 12 (DU)",
+      "fill": "4294967295.0"
+    },
+    {
+      "name": "CHANNEL_COUNTERS_SLOW_14",
+      "type": "integer",
+      "units": "Count",
+      "description": "Triggers for Slow channel 12 (DU)",
+      "fill": "4294967295.0"
+    },
+    {
+      "name": "CHANNEL_COUNTERS_FAST_15",
+      "type": "integer",
+      "units": "Count",
+      "description": "Triggers for Fast channel 13 (CL)",
+      "fill": "4294967295.0"
+    },
+    {
+      "name": "CHANNEL_COUNTERS_SLOW_15",
+      "type": "integer",
+      "units": "Count",
+      "description": "Triggers for Slow channel 13 (CL)",
+      "fill": "4294967295.0"
+    },
+    {
+      "name": "CHANNEL_COUNTERS_FAST_16",
+      "type": "integer",
+      "units": "Count",
+      "description": "Triggers for Fast channel 14 (CM)",
+      "fill": "4294967295.0"
+    },
+    {
+      "name": "CHANNEL_COUNTERS_SLOW_16",
+      "type": "integer",
+      "units": "Count",
+      "description": "Triggers for Slow channel 14 (CM)",
+      "fill": "4294967295.0"
+    },
+    {
+      "name": "CHANNEL_COUNTERS_FAST_17",
+      "type": "integer",
+      "units": "Count",
+      "description": "Triggers for Fast channel 15 (CH)",
+      "fill": "4294967295.0"
+    },
+    {
+      "name": "CHANNEL_COUNTERS_SLOW_17",
+      "type": "integer",
+      "units": "Count",
+      "description": "Triggers for Slow channel 15 (CH)",
+      "fill": "4294967295.0"
+    },
+    {
+      "name": "CHANNEL_COUNTERS_FAST_18",
+      "type": "integer",
+      "units": "Count",
+      "description": "Triggers for Fast channel 16 (CU)",
+      "fill": "4294967295.0"
+    },
+    {
+      "name": "CHANNEL_COUNTERS_SLOW_18",
+      "type": "integer",
+      "units": "Count",
+      "description": "Triggers for Slow channel 16 (CU)",
+      "fill": "4294967295.0"
+    },
+    {
+      "name": "CHANNEL_COUNTERS_FAST_19",
+      "type": "integer",
+      "units": "Count",
+      "description": "Triggers for Fast channel 17 (C2L)",
+      "fill": "4294967295.0"
+    },
+    {
+      "name": "CHANNEL_COUNTERS_SLOW_19",
+      "type": "integer",
+      "units": "Count",
+      "description": "Triggers for Slow channel 17 (C2L)",
+      "fill": "4294967295.0"
+    },
+    {
+      "name": "CHANNEL_COUNTERS_FAST_20",
+      "type": "integer",
+      "units": "Count",
+      "description": "Triggers for Fast channel 18 (C2H)",
+      "fill": "4294967295.0"
+    },
+    {
+      "name": "CHANNEL_COUNTERS_SLOW_20",
+      "type": "integer",
+      "units": "Count",
+      "description": "Triggers for Slow channel 18 (C2H)",
+      "fill": "4294967295.0"
+    },
+    {
+      "name": "CHANNEL_COUNTERS_FAST_21",
+      "type": "integer",
+      "units": "Count",
+      "description": "Triggers for Fast channel 19 (BL)",
+      "fill": "4294967295.0"
+    },
+    {
+      "name": "CHANNEL_COUNTERS_SLOW_21",
+      "type": "integer",
+      "units": "Count",
+      "description": "Triggers for Slow channel 19 (BL)",
+      "fill": "4294967295.0"
+    },
+    {
+      "name": "CHANNEL_COUNTERS_FAST_22",
+      "type": "integer",
+      "units": "Count",
+      "description": "Triggers for Fast channel 20 (BM)",
+      "fill": "4294967295.0"
+    },
+    {
+      "name": "CHANNEL_COUNTERS_SLOW_22",
+      "type": "integer",
+      "units": "Count",
+      "description": "Triggers for Slow channel 20 (BM)",
+      "fill": "4294967295.0"
+    },
+    {
+      "name": "CHANNEL_COUNTERS_FAST_23",
+      "type": "integer",
+      "units": "Count",
+      "description": "Triggers for Fast channel 21 (BH)",
+      "fill": "4294967295.0"
+    },
+    {
+      "name": "CHANNEL_COUNTERS_SLOW_23",
+      "type": "integer",
+      "units": "Count",
+      "description": "Triggers for Slow channel 21 (BH)",
+      "fill": "4294967295.0"
+    },
+    {
+      "name": "CHANNEL_COUNTERS_FAST_24",
+      "type": "integer",
+      "units": "Count",
+      "description": "Triggers for Fast channel 22 (BU)",
+      "fill": "4294967295.0"
+    },
+    {
+      "name": "CHANNEL_COUNTERS_SLOW_24",
+      "type": "integer",
+      "units": "Count",
+      "description": "Triggers for Slow channel 22 (BU)",
+      "fill": "4294967295.0"
+    },
+    {
+      "name": "CHANNEL_COUNTERS_FAST_25",
+      "type": "integer",
+      "units": "Count",
+      "description": "Triggers for Fast channel 23 (A2L)",
+      "fill": "4294967295.0"
+    },
+    {
+      "name": "CHANNEL_COUNTERS_SLOW_25",
+      "type": "integer",
+      "units": "Count",
+      "description": "Triggers for Slow channel 23 (A2L)",
+      "fill": "4294967295.0"
+    },
+    {
+      "name": "CHANNEL_COUNTERS_FAST_26",
+      "type": "integer",
+      "units": "Count",
+      "description": "Triggers for Fast channel 24 (A2M)",
+      "fill": "4294967295.0"
+    },
+    {
+      "name": "CHANNEL_COUNTERS_SLOW_26",
+      "type": "integer",
+      "units": "Count",
+      "description": "Triggers for Slow channel 24 (A2M)",
+      "fill": "4294967295.0"
+    },
+    {
+      "name": "CHANNEL_COUNTERS_FAST_27",
+      "type": "integer",
+      "units": "Count",
+      "description": "Triggers for Fast channel 25 (A2H)",
+      "fill": "4294967295.0"
+    },
+    {
+      "name": "CHANNEL_COUNTERS_SLOW_27",
+      "type": "integer",
+      "units": "Count",
+      "description": "Triggers for Slow channel 25 (A2H)",
+      "fill": "4294967295.0"
+    },
+    {
+      "name": "CHANNEL_COUNTERS_FAST_28",
+      "type": "integer",
+      "units": "Count",
+      "description": "Triggers for Fast channel 26 (A2U)",
+      "fill": "4294967295.0"
+    },
+    {
+      "name": "CHANNEL_COUNTERS_SLOW_28",
+      "type": "integer",
+      "units": "Count",
+      "description": "Triggers for Slow channel 26 (A2U)",
+      "fill": "4294967295.0"
+    },
+    {
+      "name": "CHANNEL_COUNTERS_FAST_29",
+      "type": "integer",
+      "units": "Count",
+      "description": "Triggers for Fast channel 27 (A1L)",
+      "fill": "4294967295.0"
+    },
+    {
+      "name": "CHANNEL_COUNTERS_SLOW_29",
+      "type": "integer",
+      "units": "Count",
+      "description": "Triggers for Slow channel 27 (A1L)",
+      "fill": "4294967295.0"
+    },
+    {
+      "name": "CHANNEL_COUNTERS_FAST_30",
+      "type": "integer",
+      "units": "Count",
+      "description": "Triggers for Fast channel 28 (A1M)",
+      "fill": "4294967295.0"
+    },
+    {
+      "name": "CHANNEL_COUNTERS_SLOW_30",
+      "type": "integer",
+      "units": "Count",
+      "description": "Triggers for Slow channel 28 (A1M)",
+      "fill": "4294967295.0"
+    },
+    {
+      "name": "CHANNEL_COUNTERS_FAST_31",
+      "type": "integer",
+      "units": "Count",
+      "description": "Triggers for Fast channel 29 (A1H)",
+      "fill": "4294967295.0"
+    },
+    {
+      "name": "CHANNEL_COUNTERS_SLOW_31",
+      "type": "integer",
+      "units": "Count",
+      "description": "Triggers for Slow channel 29 (A1H)",
+      "fill": "4294967295.0"
+    },
+    {
+      "name": "CHANNEL_COUNTERS_FAST_32",
+      "type": "integer",
+      "units": "Count",
+      "description": "Triggers for Fast channel 30 (A1U)",
+      "fill": "4294967295.0"
+    },
+    {
+      "name": "CHANNEL_COUNTERS_SLOW_32",
+      "type": "integer",
+      "units": "Count",
+      "description": "Triggers for Slow channel 30 (A1U)",
+      "fill": "4294967295.0"
+    },
+    {
+      "name": "CHANNEL_COUNTERS_FAST_33",
+      "type": "integer",
+      "units": "Count",
+      "description": "Triggers for Fast channel 31 (F1L)",
+      "fill": "4294967295.0"
+    },
+    {
+      "name": "CHANNEL_COUNTERS_SLOW_33",
+      "type": "integer",
+      "units": "Count",
+      "description": "Triggers for Slow channel 31 (F1L)",
+      "fill": "4294967295.0"
+    },
+    {
+      "name": "MATCH_COUNTER_0",
+      "type": "integer",
+      "units": "Count",
+      "description": "Particle events that matched  for index 0 [A1U and BU and not C2L]",
+      "fill": "4294967295.0"
+    },
+    {
+      "name": "MATCH_COUNTER_1",
+      "type": "integer",
+      "units": "Count",
+      "description": "Particle events that matched  for index 1 [A2U and BU and not C2L]",
+      "fill": "4294967295.0"
+    },
+    {
+      "name": "MATCH_COUNTER_2",
+      "type": "integer",
+      "units": "Count",
+      "description": "Particle events that matched  for index 2 [A1M and BM]",
+      "fill": "4294967295.0"
+    },
+    {
+      "name": "MATCH_COUNTER_3",
+      "type": "integer",
+      "units": "Count",
+      "description": "Particle events that matched  for index 3 [A2M and BM]",
+      "fill": "4294967295.0"
+    },
+    {
+      "name": "MATCH_COUNTER_4",
+      "type": "integer",
+      "units": "Count",
+      "description": "Particle events that matched  for index 4 [BU]",
+      "fill": "4294967295.0"
+    },
+    {
+      "name": "MATCH_COUNTER_5",
+      "type": "integer",
+      "units": "Count",
+      "description": "Particle events that matched  for index 5 [EH and EI]",
+      "fill": "4294967295.0"
+    },
+    {
+      "name": "MATCH_COUNTER_6",
+      "type": "integer",
+      "units": "Count",
+      "description": "Particle events that matched  for index 6 [not F1L and not BU and not C2H and not C2L and not CU and EH and EI and EM]",
+      "fill": "4294967295.0"
+    },
+    {
+      "name": "MATCH_COUNTER_7",
+      "type": "integer",
+      "units": "Count",
+      "description": "Particle events that matched  for index 7 [not F1L and not BU and not C2H and not C2L and not CU and DH and DI]",
+      "fill": "4294967295.0"
+    },
+    {
+      "name": "MATCH_COUNTER_8",
+      "type": "integer",
+      "units": "Count",
+      "description": "Particle events that matched  for index 8 [not F1L and not BU and not C2H and not C2L and not CU and DH and DI and EH and EI]",
+      "fill": "4294967295.0"
+    },
+    {
+      "name": "MATCH_COUNTER_9",
+      "type": "integer",
+      "units": "Count",
+      "description": "Particle events that matched  for index 9 [DM and DL]",
+      "fill": "4294967295.0"
+    },
+    {
+      "name": "MATCH_COUNTER_10",
+      "type": "integer",
+      "units": "Count",
+      "description": "Particle events that matched  for index 10 [not F1L and not A1U and not A2U and BU and not BH and not C2H and not C2L and not CU and not DH and not EH]",
+      "fill": "4294967295.0"
+    },
+    {
+      "name": "MATCH_COUNTER_11",
+      "type": "integer",
+      "units": "Count",
+      "description": "Particle events that matched  for index 11 [A2U and BU and CU and DH and EH]",
+      "fill": "4294967295.0"
+    },
+    {
+      "name": "MATCH_COUNTER_12",
+      "type": "integer",
+      "units": "Count",
+      "description": "Particle events that matched  for index 12 [not A1U and not A2U and not BU and not CU and DH and EH]",
+      "fill": "4294967295.0"
+    },
+    {
+      "name": "MATCH_COUNTER_13",
+      "type": "integer",
+      "units": "Count",
+      "description": "Particle events that matched  for index 13 [A2U and BU and CU and DH and not EH]",
+      "fill": "4294967295.0"
+    },
+    {
+      "name": "MATCH_COUNTER_14",
+      "type": "integer",
+      "units": "Count",
+      "description": "Particle events that matched  for index 14 [not A1M and not A2M and BM and not CM]",
+      "fill": "4294967295.0"
+    },
+    {
+      "name": "MATCH_COUNTER_15",
+      "type": "integer",
+      "units": "Count",
+      "description": "Particle events that matched  for index 15 NA",
+      "fill": "4294967295.0"
+    },
+    {
+      "name": "READ_COUNTER_0",
+      "type": "integer",
+      "units": "Count",
+      "description": "Particle events that were analyzed by hardware  for index 0 [A1U and BU and not C2L]",
+      "fill": "4294967295.0"
+    },
+    {
+      "name": "READ_COUNTER_1",
+      "type": "integer",
+      "units": "Count",
+      "description": "Particle events that were analyzed by hardware  for index 1 [A2U and BU and not C2L]",
+      "fill": "4294967295.0"
+    },
+    {
+      "name": "READ_COUNTER_2",
+      "type": "integer",
+      "units": "Count",
+      "description": "Particle events that were analyzed by hardware  for index 2 [A1M and BM]",
+      "fill": "4294967295.0"
+    },
+    {
+      "name": "READ_COUNTER_3",
+      "type": "integer",
+      "units": "Count",
+      "description": "Particle events that were analyzed by hardware  for index 3 [A2M and BM]",
+      "fill": "4294967295.0"
+    },
+    {
+      "name": "READ_COUNTER_4",
+      "type": "integer",
+      "units": "Count",
+      "description": "Particle events that were analyzed by hardware  for index 4 [BU]",
+      "fill": "4294967295.0"
+    },
+    {
+      "name": "READ_COUNTER_5",
+      "type": "integer",
+      "units": "Count",
+      "description": "Particle events that were analyzed by hardware  for index 5 [EH and EI]",
+      "fill": "4294967295.0"
+    },
+    {
+      "name": "READ_COUNTER_6",
+      "type": "integer",
+      "units": "Count",
+      "description": "Particle events that were analyzed by hardware  for index 6 [not F1L and not BU and not C2H and not C2L and not CU and EH and EI and EM]",
+      "fill": "4294967295.0"
+    },
+    {
+      "name": "READ_COUNTER_7",
+      "type": "integer",
+      "units": "Count",
+      "description": "Particle events that were analyzed by hardware  for index 7 [not F1L and not BU and not C2H and not C2L and not CU and DH and DI]",
+      "fill": "4294967295.0"
+    },
+    {
+      "name": "READ_COUNTER_8",
+      "type": "integer",
+      "units": "Count",
+      "description": "Particle events that were analyzed by hardware  for index 8 [not F1L and not BU and not C2H and not C2L and not CU and DH and DI and EH and EI]",
+      "fill": "4294967295.0"
+    },
+    {
+      "name": "READ_COUNTER_9",
+      "type": "integer",
+      "units": "Count",
+      "description": "Particle events that were analyzed by hardware  for index 9 [DM and DL]",
+      "fill": "4294967295.0"
+    },
+    {
+      "name": "READ_COUNTER_10",
+      "type": "integer",
+      "units": "Count",
+      "description": "Particle events that were analyzed by hardware  for index 10 [not F1L and not A1U and not A2U and BU and not BH and not C2H and not C2L and not CU and not DH and not EH]",
+      "fill": "4294967295.0"
+    },
+    {
+      "name": "READ_COUNTER_11",
+      "type": "integer",
+      "units": "Count",
+      "description": "Particle events that were analyzed by hardware  for index 11 [A2U and BU and CU and DH and EH]",
+      "fill": "4294967295.0"
+    },
+    {
+      "name": "READ_COUNTER_12",
+      "type": "integer",
+      "units": "Count",
+      "description": "Particle events that were analyzed by hardware  for index 12 [not A1U and not A2U and not BU and not CU and DH and EH]",
+      "fill": "4294967295.0"
+    },
+    {
+      "name": "READ_COUNTER_13",
+      "type": "integer",
+      "units": "Count",
+      "description": "Particle events that were analyzed by hardware  for index 13 [A2U and BU and CU and DH and not EH]",
+      "fill": "4294967295.0"
+    },
+    {
+      "name": "READ_COUNTER_14",
+      "type": "integer",
+      "units": "Count",
+      "description": "Particle events that were analyzed by hardware  for index 14 [not A1M and not A2M and BM and not CM]",
+      "fill": "4294967295.0"
+    },
+    {
+      "name": "READ_COUNTER_15",
+      "type": "integer",
+      "units": "Count",
+      "description": "Particle events that were analyzed by hardware  for index 15 NA",
+      "fill": "4294967295.0"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

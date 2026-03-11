@@ -1,0 +1,348 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "OBDH_RAM_Status",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Onboard Data Handling RAM Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_OBDH_RAM_Status",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for OBDH RAM Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "OBDH_PROM_Status",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Onboard Data Handling PROM Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_OBDH_PROM_Status",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for OBDH PROM Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "OBDH_G_RAM_Status",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Onboard Data Handling Global Ram Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_OBDH_G_RAM_Status",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for OBDH G-RAM Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "OBDH_FGP_Ovrrun",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Onboard Data Handling FGP Overrun",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_OBDH_FGP_Ovrrun",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for OBDH FGP Ovrrun",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "OBDH_BGP_Ovrrun",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Onboard Data Handling BGP Overrun",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_OBDH_BGP_Ovrrun",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for OBDH BGP Ovrrun",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "OBDH_Subr_Err",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Onboard Data Handling Subroutine Call Error",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_OBDH_Subr_Err",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for OBDH Subr Err",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "OBDH_Stck_Ovrflow",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Onboard Data Handling Stack Overflow",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_OBDH_Stck_Ovrflow",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for OBDH Stck Ovrflow",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "OBDH_Self_Chk",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Onboard Data Handling Self Check Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_OBDH_Self_Chk",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for OBDH Self Chk",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "AMCS_Up_Status",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "AMCS Up Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_AMCS_Up_Status",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for AMCS Up Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "AMCS_PROM_Status",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "AMCS RAM Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_AMCS_PROM_Status",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for AMCS PROM Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "AMCS_G_RAM_Status",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "AMCS PROM Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_AMCS_G_RAM_Status",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for AMCS G-RAM Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "AMCS_FGP_Ovrrun",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "AMCS Global RAM Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_AMCS_FGP_Ovrrun",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for AMCS FGP Ovrrun",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "AMCS_BGP_Ovrrun",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "AMCS FGP Overrun",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_AMCS_BGP_Ovrrun",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for AMCS BGP Ovrrun",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "AMCS_Subr_Err",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "AMCS BGP Overrun",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_AMCS_Subr_Err",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for AMCS Subr Err",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "AMCS_Stck_Ovrflow",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "AMCS Subroutine Call Error",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_AMCS_Stck_Ovrflow",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for AMCS Stck Ovrflow",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "AMCS_Self_Chk",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "AMCS Stack Overflow",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_AMCS_Self_Chk",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for AMCS Self Chk",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "AMCS_GR_Acc_Fail",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "AMCS GR Access Failed",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_AMCS_GR_Acc_Fail",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for AMCS GR Acc Fail",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "BUS_Arbtr_Fail",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Bus Arbiter Failure",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_BUS_Arbtr_Fail",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for BUS Arbtr Fail",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "RTUS_Arbtr_Fail",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "RTUS Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_RTUS_Arbtr_Fail",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for RTUS Arbtr Fail",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "GR_Access_Fail",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "GR Access Failed",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_GR_Access_Fail",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for GR Access Fail",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "I_2_Blks_TLCS",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "More Than 2 Blocks Of TLCS",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality___2_Blks_TLCS",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for > 2 Blks TLCS",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "CTU_RTUS_Link",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "CTU-RTUS Link Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_CTU_RTUS_Link",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for CTU-RTUS Link",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "CTU_RTUP_Link",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "CTU-RTUP Link Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_CTU_RTUP_Link",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for CTU-RTUP Link",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Unknown_Bit",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Unknown Bit",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Unknown_Bit",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Unknown Bit",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

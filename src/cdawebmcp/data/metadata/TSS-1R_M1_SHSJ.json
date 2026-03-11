@@ -1,0 +1,152 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "Alpha_1_2_Selected",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Alpha 1/2 Selected Optical Head",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Alpha_1_2_Selected",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Alpha 1/2 Selected",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Alpha_3_4_Selected",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Alpha 3/4 Selected Optical Head",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Alpha_3_4_Selected",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Alpha 3/4 Selected",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Beta_1_2_Selected",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Beta 1/2 Selected Optical Head",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Beta_1_2_Selected",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Beta 1/2 Selected",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Beta_3_4_Selected",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Beta 3/4 Selected Optical Head",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Beta_3_4_Selected",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Beta 3/4 Selected",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Alpha_1_2_Data_Valid",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Alpha 1/2 Data Valid",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Alpha_1_2_Data_Valid",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Alpha 1/2 Data Valid",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Alpha_3_4_Data_Valid",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Alpha 3/4 Data Valid",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Alpha_3_4_Data_Valid",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Alpha 3/4 Data Valid",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Beta_1_2_Data_Valid",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Beta 1/2 Data Valid",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Beta_1_2_Data_Valid",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Beta 1/2 Data Valid",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Beta_3_4_Data_Valid",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Beta 3/4 Data Valid",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Beta_3_4_Data_Valid",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Beta 3/4 Data Valid",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "FDS1_FDS2_Status",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "FDS1/FDS2 Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_FDS1_FDS2_Status",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for FDS1/FDS2 Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "FDS1_FDS2_Sun",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "FDS1/FDS2 Sun Presence",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_FDS1_FDS2_Sun",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for FDS1/FDS2 Sun",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

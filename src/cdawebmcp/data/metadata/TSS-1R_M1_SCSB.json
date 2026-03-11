@@ -1,0 +1,54 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "SLA_Oper",
+      "type": "double",
+      "units": "unitless",
+      "description": "SLA Operate Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SLA_Oper",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for SLA Oper",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SA_Pwr_Chk",
+      "type": "double",
+      "units": "unitless",
+      "description": "SA Power Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SA_Pwr_Chk",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for SA Pwr Chk",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SA_Autochk_Cmd",
+      "type": "double",
+      "units": "unitless",
+      "description": "SA Autocheck CMD Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SA_Autochk_Cmd",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for SA Autochk Cmd",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

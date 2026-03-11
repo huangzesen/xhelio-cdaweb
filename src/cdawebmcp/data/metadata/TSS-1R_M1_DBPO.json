@@ -1,0 +1,82 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "DRBA_Header",
+      "type": "double",
+      "units": "unitless",
+      "description": "DRBA Header",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_DRBA_Header",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for DRBA Header",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DRBA_Tip_Pos_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "DRBA Tip Position",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DRBA_Tip_Pos_2_Len_mm",
+      "type": "double",
+      "units": "mm",
+      "description": "DRBA Tip Position",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_DRBA_Tip_Pos",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for DRBA Tip Pos",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DRBD_Header",
+      "type": "double",
+      "units": "unitless",
+      "description": "DRBD Header",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_DRBD_Header",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for DRBD Header",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DRBD_Tip_Pos_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "DRBD Tip Position",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DRBD_Tip_Pos_2_Len_mm",
+      "type": "double",
+      "units": "mm",
+      "description": "DRBD Tip Position",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_DRBD_Tip_Pos",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for DRBD Tip Pos",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

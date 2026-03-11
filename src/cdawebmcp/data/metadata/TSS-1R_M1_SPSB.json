@@ -1,0 +1,124 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "HV_Swp_Stat",
+      "type": "double",
+      "units": "Unitless",
+      "description": "HV Sweep Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_HV_Swp_Stat",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for HV Swp Stat",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "HV_Status",
+      "type": "double",
+      "units": "Unitless",
+      "description": "HV Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_HV_Status",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for HV Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Spectra_Stat",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Spectra Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Spectra_Stat",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for Spectra Stat",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Time_Tag_Cmd",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Time Tagged Command Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Time_Tag_Cmd",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for Time Tag Cmd",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "RTMD_A_Sense",
+      "type": "double",
+      "units": "Unitless",
+      "description": "RTMD A Sense Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_RTMD_A_Sense",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for RTMD A Sense",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "RTMD_B_Sense",
+      "type": "double",
+      "units": "Unitless",
+      "description": "RTMD B Sense Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_RTMD_B_Sense",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for RTMD B Sense",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "FDR1_Status",
+      "type": "double",
+      "units": "Unitless",
+      "description": "FDR1 Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_FDR1_Status",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for FDR1 Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "FDR2_Status",
+      "type": "double",
+      "units": "Unitless",
+      "description": "FDR2 Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_FDR2_Status",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for FDR2 Status",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

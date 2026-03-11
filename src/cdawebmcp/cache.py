@@ -331,12 +331,16 @@ def refresh_metadata(
     if dataset_ids:
         ids_to_refresh = list(dataset_ids)
     elif mission:
-        from cdawebmcp.scripts.build_catalog import match_dataset_to_mission
-        for f in meta_dir.glob("*.json"):
-            ds_id = f.stem
-            ds_mission, _ = match_dataset_to_mission(ds_id)
-            if ds_mission == mission:
-                ids_to_refresh.append(ds_id)
+        # Scan the observatory JSON for dataset IDs
+        from cdawebmcp.catalog import load_mission_json
+        try:
+            obs_data = load_mission_json(mission)
+            for inst in obs_data.get("instruments", {}).values():
+                for ds_id in inst.get("datasets", {}):
+                    if (meta_dir / f"{ds_id}.json").exists():
+                        ids_to_refresh.append(ds_id)
+        except FileNotFoundError:
+            pass
     else:
         ids_to_refresh = [f.stem for f in meta_dir.glob("*.json")]
 
@@ -461,25 +465,34 @@ def _fetch_full_cdaweb_catalog() -> dict[str, dict]:
 
 
 def rebuild_catalog(mission: str | None = None) -> dict:
-    """Rebuild mission catalog JSONs from CDAWeb REST API.
+    """Rebuild observatory catalog JSONs from CDAWeb REST API.
 
-    Downloads the full CDAWeb dataset catalog and regenerates mission JSON
-    files. This is the programmatic equivalent of:
-        python -m cdawebmcp.scripts.build_catalog [--mission <stem>]
+    Downloads the full CDAWeb dataset catalog and observatory groups,
+    and regenerates observatory JSON files. This is the programmatic
+    equivalent of:
+        python -m cdawebmcp.scripts.build_catalog [--observatory <slug>]
 
     Args:
-        mission: Only rebuild this mission stem. If None, rebuild all.
+        mission: Only rebuild this observatory slug. If None, rebuild all.
 
     Returns:
         Dict with missions_rebuilt count and details.
     """
     from cdawebmcp.scripts.build_catalog import (
-        build_mission_json,
-        match_dataset_to_mission,
+        build_all,
+        fetch_observatory_groups,
     )
 
     missions_dir = _get_missions_dir()
     missions_dir.mkdir(parents=True, exist_ok=True)
+
+    groups = fetch_observatory_groups()
+    if not groups:
+        return {
+            "status": "error",
+            "message": "Could not fetch CDAWeb observatory groups",
+            "missions_rebuilt": 0,
+        }
 
     catalog = _fetch_full_cdaweb_catalog()
     if not catalog:
@@ -489,26 +502,10 @@ def rebuild_catalog(mission: str | None = None) -> dict:
             "missions_rebuilt": 0,
         }
 
-    if mission:
-        stems = {mission}
-    else:
-        stems = set()
-        for ds_id in catalog:
-            stem, _ = match_dataset_to_mission(ds_id)
-            if stem:
-                stems.add(stem)
-
-    rebuilt = []
-    for stem in sorted(stems):
-        mission_data = build_mission_json(stem, catalog)
-        filepath = missions_dir / f"{stem}.json"
-        with open(filepath, "w", encoding="utf-8") as f:
-            json.dump(mission_data, f, indent=2, ensure_ascii=False)
-            f.write("\n")
-        rebuilt.append(stem)
+    built = build_all(groups, catalog, filter_slug=mission, output_dir=missions_dir)
 
     return {
         "status": "success",
-        "missions_rebuilt": len(rebuilt),
-        "missions": rebuilt,
+        "missions_rebuilt": len(built),
+        "missions": built,
     }

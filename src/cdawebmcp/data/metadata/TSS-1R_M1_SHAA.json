@@ -1,0 +1,82 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "Yaw_Angle",
+      "type": "double",
+      "units": "radians",
+      "description": "Yaw Angle",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Yaw_Angle",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Yaw Angle",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Roll_Angle",
+      "type": "double",
+      "units": "radians",
+      "description": "Roll Angle",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Roll_Angle",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Roll Angle",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Roll_Update_Angle",
+      "type": "double",
+      "units": "radians",
+      "description": "Roll Updating Angle",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Roll_Update_Angle",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Roll Update Angle",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Pitch_Angle",
+      "type": "double",
+      "units": "radians",
+      "description": "Pitch Angle",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Pitch_Angle",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Pitch Angle",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Pitch_Update_Angle",
+      "type": "double",
+      "units": "radians",
+      "description": "Pitch Updating Angle",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Pitch_Update_Angle",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Pitch Update Angle",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

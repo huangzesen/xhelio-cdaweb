@@ -1,0 +1,166 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "KU_A_CH1_Roll_Wd_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "KU-A Channel 1 Roll Word",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "KU_A_CH1_Roll_Wd_2_Angle_degrees",
+      "type": "double",
+      "units": "degrees",
+      "description": "KU-A Channel 1 Roll Word",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_KU_A_CH1_Roll_Wd",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for KU-A CH1 Roll Wd",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "KU_A_CH1_Pitch_Wd_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "KU-A Channel 1 Pitch Word",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "KU_A_CH1_Pitch_Wd_2_Angle_degrees",
+      "type": "double",
+      "units": "degrees",
+      "description": "KU-A Channel 1 Pitch Word",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_KU_A_CH1_Pitch_Wd",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for KU-A CH1 Pitch Wd",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "KU_A_CH1_DES_Roll_Wd_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "KU-A Channel 1 DES Roll Word",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "KU_A_CH1_DES_Roll_Wd_2_Angle_degrees",
+      "type": "double",
+      "units": "degrees",
+      "description": "KU-A Channel 1 DES Roll Word",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_KU_A_CH1_DES_Roll_Wd",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for KU-A CH1 DES Roll Wd",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "KU_A_CH1_DES_Pitch_Wd_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "KU-A Channel 1 DES Pitch Word",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "KU_A_CH1_DES_Pitch_Wd_2_Angle_degrees",
+      "type": "double",
+      "units": "degrees",
+      "description": "KU-A Channel 1 DES Pitch Word",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_KU_A_CH1_DES_Pitch_Wd",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for KU-A CH1 DES Pitch Wd",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "KU_A_CH1_Rng_Rate_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "KU-A Channel 1 Range Rate",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "KU_A_CH1_Rng_Rate_2_Velocity_feet_s",
+      "type": "double",
+      "units": "feet/s",
+      "description": "KU-A Channel 1 Range Rate",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "KU_A_CH1_Rng_Rate_3_Velocity_meters_s",
+      "type": "double",
+      "units": "meters/s",
+      "description": "KU-A Channel 1 Range Rate",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_KU_A_CH1_Rng_Rate",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for KU-A CH1 Rng Rate",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "KU_A_CH1_Roll_Rate_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "KU-A Channel 1 Roll Rate",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "KU_A_CH1_Roll_Rate_2_AngV_degrees_s",
+      "type": "double",
+      "units": "degrees/s",
+      "description": "KU-A Channel 1 Roll Rate",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_KU_A_CH1_Roll_Rate",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for KU-A CH1 Roll Rate",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "KU_A_CH1_Pitch_Rate_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "KU-A Channel 1 Pitch Rate",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "KU_A_CH1_Pitch_Rate_2_AngV_degrees_s",
+      "type": "double",
+      "units": "degrees/s",
+      "description": "KU-A Channel 1 Pitch Rate",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_KU_A_CH1_Pitch_Rate",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for KU-A CH1 Pitch Rate",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

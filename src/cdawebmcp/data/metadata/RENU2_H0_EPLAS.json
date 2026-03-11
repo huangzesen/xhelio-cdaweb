@@ -1,0 +1,19 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "electron_flux",
+      "type": "double",
+      "units": "mW/m^2",
+      "description": "electron energy flux summed over sweep of energies",
+      "fill": "-9.999999848243207e+30"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

@@ -1,0 +1,26 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "TeleCmd_Echo",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Telecommand Echo",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_TeleCmd_Echo",
+      "type": "double",
+      "units": "Integer",
+      "description": "Data Quality Indicator for TeleCmd Echo",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

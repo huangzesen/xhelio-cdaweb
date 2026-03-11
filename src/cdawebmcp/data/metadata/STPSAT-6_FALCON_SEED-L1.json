@@ -1,0 +1,86 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "SEED_Electron_Counts_Total",
+      "type": "integer",
+      "units": "#",
+      "description": "SEED Electron Counts for energy between 13.743 and 146.18 keV",
+      "fill": "4294967295.0",
+      "size": [
+        904
+      ]
+    },
+    {
+      "name": "SEED_Electron_Counts_Dt15_Good",
+      "type": "integer",
+      "units": "#",
+      "description": "SEED Electron Counts Dt15(Dt15 -> Delta t = 15 seconds)",
+      "fill": "4294967295.0",
+      "size": [
+        904
+      ]
+    },
+    {
+      "name": "SEED_Electron_Flux_Total",
+      "type": "double",
+      "units": "pfu",
+      "description": "Electron Flux at 904 energies (20 - 146 keV), scalar",
+      "fill": "-9.999999848243207e+30",
+      "size": [
+        904
+      ]
+    },
+    {
+      "name": "SEED_Electron_Flux_Dt15_Good",
+      "type": "double",
+      "units": "pfu",
+      "description": "SEED Electron Flux for time intervals of delta t = 15 seconds.  Electron Flux at 904 energies (20 - 146 keV), scalar",
+      "fill": "-9.999999848243207e+30",
+      "size": [
+        904
+      ]
+    },
+    {
+      "name": "SEED_Dosimeter_Counts",
+      "type": "integer",
+      "units": "#",
+      "description": "SEED Dosimeter Counts",
+      "fill": "4294967295.0",
+      "size": [
+        3
+      ]
+    },
+    {
+      "name": "SEED_Dosimeter_Dose",
+      "type": "double",
+      "units": "Rads",
+      "description": "SEED Dosimeter Dose",
+      "fill": "-9.999999848243207e+30",
+      "size": [
+        3
+      ]
+    },
+    {
+      "name": "SEED_Temperature",
+      "type": "double",
+      "units": "Celsius",
+      "description": "SEED Temperature (line plot)",
+      "fill": "-9.999999848243207e+30"
+    },
+    {
+      "name": "SEED_Temperature_s",
+      "type": "double",
+      "units": "Celsius",
+      "description": "SEED Temperature (scatter plot)",
+      "fill": "-9.999999848243207e+30"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

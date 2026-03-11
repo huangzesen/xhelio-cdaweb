@@ -1,0 +1,26 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "Tether_Len_Raw_Enc_Cnts",
+      "type": "double",
+      "units": "unitless",
+      "description": "Tether Length Raw Encoder Counts",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Tether_Len_Raw_Enc_Cnts",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Tether Len Raw Enc Cnts",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

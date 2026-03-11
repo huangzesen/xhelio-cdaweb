@@ -1,0 +1,264 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "altitude",
+      "type": "double",
+      "units": "km",
+      "description": "Altitude",
+      "fill": "nan"
+    },
+    {
+      "name": "decimal_day",
+      "type": "double",
+      "units": "days",
+      "description": "Decimal Day",
+      "fill": "nan"
+    },
+    {
+      "name": "dynamic_b_pl_range",
+      "type": "double",
+      "units": "none",
+      "description": "Dynamic Range",
+      "fill": "nan"
+    },
+    {
+      "name": "dynamic_bx_lpl",
+      "type": "double",
+      "units": "nT",
+      "description": "Dynamic Spacecraft Field X",
+      "fill": "nan"
+    },
+    {
+      "name": "dynamic_by_lpl",
+      "type": "double",
+      "units": "nT",
+      "description": "Dynamic Spacecraft Field Y",
+      "fill": "nan"
+    },
+    {
+      "name": "dynamic_bz_lpl",
+      "type": "double",
+      "units": "nT",
+      "description": "Dynamic Spacecraft Field Z",
+      "fill": "nan"
+    },
+    {
+      "name": "static_b_pl_range",
+      "type": "double",
+      "units": "none",
+      "description": "Static Spacecraft Field Range",
+      "fill": "nan"
+    },
+    {
+      "name": "static_bx_lpl",
+      "type": "double",
+      "units": "nT",
+      "description": "Static Spacecraft Field X",
+      "fill": "nan"
+    },
+    {
+      "name": "static_by_lpl",
+      "type": "double",
+      "units": "nT",
+      "description": "Static Spacecraft Field Y",
+      "fill": "nan"
+    },
+    {
+      "name": "static_bz_lpl",
+      "type": "double",
+      "units": "nT",
+      "description": "Static Spacecraft Field Z",
+      "fill": "nan"
+    },
+    {
+      "name": "b_range_lpc",
+      "type": "double",
+      "units": "none",
+      "description": "Magnetic Field Range Planetocentric",
+      "fill": "nan"
+    },
+    {
+      "name": "b_range_lss",
+      "type": "double",
+      "units": "none",
+      "description": "Magnetic Field Range MSO",
+      "fill": "nan"
+    },
+    {
+      "name": "bx_lpc",
+      "type": "double",
+      "units": "nT",
+      "description": "Magnetic Field X Planetocentric",
+      "fill": "nan"
+    },
+    {
+      "name": "bx_lss",
+      "type": "double",
+      "units": "nT",
+      "description": "Magnetic Field X MSO",
+      "fill": "nan"
+    },
+    {
+      "name": "by_lpc",
+      "type": "double",
+      "units": "nT",
+      "description": "Magnetic Field Y Planetocentric",
+      "fill": "nan"
+    },
+    {
+      "name": "by_lss",
+      "type": "double",
+      "units": "",
+      "description": "Magnetic Field Y MSO",
+      "fill": "nan"
+    },
+    {
+      "name": "bz_lpc",
+      "type": "double",
+      "units": "nT",
+      "description": "Magnetic Field Z Planetocentric",
+      "fill": "nan"
+    },
+    {
+      "name": "bz_lss",
+      "type": "double",
+      "units": "nT",
+      "description": "Magnetic Field Z MSO",
+      "fill": "nan"
+    },
+    {
+      "name": "rms_range_lpc",
+      "type": "double",
+      "units": "none",
+      "description": "RMS Range Planetocentric",
+      "fill": "nan"
+    },
+    {
+      "name": "rms_range_lss",
+      "type": "double",
+      "units": "none",
+      "description": "RMS Range MSO",
+      "fill": "nan"
+    },
+    {
+      "name": "rms_x_lpc",
+      "type": "double",
+      "units": "nT",
+      "description": "RMS X Planetocentric",
+      "fill": "nan"
+    },
+    {
+      "name": "rms_x_lss",
+      "type": "double",
+      "units": "nT",
+      "description": "RMS X MSO",
+      "fill": "nan"
+    },
+    {
+      "name": "rms_y_lpc",
+      "type": "double",
+      "units": "nT",
+      "description": "RMS Y Planetocentric",
+      "fill": "nan"
+    },
+    {
+      "name": "rms_y_lss",
+      "type": "double",
+      "units": "nT",
+      "description": "RMS Y MSO",
+      "fill": "nan"
+    },
+    {
+      "name": "rms_z_lpc",
+      "type": "double",
+      "units": "nT",
+      "description": "RMS Z Planetocentric",
+      "fill": "nan"
+    },
+    {
+      "name": "rms_z_lss",
+      "type": "double",
+      "units": "nT",
+      "description": "RMS Z MSO",
+      "fill": "nan"
+    },
+    {
+      "name": "sa_neg_y_low",
+      "type": "double",
+      "units": "mA",
+      "description": "Solar Array Negative Y Current",
+      "fill": "-999.0"
+    },
+    {
+      "name": "sa_total_low",
+      "type": "double",
+      "units": "mA",
+      "description": "Total Solar Array Current",
+      "fill": "-999.0"
+    },
+    {
+      "name": "sa_plus_y_low",
+      "type": "double",
+      "units": "mA",
+      "description": "Solar Array Positive Y Current",
+      "fill": "-999.0"
+    },
+    {
+      "name": "sc_pos_x_lpc",
+      "type": "double",
+      "units": "km",
+      "description": "Spacecraft Position X Planetocentric",
+      "fill": "nan"
+    },
+    {
+      "name": "sc_pos_x_lss",
+      "type": "double",
+      "units": "km",
+      "description": "Spacecraft Position X MSO",
+      "fill": "nan"
+    },
+    {
+      "name": "sc_pos_y_lpc",
+      "type": "double",
+      "units": "km",
+      "description": "Spacecraft Position Y Planetocentric",
+      "fill": "nan"
+    },
+    {
+      "name": "sc_pos_y_lss",
+      "type": "double",
+      "units": "km",
+      "description": "Spacecraft Position Y MSO",
+      "fill": "nan"
+    },
+    {
+      "name": "sc_pos_z_lpc",
+      "type": "double",
+      "units": "km",
+      "description": "Spacecraft Position Z Planetocentric",
+      "fill": "nan"
+    },
+    {
+      "name": "sc_pos_z_lss",
+      "type": "double",
+      "units": "km",
+      "description": "Spacecraft Position Z MSO",
+      "fill": "nan"
+    },
+    {
+      "name": "magnitude",
+      "type": "double",
+      "units": "nT",
+      "description": "Magnetic Field Magnitude",
+      "fill": "nan"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

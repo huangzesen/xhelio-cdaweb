@@ -1,0 +1,54 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "Ref_Spin_Rate_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Reference Spin Rate",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Ref_Spin_Rate_2_rate_radians_sec",
+      "type": "double",
+      "units": "radians/sec",
+      "description": "Reference Spin Rate",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Ref_Spin_Rate",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Ref Spin Rate",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Cur_Ref_Spin_Rate_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Current Reference Spin Rate",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Cur_Ref_Spin_Rate_2_rate_radians_sec",
+      "type": "double",
+      "units": "radians/sec",
+      "description": "Current Reference Spin Rate",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Cur_Ref_Spin_Rate",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Cur Ref Spin Rate",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

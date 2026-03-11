@@ -1,0 +1,418 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "DH_UP_MDmp_St_Add",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "DH UP Memory Dump Start Address",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_DH_UP_MDmp_St_Add",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for DH UP MDmp St Add",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DH_UP_MDmp_D1_b0_15",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "DH UP Memory Dump 1st Datum (bits 0-15)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_DH_UP_MDmp_D1_b0_15",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for DH UP MDmp D1 b(0-15)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DH_UP_MDmp_D1_b16_31",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "DH UP Memory Dump 1st Datum (bits 16-31)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_DH_UP_MDmp_D1_b16_31",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for DH UP MDmp D1 b(16-31)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DH_UP_MDmp_D1_b32_47",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "DH UP Memory Dump 1st Datum (bits 32-47)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_DH_UP_MDmp_D1_b32_47",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for DH UP MDmp D1 b(32-47)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DH_UP_MDmp_D1_b48_63",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "DH UP Memory Dump 1st Datum (bits 48-63)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_DH_UP_MDmp_D1_b48_63",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for DH UP MDmp D1 b(48-63)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DH_UP_MDmp_D2_b0_15",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "DH UP Memory Dump 2nd Datum (bits 0-15)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_DH_UP_MDmp_D2_b0_15",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for DH UP MDmp D2 b(0-15)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DH_UP_MDmp_D2_b16_31",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "DH UP Memory Dump 2nd Datum (bits 16-31)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_DH_UP_MDmp_D2_b16_31",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for DH UP MDmp D2 b(16-31)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DH_UP_MDmp_D2_b32_47",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "DH UP Memory Dump 2nd Datum (bits 32-47)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_DH_UP_MDmp_D2_b32_47",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for DH UP MDmp D2 b(32-47)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DH_UP_MDmp_D2_b48_63",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "DH UP Memory Dump 2nd Datum (bits 48-63)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_DH_UP_MDmp_D2_b48_63",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for DH UP MDmp D2 b(48-63)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DH_UP_MDmp_D3",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "DH UP Memory Dump 3rd Datum",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_DH_UP_MDmp_D3",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for DH UP MDmp D3",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "AMCS_UP_MDmp_St_Add",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "AMCS UP Memory Dump Start Address",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_AMCS_UP_MDmp_St_Add",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for AMCS UP MDmp St Add",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "AMCS_UP_MDmp_D1_b0_15",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "AMCS UP Memory Dump 1st Datum (bits 0-15)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_AMCS_UP_MDmp_D1_b0_15",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for AMCS UP MDmp D1 b(0-15)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "AMCS_UP_MDmp_D1_b16_31",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "AMCS UP Memory Dump 1st Datum (bits 16-31)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_AMCS_UP_MDmp_D1_b16_31",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for AMCS UP MDmp D1 b(16-31)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "AMCS_UP_MDmp_D1_b32_47",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "AMCS UP Memory Dump 1st Datum (bits 32-47)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_AMCS_UP_MDmp_D1_b32_47",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for AMCS UP MDmp D1 b(32-47)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "AMCS_UP_MDmp_D1_b48_63",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "AMCS UP Memory Dump 1st Datum (bits 48-63)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_AMCS_UP_MDmp_D1_b48_63",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for AMCS UP MDmp D1 b(48-63)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "AMCS_UP_MDmp_D2_b0_15",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "AMCS UP Memory Dump 2nd Datum (bits 0-15)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_AMCS_UP_MDmp_D2_b0_15",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for AMCS UP MDmp D2 b(0-15)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "AMCS_UP_MDmp_D2_b16_31",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "AMCS UP Memory Dump 2nd Datum (bits 16-31)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_AMCS_UP_MDmp_D2_b16_31",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for AMCS UP MDmp D2 b(16-31)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "AMCS_UP_MDmp_D2_b32_47",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "AMCS UP Memory Dump 2nd Datum (bits 32-47)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_AMCS_UP_MDmp_D2_b32_47",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for AMCS UP MDmp D2 b(32-47)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "AMCS_UP_MDmp_D2_b48_63",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "AMCS UP Memory Dump 2nd Datum (bits 48-63)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_AMCS_UP_MDmp_D2_b48_63",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for AMCS UP MDmp D2 b(48-63)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "AMCS_UP_MDmp_D3",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "AMCS UP Memory Dump 3rd Datum",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_AMCS_UP_MDmp_D3",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for AMCS UP MDmp D3",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "TLC_Cntr",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "TLC Counter",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_TLC_Cntr",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for TLC Cntr",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "TLC_Buf1_Msg_",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "TLC Buffer 1 Message Number",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_TLC_Buf1_Msg_",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for TLC Buf1 Msg#",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "TLC_Buf2_Msg_",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "TLC Buffer 2 Message Number",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_TLC_Buf2_Msg_",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for TLC Buf2 Msg#",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "TLC_Buf1_Exp_Chksm",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "TLC Buffer 1 Expected Checksum",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_TLC_Buf1_Exp_Chksm",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for TLC Buf1 Exp Chksm",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "TLC_Buf2_Exp_Chksm",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "TLC Buffer 2 Expected Checksum",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_TLC_Buf2_Exp_Chksm",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for TLC Buf2 Exp Chksm",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "TLC_Buf1_Comp_Chksm",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "TLC Buffer 1 Computed Checksum",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_TLC_Buf1_Comp_Chksm",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for TLC Buf1 Comp Chksm",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "TLC_Buf2_Comp_Chksm",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "TLC Buffer 2 Computed Checksum",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_TLC_Buf2_Comp_Chksm",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for TLC Buf2 Comp Chksm",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Fmt_Cntr",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Format Counter",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Fmt_Cntr",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Fmt Cntr",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Fmt_Num",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Format Number",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Fmt_Num",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Fmt Num",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

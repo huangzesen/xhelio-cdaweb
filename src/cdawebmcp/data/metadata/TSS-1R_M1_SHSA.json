@@ -1,0 +1,488 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "Gyro_Status",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Gyro Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Gyro_Status",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Gyro Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "X_Gyro_Warmup",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Gyro X Warm-up Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_X_Gyro_Warmup",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for X Gyro Warmup",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Y_Gyro_Warmup",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Gyro Y Warm-up Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Y_Gyro_Warmup",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Y Gyro Warmup",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Z_Gyro_Warmup",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Gyro Z Warm-up Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Z_Gyro_Warmup",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Z Gyro Warmup",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "S_Gyro_Warmup",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Gyro Skew Warm-up Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_S_Gyro_Warmup",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for S Gyro Warmup",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "X_Gyro_Chkout",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Gyro X Check-out Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_X_Gyro_Chkout",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for X Gyro Chkout",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Y_Gyro_Chkout",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Gyro Y Check-out Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Y_Gyro_Chkout",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Y Gyro Chkout",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Z_Gyro_Chkout",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Gyro Z Check-out Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Z_Gyro_Chkout",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Z Gyro Chkout",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "S_Gyro_Chkout",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Gyro Skew Check-out Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_S_Gyro_Chkout",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for S Gyro Chkout",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Gyro_Temp",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Gyro Temperature Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Gyro_Temp",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Gyro Temp",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Gyro_Pkg_1_X_Temp",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Gyro Package 1 Temperature X Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Gyro_Pkg_1_X_Temp",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Gyro Pkg 1 X Temp",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Gyro_Pkg_1_Z_Temp",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Gyro Package 1 Temperature Z Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Gyro_Pkg_1_Z_Temp",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Gyro Pkg 1 Z Temp",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Gyro_Pkg_2_Y_Temp",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Gyro Package 2 Temperature Y Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Gyro_Pkg_2_Y_Temp",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Gyro Pkg 2 Y Temp",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Gyro_Pkg_2_S_Temp",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Gyro Package 2 Temperature Skew Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Gyro_Pkg_2_S_Temp",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Gyro Pkg 2 S Temp",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "X_Gyro_Cmd",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Gyro X Command",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_X_Gyro_Cmd",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for X Gyro Cmd",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Y_Gyro_Cmd",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Gyro Y Command",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Y_Gyro_Cmd",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Y Gyro Cmd",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Z_Gyro_Cmd",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Gyro Z Command",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Z_Gyro_Cmd",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Z Gyro Cmd",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "S_Gyro_Cmd",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Gyro Skew Command",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_S_Gyro_Cmd",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for S Gyro Cmd",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Earth_Sen",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Earth Sensor Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Earth_Sen",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Earth Sen",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Sun_Sen",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Sun Sensor Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Sun_Sen",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Sun Sen",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "EL_1_OK",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "EL 1 OK",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_EL_1_OK",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for EL/1 OK",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "EL_2_OK",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "EL 2 OK",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_EL_2_OK",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for EL/2 OK",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "ES_1_Served",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "ES 1 Served",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_ES_1_Served",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for ES/1 Served",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "ES_2_Served",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "ES 2 Served",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_ES_2_Served",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for ES/2 Served",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "ES_1_OK",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "ES 1 Status OK",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_ES_1_OK",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for ES/1 OK",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "ES_2_OK",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "ES 2 Status OK",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_ES_2_OK",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for ES/2 OK",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "ES_1_Hd_Flg",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "ES 1 Head Flag",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_ES_1_Hd_Flg",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for ES/1 Hd Flg",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "ES_2_Hd_Flg",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "ES 2 Head Flag",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_ES_2_Hd_Flg",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for ES/2 Hd Flg",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "ES_1_Int_Temp",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "ES 1 Internal Temperature Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_ES_1_Int_Temp",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for ES/1 Int Temp",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "ES_2_Int_Temp",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "ES 2 Internal Temperature Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_ES_2_Int_Temp",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for ES/2 Int Temp",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Yaw_1_Cmd_Flag",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Yaw 1 Command Flag",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Yaw_1_Cmd_Flag",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Yaw 1 Cmd Flag",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Yaw_2_Cmd_Flag",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Yaw 2 Command Flag",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Yaw_2_Cmd_Flag",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Yaw 2 Cmd Flag",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Yaw_1_Flag",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Yaw 1 Flag",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Yaw_1_Flag",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Yaw 1 Flag",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Yaw_2_Flag",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Yaw 2 Flag",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Yaw_2_Flag",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Yaw 2 Flag",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

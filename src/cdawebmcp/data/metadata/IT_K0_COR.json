@@ -1,0 +1,46 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "Ni",
+      "type": "double",
+      "units": "no/cc",
+      "description": "Ion Number Density, CORALL",
+      "fill": "-9.999999848243207e+30"
+    },
+    {
+      "name": "Ti",
+      "type": "double",
+      "units": "eV",
+      "description": "Ion temperature, CORALL",
+      "fill": "-9.999999848243207e+30"
+    },
+    {
+      "name": "Vi_GSE",
+      "type": "double",
+      "units": "km/s",
+      "description": "Ion velocity, GSE cartesian vector, CORALL",
+      "fill": "-9.999999848243207e+30",
+      "size": [
+        3
+      ]
+    },
+    {
+      "name": "Vi_GSM",
+      "type": "double",
+      "units": "km/s",
+      "description": "Ion velocity, GSM cartesian vector, CORALL",
+      "fill": "-9.999999848243207e+30",
+      "size": [
+        3
+      ]
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

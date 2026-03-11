@@ -1,0 +1,152 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "DRBA_Main_Stowed",
+      "type": "double",
+      "units": "unitless",
+      "description": "DRBA Main Stowed Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_DRBA_Main_Stowed",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for DRBA Main Stowed",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DRBA_Red_Stowed",
+      "type": "double",
+      "units": "unitless",
+      "description": "DRBA RED Stowed Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_DRBA_Red_Stowed",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for DRBA Red Stowed",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DRBA_P_L_Main_Stowed",
+      "type": "double",
+      "units": "unitless",
+      "description": "DRBA P/L Main Stowed Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_DRBA_P_L_Main_Stowed",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for DRBA P/L Main Stowed",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DRBA_P_L_Red_Stowed",
+      "type": "double",
+      "units": "unitless",
+      "description": "DRBA P/L RED Stowed Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_DRBA_P_L_Red_Stowed",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for DRBA P/L Red Stowed",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DRBD_Main_Stowed",
+      "type": "double",
+      "units": "unitless",
+      "description": "DRBD Main Stowed Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_DRBD_Main_Stowed",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for DRBD Main Stowed",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DRBD_Red_Stowed",
+      "type": "double",
+      "units": "unitless",
+      "description": "DRBD RED Stowed Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_DRBD_Red_Stowed",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for DRBD Red Stowed",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DRBD_P_L_Main_Stowed",
+      "type": "double",
+      "units": "unitless",
+      "description": "DRBD P/L Main Stowed Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_DRBD_P_L_Main_Stowed",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for DRBD P/L Main Stowed",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DRBD_P_L_Red_Stowed",
+      "type": "double",
+      "units": "unitless",
+      "description": "DRBD P/L RED Stowed Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_DRBD_P_L_Red_Stowed",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for DRBD P/L Red Stowed",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DPY_RTR_Enable",
+      "type": "double",
+      "units": "unitless",
+      "description": "DPY/RTR Enable Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_DPY_RTR_Enable",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for DPY/RTR Enable",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "JTS_Enable",
+      "type": "double",
+      "units": "unitless",
+      "description": "JTS Enable Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_JTS_Enable",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for JTS Enable",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

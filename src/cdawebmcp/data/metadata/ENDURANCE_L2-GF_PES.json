@@ -1,0 +1,39 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "step",
+      "type": "integer",
+      "units": "",
+      "description": "Photoelectron Spectrometer Energy Step",
+      "fill": "-99.0"
+    },
+    {
+      "name": "PES_A_GF",
+      "type": "double",
+      "units": "cm^2 sr eV/eV)^-1",
+      "description": "Variation of geometric factor of PES all sensors, A-side during operation",
+      "fill": "nan",
+      "size": [
+        8
+      ]
+    },
+    {
+      "name": "PES_B_GF",
+      "type": "double",
+      "units": "cm^2 sr eV/eV)^-1",
+      "description": "Variation of geometric factor of PES all sensors, B-side during operation",
+      "fill": "nan",
+      "size": [
+        8
+      ]
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

@@ -1,0 +1,29 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "time",
+      "type": "double",
+      "units": "seconds",
+      "description": "Mission elapsed time",
+      "fill": "-1e+31"
+    },
+    {
+      "name": "spec",
+      "type": "double",
+      "units": "dB/Hz",
+      "description": "SLP Power Spectral Density",
+      "fill": "-1e+31",
+      "size": [
+        5324
+      ]
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

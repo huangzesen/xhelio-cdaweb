@@ -1,0 +1,166 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "FDR1_Tape_Xsport_T_1_Telemetry_Unitless",
+      "type": "double",
+      "units": "Unitless",
+      "description": "FDR1 Tape Transport Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "FDR1_Tape_Xsport_T_2_T_degrees_C",
+      "type": "double",
+      "units": "degrees C",
+      "description": "FDR1 Tape Transport Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_FDR1_Tape_Xsport_T",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for FDR1 Tape Xsport T",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "FDR1_Casing_T_1_Telemetry_Unitless",
+      "type": "double",
+      "units": "Unitless",
+      "description": "FDR1 Casing Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "FDR1_Casing_T_2_T_degrees_C",
+      "type": "double",
+      "units": "degrees C",
+      "description": "FDR1 Casing Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_FDR1_Casing_T",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for FDR1 Casing T",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "FDR1_Pressure_1_Telemetry_Unitless",
+      "type": "double",
+      "units": "Unitless",
+      "description": "FDR1 Pressure",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "FDR1_Pressure_2_Pressure_psi",
+      "type": "double",
+      "units": "psi",
+      "description": "FDR1 Pressure",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_FDR1_Pressure",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for FDR1 Pressure",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "FDR1_Rd_Wr_Err_Cnt",
+      "type": "double",
+      "units": "Unitless",
+      "description": "FDR1 Read Write Error Count",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_FDR1_Rd_Wr_Err_Cnt",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for FDR1 Rd/Wr Err Cnt",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "FDR2_Tape_Xsport_T_1_Telemetry_Unitless",
+      "type": "double",
+      "units": "Unitless",
+      "description": "FDR2 Tape Transport Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "FDR2_Tape_Xsport_T_2_T_degrees_C",
+      "type": "double",
+      "units": "degrees C",
+      "description": "FDR2 Tape Transport Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_FDR2_Tape_Xsport_T",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for FDR2 Tape Xsport T",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "FDR2_Casing_T_1_Telemetry_Unitless",
+      "type": "double",
+      "units": "Unitless",
+      "description": "FDR2 Casing Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "FDR2_Casing_T_2_T_degrees_C",
+      "type": "double",
+      "units": "degrees C",
+      "description": "FDR2 Casing Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_FDR2_Casing_T",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for FDR2 Casing T",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "FDR2_Pressure_1_Telemetry_Unitless",
+      "type": "double",
+      "units": "Unitless",
+      "description": "FDR2 Pressure",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "FDR2_Pressure_2_Pressure_psi",
+      "type": "double",
+      "units": "psi",
+      "description": "FDR2 Pressure",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_FDR2_Pressure",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for FDR2 Pressure",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "FDR2_Rd_Wr_Err_Cnt",
+      "type": "double",
+      "units": "Unitless",
+      "description": "FDR2 Read Write Error Count",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_FDR2_Rd_Wr_Err_Cnt",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for FDR2 Rd/Wr Err Cnt",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

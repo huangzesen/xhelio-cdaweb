@@ -1,0 +1,376 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "NSpectra_1",
+      "type": "integer",
+      "units": "",
+      "description": "No. of spectra in set 1",
+      "fill": "-99.0"
+    },
+    {
+      "name": "Density_1",
+      "type": "double",
+      "units": "Protons/cm**3",
+      "description": "Hour-Average Proton Density 1",
+      "fill": "-99.9000015258789"
+    },
+    {
+      "name": "AP_Ratio_1",
+      "type": "double",
+      "units": "",
+      "description": "Alpha to Proton Ratio 1",
+      "fill": "-9.989999771118164"
+    },
+    {
+      "name": "VEL_1",
+      "type": "integer",
+      "units": "Km/s",
+      "description": "Hour-Average Proton Bulk Speed 1",
+      "fill": "-999.0"
+    },
+    {
+      "name": "Vth_1",
+      "type": "integer",
+      "units": "Km/s",
+      "description": "Hour-Average Thermal Velocity 1",
+      "fill": "-99.0"
+    },
+    {
+      "name": "East_1",
+      "type": "double",
+      "units": "Deg SE",
+      "description": "Proton Flow Angle toward East 1, SE coordinates",
+      "fill": "-99.9000015258789"
+    },
+    {
+      "name": "North_1",
+      "type": "double",
+      "units": "Deg SE",
+      "description": "Proton Flow Angle toward ecliptic North 1",
+      "fill": "-99.9000015258789"
+    },
+    {
+      "name": "Density_DEV_1",
+      "type": "double",
+      "units": "Protons/cm**3",
+      "description": "RMS Deviation of Proton Density 1",
+      "fill": "-9.899999618530273"
+    },
+    {
+      "name": "AP_Ratio_DEV_1",
+      "type": "double",
+      "units": "",
+      "description": "RMS Deviation of Alpha-Proton Ratio 1",
+      "fill": "-9.989999771118164"
+    },
+    {
+      "name": "VEL_DEV_1",
+      "type": "integer",
+      "units": "Km/s",
+      "description": "RMS Deviation of Avg Proton Bulk Speed 1",
+      "fill": "-99.0"
+    },
+    {
+      "name": "Vth_DEV_1",
+      "type": "integer",
+      "units": "Km/s",
+      "description": "RMS Deviation of Average Thermal Velocity 1",
+      "fill": "-99.0"
+    },
+    {
+      "name": "East_DEV_1",
+      "type": "double",
+      "units": "Deg",
+      "description": "RMS Deviation of Angle toward East 1",
+      "fill": "-9.899999618530273"
+    },
+    {
+      "name": "North_DEV_1",
+      "type": "double",
+      "units": "Deg",
+      "description": "RMS Deviation of Angle toward North 1",
+      "fill": "-9.899999618530273"
+    },
+    {
+      "name": "NSpectra_2",
+      "type": "integer",
+      "units": "",
+      "description": "No. of spectra in set 2",
+      "fill": "-99.0"
+    },
+    {
+      "name": "Density_2",
+      "type": "double",
+      "units": "Protons/cm**3",
+      "description": "Hour-Average Proton Density 2",
+      "fill": "-9.899999618530273"
+    },
+    {
+      "name": "AP_Ratio_2",
+      "type": "double",
+      "units": "",
+      "description": "Alpha to Proton Ratio 2",
+      "fill": "-9.989999771118164"
+    },
+    {
+      "name": "VEL_2",
+      "type": "integer",
+      "units": "Km/s",
+      "description": "Hour-Average Proton Bulk Speed 2",
+      "fill": "-999.0"
+    },
+    {
+      "name": "Vth_2",
+      "type": "integer",
+      "units": "Km/s",
+      "description": "Hour-Average Thermal Velocity 2",
+      "fill": "-99.0"
+    },
+    {
+      "name": "East_2",
+      "type": "double",
+      "units": "Deg SE",
+      "description": "Proton Flow Angle toward East 2, SE coordinates",
+      "fill": "-9.899999618530273"
+    },
+    {
+      "name": "North_2",
+      "type": "double",
+      "units": "Deg SE",
+      "description": "Proton Flow Angle toward ecliptic North 2",
+      "fill": "-99.9000015258789"
+    },
+    {
+      "name": "Density_DEV_2",
+      "type": "double",
+      "units": "Protons/cm**3",
+      "description": "RMS Deviation of Proton Density 2",
+      "fill": "-9.899999618530273"
+    },
+    {
+      "name": "AP_Ratio_DEV_2",
+      "type": "double",
+      "units": "",
+      "description": "RMS Deviation of Alpha-Proton Ratio 2",
+      "fill": "-9.989999771118164"
+    },
+    {
+      "name": "VEL_DEV_2",
+      "type": "integer",
+      "units": "Km/s",
+      "description": "RMS Deviation of Avg Proton Bulk Speed 2",
+      "fill": "-99.0"
+    },
+    {
+      "name": "Vth_DEV_2",
+      "type": "integer",
+      "units": "Km/s",
+      "description": "RMS Deviation of Average Thermal Velocity 2",
+      "fill": "-99.0"
+    },
+    {
+      "name": "East_DEV_2",
+      "type": "double",
+      "units": "Deg",
+      "description": "RMS Deviation of Angle toward East 2",
+      "fill": "-9.899999618530273"
+    },
+    {
+      "name": "North_DEV_2",
+      "type": "double",
+      "units": "Deg",
+      "description": "RMS Deviation of Angle toward North 2",
+      "fill": "-9.899999618530273"
+    },
+    {
+      "name": "NSpectra_3",
+      "type": "integer",
+      "units": "",
+      "description": "No. of spectra in set 3",
+      "fill": "-99.0"
+    },
+    {
+      "name": "Density_3",
+      "type": "double",
+      "units": "Protons/cm**3",
+      "description": "Hour-Average Proton Density 3",
+      "fill": "-99.9000015258789"
+    },
+    {
+      "name": "AP_Ratio_3",
+      "type": "double",
+      "units": "",
+      "description": "Alpha to Proton Ratio 3",
+      "fill": "-9.989999771118164"
+    },
+    {
+      "name": "VEL_3",
+      "type": "integer",
+      "units": "Km/s",
+      "description": "Hour-Average Proton Bulk Speed 3",
+      "fill": "-999.0"
+    },
+    {
+      "name": "Vth_3",
+      "type": "integer",
+      "units": "Km/s",
+      "description": "Hour-Average Thermal Velocity 3",
+      "fill": "-99.0"
+    },
+    {
+      "name": "East_3",
+      "type": "double",
+      "units": "Deg SE",
+      "description": "Proton Flow Angle toward East 3, SE coordinates",
+      "fill": "-99.9000015258789"
+    },
+    {
+      "name": "North_3",
+      "type": "double",
+      "units": "Deg SE",
+      "description": "Proton Flow Angle toward ecliptic North 3",
+      "fill": "-99.9000015258789"
+    },
+    {
+      "name": "Density_DEV_3",
+      "type": "double",
+      "units": "Protons/cm**3",
+      "description": "RMS Deviation of Proton Density 3",
+      "fill": "-9.899999618530273"
+    },
+    {
+      "name": "AP_Ratio_DEV_3",
+      "type": "double",
+      "units": "",
+      "description": "RMS Deviation of Alpha-Proton Ratio 3",
+      "fill": "-9.989999771118164"
+    },
+    {
+      "name": "VEL_DEV_3",
+      "type": "integer",
+      "units": "Km/s",
+      "description": "RMS Deviation of Avg Proton Bulk Speed 3",
+      "fill": "-99.0"
+    },
+    {
+      "name": "Vth_DEV_3",
+      "type": "integer",
+      "units": "Km/s",
+      "description": "RMS Deviation of Average Thermal Velocity 3",
+      "fill": "-99.0"
+    },
+    {
+      "name": "East_DEV_3",
+      "type": "double",
+      "units": "Deg",
+      "description": "RMS Deviation of Angle toward East 3",
+      "fill": "-9.899999618530273"
+    },
+    {
+      "name": "North_DEV_3",
+      "type": "double",
+      "units": "Deg",
+      "description": "RMS Deviation of Angle toward North 3",
+      "fill": "-9.899999618530273"
+    },
+    {
+      "name": "NSpectra_4",
+      "type": "integer",
+      "units": "",
+      "description": "No. of spectra in set 4",
+      "fill": "-99.0"
+    },
+    {
+      "name": "Density_4",
+      "type": "double",
+      "units": "Protons/cm**3",
+      "description": "Hour-Average Proton Density 4",
+      "fill": "-99.9000015258789"
+    },
+    {
+      "name": "AP_Ratio_4",
+      "type": "double",
+      "units": "",
+      "description": "Alpha to Proton Ratio 4",
+      "fill": "-9.989999771118164"
+    },
+    {
+      "name": "VEL_4",
+      "type": "integer",
+      "units": "Km/s",
+      "description": "Hour-Average Proton Bulk Speed 4",
+      "fill": "-999.0"
+    },
+    {
+      "name": "Vth_4",
+      "type": "integer",
+      "units": "Km/s",
+      "description": "Hour-Average Thermal Velocity 4",
+      "fill": "-99.0"
+    },
+    {
+      "name": "East_4",
+      "type": "double",
+      "units": "Deg SE",
+      "description": "Proton Flow Angle toward East 4, SE coordinates",
+      "fill": "-99.9000015258789"
+    },
+    {
+      "name": "North_4",
+      "type": "double",
+      "units": "Deg SE",
+      "description": "Proton Flow Angle toward ecliptic North 4",
+      "fill": "-99.9000015258789"
+    },
+    {
+      "name": "Density_DEV_4",
+      "type": "double",
+      "units": "Protons/cm**3",
+      "description": "RMS Deviation of Proton Density 4",
+      "fill": "-9.899999618530273"
+    },
+    {
+      "name": "AP_Ratio_DEV_4",
+      "type": "double",
+      "units": "",
+      "description": "RMS Deviation of Alpha-Proton Ratio 4",
+      "fill": "-9.989999771118164"
+    },
+    {
+      "name": "VEL_DEV_4",
+      "type": "integer",
+      "units": "Km/s",
+      "description": "RMS Deviation of Avg Proton Bulk Speed 4",
+      "fill": "-99.0"
+    },
+    {
+      "name": "Vth_DEV_4",
+      "type": "integer",
+      "units": "Km/s",
+      "description": "RMS Deviation of Average Thermal Velocity 4",
+      "fill": "-99.0"
+    },
+    {
+      "name": "East_DEV_4",
+      "type": "double",
+      "units": "Deg",
+      "description": "RMS Deviation of Angle toward East 4",
+      "fill": "-9.899999618530273"
+    },
+    {
+      "name": "North_DEV_4",
+      "type": "double",
+      "units": "Deg",
+      "description": "RMS Deviation of Angle toward North 4",
+      "fill": "-9.899999618530273"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

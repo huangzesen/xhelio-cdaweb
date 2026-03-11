@@ -1,0 +1,488 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "SFMDM_Last_Acc_Cmd_B1",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM Last Command Accepted Buffer, Byte 1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_Last_Acc_Cmd_B1",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM Last Acc Cmd B1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_Last_Acc_Cmd_B2",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM Last Command Accepted Buffer, Byte 2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_Last_Acc_Cmd_B2",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM Last Acc Cmd B2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_Last_Acc_Cmd_B3",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM Last Command Accepted Buffer, Byte 3",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_Last_Acc_Cmd_B3",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM Last Acc Cmd B3",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_Last_Acc_Cmd_B4",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM Last Command Accepted Buffer, Byte 4",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_Last_Acc_Cmd_B4",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM Last Acc Cmd B4",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_Last_Acc_Cmd_B5",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM Last Command Accepted Buffer, Byte 5",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_Last_Acc_Cmd_B5",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM Last Acc Cmd B5",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_Last_Acc_Cmd_B6",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM Last Command Accepted Buffer, Byte 6",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_Last_Acc_Cmd_B6",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM Last Acc Cmd B6",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_Last_Acc_Cmd_B7",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM Last Command Accepted Buffer, Byte 7",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_Last_Acc_Cmd_B7",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM Last Acc Cmd B7",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_Last_Acc_Cmd_B8",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM Last Command Accepted Buffer, Byte 8",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_Last_Acc_Cmd_B8",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM Last Acc Cmd B8",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_Last_Acc_Cmd_B9",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM Last Command Accepted Buffer, Byte 9",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_Last_Acc_Cmd_B9",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM Last Acc Cmd B9",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_Last_Acc_Cmd_B10",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM Last Command Accepted Buffer, Byte 10",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_Last_Acc_Cmd_B10",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM Last Acc Cmd B10",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_Last_Acc_Cmd_B11",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM Last Command Accepted Buffer, Byte 11",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_Last_Acc_Cmd_B11",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM Last Acc Cmd B11",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_Last_Acc_Cmd_B12",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM Last Command Accepted Buffer, Byte 12",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_Last_Acc_Cmd_B12",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM Last Acc Cmd B12",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_Last_Acc_Cmd_B13",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM Last Command Accepted Buffer, Byte 13",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_Last_Acc_Cmd_B13",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM Last Acc Cmd B13",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_Last_Acc_Cmd_B14",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM Last Command Accepted Buffer, Byte 14",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_Last_Acc_Cmd_B14",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM Last Acc Cmd B14",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_Last_Acc_Cmd_B15",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM Last Command Accepted Buffer, Byte 15",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_Last_Acc_Cmd_B15",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM Last Acc Cmd B15",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_Last_Acc_Cmd_B16",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM Last Command Accepted Buffer, Byte 16",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_Last_Acc_Cmd_B16",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM Last Acc Cmd B16",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_Last_Acc_Cmd_B17",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM Last Command Accepted Buffer, Byte 17",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_Last_Acc_Cmd_B17",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM Last Acc Cmd B17",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_Last_Acc_Cmd_B18",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM Last Command Accepted Buffer, Byte 18",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_Last_Acc_Cmd_B18",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM Last Acc Cmd B18",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_Last_Acc_Cmd_B19",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM Last Command Accepted Buffer, Byte 19",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_Last_Acc_Cmd_B19",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM Last Acc Cmd B19",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_Last_Acc_Cmd_B20",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM Last Command Accepted Buffer, Byte 20",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_Last_Acc_Cmd_B20",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM Last Acc Cmd B20",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_Last_Acc_Cmd_B21",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM Last Command Accepted Buffer, Byte 21",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_Last_Acc_Cmd_B21",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM Last Acc Cmd B21",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_Last_Acc_Cmd_B22",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM Last Command Accepted Buffer, Byte 22",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_Last_Acc_Cmd_B22",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM Last Acc Cmd B22",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_Last_Acc_Cmd_B23",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM Last Command Accepted Buffer, Byte 23",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_Last_Acc_Cmd_B23",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM Last Acc Cmd B23",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_Last_Acc_Cmd_B24",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM Last Command Accepted Buffer, Byte 24",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_Last_Acc_Cmd_B24",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM Last Acc Cmd B24",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_Last_Acc_Cmd_B25",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM Last Command Accepted Buffer, Byte 25",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_Last_Acc_Cmd_B25",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM Last Acc Cmd B25",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_Last_Acc_Cmd_B26",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM Last Command Accepted Buffer, Byte 26",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_Last_Acc_Cmd_B26",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM Last Acc Cmd B26",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_Last_Acc_Cmd_B27",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM Last Command Accepted Buffer, Byte 27",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_Last_Acc_Cmd_B27",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM Last Acc Cmd B27",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_Last_Acc_Cmd_B28",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM Last Command Accepted Buffer, Byte 28",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_Last_Acc_Cmd_B28",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM Last Acc Cmd B28",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_Last_Acc_Cmd_B29",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM Last Command Accepted Buffer, Byte 29",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_Last_Acc_Cmd_B29",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM Last Acc Cmd B29",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_Last_Acc_Cmd_B30",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM Last Command Accepted Buffer, Byte 30",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_Last_Acc_Cmd_B30",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM Last Acc Cmd B30",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_Last_Acc_Cmd_B31",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM Last Command Accepted Buffer, Byte 31",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_Last_Acc_Cmd_B31",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM Last Acc Cmd B31",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_Last_Acc_Cmd_B32",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM Last Command Accepted Buffer, Byte 32",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_Last_Acc_Cmd_B32",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM Last Acc Cmd B32",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_Last_Acc_Cmd_B33",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM Last Command Accepted Buffer, Byte 33",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_Last_Acc_Cmd_B33",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM Last Acc Cmd B33",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_Last_Acc_Cmd_B34",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM Last Command Accepted Buffer, Byte 34",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_Last_Acc_Cmd_B34",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM Last Acc Cmd B34",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

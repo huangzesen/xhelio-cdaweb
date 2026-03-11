@@ -1,0 +1,40 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "FDR1_Tape_Cntr",
+      "type": "double",
+      "units": "Unitless",
+      "description": "FDR1 Tape Counter",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_FDR1_Tape_Cntr",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for FDR1 Tape Cntr",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "FDR2_Tape_Cntr",
+      "type": "double",
+      "units": "Unitless",
+      "description": "FDR2 Tape Counter",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_FDR2_Tape_Cntr",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for FDR2 Tape Cntr",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

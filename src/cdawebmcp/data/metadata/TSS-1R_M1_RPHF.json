@@ -1,0 +1,120 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "PPS1_Plus_V_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "PPS1 +V Monitor",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        128
+      ]
+    },
+    {
+      "name": "PPS1_Plus_V_2_Voltage_volts",
+      "type": "double",
+      "units": "volts",
+      "description": "PPS1 +V Monitor",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        128
+      ]
+    },
+    {
+      "name": "Data_Quality_PPS1_Plus_V",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for PPS1/Plus V",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "PPS1_Minus_V_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "PPS1 -V Monitor",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        128
+      ]
+    },
+    {
+      "name": "PPS1_Minus_V_2_Voltage_volts",
+      "type": "double",
+      "units": "volts",
+      "description": "PPS1 -V Monitor",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        128
+      ]
+    },
+    {
+      "name": "Data_Quality_PPS1_Minus_V",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for PPS1/Minus V",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "PPS2_Plus_V_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "PPS2 +V Monitor",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        128
+      ]
+    },
+    {
+      "name": "PPS2_Plus_V_2_Voltage_volts",
+      "type": "double",
+      "units": "volts",
+      "description": "PPS2 +V Monitor",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        128
+      ]
+    },
+    {
+      "name": "Data_Quality_PPS2_Plus_V",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for PPS2/Plus V",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "PPS2_Minus_V_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "PPS2 -V Monitor",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        128
+      ]
+    },
+    {
+      "name": "PPS2_Minus_V_2_Voltage_volts",
+      "type": "double",
+      "units": "volts",
+      "description": "PPS2 -V Monitor",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        128
+      ]
+    },
+    {
+      "name": "Data_Quality_PPS2_Minus_V",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for PPS2/Minus V",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

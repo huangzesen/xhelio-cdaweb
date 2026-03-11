@@ -1,0 +1,19 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "Fi",
+      "type": "double",
+      "units": "no/cm/cm/s",
+      "description": "Total antisunward ion flux",
+      "fill": "-9.999999848243207e+30"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

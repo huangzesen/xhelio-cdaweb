@@ -1,0 +1,63 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "DESA_NX_02A_ESA_L1A_COUNTS",
+      "type": "integer",
+      "units": "Counts",
+      "description": "Time/energy spectrogram of raw counts of electrons from the single detector of the DESA-NX-02A sensor",
+      "fill": "-999.0",
+      "size": [
+        52
+      ]
+    },
+    {
+      "name": "DESA_NX_02A_ESA_L2_DEF",
+      "type": "double",
+      "units": "eV cm-2 s -1 sr-1 eV-1",
+      "description": "Time/energy spectrogram of Differential Energy Flux of electrons",
+      "fill": "nan",
+      "size": [
+        52
+      ]
+    },
+    {
+      "name": "DESA_NX_02A_ESA_L2_DEF_SC_POT_CORRECTED",
+      "type": "double",
+      "units": "eV cm-2 s -1 sr-1 eV-1",
+      "description": "Time/energy spectrogram of Differential Energy Flux of electrons,corrected for the potential of the spacecraft from active pulses of the DYNAMO-2 Langmuir Probe.",
+      "fill": "nan",
+      "size": [
+        52
+      ]
+    },
+    {
+      "name": "DESA_NX_02A_ALTITUDE",
+      "type": "double",
+      "units": "m",
+      "description": "Altitude above sea level during operation of the DYNAMO-2 DESA-NX-02A instrument",
+      "fill": "nan"
+    },
+    {
+      "name": "DESA_NX_02A_LATITUDE",
+      "type": "double",
+      "units": "deg",
+      "description": "Latitude during operation of the DYNAMO-2 DESA-NX-02A Instrument",
+      "fill": "nan"
+    },
+    {
+      "name": "DESA_NX_02A_LONGITUDE",
+      "type": "double",
+      "units": "deg",
+      "description": "Geographic Longitude during operation of the DYNAMO-2 DESA-NX-02A Instrument.",
+      "fill": "nan"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

@@ -1,0 +1,61 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "Unstrtch_Tether_Len_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Measured Unstretched Tether Length",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Unstrtch_Tether_Len_2_Length_meters",
+      "type": "double",
+      "units": "meters",
+      "description": "Measured Unstretched Tether Length",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Unstrtch_Tether_Len_3_Length_km",
+      "type": "double",
+      "units": "km",
+      "description": "Measured Unstretched Tether Length",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Unstrtch_Tether_Len",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Unstrtch Tether Len",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Tether_Rate_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Measured Tether Rate",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Tether_Rate_2_Rate_m_s",
+      "type": "double",
+      "units": "m/s",
+      "description": "Measured Tether Rate",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Tether_Rate",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Tether Rate",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

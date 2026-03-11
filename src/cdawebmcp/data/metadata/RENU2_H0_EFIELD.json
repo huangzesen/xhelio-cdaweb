@@ -1,0 +1,26 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "EpE",
+      "type": "double",
+      "units": "Volts/m",
+      "description": "electric field - perpendicular East in geomagnetic coordinates, despun with v x B component removed",
+      "fill": "-9.999999848243207e+30"
+    },
+    {
+      "name": "EpN",
+      "type": "double",
+      "units": "Volts/m",
+      "description": "electric field - perpendicular North in geomagnetic coordinates, despun with v x B component removed",
+      "fill": "-9.999999848243207e+30"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

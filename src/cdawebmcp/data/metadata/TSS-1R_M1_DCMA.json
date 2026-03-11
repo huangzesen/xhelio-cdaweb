@@ -1,0 +1,166 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "Analog_Ref_Mon1_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Analog Reference Monitor 1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Analog_Ref_Mon1_2_voltage_volts",
+      "type": "double",
+      "units": "volts",
+      "description": "Analog Reference Monitor 1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Analog_Ref_Mon1",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Analog Ref Mon1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Analog_Ref_Mon2_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Analog Reference Monitor 2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Analog_Ref_Mon2_2_voltage_volts",
+      "type": "double",
+      "units": "volts",
+      "description": "Analog Reference Monitor 2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Analog_Ref_Mon2",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Analog Ref Mon2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Masked_Units_Buf",
+      "type": "double",
+      "units": "integer",
+      "description": "Masked Units Buffer",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Masked_Units_Buf",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Masked Units Buf",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Health_Status",
+      "type": "double",
+      "units": "integer",
+      "description": "Health Status Data",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Health_Status",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Health Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "TLC_Cntr",
+      "type": "double",
+      "units": "integer",
+      "description": "TLC Counter",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_TLC_Cntr",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for TLC Cntr",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Configuration",
+      "type": "double",
+      "units": "integer",
+      "description": "Configuration",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Configuration",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Configuration",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Remaining_Seq",
+      "type": "double",
+      "units": "integer",
+      "description": "Remaining Sequences",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Remaining_Seq",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Remaining Seq",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Remaining_Pul",
+      "type": "double",
+      "units": "integer",
+      "description": "Remaining Pulses",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Remaining_Pul",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Remaining Pul",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Rep_Cmd_Cntr",
+      "type": "double",
+      "units": "integer",
+      "description": "Repeated Commands Counter",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Rep_Cmd_Cntr",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Rep Cmd Cntr",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Rep_Mon_Cntr",
+      "type": "double",
+      "units": "integer",
+      "description": "Repeated Monitors Counter",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Rep_Mon_Cntr",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Rep Mon Cntr",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

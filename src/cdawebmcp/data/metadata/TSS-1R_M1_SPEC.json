@@ -1,0 +1,125 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "Electron_Spectra_Head_A_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Science data in units of Telemetry (Dimensionless)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        10,
+        32
+      ]
+    },
+    {
+      "name": "Electron_Spectra_Head_A_2_counts_acc_c_per_acc",
+      "type": "double",
+      "units": "c/acc",
+      "description": "Science data in units of counts/acc (c/acc)",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        10,
+        32
+      ]
+    },
+    {
+      "name": "Data_Quality_Electrons_A_Z0",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Electrons/A Z0",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Electrons_A_Z1",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Electrons/A Z1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Electrons_A_Z2",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Electrons/A Z2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Electrons_A_Z3",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Electrons/A Z3",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Electrons_A_Z4",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Electrons/A Z4",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Electrons_A_Z5",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Electrons/A Z5",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Electrons_A_Z6",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Electrons/A Z6",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Electrons_A_Z7",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Electrons/A Z7",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Electrons_A_Z8",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Electrons/A Z8",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Electrons_A_Z9",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Electrons/A Z9",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "MODE0_Power_Status",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Status Indicator Power Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "MODE1_Rotation_Status",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Status Indicator Rotation Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "MODE2_Sweep_Rate",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Status Indicator Sweep Rate",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

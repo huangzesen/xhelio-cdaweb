@@ -1,0 +1,96 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "EGA1_Acc_Poten_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "EGA1 Accelerating Potential",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "EGA1_Acc_Poten_2_voltage_volts",
+      "type": "double",
+      "units": "volts",
+      "description": "EGA1 Accelerating Potential",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_EGA1_Acc_Poten",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for EGA1 Acc Poten",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "EGA2_Acc_Poten_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "EGA2 Accelerating Potential",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "EGA2_Acc_Poten_2_voltage_volts",
+      "type": "double",
+      "units": "volts",
+      "description": "EGA2 Accelerating Potential",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_EGA2_Acc_Poten",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for EGA2 Acc Poten",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "EGA1_Fila_V_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "EGA1 Filament Voltage",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "EGA1_Fila_V_2_voltage_volts",
+      "type": "double",
+      "units": "volts",
+      "description": "EGA1 Filament Voltage",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_EGA1_Fila_V",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for EGA1 Fila V",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "EGA2_Fila_V_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "EGA2 Filament Voltage",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "EGA2_Fila_V_2_voltage_volts",
+      "type": "double",
+      "units": "volts",
+      "description": "EGA2 Filament Voltage",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_EGA2_Fila_V",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for EGA2 Fila V",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

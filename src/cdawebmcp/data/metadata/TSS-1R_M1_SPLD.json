@@ -1,0 +1,920 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "e__AutoCor_B_Z0_1_Telemetry_Unitless",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Electron Auto-correlation Spectra, Zone 0",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        32
+      ]
+    },
+    {
+      "name": "e__AutoCor_B_Z0_2_Frequency_kHz",
+      "type": "double",
+      "units": "kHz",
+      "description": "Electron Auto-correlation Spectra, Zone 0",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        32
+      ]
+    },
+    {
+      "name": "Data_Quality_e__AutoCor_B_Z0",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for e- AutoCor B-Z0",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "e__AutoCor_B_Z1_1_Telemetry_Unitless",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Electron Auto-correlation Spectra, Zone 1",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        32
+      ]
+    },
+    {
+      "name": "e__AutoCor_B_Z1_2_Frequency_kHz",
+      "type": "double",
+      "units": "kHz",
+      "description": "Electron Auto-correlation Spectra, Zone 1",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        32
+      ]
+    },
+    {
+      "name": "Data_Quality_e__AutoCor_B_Z1",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for e- AutoCor B-Z1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "e__AutoCor_B_Z2_1_Telemetry_Unitless",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Electron Auto-correlation Spectra, Zone 2",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        32
+      ]
+    },
+    {
+      "name": "e__AutoCor_B_Z2_2_Frequency_kHz",
+      "type": "double",
+      "units": "kHz",
+      "description": "Electron Auto-correlation Spectra, Zone 2",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        32
+      ]
+    },
+    {
+      "name": "Data_Quality_e__AutoCor_B_Z2",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for e- AutoCor B-Z2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "e__AutoCor_B_Z3_1_Telemetry_Unitless",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Electron Auto-correlation Spectra, Zone 3",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        32
+      ]
+    },
+    {
+      "name": "e__AutoCor_B_Z3_2_Frequency_kHz",
+      "type": "double",
+      "units": "kHz",
+      "description": "Electron Auto-correlation Spectra, Zone 3",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        32
+      ]
+    },
+    {
+      "name": "Data_Quality_e__AutoCor_B_Z3",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for e- AutoCor B-Z3",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "e__AutoCor_B_Z4_1_Telemetry_Unitless",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Electron Auto-correlation Spectra, Zone 4",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        32
+      ]
+    },
+    {
+      "name": "e__AutoCor_B_Z4_2_Frequency_kHz",
+      "type": "double",
+      "units": "kHz",
+      "description": "Electron Auto-correlation Spectra, Zone 4",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        32
+      ]
+    },
+    {
+      "name": "Data_Quality_e__AutoCor_B_Z4",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for e- AutoCor B-Z4",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "e__AutoCor_B_Z5_1_Telemetry_Unitless",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Electron Auto-correlation Spectra, Zone 5",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        32
+      ]
+    },
+    {
+      "name": "e__AutoCor_B_Z5_2_Frequency_kHz",
+      "type": "double",
+      "units": "kHz",
+      "description": "Electron Auto-correlation Spectra, Zone 5",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        32
+      ]
+    },
+    {
+      "name": "Data_Quality_e__AutoCor_B_Z5",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for e- AutoCor B-Z5",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "e__AutoCor_B_Z6_1_Telemetry_Unitless",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Electron Auto-correlation Spectra, Zone 6",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        32
+      ]
+    },
+    {
+      "name": "e__AutoCor_B_Z6_2_Frequency_kHz",
+      "type": "double",
+      "units": "kHz",
+      "description": "Electron Auto-correlation Spectra, Zone 6",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        32
+      ]
+    },
+    {
+      "name": "Data_Quality_e__AutoCor_B_Z6",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for e- AutoCor B-Z6",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "e__AutoCor_B_Z7_1_Telemetry_Unitless",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Electron Auto-correlation Spectra, Zone 7",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        32
+      ]
+    },
+    {
+      "name": "e__AutoCor_B_Z7_2_Frequency_kHz",
+      "type": "double",
+      "units": "kHz",
+      "description": "Electron Auto-correlation Spectra, Zone 7",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        32
+      ]
+    },
+    {
+      "name": "Data_Quality_e__AutoCor_B_Z7",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for e- AutoCor B-Z7",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "e__AutoCor_B_Z8_1_Telemetry_Unitless",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Electron Auto-correlation Spectra, Zone 8",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        32
+      ]
+    },
+    {
+      "name": "e__AutoCor_B_Z8_2_Frequency_kHz",
+      "type": "double",
+      "units": "kHz",
+      "description": "Electron Auto-correlation Spectra, Zone 8",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        32
+      ]
+    },
+    {
+      "name": "Data_Quality_e__AutoCor_B_Z8",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for e- AutoCor B-Z8",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "e__AutoCor_B_Z9_1_Telemetry_Unitless",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Electron Auto-correlation Spectra, Zone 9",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        32
+      ]
+    },
+    {
+      "name": "e__AutoCor_B_Z9_2_Frequency_kHz",
+      "type": "double",
+      "units": "kHz",
+      "description": "Electron Auto-correlation Spectra, Zone 9",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        32
+      ]
+    },
+    {
+      "name": "Data_Quality_e__AutoCor_B_Z9",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for e- AutoCor B-Z9",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "e__ACor_Sig_B_Z0_1_Telemetry_Unitless",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Electron Auto-correlation Significance, Zone 0",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        32
+      ]
+    },
+    {
+      "name": "e__ACor_Sig_B_Z0_2_Confidence_Unitless",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Electron Auto-correlation Significance, Zone 0",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        32
+      ]
+    },
+    {
+      "name": "Data_Quality_e__ACor_Sig_B_Z0",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for e- ACor Sig B-Z0",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "e__ACor_Sig_B_Z1_1_Telemetry_Unitless",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Electron Auto-correlation Significance, Zone 1",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        32
+      ]
+    },
+    {
+      "name": "e__ACor_Sig_B_Z1_2_Confidence_Unitless",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Electron Auto-correlation Significance, Zone 1",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        32
+      ]
+    },
+    {
+      "name": "Data_Quality_e__ACor_Sig_B_Z1",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for e- ACor Sig B-Z1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "e__ACor_Sig_B_Z2_1_Telemetry_Unitless",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Electron Auto-correlation Significance, Zone 2",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        32
+      ]
+    },
+    {
+      "name": "e__ACor_Sig_B_Z2_2_Confidence_Unitless",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Electron Auto-correlation Significance, Zone 2",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        32
+      ]
+    },
+    {
+      "name": "Data_Quality_e__ACor_Sig_B_Z2",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for e- ACor Sig B-Z2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "e__ACor_Sig_B_Z3_1_Telemetry_Unitless",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Electron Auto-correlation Significance, Zone 3",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        32
+      ]
+    },
+    {
+      "name": "e__ACor_Sig_B_Z3_2_Confidence_Unitless",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Electron Auto-correlation Significance, Zone 3",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        32
+      ]
+    },
+    {
+      "name": "Data_Quality_e__ACor_Sig_B_Z3",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for e- ACor Sig B-Z3",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "e__ACor_Sig_B_Z4_1_Telemetry_Unitless",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Electron Auto-correlation Significance, Zone 4",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        32
+      ]
+    },
+    {
+      "name": "e__ACor_Sig_B_Z4_2_Confidence_Unitless",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Electron Auto-correlation Significance, Zone 4",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        32
+      ]
+    },
+    {
+      "name": "Data_Quality_e__ACor_Sig_B_Z4",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for e- ACor Sig B-Z4",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "e__ACor_Sig_B_Z5_1_Telemetry_Unitless",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Electron Auto-correlation Significance, Zone 5",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        32
+      ]
+    },
+    {
+      "name": "e__ACor_Sig_B_Z5_2_Confidence_Unitless",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Electron Auto-correlation Significance, Zone 5",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        32
+      ]
+    },
+    {
+      "name": "Data_Quality_e__ACor_Sig_B_Z5",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for e- ACor Sig B-Z5",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "e__ACor_Sig_B_Z6_1_Telemetry_Unitless",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Electron Auto-correlation Significance, Zone 6",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        32
+      ]
+    },
+    {
+      "name": "e__ACor_Sig_B_Z6_2_Confidence_Unitless",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Electron Auto-correlation Significance, Zone 6",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        32
+      ]
+    },
+    {
+      "name": "Data_Quality_e__ACor_Sig_B_Z6",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for e- ACor Sig B-Z6",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "e__ACor_Sig_B_Z7_1_Telemetry_Unitless",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Electron Auto-correlation Significance, Zone 7",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        32
+      ]
+    },
+    {
+      "name": "e__ACor_Sig_B_Z7_2_Confidence_Unitless",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Electron Auto-correlation Significance, Zone 7",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        32
+      ]
+    },
+    {
+      "name": "Data_Quality_e__ACor_Sig_B_Z7",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for e- ACor Sig B-Z7",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "e__ACor_Sig_B_Z8_1_Telemetry_Unitless",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Electron Auto-correlation Significance, Zone 8",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        32
+      ]
+    },
+    {
+      "name": "e__ACor_Sig_B_Z8_2_Confidence_Unitless",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Electron Auto-correlation Significance, Zone 8",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        32
+      ]
+    },
+    {
+      "name": "Data_Quality_e__ACor_Sig_B_Z8",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for e- ACor Sig B-Z8",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "e__ACor_Sig_B_Z9_1_Telemetry_Unitless",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Electron Auto-correlation Significance, Zone 9",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        32
+      ]
+    },
+    {
+      "name": "e__ACor_Sig_B_Z9_2_Confidence_Unitless",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Electron Auto-correlation Significance, Zone 9",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        32
+      ]
+    },
+    {
+      "name": "Data_Quality_e__ACor_Sig_B_Z9",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for e- ACor Sig B-Z9",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "e__ACor_Neu_B_Z0",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Electron Auto-correlation Neurons, Zone 0",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        32
+      ]
+    },
+    {
+      "name": "Data_Quality_e__ACor_Neu_B_Z0",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for e- ACor Neu B-Z0",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "e__ACor_Neu_B_Z1",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Electron Auto-correlation Neurons, Zone 1",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        32
+      ]
+    },
+    {
+      "name": "Data_Quality_e__ACor_Neu_B_Z1",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for e- ACor Neu B-Z1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "e__ACor_Neu_B_Z2",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Electron Auto-correlation Neurons, Zone 2",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        32
+      ]
+    },
+    {
+      "name": "Data_Quality_e__ACor_Neu_B_Z2",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for e- ACor Neu B-Z2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "e__ACor_Neu_B_Z3",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Electron Auto-correlation Neurons, Zone 3",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        32
+      ]
+    },
+    {
+      "name": "Data_Quality_e__ACor_Neu_B_Z3",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for e- ACor Neu B-Z3",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "e__ACor_Neu_B_Z4",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Electron Auto-correlation Neurons, Zone 4",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        32
+      ]
+    },
+    {
+      "name": "Data_Quality_e__ACor_Neu_B_Z4",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for e- ACor Neu B-Z4",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "e__ACor_Neu_B_Z5",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Electron Auto-correlation Neurons, Zone 5",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        32
+      ]
+    },
+    {
+      "name": "Data_Quality_e__ACor_Neu_B_Z5",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for e- ACor Neu B-Z5",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "e__ACor_Neu_B_Z6",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Electron Auto-correlation Neurons, Zone 6",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        32
+      ]
+    },
+    {
+      "name": "Data_Quality_e__ACor_Neu_B_Z6",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for e- ACor Neu B-Z6",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "e__ACor_Neu_B_Z7",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Electron Auto-correlation Neurons, Zone 7",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        32
+      ]
+    },
+    {
+      "name": "Data_Quality_e__ACor_Neu_B_Z7",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for e- ACor Neu B-Z7",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "e__ACor_Neu_B_Z8",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Electron Auto-correlation Neurons, Zone 8",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        32
+      ]
+    },
+    {
+      "name": "Data_Quality_e__ACor_Neu_B_Z8",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for e- ACor Neu B-Z8",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "e__ACor_Neu_B_Z9",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Electron Auto-correlation Neurons, Zone 9",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        32
+      ]
+    },
+    {
+      "name": "Data_Quality_e__ACor_Neu_B_Z9",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for e- ACor Neu B-Z9",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "e__Radar_Ret_B_Z0",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Electron Radar Returns, Zone 0",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        32
+      ]
+    },
+    {
+      "name": "Data_Quality_e__Radar_Ret_B_Z0",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for e- Radar Ret B-Z0",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "e__Radar_Ret_B_Z1",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Electron Radar Returns, Zone 1",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        32
+      ]
+    },
+    {
+      "name": "Data_Quality_e__Radar_Ret_B_Z1",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for e- Radar Ret B-Z1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "e__Radar_Ret_B_Z2",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Electron Radar Returns, Zone 2",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        32
+      ]
+    },
+    {
+      "name": "Data_Quality_e__Radar_Ret_B_Z2",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for e- Radar Ret B-Z2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "e__Radar_Ret_B_Z3",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Electron Radar Returns, Zone 3",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        32
+      ]
+    },
+    {
+      "name": "Data_Quality_e__Radar_Ret_B_Z3",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for e- Radar Ret B-Z3",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "e__Radar_Ret_B_Z4",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Electron Radar Returns, Zone 4",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        32
+      ]
+    },
+    {
+      "name": "Data_Quality_e__Radar_Ret_B_Z4",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for e- Radar Ret B-Z4",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "e__Radar_Ret_B_Z5",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Electron Radar Returns, Zone 5",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        32
+      ]
+    },
+    {
+      "name": "Data_Quality_e__Radar_Ret_B_Z5",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for e- Radar Ret B-Z5",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "e__Radar_Ret_B_Z6",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Electron Radar Returns, Zone 6",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        32
+      ]
+    },
+    {
+      "name": "Data_Quality_e__Radar_Ret_B_Z6",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for e- Radar Ret B-Z6",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "e__Radar_Ret_B_Z7",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Electron Radar Returns, Zone 7",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        32
+      ]
+    },
+    {
+      "name": "Data_Quality_e__Radar_Ret_B_Z7",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for e- Radar Ret B-Z7",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "e__Radar_Ret_B_Z8",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Electron Radar Returns, Zone 8",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        32
+      ]
+    },
+    {
+      "name": "Data_Quality_e__Radar_Ret_B_Z8",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for e- Radar Ret B-Z8",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "e__Radar_Ret_B_Z9",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Electron Radar Returns, Zone 9",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        32
+      ]
+    },
+    {
+      "name": "Data_Quality_e__Radar_Ret_B_Z9",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for e- Radar Ret B-Z9",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "MODE0_Power_Status",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Status Indicator Power Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "MODE1_Rotation_Status",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Status Indicator Rotation Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "MODE2_Sweep_Rate",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Status Indicator Sweep Rate",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "MODE3_Frequency_Range",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Status Indicator Frequency Range",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

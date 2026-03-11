@@ -1,0 +1,222 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "SPES1_e__GridV_1_telemetry_raw",
+      "type": "double",
+      "units": "raw",
+      "description": "SPES 1 Electron Grid Bias -V Monitor",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SPES1_e__GridV_2_Voltage_volts",
+      "type": "double",
+      "units": "volts",
+      "description": "SPES 1 Electron Grid Bias -V Monitor",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SPES1_e__GridV",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for SPES1/e- GridV",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SPES2_e__GridV_1_telemetry_raw",
+      "type": "double",
+      "units": "raw",
+      "description": "SPES 2 Electron Grid Bias -V Monitor",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SPES2_e__GridV_2_Voltage_volts",
+      "type": "double",
+      "units": "volts",
+      "description": "SPES 2 Electron Grid Bias -V Monitor",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SPES2_e__GridV",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for SPES2/e- GridV",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SPES3_e__GridV_1_telemetry_raw",
+      "type": "double",
+      "units": "raw",
+      "description": "SPES 3 Electron Grid Bias -V Monitor",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SPES3_e__GridV_2_Voltage_volts",
+      "type": "double",
+      "units": "volts",
+      "description": "SPES 3 Electron Grid Bias -V Monitor",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SPES3_e__GridV",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for SPES3/e- GridV",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SPES4_e__GridV_1_telemetry_raw",
+      "type": "double",
+      "units": "raw",
+      "description": "SPES 4 Electron Grid Bias -V Monitor",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SPES4_e__GridV_2_Voltage_volts",
+      "type": "double",
+      "units": "volts",
+      "description": "SPES 4 Electron Grid Bias -V Monitor",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SPES4_e__GridV",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for SPES4/e- GridV",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SPES5_e__GridV_1_telemetry_raw",
+      "type": "double",
+      "units": "raw",
+      "description": "SPES 5 Electron Grid Bias -V Monitor",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SPES5_e__GridV_2_Voltage_volts",
+      "type": "double",
+      "units": "volts",
+      "description": "SPES 5 Electron Grid Bias -V Monitor",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SPES5_e__GridV",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for SPES5/e- GridV",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SPES1_p__GridV_1_telemetry_raw",
+      "type": "double",
+      "units": "raw",
+      "description": "SPES 1 Ion Grid Bias +V Monitor",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SPES1_p__GridV_2_Voltage_volts",
+      "type": "double",
+      "units": "volts",
+      "description": "SPES 1 Ion Grid Bias +V Monitor",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SPES1_p__GridV",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for SPES1/p+ GridV",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SPES2_p__GridV_1_telemetry_raw",
+      "type": "double",
+      "units": "raw",
+      "description": "SPES 2 Ion Grid Bias +V Monitor",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SPES2_p__GridV_2_Voltage_volts",
+      "type": "double",
+      "units": "volts",
+      "description": "SPES 2 Ion Grid Bias +V Monitor",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SPES2_p__GridV",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for SPES2/p+ GridV",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SPES3_p__GridV_1_telemetry_raw",
+      "type": "double",
+      "units": "raw",
+      "description": "SPES 3 Ion Grid Bias +V Monitor",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SPES3_p__GridV_2_Voltage_volts",
+      "type": "double",
+      "units": "volts",
+      "description": "SPES 3 Ion Grid Bias +V Monitor",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SPES3_p__GridV",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for SPES3/p+ GridV",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SPES4_p__GridV_1_telemetry_raw",
+      "type": "double",
+      "units": "raw",
+      "description": "SPES 4 Ion Grid Bias +V Monitor",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SPES4_p__GridV_2_Voltage_volts",
+      "type": "double",
+      "units": "volts",
+      "description": "SPES 4 Ion Grid Bias +V Monitor",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SPES4_p__GridV",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for SPES4/p+ GridV",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SPES5_p__GridV_1_telemetry_raw",
+      "type": "double",
+      "units": "raw",
+      "description": "SPES 5 Ion Grid Bias +V Monitor",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SPES5_p__GridV_2_Voltage_volts",
+      "type": "double",
+      "units": "volts",
+      "description": "SPES 5 Ion Grid Bias +V Monitor",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SPES5_p__GridV",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for SPES5/p+ GridV",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

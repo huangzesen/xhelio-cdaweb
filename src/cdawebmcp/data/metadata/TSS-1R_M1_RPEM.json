@@ -1,0 +1,33 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "Dif_Elec_1_telemetry_raw",
+      "type": "double",
+      "units": "raw",
+      "description": "Detector Current",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Dif_Elec_2_current_amps",
+      "type": "double",
+      "units": "amps",
+      "description": "Detector Current",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Dif_Elec",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for Dif/Elec",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

@@ -1,0 +1,83 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "PES_A_counts",
+      "type": "integer",
+      "units": "",
+      "description": "Counts per Energy step all sensors,  Side A",
+      "fill": null,
+      "size": [
+        81,
+        8
+      ]
+    },
+    {
+      "name": "PES_B_counts",
+      "type": "integer",
+      "units": "",
+      "description": "Counts per Energy step all sensors,  Side B",
+      "fill": null,
+      "size": [
+        81,
+        8
+      ]
+    },
+    {
+      "name": "step",
+      "type": "integer",
+      "units": "",
+      "description": "Photoelectron Spectrometer Energy Step",
+      "fill": "-99.0"
+    },
+    {
+      "name": "esa_en",
+      "type": "double",
+      "units": "eV",
+      "description": "Energy setting of all 8 PES Electostatic Analyzers (ESA)",
+      "fill": "nan"
+    },
+    {
+      "name": "rpa_en",
+      "type": "double",
+      "units": "eV",
+      "description": "Voltage (Energy) setting of PES Retarding Potential Analyzers (RPA)",
+      "fill": "nan"
+    },
+    {
+      "name": "rpa_flag",
+      "type": "integer",
+      "units": "0=grounded,(1)=enabled",
+      "description": "RPA grounded (0) or active (1)",
+      "fill": "-99.0"
+    },
+    {
+      "name": "esa_flag",
+      "type": "integer",
+      "units": "0=grounded,(1)=enabled",
+      "description": "ESA grounded (0) or active (1)",
+      "fill": "-99.0"
+    },
+    {
+      "name": "slp_flag",
+      "type": "integer",
+      "units": "0=passive,(1)=sweeping",
+      "description": "SLP passive (0) or sweeping (1)",
+      "fill": "-99.0"
+    },
+    {
+      "name": "PES_step_duration",
+      "type": "integer",
+      "units": "ms",
+      "description": "Duration (integration time) of the PES Energy step",
+      "fill": "-99.0"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

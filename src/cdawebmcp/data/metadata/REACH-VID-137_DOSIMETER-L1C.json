@@ -1,0 +1,250 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "vid",
+      "type": "integer",
+      "units": "unitless",
+      "description": "REACH Vehicle Identifier",
+      "fill": null
+    },
+    {
+      "name": "altitude",
+      "type": "double",
+      "units": "km",
+      "description": "Geodetic Altitude",
+      "fill": "nan"
+    },
+    {
+      "name": "latitude",
+      "type": "double",
+      "units": "degrees",
+      "description": "Geodetic Latitude",
+      "fill": "nan"
+    },
+    {
+      "name": "longitude",
+      "type": "double",
+      "units": "degrees",
+      "description": "Geodetic Longitude",
+      "fill": "nan"
+    },
+    {
+      "name": "geo_x",
+      "type": "double",
+      "units": "RE",
+      "description": "geo_x",
+      "fill": "nan"
+    },
+    {
+      "name": "geo_y",
+      "type": "double",
+      "units": "RE",
+      "description": "geo_y",
+      "fill": "nan"
+    },
+    {
+      "name": "geo_z",
+      "type": "double",
+      "units": "RE",
+      "description": "geo_z",
+      "fill": "nan"
+    },
+    {
+      "name": "gei_x",
+      "type": "double",
+      "units": "RE",
+      "description": "gei_x",
+      "fill": "nan"
+    },
+    {
+      "name": "gei_y",
+      "type": "double",
+      "units": "RE",
+      "description": "gei_y",
+      "fill": "nan"
+    },
+    {
+      "name": "gei_z",
+      "type": "double",
+      "units": "RE",
+      "description": "gei_z",
+      "fill": "nan"
+    },
+    {
+      "name": "dose1",
+      "type": "double",
+      "units": "rad/s",
+      "description": "Dose rate from Dosimeter 1",
+      "fill": "nan"
+    },
+    {
+      "name": "proton_flux1",
+      "type": "double",
+      "units": "#/cm^2/sr/s",
+      "description": "Proton flux from bowtie",
+      "fill": "nan"
+    },
+    {
+      "name": "electron_flux1",
+      "type": "double",
+      "units": "#/cm^2/sr/s",
+      "description": "Electron flux from bowtie",
+      "fill": "nan"
+    },
+    {
+      "name": "species1",
+      "type": "integer",
+      "units": "unitless",
+      "description": "Most probable species",
+      "fill": null
+    },
+    {
+      "name": "dose2",
+      "type": "double",
+      "units": "rad/s",
+      "description": "Dose rate from Dosimeter 2",
+      "fill": "nan"
+    },
+    {
+      "name": "proton_flux2",
+      "type": "double",
+      "units": "#/cm^2/sr/s",
+      "description": "Proton flux from bowtie",
+      "fill": "nan"
+    },
+    {
+      "name": "electron_flux2",
+      "type": "double",
+      "units": "#/cm^2/sr/s",
+      "description": "Electron flux from bowtie",
+      "fill": "nan"
+    },
+    {
+      "name": "species2",
+      "type": "integer",
+      "units": "unitless",
+      "description": "Most probable species",
+      "fill": null
+    },
+    {
+      "name": "hk_temperature",
+      "type": "double",
+      "units": "degrees C",
+      "description": "Housekeeping temperature",
+      "fill": "nan"
+    },
+    {
+      "name": "hk_15v_monitor",
+      "type": "double",
+      "units": "volts",
+      "description": "Housekeeping voltage 15V",
+      "fill": "nan"
+    },
+    {
+      "name": "hk_5v_monitor",
+      "type": "double",
+      "units": "volts",
+      "description": "Housekeeping voltage 5V",
+      "fill": "nan"
+    },
+    {
+      "name": "hk_3_3v_monitor",
+      "type": "double",
+      "units": "volts",
+      "description": "Housekeeping voltage 3.3V",
+      "fill": "nan"
+    },
+    {
+      "name": "lm",
+      "type": "double",
+      "units": "RE",
+      "description": "McIlwain L-shell for locally mirroring particle",
+      "fill": "nan"
+    },
+    {
+      "name": "inv_lat",
+      "type": "double",
+      "units": "deg",
+      "description": "Invariant Latitude for locally mirroring particle",
+      "fill": "nan"
+    },
+    {
+      "name": "blocal",
+      "type": "double",
+      "units": "nT",
+      "description": "Local magnetic field at s/c",
+      "fill": "nan"
+    },
+    {
+      "name": "bmin",
+      "type": "double",
+      "units": "nT",
+      "description": "Minimum magnetic field on field line intersecting spacecraft",
+      "fill": "nan"
+    },
+    {
+      "name": "mlt",
+      "type": "double",
+      "units": "hours",
+      "description": "Magnetic local time",
+      "fill": "nan"
+    },
+    {
+      "name": "k_sqrt",
+      "type": "double",
+      "units": "RE",
+      "description": "k_sqrt",
+      "fill": "nan"
+    },
+    {
+      "name": "hmin",
+      "type": "double",
+      "units": "km",
+      "description": "hmin",
+      "fill": "nan"
+    },
+    {
+      "name": "alpha",
+      "type": "double",
+      "units": "deg",
+      "description": "Local pitch angle",
+      "fill": "nan"
+    },
+    {
+      "name": "alpha_eq",
+      "type": "double",
+      "units": "deg",
+      "description": "Equatorial pitch angle",
+      "fill": "nan"
+    },
+    {
+      "name": "region_code",
+      "type": "integer",
+      "units": "unitless",
+      "description": "region_code",
+      "fill": null
+    },
+    {
+      "name": "orbit_status",
+      "type": "integer",
+      "units": "unitless",
+      "description": "orbit_status",
+      "fill": null
+    },
+    {
+      "name": "flag",
+      "type": "integer",
+      "units": "unitless",
+      "description": "flag",
+      "fill": null
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

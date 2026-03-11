@@ -1,0 +1,138 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "Elapsed_Time_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Elapsed Time",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Elapsed_Time_2_time_sec",
+      "type": "double",
+      "units": "sec",
+      "description": "Elapsed Time",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Elapsed_Time",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Elapsed Time",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Crew_Sleeping_Time_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Crew Sleeping Time",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Crew_Sleeping_Time_2_time_sec",
+      "type": "double",
+      "units": "sec",
+      "description": "Crew Sleeping Time",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Crew_Sleeping_Time",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Crew Sleeping Time",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Long_TULC_Timeout_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Long TULC Timeout",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Long_TULC_Timeout_2_time_sec",
+      "type": "double",
+      "units": "sec",
+      "description": "Long TULC Timeout",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Long_TULC_Timeout",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Long TULC Timeout",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Time_To_Docking_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Time To Docking",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Time_To_Docking_2_time_sec",
+      "type": "double",
+      "units": "sec",
+      "description": "Time To Docking",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Time_To_Docking",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Time To Docking",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Time_To_Dplyment_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Time To Deployment",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Time_To_Dplyment_2_time_sec",
+      "type": "double",
+      "units": "sec",
+      "description": "Time To Deployment",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Time_To_Dplyment",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Time To Dplyment",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Time_To_Retrieval_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Time To Retrieval",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Time_To_Retrieval_2_time_sec",
+      "type": "double",
+      "units": "sec",
+      "description": "Time To Retrieval",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Time_To_Retrieval",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Time To Retrieval",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

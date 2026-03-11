@@ -1,0 +1,166 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "MCA_Pwr",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "MCA Power Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_MCA_Pwr",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for MCA Pwr",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "JTS_Pwr_HARD",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "JTS Power Status - HARD",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_JTS_Pwr_HARD",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for JTS Pwr HARD",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "JTS_Pwr_DBuf",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "JTS Power Status - DBuff",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_JTS_Pwr_DBuf",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for JTS Pwr DBuf",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DPY_RTR_Pwr_HARD",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "DPY/RTR Power Status - HARD",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_DPY_RTR_Pwr_HARD",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for DPY/RTR Pwr HARD",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DPY_RTR_Pwr_DBuf",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "DPY/RTR Power Status - DBuff",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_DPY_RTR_Pwr_DBuf",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for DPY/RTR Pwr DBuf",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Sat_Int_Pwr_HARD",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Satellite Internal Power Status - HARD",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Sat_Int_Pwr_HARD",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Sat Int Pwr HARD",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Sat_Int_Pwr_DBuf",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Satellite External Power Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Sat_Int_Pwr_DBuf",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Sat Int Pwr DBuf",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Sgl_Ended_ADC_V1",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Single Ended ADC Voltage 1 Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Sgl_Ended_ADC_V1",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Sgl Ended ADC V1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Sgl_Ended_ADC_V2",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Single Ended ADC Voltage 2 Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Sgl_Ended_ADC_V2",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Sgl Ended ADC V2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Diff_ADC_V1",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Differential ADC Voltage 1 Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Diff_ADC_V1",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Diff ADC V1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Diff_ADC_V2",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Differential ADC Voltage 2 Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Diff_ADC_V2",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Diff ADC V2",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

@@ -1,0 +1,194 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "Shuttle_Lat",
+      "type": "double",
+      "units": "deg",
+      "description": "Orbiter Latitude",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Shuttle_Lat",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for Shuttle Lat",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Shuttle_Long",
+      "type": "double",
+      "units": "deg",
+      "description": "Orbiter Longitude",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Shuttle_Long",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for Shuttle Long",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Pitch_LV_LH",
+      "type": "double",
+      "units": "deg",
+      "description": "Orbiter Pitch wrt Local Vertical Local Horizontal",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Pitch_LV_LH",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for Pitch (LV,LH)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Yaw_LV_LH",
+      "type": "double",
+      "units": "deg",
+      "description": "Orbiter Yaw wrt Local Vertical Local Horizontal",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Yaw_LV_LH",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for Yaw (LV,LH)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Roll_LV_LH",
+      "type": "double",
+      "units": "deg",
+      "description": "Orbiter Roll wrt Local Vertical Local Horizontal",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Roll_LV_LH",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for Roll (LV,LH)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Pitch_Rate_LV_LH",
+      "type": "double",
+      "units": "deg/s",
+      "description": "Orbiter Pitch Rate wrt Local Vertical Local Horizontal",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Pitch_Rate_LV_LH",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for Pitch Rate (LV,LH)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Yaw_Rate_LV_LH",
+      "type": "double",
+      "units": "deg/s",
+      "description": "Orbiter Yaw Rate wrt Local Vertical Local Horizontal",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Yaw_Rate_LV_LH",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for Yaw Rate (LV,LH)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Roll_Rate_LV_LH",
+      "type": "double",
+      "units": "deg/s",
+      "description": "Orbiter Roll Rate wrt Local Vertical Local Horizontal",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Roll_Rate_LV_LH",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for Roll Rate (LV,LH)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Sat_Azimuth",
+      "type": "double",
+      "units": "deg",
+      "description": "Satellite Az Angle",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Sat_Azimuth",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for Sat Azimuth",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Sat_Co_elev",
+      "type": "double",
+      "units": "deg",
+      "description": "Satellite Coel Angle",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Sat_Co_elev",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for Sat Co-elev",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Ram_Azimuth",
+      "type": "double",
+      "units": "deg",
+      "description": "RAM Az Angle",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Ram_Azimuth",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for Ram Azimuth",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Ram_Co_elev",
+      "type": "double",
+      "units": "deg",
+      "description": "RAM Coel Angle",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Ram_Co_elev",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for Ram Co-elev",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Orbit__",
+      "type": "double",
+      "units": "deg",
+      "description": "Orbit Number",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Orbit__",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for Orbit #",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

@@ -1,0 +1,152 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "Bat1_Bat2_Status",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Battery 1 / Battery 2 Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Bat1_Bat2_Status",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Bat1/Bat2 Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Bat3_Bat4_Status",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Battery 3 / Battery 4 Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Bat3_Bat4_Status",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Bat3/Bat4 Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "TT_C_Pwr",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "TT&C Power Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_TT_C_Pwr",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for TT&C Pwr",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "PPDA_Pwr",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "PPDA Power Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_PPDA_Pwr",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for PPDA Pwr",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "AMCS_Pwr",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "AMCS Power Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_AMCS_Pwr",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for AMCS Pwr",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "APS_Pwr",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "APS Heater Power Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_APS_Pwr",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for APS Pwr",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "PM_Pwr",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "PM Heater Power Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_PM_Pwr",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for PM Pwr",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "I_O_Pl_Sec_Pwr",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "I/O of Plane Section Power Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_I_O_Pl_Sec_Pwr",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for I/O Pl Sec Pwr",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Yaw_Sec_Pwr",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Yaw Section Power Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Yaw_Sec_Pwr",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Yaw Sec Pwr",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "TX_Pwr_Enable",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "TX Power Enable Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_TX_Pwr_Enable",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for TX Pwr Enable",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

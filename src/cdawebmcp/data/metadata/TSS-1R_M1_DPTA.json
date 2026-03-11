@@ -1,0 +1,243 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "Reel_Mo_Cld_Plate_T_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Reel Motor Cold Plate (7) Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Reel_Mo_Cld_Plate_T_2_T_degrees_C",
+      "type": "double",
+      "units": "degrees C",
+      "description": "Reel Motor Cold Plate (7) Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Reel_Mo_Cld_Plate_T",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Reel Mo Cld Plate T",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Reel_Cvr_T_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Reel Cover Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Reel_Cvr_T_2_T_degrees_C",
+      "type": "double",
+      "units": "degrees C",
+      "description": "Reel Cover Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Reel_Cvr_T",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Reel Cvr T",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Reel_Bearing_Hs1_T_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Reel Bearing House 1 Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Reel_Bearing_Hs1_T_2_T_degrees_C",
+      "type": "double",
+      "units": "degrees C",
+      "description": "Reel Bearing House 1 Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Reel_Bearing_Hs1_T",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Reel Bearing Hs1 T",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Reel_Bearing_Hs2_T_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Reel Bearing House 2 Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Reel_Bearing_Hs2_T_2_T_degrees_C",
+      "type": "double",
+      "units": "degrees C",
+      "description": "Reel Bearing House 2 Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Reel_Bearing_Hs2_T",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Reel Bearing Hs2 T",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Reel_Brake_Motor_T_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Reel Brake Motor Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Reel_Brake_Motor_T_2_T_degrees_C",
+      "type": "double",
+      "units": "degrees C",
+      "description": "Reel Brake Motor Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Reel_Brake_Motor_T",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Reel Brake Motor T",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Reel_Motor1_T_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Reel Motor Temperature 1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Reel_Motor1_T_2_T_degrees_C",
+      "type": "double",
+      "units": "degrees C",
+      "description": "Reel Motor Temperature 1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Reel_Motor1_T",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Reel Motor1 T",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Reel_Motor2_T_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Reel Motor Temperature 2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Reel_Motor2_T_2_T_degrees_C",
+      "type": "double",
+      "units": "degrees C",
+      "description": "Reel Motor Temperature 2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Reel_Motor2_T",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Reel Motor2 T",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Boom_Motor1_T_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Boom Motor 1 Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Boom_Motor1_T_2_T_degrees_C",
+      "type": "double",
+      "units": "degrees C",
+      "description": "Boom Motor 1 Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Boom_Motor1_T",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Boom Motor1 T",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Boom_Motor2_T_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Boom Motor 2 Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Boom_Motor2_T_2_T_degrees_C",
+      "type": "double",
+      "units": "degrees C",
+      "description": "Boom Motor 2 Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Boom_Motor2_T",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Boom Motor2 T",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Boom_Motor1_Ele_T_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Boom Motor 1 Electronics Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Boom_Motor1_Ele_T_2_T_degrees_C",
+      "type": "double",
+      "units": "degrees C",
+      "description": "Boom Motor 1 Electronics Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Boom_Motor1_Ele_T",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Boom Motor1 Ele T",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Boom_Motor2_Ele_T_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Boom Motor 2 Electronics Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Boom_Motor2_Ele_T_2_T_degrees_C",
+      "type": "double",
+      "units": "degrees C",
+      "description": "Boom Motor 2 Electronics Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Boom_Motor2_Ele_T",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Boom Motor2 Ele T",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

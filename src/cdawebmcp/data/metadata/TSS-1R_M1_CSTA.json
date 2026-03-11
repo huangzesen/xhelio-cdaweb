@@ -1,0 +1,292 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "MTU_PCM_Voted_GMT_Day",
+      "type": "double",
+      "units": "days",
+      "description": "MTU-PCM Voted GMT Day",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_MTU_PCM_Voted_GMT_Day",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for MTU-PCM Voted GMT Day",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "MTU_PCM_Voted_GMT_Hr",
+      "type": "double",
+      "units": "hours",
+      "description": "MTU-PCM Voted GMT Hour",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_MTU_PCM_Voted_GMT_Hr",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for MTU-PCM Voted GMT Hr",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "MTU_PCM_Voted_GMT_Min",
+      "type": "double",
+      "units": "minutes",
+      "description": "MTU-PCM Voted GMT Minute",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_MTU_PCM_Voted_GMT_Min",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for MTU-PCM Voted GMT Min",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "MTU_PCM_Voted_GMT_Sec",
+      "type": "double",
+      "units": "seconds",
+      "description": "MTU-PCM Voted GMT Second",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_MTU_PCM_Voted_GMT_Sec",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for MTU-PCM Voted GMT Sec",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "MTU_PCM_Voted_GMT_Msec",
+      "type": "double",
+      "units": "milliseconds",
+      "description": "MTU-PCM Voted GMT Millisecond",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_MTU_PCM_Voted_GMT_Msec",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for MTU-PCM Voted GMT Msec",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "MTU_PCM_Voted_MET_Day",
+      "type": "double",
+      "units": "days",
+      "description": "MTU-PCM Voted MET Day",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_MTU_PCM_Voted_MET_Day",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for MTU-PCM Voted MET Day",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "MTU_PCM_Voted_MET_Hr",
+      "type": "double",
+      "units": "hours",
+      "description": "MTU-PCM Voted MET Hour",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_MTU_PCM_Voted_MET_Hr",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for MTU-PCM Voted MET Hr",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "MTU_PCM_Voted_MET_Min",
+      "type": "double",
+      "units": "minutes",
+      "description": "MTU-PCM Voted MET Minute",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_MTU_PCM_Voted_MET_Min",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for MTU-PCM Voted MET Min",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "MTU_PCM_Voted_MET_Sec",
+      "type": "double",
+      "units": "seconds",
+      "description": "MTU-PCM Voted MET Second",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_MTU_PCM_Voted_MET_Sec",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for MTU-PCM Voted MET Sec",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "MTU_PCM_Voted_MET_Msec",
+      "type": "double",
+      "units": "milliseconds",
+      "description": "MTU-PCM Voted MET Millisecond",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_MTU_PCM_Voted_MET_Msec",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for MTU-PCM Voted MET Msec",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "MTU_PCM_NonVoted_GMT_Day",
+      "type": "double",
+      "units": "days",
+      "description": "MTU-PCM Non-Voted GMT Day",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_MTU_PCM_NonVoted_GMT_Day",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for MTU-PCM NonVoted GMT Day",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "MTU_PCM_NonVoted_GMT_Hr",
+      "type": "double",
+      "units": "hours",
+      "description": "MTU-PCM Non-Voted GMT Hour",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_MTU_PCM_NonVoted_GMT_Hr",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for MTU-PCM NonVoted GMT Hr",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "MTU_PCM_NonVoted_GMT_Min",
+      "type": "double",
+      "units": "minutes",
+      "description": "MTU-PCM Non-Voted GMT Minute",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_MTU_PCM_NonVoted_GMT_Min",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for MTU-PCM NonVoted GMT Min",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "MTU_PCM_NonVoted_GMT_Sec",
+      "type": "double",
+      "units": "seconds",
+      "description": "MTU-PCM Non-Voted GMT Second",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_MTU_PCM_NonVoted_GMT_Sec",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for MTU-PCM NonVoted GMT Sec",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "MTU_PCM_NonVoted_GMT_Msec",
+      "type": "double",
+      "units": "milliseconds",
+      "description": "MTU-PCM Non-Voted GMT Millisecond",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_MTU_PCM_NonVoted_GMT_Msec",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for MTU-PCM NonVoted GMT Msec",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "MTU_PCM_NonVoted_MET_Day",
+      "type": "double",
+      "units": "days",
+      "description": "MTU-PCM Non-Voted MET Day",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_MTU_PCM_NonVoted_MET_Day",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for MTU-PCM NonVoted MET Day",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "MTU_PCM_NonVoted_MET_Hr",
+      "type": "double",
+      "units": "hours",
+      "description": "MTU-PCM Non-Voted MET Hour",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_MTU_PCM_NonVoted_MET_Hr",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for MTU-PCM NonVoted MET Hr",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "MTU_PCM_NonVoted_MET_Min",
+      "type": "double",
+      "units": "minutes",
+      "description": "MTU-PCM Non-Voted MET Minute",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_MTU_PCM_NonVoted_MET_Min",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for MTU-PCM NonVoted MET Min",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "MTU_PCM_NonVoted_MET_Sec",
+      "type": "double",
+      "units": "seconds",
+      "description": "MTU-PCM Non-Voted MET Second",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_MTU_PCM_NonVoted_MET_Sec",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for MTU-PCM NonVoted MET Sec",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "MTU_PCM_NonVoted_MET_Msec",
+      "type": "double",
+      "units": "milliseconds",
+      "description": "MTU-PCM Non-Voted MET Millisecond",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_MTU_PCM_NonVoted_MET_Msec",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for MTU-PCM NonVoted MET Msec",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

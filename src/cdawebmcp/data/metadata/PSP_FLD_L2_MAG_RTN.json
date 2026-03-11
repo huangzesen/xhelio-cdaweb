@@ -11,12 +11,12 @@
       "type": "double",
       "units": "nT",
       "description": "Magnetic field in RTN coordinates (full cadence)",
-      "fill": "-9.999999848243207e+30",
+      "fill": "nan",
       "size": [
         3
       ]
     }
   ],
-  "startDate": "2018-10-02T03:48:17.000Z",
-  "stopDate": "2025-07-31T23:59:59.000Z"
+  "startDate": "",
+  "stopDate": ""
 }

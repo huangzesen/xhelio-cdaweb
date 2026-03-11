@@ -1,0 +1,194 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "CCP_Elec_T_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "CCP Electronics Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "CCP_Elec_T_2_T_degrees_C",
+      "type": "double",
+      "units": "degrees C",
+      "description": "CCP Electronics Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_CCP_Elec_T",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for CCP Elec T",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "CCP_Current_Plate_T_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "CCP Current Plate Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "CCP_Current_Plate_T_2_T_degrees_C",
+      "type": "double",
+      "units": "degrees C",
+      "description": "CCP Current Plate Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_CCP_Current_Plate_T",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for CCP Current Plate T",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Q_Probe_Elec_T_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Charge Probe Electronics Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Q_Probe_Elec_T_2_T_degrees_C",
+      "type": "double",
+      "units": "degrees C",
+      "description": "Charge Probe Electronics Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Q_Probe_Elec_T",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Q Probe Elec T",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "CCP_Plus_15V_Bus_V_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "+15 Volt CCP Bus Voltage",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "CCP_Plus_15V_Bus_V_2_Voltage_volts",
+      "type": "double",
+      "units": "volts",
+      "description": "+15 Volt CCP Bus Voltage",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_CCP_Plus_15V_Bus_V",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for CCP Plus 15V Bus V",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "CCP_Neg_15V_Bus_V_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "-15 Volt CCP Bus Voltage",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "CCP_Neg_15V_Bus_V_2_Voltage_volts",
+      "type": "double",
+      "units": "volts",
+      "description": "-15 Volt CCP Bus Voltage",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_CCP_Neg_15V_Bus_V",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for CCP Neg 15V Bus V",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Q_Probe_Off_V_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Charge Probe Offset Voltage",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Q_Probe_Off_V_2_Voltage_volts",
+      "type": "double",
+      "units": "volts",
+      "description": "Charge Probe Offset Voltage",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Q_Probe_Off_V",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Q Probe Off V",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Cur_Probe_Off_V_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Current Probe Offset Voltage",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Cur_Probe_Off_V_2_Voltage_volts",
+      "type": "double",
+      "units": "volts",
+      "description": "Current Probe Offset Voltage",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Cur_Probe_Off_V",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Cur Probe Off V",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "CCP_Current_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "CCP Current",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "CCP_Current_2_Current_amps",
+      "type": "double",
+      "units": "amps",
+      "description": "CCP Current",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_CCP_Current",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for CCP Current",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Time_CCP_Rlys_On",
+      "type": "double",
+      "units": "seconds",
+      "description": "Time Since CCP Relays Turned On",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Time_CCP_Rlys_On",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Time CCP Rlys On",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

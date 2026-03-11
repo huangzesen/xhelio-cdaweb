@@ -1,0 +1,138 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "Scaled_Yaw_Angle_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Scaled Yaw Angle",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Scaled_Yaw_Angle_2_angle_degrees",
+      "type": "double",
+      "units": "degrees",
+      "description": "Scaled Yaw Angle",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Scaled_Yaw_Angle",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Scaled Yaw Angle",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Scaled_Yaw_Rate_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Scaled Yaw Rate",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Scaled_Yaw_Rate_2_rate_degrees_sec",
+      "type": "double",
+      "units": "degrees/sec",
+      "description": "Scaled Yaw Rate",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Scaled_Yaw_Rate",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Scaled Yaw Rate",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Scaled_Roll_Angle_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Scaled Roll Angle",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Scaled_Roll_Angle_2_angle_degrees",
+      "type": "double",
+      "units": "degrees",
+      "description": "Scaled Roll Angle",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Scaled_Roll_Angle",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Scaled Roll Angle",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Scaled_Roll_Rate_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Scaled Roll Rate",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Scaled_Roll_Rate_2_rate_degrees_sec",
+      "type": "double",
+      "units": "degrees/sec",
+      "description": "Scaled Roll Rate",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Scaled_Roll_Rate",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Scaled Roll Rate",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Scaled_Pitch_Angle_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Scaled Pitch Angle",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Scaled_Pitch_Angle_2_angle_degrees",
+      "type": "double",
+      "units": "degrees",
+      "description": "Scaled Pitch Angle",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Scaled_Pitch_Angle",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Scaled Pitch Angle",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Scaled_Pitch_Rate_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Scaled Pitch Rate",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Scaled_Pitch_Rate_2_rate_degrees_sec",
+      "type": "double",
+      "units": "degrees/sec",
+      "description": "Scaled Pitch Rate",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Scaled_Pitch_Rate",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Scaled Pitch Rate",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

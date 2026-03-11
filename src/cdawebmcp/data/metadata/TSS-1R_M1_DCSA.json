@@ -1,0 +1,166 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "EGA1_Filament",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Filament EGA 1 Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_EGA1_Filament",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for EGA1 Filament",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "EGA2_Filament",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Filament EGA 2 Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_EGA2_Filament",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for EGA2 Filament",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "EGA1_High_Pwr",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "High Power EGA 1 Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_EGA1_High_Pwr",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for EGA1 High Pwr",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "EGA2_High_Pwr",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "High Power EGA 2 Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_EGA2_High_Pwr",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for EGA2 High Pwr",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DVG_Pwr",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Power DVG Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_DVG_Pwr",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for DVG Pwr",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "CWGHS_Swtch_1",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Switch 1 CEGHS Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_CWGHS_Swtch_1",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for CWGHS Swtch 1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "CWGHS_Swtch_2",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Switch 2 CEGHS Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_CWGHS_Swtch_2",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for CWGHS Swtch 2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "CWGHS_Pwr",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Power CEGHS Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_CWGHS_Pwr",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for CWGHS Pwr",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DV_Pwr",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Power DV Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_DV_Pwr",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for DV Pwr",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DV_Hi_Volt_Swtch",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "High Voltage Switch DV Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_DV_Hi_Volt_Swtch",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for DV Hi Volt Swtch",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DV_Autochk",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Autocheck DV Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_DV_Autochk",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for DV Autochk",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

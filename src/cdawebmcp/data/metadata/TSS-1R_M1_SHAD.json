@@ -1,0 +1,124 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "Alpha_Angle_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Alpha Angle",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Alpha_Angle_2_angle_radians",
+      "type": "double",
+      "units": "radians",
+      "description": "Alpha Angle",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Alpha_Angle",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Alpha Angle",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Beta_Angle_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Beta Angle",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Beta_Angle_2_angle_radians",
+      "type": "double",
+      "units": "radians",
+      "description": "Beta Angle",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Beta_Angle",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Beta Angle",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Gamma_Angle_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Gamma Angle",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Gamma_Angle_2_angle_radians",
+      "type": "double",
+      "units": "radians",
+      "description": "Gamma Angle",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Gamma_Angle",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Gamma Angle",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Skew_Angle_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Skew Angle",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Skew_Angle_2_angle_radians",
+      "type": "double",
+      "units": "radians",
+      "description": "Skew Angle",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Skew_Angle",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Skew Angle",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "MODE0_X_Mode_Status",
+      "type": "double",
+      "units": "unitless",
+      "description": "Status Indicator X Mode Gain Flag",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "MODE1_Y_Mode_Status",
+      "type": "double",
+      "units": "unitless",
+      "description": "Status Indicator Y Mode Gain Flag",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "MODE2_Z_Mode_Status",
+      "type": "double",
+      "units": "unitless",
+      "description": "Status Indicator Z Mode Gain Flag",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "MODE3_Skew_Mode_Status",
+      "type": "double",
+      "units": "unitless",
+      "description": "Status Indicator S Mode Gain Flag",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

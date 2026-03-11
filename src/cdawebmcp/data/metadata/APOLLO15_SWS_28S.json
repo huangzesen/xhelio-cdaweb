@@ -1,0 +1,145 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "Density",
+      "type": "double",
+      "units": "Protons/cm**3",
+      "description": "Proton Density",
+      "fill": "-99.9000015258789"
+    },
+    {
+      "name": "AP_Ratio",
+      "type": "double",
+      "units": "",
+      "description": "Alpha to Proton Ratio",
+      "fill": "-9.989999771118164"
+    },
+    {
+      "name": "VEL",
+      "type": "integer",
+      "units": "Km/s",
+      "description": "Proton Bulk Speed",
+      "fill": "-999.0"
+    },
+    {
+      "name": "Vth",
+      "type": "integer",
+      "units": "Km/s",
+      "description": "Proton Thermal Velocity",
+      "fill": "-99.0"
+    },
+    {
+      "name": "East",
+      "type": "double",
+      "units": "Deg SE",
+      "description": "Proton Flow Angle toward East, SE Coords",
+      "fill": "-99.9000015258789"
+    },
+    {
+      "name": "North",
+      "type": "double",
+      "units": "Deg SE",
+      "description": "Proton Flow Angle toward North, SE Coords",
+      "fill": "-99.9000015258789"
+    },
+    {
+      "name": "FLAG",
+      "type": "integer",
+      "units": "",
+      "description": "FLAG Word bits not separately shown; packed in low order bits; See Var_Notes",
+      "fill": "1111111111.0"
+    },
+    {
+      "name": "IA",
+      "type": "integer",
+      "units": "",
+      "description": "Flag for how angle alpha was derived.  See Var_Notes.",
+      "fill": "9.0"
+    },
+    {
+      "name": "IB",
+      "type": "integer",
+      "units": "",
+      "description": "Flag for how angle beta was derived. See  Var_Notes.",
+      "fill": "9.0"
+    },
+    {
+      "name": "IDISCP",
+      "type": "integer",
+      "units": "",
+      "description": "1 means that side cup not next to cup A has more current than cups B or C",
+      "fill": "9.0"
+    },
+    {
+      "name": "GAIN",
+      "type": "integer",
+      "units": "",
+      "description": "Gain Level: 0 = Low; 1 = High",
+      "fill": "9.0"
+    },
+    {
+      "name": "RMS",
+      "type": "double",
+      "units": "Percent",
+      "description": "Percentage Error in Fitting Program",
+      "fill": "-99.9000015258789"
+    },
+    {
+      "name": "KUPA",
+      "type": "integer",
+      "units": "Cup No.",
+      "description": "Side cup (not vertical) with most current",
+      "fill": "9.0"
+    },
+    {
+      "name": "CURA",
+      "type": "double",
+      "units": "Picoamps",
+      "description": "Current in Cup A (shown by KUPA)",
+      "fill": "-999.9000244140625"
+    },
+    {
+      "name": "CURB",
+      "type": "double",
+      "units": "Picoamps",
+      "description": "Current in Cup B (CCW from Cup A)",
+      "fill": "-999.9000244140625"
+    },
+    {
+      "name": "CURC",
+      "type": "double",
+      "units": "Picoamps",
+      "description": "Current in Cup C (CW from Cup A)",
+      "fill": "-999.9000244140625"
+    },
+    {
+      "name": "CUR7",
+      "type": "double",
+      "units": "Picoamps",
+      "description": "Current in Cup 7 (center, vertical)",
+      "fill": "-999.9000244140625"
+    },
+    {
+      "name": "FACTD",
+      "type": "double",
+      "units": "",
+      "description": "Correction for M-B least sq est of density",
+      "fill": "9.989999771118164"
+    },
+    {
+      "name": "XNOISE",
+      "type": "double",
+      "units": "Picoamps",
+      "description": "Noise level used in estimating angles",
+      "fill": "-999.9000244140625"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

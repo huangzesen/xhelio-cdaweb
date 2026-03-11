@@ -1,0 +1,225 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "Defl_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Deflection Current",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        256
+      ]
+    },
+    {
+      "name": "Defl_2_Current_amps",
+      "type": "double",
+      "units": "amps",
+      "description": "Deflection Current",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        256
+      ]
+    },
+    {
+      "name": "Data_Quality_Defl",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Defl",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Scan_Voltage_Steps_Defl_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Scan Voltage for Defl",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        256
+      ]
+    },
+    {
+      "name": "Retard_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Retard Only",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        256
+      ]
+    },
+    {
+      "name": "Retard_2_Current_amps",
+      "type": "double",
+      "units": "amps",
+      "description": "Retard Only",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        256
+      ]
+    },
+    {
+      "name": "Data_Quality_Retard",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Retard",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Scan_Voltage_Steps_Retard_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Scan Voltage for Retard",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        256
+      ]
+    },
+    {
+      "name": "Retard_Pk_1_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Retard, Peak 1",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        256
+      ]
+    },
+    {
+      "name": "Retard_Pk_1_2_Current_amps",
+      "type": "double",
+      "units": "amps",
+      "description": "Retard, Peak 1",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        256
+      ]
+    },
+    {
+      "name": "Data_Quality_Retard_Pk_1",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Retard/Pk 1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Scan_Voltage_Steps_Retard_Pk_1_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Scan Voltage for Retard/Pk 1",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        256
+      ]
+    },
+    {
+      "name": "Retard_Pk_2_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Retard, Peak 2",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        256
+      ]
+    },
+    {
+      "name": "Retard_Pk_2_2_Current_amps",
+      "type": "double",
+      "units": "amps",
+      "description": "Retard, Peak 2",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        256
+      ]
+    },
+    {
+      "name": "Data_Quality_Retard_Pk_2",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Retard/Pk 2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Scan_Voltage_Steps_Retard_Pk_2_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Scan Voltage for Retard/Pk 2",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        256
+      ]
+    },
+    {
+      "name": "Retard_Pk_3_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Retard, Peak 3",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        256
+      ]
+    },
+    {
+      "name": "Retard_Pk_3_2_Current_amps",
+      "type": "double",
+      "units": "amps",
+      "description": "Retard, Peak 3",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        256
+      ]
+    },
+    {
+      "name": "Data_Quality_Retard_Pk_3",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Retard/Pk 3",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Scan_Voltage_Steps_Retard_Pk_3_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Scan Voltage for Retard/Pk 3",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        256
+      ]
+    },
+    {
+      "name": "MODE0_Mode_Flag",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Status Indicator Instrument Mode",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "MODE1_Deflection_Sweep_Range",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Status Indicator Deflection Range",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "MODE2_Retard_Sweep_Range",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Status Indicator Retard Range",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "MODE3_Data_Format",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Status Indicator Data Format",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

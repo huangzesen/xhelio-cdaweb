@@ -1,0 +1,82 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "SFMDM_RS_422___of_Bits",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM RS-422 Number Of Bits",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_RS_422___of_Bits",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM RS-422 # of Bits",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_RS_422_Parity",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM RS-422 Parity",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_RS_422_Parity",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM RS-422 Parity",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_RS_422_BaudRate",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM RS-422 Baud Rate",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_RS_422_BaudRate",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM RS-422 BaudRate",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_IO_Xfer_IOM_Inpt_Err",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM IO Transfer IOM Input Error",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_IO_Xfer_IOM_Inpt_Err",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM IO Xfer IOM Inpt Err",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_IO_Xfer___of_Errs",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM IO Transfer Number Of Transfer Errors",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_IO_Xfer___of_Errs",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM IO Xfer # of Errs",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

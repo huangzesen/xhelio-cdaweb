@@ -1,0 +1,334 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "TCVM_Current_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "TCVM Current",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "TCVM_Current_2_Current_amps",
+      "type": "double",
+      "units": "amps",
+      "description": "TCVM Current",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_TCVM_Current",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for TCVM Current",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "TCVM_Plus_15V_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "TCVM +15 V",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "TCVM_Plus_15V_2_Voltage_volts",
+      "type": "double",
+      "units": "volts",
+      "description": "TCVM +15 V",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_TCVM_Plus_15V",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for TCVM Plus 15V",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "TCVM_Plus_5V_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "TCVM +5 V",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "TCVM_Plus_5V_2_Voltage_volts",
+      "type": "double",
+      "units": "volts",
+      "description": "TCVM +5 V",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_TCVM_Plus_5V",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for TCVM Plus 5V",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "TCVM_Neg_15V_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "TCVM -15 V",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "TCVM_Neg_15V_2_Voltage_volts",
+      "type": "double",
+      "units": "volts",
+      "description": "TCVM -15 V",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_TCVM_Neg_15V",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for TCVM Neg 15V",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "TCVM_Plus_28V_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "TCVM +28 V Secondary",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "TCVM_Plus_28V_2_Voltage_volts",
+      "type": "double",
+      "units": "volts",
+      "description": "TCVM +28 V Secondary",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_TCVM_Plus_28V",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for TCVM Plus 28V",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "TCVM_Base_Plate_T_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "TCVM Base Plate Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "TCVM_Base_Plate_T_2_T_degrees_C",
+      "type": "double",
+      "units": "degrees C",
+      "description": "TCVM Base Plate Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_TCVM_Base_Plate_T",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for TCVM Base Plate T",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "TCVM_Pwr_Sply_T_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "TCVM Power Supply Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "TCVM_Pwr_Sply_T_2_T_degrees_C",
+      "type": "double",
+      "units": "degrees C",
+      "description": "TCVM Power Supply Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_TCVM_Pwr_Sply_T",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for TCVM Pwr Sply T",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "TCVM_Load_RisA_T_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "TCVM Load Resistor A Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "TCVM_Load_RisA_T_2_T_degrees_C",
+      "type": "double",
+      "units": "degrees C",
+      "description": "TCVM Load Resistor A Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_TCVM_Load_RisA_T",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for TCVM Load RisA T",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "TCVM_Load_RisB_T_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "TCVM Load Resistor B Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "TCVM_Load_RisB_T_2_T_degrees_C",
+      "type": "double",
+      "units": "degrees C",
+      "description": "TCVM Load Resistor B Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_TCVM_Load_RisB_T",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for TCVM Load RisB T",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "TCVM_Load_RisC_T_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "TCVM Load Resistor C Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "TCVM_Load_RisC_T_2_T_degrees_C",
+      "type": "double",
+      "units": "degrees C",
+      "description": "TCVM Load Resistor C Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_TCVM_Load_RisC_T",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for TCVM Load RisC T",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "TCVM_PROT_Cap_T_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "TCVM PROT Capacitor Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "TCVM_PROT_Cap_T_2_T_degrees_C",
+      "type": "double",
+      "units": "degrees C",
+      "description": "TCVM PROT Capacitor Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_TCVM_PROT_Cap_T",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for TCVM PROT Cap T",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "TCVM_Elec_T_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "TCVM Electronics Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "TCVM_Elec_T_2_T_degrees_C",
+      "type": "double",
+      "units": "degrees C",
+      "description": "TCVM Electronics Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_TCVM_Elec_T",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for TCVM Elec T",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "TCVM_Pres_A_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "TCVM Pressure A",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "TCVM_Pres_A_2_Pressure_psi",
+      "type": "double",
+      "units": "psi",
+      "description": "TCVM Pressure A",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_TCVM_Pres_A",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for TCVM Pres A",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "TCVM_Pres_B_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "TCVM Pressure B",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "TCVM_Pres_B_2_Pressure_psi",
+      "type": "double",
+      "units": "psi",
+      "description": "TCVM Pressure B",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_TCVM_Pres_B",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for TCVM Pres B",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "TCVM_Lst_Cmd_Sent",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "TVCM Last Command Sent",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_TCVM_Lst_Cmd_Sent",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for TCVM Lst Cmd Sent",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "TCVM_TVM_AC_Gain_Rlys",
+      "type": "double",
+      "units": "integer",
+      "description": "TCVM TVM AC Gain Relays",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_TCVM_TVM_AC_Gain_Rlys",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for TCVM TVM AC Gain Rlys",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

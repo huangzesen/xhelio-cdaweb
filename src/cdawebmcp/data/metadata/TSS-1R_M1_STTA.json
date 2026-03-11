@@ -1,0 +1,40 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "Tether_I_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "TCVM Tether Current",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Tether_I_2_Current_amps",
+      "type": "double",
+      "units": "amps",
+      "description": "TCVM Tether Current",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Tether_I_3_Current_milliamps",
+      "type": "double",
+      "units": "milliamps",
+      "description": "TCVM Tether Current",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Tether_I",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Tether I",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

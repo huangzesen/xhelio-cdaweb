@@ -1,0 +1,152 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "U1_Sep_Rly_Cmd",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "U1 Separation Relay Command Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_U1_Sep_Rly_Cmd",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for U1 Sep Rly Cmd",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "U1_Spare1_Rly_Cmd",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "U1 Spare 1 Relay Command Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_U1_Spare1_Rly_Cmd",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for U1 Spare1 Rly Cmd",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "U1_Spare2_Rly_Cmd",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "U1 Spare 2 Relay Command Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_U1_Spare2_Rly_Cmd",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for U1 Spare2 Rly Cmd",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "U1_Retract_1",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "U1 Retracted 1 Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_U1_Retract_1",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for U1 Retract 1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "U1_Full_Retract_3",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "U1 Fully Retracted 3 Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_U1_Full_Retract_3",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for U1 Full Retract 3",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "U1_Sep",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "U1 Separation Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_U1_Sep",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for U1 Sep",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "U1_Sep_Pwr",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "U1 Separation Power Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_U1_Sep_Pwr",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for U1 Sep Pwr",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "U2_Sep_Rly_Cmd",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "U2 Separation Relay Command Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_U2_Sep_Rly_Cmd",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for U2 Sep Rly Cmd",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "U2_Sep",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "U2 Separation Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_U2_Sep",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for U2 Sep",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "U2_Sep_Pwr",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "U2 Separation Power Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_U2_Sep_Pwr",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for U2 Sep Pwr",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

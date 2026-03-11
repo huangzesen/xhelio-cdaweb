@@ -1,0 +1,82 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "Mea_Tether_Vel_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Measured Tether Velocity",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Mea_Tether_Vel_2_Velocity_m_s",
+      "type": "double",
+      "units": "m/s",
+      "description": "Measured Tether Velocity",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Mea_Tether_Vel",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Mea Tether Vel",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Fractional_Portion_Mea_Tether_Vel_CAL",
+      "type": "double",
+      "units": "unitless",
+      "description": "Fractional Velocity for Mea Tether Vel",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Sign_Mea_Tether_Vel_CAL",
+      "type": "double",
+      "units": "unitless",
+      "description": "Velocity Sign for Mea Tether Vel",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Cmded_Tether_Vel_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Commanded Tether Velocity",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Cmded_Tether_Vel_2_Velocity_m_s",
+      "type": "double",
+      "units": "m/s",
+      "description": "Commanded Tether Velocity",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Cmded_Tether_Vel",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Cmded Tether Vel",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Fractional_Portion_Cmded_Tether_Vel_CAL",
+      "type": "double",
+      "units": "unitless",
+      "description": "Fractional Velocity for Cmded Tether Vel",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Sign_Cmded_Tether_Vel_CAL",
+      "type": "double",
+      "units": "unitless",
+      "description": "Velocity Sign for Cmded Tether Vel",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

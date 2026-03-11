@@ -1,0 +1,278 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "Rot_Mem_Dmp_Offset",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Rotating Memory Dump Offset",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Rot_Mem_Dmp_Offset",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Rot Mem Dmp Offset",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Rot_Mem_Dmp_Seg",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Rotating Memory Dump Segment",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Rot_Mem_Dmp_Seg",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Rot Mem Dmp Seg",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Rot_Mem_Dmp_Wd00",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Rotating Memory Dump Data 00",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Rot_Mem_Dmp_Wd00",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Rot Mem Dmp Wd00",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Rot_Mem_Dmp_Wd01",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Rotating Memory Dump Data 01",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Rot_Mem_Dmp_Wd01",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Rot Mem Dmp Wd01",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Rot_Mem_Dmp_Wd02",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Rotating Memory Dump Data 02",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Rot_Mem_Dmp_Wd02",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Rot Mem Dmp Wd02",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Rot_Mem_Dmp_Wd03",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Rotating Memory Dump Data 03",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Rot_Mem_Dmp_Wd03",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Rot Mem Dmp Wd03",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Rot_Mem_Dmp_Wd04",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Rotating Memory Dump Data 04",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Rot_Mem_Dmp_Wd04",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Rot Mem Dmp Wd04",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Rot_Mem_Dmp_Wd05",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Rotating Memory Dump Data 05",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Rot_Mem_Dmp_Wd05",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Rot Mem Dmp Wd05",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Rot_Mem_Dmp_Wd06",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Rotating Memory Dump Data 06",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Rot_Mem_Dmp_Wd06",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Rot Mem Dmp Wd06",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Rot_Mem_Dmp_Wd07",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Rotating Memory Dump Data 07",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Rot_Mem_Dmp_Wd07",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Rot Mem Dmp Wd07",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Rot_Mem_Dmp_Wd08",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Rotating Memory Dump Data 08",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Rot_Mem_Dmp_Wd08",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Rot Mem Dmp Wd08",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Rot_Mem_Dmp_Wd09",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Rotating Memory Dump Data 09",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Rot_Mem_Dmp_Wd09",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Rot Mem Dmp Wd09",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Rot_Mem_Dmp_Wd10",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Rotating Memory Dump Data 10",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Rot_Mem_Dmp_Wd10",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Rot Mem Dmp Wd10",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Rot_Mem_Dmp_Wd11",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Rotating Memory Dump Data 11",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Rot_Mem_Dmp_Wd11",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Rot Mem Dmp Wd11",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Rot_Mem_Dmp_Wd12",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Rotating Memory Dump Data 12",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Rot_Mem_Dmp_Wd12",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Rot Mem Dmp Wd12",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Rot_Mem_Dmp_Wd13",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Rotating Memory Dump Data 13",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Rot_Mem_Dmp_Wd13",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Rot Mem Dmp Wd13",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "ROM_Chksum",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "ROM Checksum",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_ROM_Chksum",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for ROM Chksum",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Invalid_Int_Cnt",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Invalid Interrupt Count",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Invalid_Int_Cnt",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Invalid Int Cnt",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "RAM_Chkout_Fails",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "RAM Checkout Failures",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_RAM_Chkout_Fails",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for RAM Chkout Fails",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

@@ -1,0 +1,212 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "Ex_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Ex",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        256
+      ]
+    },
+    {
+      "name": "Ex_2_Pwr_uV__2",
+      "type": "double",
+      "units": "uV**2",
+      "description": "Ex",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        256
+      ]
+    },
+    {
+      "name": "Ex_3_PwDen_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Ex",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        256
+      ]
+    },
+    {
+      "name": "Ex_4_Power_Den_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Ex",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        256
+      ]
+    },
+    {
+      "name": "Attenuation_Ex_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Attenuation for Ex",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        256
+      ]
+    },
+    {
+      "name": "Ey_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Ey",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        256
+      ]
+    },
+    {
+      "name": "Ey_2_Pwr_uV__2",
+      "type": "double",
+      "units": "uV**2",
+      "description": "Ey",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        256
+      ]
+    },
+    {
+      "name": "Ey_3_PwDen_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Ey",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        256
+      ]
+    },
+    {
+      "name": "Ey_4_Power_Den_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Ey",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        256
+      ]
+    },
+    {
+      "name": "Attenuation_Ey_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Attenuation for Ey",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        256
+      ]
+    },
+    {
+      "name": "Ez_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Ez",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        256
+      ]
+    },
+    {
+      "name": "Ez_2_Pwr_uV__2",
+      "type": "double",
+      "units": "uV**2",
+      "description": "Ez",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        256
+      ]
+    },
+    {
+      "name": "Ez_3_PwDen_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Ez",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        256
+      ]
+    },
+    {
+      "name": "Ez_4_Power_Den_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Ez",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        256
+      ]
+    },
+    {
+      "name": "Attenuation_Ez_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Attenuation for Ez",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        256
+      ]
+    },
+    {
+      "name": "Bx_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Bx",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        256
+      ]
+    },
+    {
+      "name": "Bx_2_Pwr_uV__2",
+      "type": "double",
+      "units": "uV**2",
+      "description": "Bx",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        256
+      ]
+    },
+    {
+      "name": "Bx_3_PwDen_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Bx",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        256
+      ]
+    },
+    {
+      "name": "Bx_4_Power_Den_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Bx",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        256
+      ]
+    },
+    {
+      "name": "Attenuation_Bx_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Attenuation for Bx",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        256
+      ]
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

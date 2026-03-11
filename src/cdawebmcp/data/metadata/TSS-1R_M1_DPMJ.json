@@ -1,0 +1,68 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "Meas_DEL_L_Cir1_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Measured DEL-L Circuit 1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Meas_DEL_L_Cir1_2_Length_meters",
+      "type": "double",
+      "units": "meters",
+      "description": "Measured DEL-L Circuit 1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Meas_DEL_L_Cir1_3_Length_km",
+      "type": "double",
+      "units": "km",
+      "description": "Measured DEL-L Circuit 1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Meas_DEL_L_Cir1",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Meas DEL-L Cir1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Meas_DEL_L_Cir2_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Measured DEL-L Circuit 2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Meas_DEL_L_Cir2_2_Length_meters",
+      "type": "double",
+      "units": "meters",
+      "description": "Measured DEL-L Circuit 2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Meas_DEL_L_Cir2_3_Length_km",
+      "type": "double",
+      "units": "km",
+      "description": "Measured DEL-L Circuit 2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Meas_DEL_L_Cir2",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Meas DEL-L Cir2",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

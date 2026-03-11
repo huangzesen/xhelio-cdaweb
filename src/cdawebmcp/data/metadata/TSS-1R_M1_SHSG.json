@@ -1,0 +1,418 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "Test_Bit_Sign",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Test Bit Sign",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Test_Bit_Sign",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Test Bit Sign",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "P_L_Energy_Consump",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Payload Energy Consumption Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_P_L_Energy_Consump",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for P/L Energy Consump",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Uplink_Status",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Uplink Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Uplink_Status",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Uplink Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Valve1_NOGO",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Valve 1 NOGO",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Valve1_NOGO",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Valve1 NOGO",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Valve2_NOGO",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Valve 2 NOGO",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Valve2_NOGO",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Valve2 NOGO",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Pwr_Off_Cmd_Sent",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Power Off Command Sent",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Pwr_Off_Cmd_Sent",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Pwr Off Cmd Sent",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Pwr_Drop_Occur",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Power Drop Occurrence",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Pwr_Drop_Occur",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Pwr Drop Occur",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "APS_Status",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "APS Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_APS_Status",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for APS Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Crit_Fn_Rly_Status",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Critical Function Relay Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Crit_Fn_Rly_Status",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Crit Fn Rly Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Flg1_Squelch",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Flag 1 Squelch Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Flg1_Squelch",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Flg1 Squelch",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Flg1_RX_Coher_AGC",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Flag 1 RX Coherent AGC Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Flg1_RX_Coher_AGC",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Flg1 RX Coher AGC",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Flg1_Lock_Status",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Flag 1 Lock Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Flg1_Lock_Status",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Flg1 Lock Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Updating_Enabled",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Updating Enabled",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Updating_Enabled",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Updating Enabled",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "APS_Pressure",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "APS Pressures Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_APS_Pressure",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for APS Pressure",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Reg_Pressure",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Regulated Pressure Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Reg_Pressure",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Reg Pressure",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Tank_Pressure",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Tank Pressure Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Tank_Pressure",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Tank Pressure",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Flg5_PM_Sec1_T1",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Flag 5 PM Section 1 Temperature 1 Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Flg5_PM_Sec1_T1",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Flg5 PM Sec1/T1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Flg5_PM_Sec2_T2",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Flag 5 PM Section 2 Temperature 2 Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Flg5_PM_Sec2_T2",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Flg5 PM Sec2/T2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Flg5_PM_Sec3_T1",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Flag 5 PM Section 3 Temperature 1 Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Flg5_PM_Sec3_T1",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Flg5 PM Sec3/T1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Flg6_PM_Sec1_T1",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Flag 6 PM Section 1 Temperature 1 Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Flg6_PM_Sec1_T1",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Flg6 PM Sec1/T1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Flg6_PM_Sec2_T2",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Flag 6 PM Section 2 Temperature 2 Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Flg6_PM_Sec2_T2",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Flg6 PM Sec2/T2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Flg6_PM_Sec3_T1",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Flag 6 PM Section 3 Temperature 1 Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Flg6_PM_Sec3_T1",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Flg6 PM Sec3/T1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Bat1_Temp_Status",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Battery 1 Temperature Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Bat1_Temp_Status",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Bat1 Temp Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Bat2_Temp_Status",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Battery 2 Temperature Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Bat2_Temp_Status",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Bat2 Temp Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Bat3_Temp_Status",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Battery 3 Temperature Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Bat3_Temp_Status",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Bat3 Temp Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Bat4_Temp_Status",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Battery 4 Temperature Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Bat4_Temp_Status",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Bat4 Temp Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Bat_Temp_Status",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Battery Temperature Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Bat_Temp_Status",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Bat Temp Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "APS_Pres_Reg_Temp",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "APS Pressure Regulated Temperature Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_APS_Pres_Reg_Temp",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for APS Pres Reg Temp",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Bat_Verification",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Battery Verification Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Bat_Verification",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Bat Verification",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

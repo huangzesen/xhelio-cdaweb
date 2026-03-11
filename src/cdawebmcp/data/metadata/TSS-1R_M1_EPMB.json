@@ -1,0 +1,824 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "OCB_1_Pt1",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Output Command Block 1, Part 1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_OCB_1_Pt1",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for OCB 1 Pt1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "OCB_1_Pt2",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Output Command Block 1, Part 2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_OCB_1_Pt2",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for OCB 1 Pt2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "OCB_2_Pt1",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Output Command Block 2, Part 1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_OCB_2_Pt1",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for OCB 2 Pt1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "OCB_2_Pt2",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Output Command Block 2, Part 2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_OCB_2_Pt2",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for OCB 2 Pt2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "OCB_3_Pt1",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Output Command Block 3, Part 1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_OCB_3_Pt1",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for OCB 3 Pt1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "OCB_3_Pt2",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Output Command Block 3, Part 2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_OCB_3_Pt2",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for OCB 3 Pt2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "OCB_4_Pt1",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Output Command Block 4, Part 1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_OCB_4_Pt1",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for OCB 4 Pt1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "OCB_4_Pt2",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Output Command Block 4, Part 2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_OCB_4_Pt2",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for OCB 4 Pt2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "OCB_5_Pt1",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Output Command Block 5, Part 1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_OCB_5_Pt1",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for OCB 5 Pt1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "OCB_5_Pt2",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Output Command Block 5, Part 2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_OCB_5_Pt2",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for OCB 5 Pt2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "OCB_6_Pt1",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Output Command Block 6, Part 1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_OCB_6_Pt1",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for OCB 6 Pt1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "OCB_6_Pt2",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Output Command Block 6, Part 2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_OCB_6_Pt2",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for OCB 6 Pt2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "OCB_7_Pt1",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Output Command Block 7, Part 1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_OCB_7_Pt1",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for OCB 7 Pt1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "OCB_7_Pt2",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Output Command Block 7, Part 2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_OCB_7_Pt2",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for OCB 7 Pt2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "OCB_8_Pt1",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Output Command Block 8, Part 1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_OCB_8_Pt1",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for OCB 8 Pt1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "OCB_8_Pt2",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Output Command Block 8, Part 2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_OCB_8_Pt2",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for OCB 8 Pt2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "OCB_9_Pt1",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Output Command Block 9, Part 1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_OCB_9_Pt1",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for OCB 9 Pt1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "OCB_9_Pt2",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Output Command Block 9, Part 2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_OCB_9_Pt2",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for OCB 9 Pt2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "OCB_10_Pt1",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Output Command Block 10, Part 1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_OCB_10_Pt1",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for OCB 10 Pt1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "OCB_10_Pt2",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Output Command Block 10, Part 2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_OCB_10_Pt2",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for OCB 10 Pt2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "OCB_11_Pt1",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Output Command Block 11, Part 1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_OCB_11_Pt1",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for OCB 11 Pt1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "OCB_11_Pt2",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Output Command Block 11, Part 2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_OCB_11_Pt2",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for OCB 11 Pt2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "OCB_12_Pt1",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Output Command Block 12, Part 1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_OCB_12_Pt1",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for OCB 12 Pt1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "OCB_12_Pt2",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Output Command Block 12, Part 2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_OCB_12_Pt2",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for OCB 12 Pt2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "OCB_13_Pt1",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Output Command Block 13, Part 1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_OCB_13_Pt1",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for OCB 13 Pt1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "OCB_13_Pt2",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Output Command Block 13, Part 2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_OCB_13_Pt2",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for OCB 13 Pt2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "OCB_14_Pt1",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Output Command Block 14, Part 1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_OCB_14_Pt1",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for OCB 14 Pt1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "OCB_14_Pt2",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Output Command Block 14, Part 2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_OCB_14_Pt2",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for OCB 14 Pt2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "OCB_15_Pt1",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Output Command Block 15, Part 1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_OCB_15_Pt1",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for OCB 15 Pt1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "OCB_15_Pt2",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Output Command Block 15, Part 2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_OCB_15_Pt2",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for OCB 15 Pt2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "OCB_16_Pt1",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Output Command Block 16, Part 1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_OCB_16_Pt1",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for OCB 16 Pt1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "OCB_16_Pt2",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Output Command Block 16, Part 2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_OCB_16_Pt2",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for OCB 16 Pt2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "VDB_Type",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "VDB: Type",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_VDB_Type",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for VDB Type",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "VDB_Off_In_File",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "VDB: Offset into File",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_VDB_Off_In_File",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for VDB Off In File",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "VDB_1",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Variable Data Block 1 Data",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_VDB_1",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for VDB 1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "VDB_2_Pt1",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Variable Data Block 2, Part 1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_VDB_2_Pt1",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for VDB 2 Pt1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "VDB_2_Pt2",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Variable Data Block 2, Part 2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_VDB_2_Pt2",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for VDB 2 Pt2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "VDB_3_Pt1",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Variable Data Block 3, Part 1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_VDB_3_Pt1",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for VDB 3 Pt1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "VDB_3_Pt2",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Variable Data Block 3, Part 2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_VDB_3_Pt2",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for VDB 3 Pt2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "VDB_4_Pt1",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Variable Data Block 4, Part 1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_VDB_4_Pt1",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for VDB 4 Pt1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "VDB_4_Pt2",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Variable Data Block 4, Part 2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_VDB_4_Pt2",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for VDB 4 Pt2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "VDB_5_Pt1",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Variable Data Block 5, Part 1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_VDB_5_Pt1",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for VDB 5 Pt1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "VDB_5_Pt2",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Variable Data Block 5, Part 2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_VDB_5_Pt2",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for VDB 5 Pt2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "VDB_6_Pt1",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Variable Data Block 6, Part 1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_VDB_6_Pt1",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for VDB 6 Pt1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "VDB_6_Pt2",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Variable Data Block 6, Part 2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_VDB_6_Pt2",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for VDB 6 Pt2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "VDB_7_Pt1",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Variable Data Block 7, Part 1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_VDB_7_Pt1",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for VDB 7 Pt1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "VDB_7_Pt2",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Variable Data Block 7, Part 2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_VDB_7_Pt2",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for VDB 7 Pt2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "VDB_8_Pt1",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Variable Data Block 8, Part 1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_VDB_8_Pt1",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for VDB 8 Pt1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "VDB_8_Pt2",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Variable Data Block 8, Part 2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_VDB_8_Pt2",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for VDB 8 Pt2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Unknown_1",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "unknown Data Block 1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Unknown_1",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Unknown 1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Unknown_2",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "unknown Data Block 2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Unknown_2",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Unknown 2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Unknown_3",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "unknown Data Block 3",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Unknown_3",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Unknown 3",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Unknown_4",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "unknown Data Block 4",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Unknown_4",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Unknown 4",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Unknown_5",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "unknown Data Block 5",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Unknown_5",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Unknown 5",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Unknown_6",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "unknown Data Block 6",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Unknown_6",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Unknown 6",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Unknown_7",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "unknown Data Block 7",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Unknown_7",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Unknown 7",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Unknown_8",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "unknown Data Block 8",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Unknown_8",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Unknown 8",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Unknown_9",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "unknown Data Block 9",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Unknown_9",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Unknown 9",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

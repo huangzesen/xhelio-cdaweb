@@ -1,0 +1,40 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "electron_temperature",
+      "type": "double",
+      "units": "eV",
+      "description": "electron temperature",
+      "fill": "-9.999999848243207e+30"
+    },
+    {
+      "name": "peak_location",
+      "type": "double",
+      "units": "V",
+      "description": "Peak location (-payload potential)",
+      "fill": "-9.999999848243207e+30"
+    },
+    {
+      "name": "skin_current",
+      "type": "double",
+      "units": "uA",
+      "description": "Skin Current (density)",
+      "fill": "-9.999999848243207e+30"
+    },
+    {
+      "name": "high_energy_electrons",
+      "type": "double",
+      "units": "nA",
+      "description": "high energy electrons above 3 ev",
+      "fill": "-9.999999848243207e+30"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

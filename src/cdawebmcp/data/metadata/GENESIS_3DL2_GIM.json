@@ -1,0 +1,91 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "Proton_Density",
+      "type": "double",
+      "units": "cm-3",
+      "description": "Proton Density (/cc)",
+      "fill": "-9999.0"
+    },
+    {
+      "name": "Proton_Temperature",
+      "type": "double",
+      "units": "K",
+      "description": "Proton Temperature (K)",
+      "fill": "-10000.0"
+    },
+    {
+      "name": "Proton_Speed",
+      "type": "double",
+      "units": "km/s",
+      "description": "Proton Speed (km/s)",
+      "fill": "-9999.0"
+    },
+    {
+      "name": "Proton_Velocity_gse",
+      "type": "double",
+      "units": "km/s",
+      "description": "Proton Velocity (Geocentric Solar Ecliptic - GSE)",
+      "fill": "-9999.0",
+      "size": [
+        3
+      ]
+    },
+    {
+      "name": "Proton_Velocity_rtn",
+      "type": "double",
+      "units": "km/s",
+      "description": "Proton Velocity (Heliographic - RTN)",
+      "fill": "-9999.0",
+      "size": [
+        3
+      ]
+    },
+    {
+      "name": "Alpha_Proton_ratio",
+      "type": "double",
+      "units": "",
+      "description": "Alpha Proton Ratio",
+      "fill": "-9999.0"
+    },
+    {
+      "name": "Genesis_Location_gse",
+      "type": "double",
+      "units": "km",
+      "description": "Genesis Location (gse)",
+      "fill": "-9999.0",
+      "size": [
+        3
+      ]
+    },
+    {
+      "name": "Heliographic_lon",
+      "type": "double",
+      "units": "degrees",
+      "description": "Heliographic longitude (deg)",
+      "fill": "-9999.0"
+    },
+    {
+      "name": "Heliographic_lat",
+      "type": "double",
+      "units": "degrees",
+      "description": "Heliographic latitude (deg)",
+      "fill": "-9999.0"
+    },
+    {
+      "name": "bde",
+      "type": "integer",
+      "units": "",
+      "description": "Bi-directional electron streaming detection flag",
+      "fill": "-9999.0"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

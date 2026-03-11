@@ -1,0 +1,82 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "stp_count_PES",
+      "type": "integer",
+      "units": "",
+      "description": "PES step number",
+      "fill": "-99.0",
+      "size": [
+        8
+      ]
+    },
+    {
+      "name": "PES_A_counts",
+      "type": "integer",
+      "units": "",
+      "description": "PES Side A, Total Integrated Counts",
+      "fill": "-99.0",
+      "size": [
+        8
+      ]
+    },
+    {
+      "name": "PES_B_counts",
+      "type": "integer",
+      "units": "",
+      "description": "PES Side B, Total Integrated Counts",
+      "fill": "-99.0",
+      "size": [
+        8
+      ]
+    },
+    {
+      "name": "PES_HV_mon",
+      "type": "integer",
+      "units": "",
+      "description": "PES ESA High Voltage Supply Monitor",
+      "fill": "-99.0",
+      "size": [
+        8
+      ]
+    },
+    {
+      "name": "PES_ESA_mon",
+      "type": "integer",
+      "units": "",
+      "description": "PES ESA Stepper Monitor",
+      "fill": "-99.0",
+      "size": [
+        8
+      ]
+    },
+    {
+      "name": "PES_RPA_mon",
+      "type": "integer",
+      "units": "",
+      "description": "PES RPA Stepper Monitor",
+      "fill": "-99.0",
+      "size": [
+        8
+      ]
+    },
+    {
+      "name": "PES_CEM_mon",
+      "type": "integer",
+      "units": "",
+      "description": "PES CEM Stepper Monitor",
+      "fill": "-99.0",
+      "size": [
+        8
+      ]
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

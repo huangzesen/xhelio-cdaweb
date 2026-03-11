@@ -1,0 +1,166 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "Orb_Pot_1_Telemetry_Unitless",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Orbiter Negative Potential Measurement",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Orb_Pot_2_Voltage_Volts",
+      "type": "double",
+      "units": "Volts",
+      "description": "Orbiter Negative Potential Measurement",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Orb_Pot",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for Orb Pot",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Conf_Fac_1_Telemetry_Unitless",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Potential Measurement Confinence Factor",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Conf_Fac_2_percentage__",
+      "type": "double",
+      "units": "%",
+      "description": "Potential Measurement Confinence Factor",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Conf_Fac",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for Conf Fac",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Head_Giving_Pot",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Peak Elevation Angle Indicator",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Head_Giving_Pot",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for Head Giving Pot",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Zone_Giving_Pot",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Elevation Angle",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Zone_Giving_Pot",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for Zone Giving Pot",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Ch_Above_Peak_1_Telemetry_Unitless",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Upper Channel Adjacent to Peak Count",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Ch_Above_Peak_2_cpa_cnts_accum",
+      "type": "double",
+      "units": "cnts/accum",
+      "description": "Upper Channel Adjacent to Peak Count",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Ch_Above_Peak",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for Ch Above Peak",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Peak_Channel_1_Telemetry_Unitless",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Peak Channel Count",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Peak_Channel_2_cpa_cnts_accum",
+      "type": "double",
+      "units": "cnts/accum",
+      "description": "Peak Channel Count",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Peak_Channel",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for Peak Channel",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Ch_Below_Peak_1_Telemetry_Unitless",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Lower Channel Adjacent to Peak Count",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Ch_Below_Peak_2_cpa_cnts_accum",
+      "type": "double",
+      "units": "cnts/accum",
+      "description": "Lower Channel Adjacent to Peak Count",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Ch_Below_Peak",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for Ch Below Peak",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "MODE0_Power_Status",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Status Indicator Power Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "MODE1_Rotation_Status",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Status Indicator Rotation Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "MODE2_Sweep_Rate",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Status Indicator Sweep Rate",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

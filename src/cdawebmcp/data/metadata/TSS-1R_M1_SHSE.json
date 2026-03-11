@@ -1,0 +1,222 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "P_L_01__ROPE_Pwr",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "PayLoad 01 ROPE Power Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_P_L_01__ROPE_Pwr",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for P/L 01: ROPE Pwr",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "P_L_09__ROPE_Pwr",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "PayLoad 09 ROPE Power Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_P_L_09__ROPE_Pwr",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for P/L 09: ROPE Pwr",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "P_L_02__ROPE_Htr_Pwr",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "PayLoad 02 ROPE Heater Power Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_P_L_02__ROPE_Htr_Pwr",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for P/L 02: ROPE Htr Pwr",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "P_L_03__TEMAG_Pwr",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "PayLoad 03 TEMAG Power Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_P_L_03__TEMAG_Pwr",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for P/L 03: TEMAG Pwr",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "P_L_04__TEMAG_Htr_Pwr",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "PayLoad 04 TEMAG Heater Power Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_P_L_04__TEMAG_Htr_Pwr",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for P/L 04: TEMAG Htr Pwr",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "P_L_07__RETE_Pwr",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "PayLoad 07 RETE Power Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_P_L_07__RETE_Pwr",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for P/L 07: RETE Pwr",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "P_L_08__RETE_Htr_Pwr",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "PayLoad 07 RETE Heater Power Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_P_L_08__RETE_Htr_Pwr",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for P/L 08: RETE Htr Pwr",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "P_L_06__Pwr",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "PayLoad 06 Power Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_P_L_06__Pwr",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for P/L 06: Pwr",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "P_L_12__Pwr",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "PayLoad 12 Power Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_P_L_12__Pwr",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for P/L 12: Pwr",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "GPS_Pwr",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "GPS Power Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_GPS_Pwr",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for GPS Pwr",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Main_Iso_Valve",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Main Isolation Valve Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Main_Iso_Valve",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Main Iso Valve",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "In_Line_1_Valve",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "In Line 1 Valve Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_In_Line_1_Valve",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for In Line 1 Valve",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "RX_Lock",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "RX Lock Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_RX_Lock",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for RX Lock",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Temp_3_Warning",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Temperature 3 Warning",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Temp_3_Warning",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Temp 3 Warning",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Temp_4_Warning",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Temperature 4 Warning",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Temp_4_Warning",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Temp 4 Warning",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

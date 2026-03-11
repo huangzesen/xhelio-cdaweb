@@ -1,0 +1,61 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "photon_x_mcp",
+      "type": "double",
+      "units": "cm",
+      "description": "Photon position in detector coordinates, X, scalar",
+      "fill": "-9.999999848243207e+30"
+    },
+    {
+      "name": "photon_y_mcp",
+      "type": "double",
+      "units": "cm",
+      "description": "Photon position in detector coordinates, Y, scalar",
+      "fill": "-9.999999848243207e+30"
+    },
+    {
+      "name": "photon_RA",
+      "type": "double",
+      "units": "deg",
+      "description": "Right Ascension angle of measured photon in J2000 frame centered on LEXI, scalar.",
+      "fill": "-1e+31"
+    },
+    {
+      "name": "photon_Dec",
+      "type": "double",
+      "units": "deg",
+      "description": "Declination angle of measured photon in J2000 frame centered on LEXI, scalar.",
+      "fill": "-1e+31"
+    },
+    {
+      "name": "photon_az",
+      "type": "double",
+      "units": "deg",
+      "description": "Azimuth angle of the measured photon in the local topocentric frame, scalar.",
+      "fill": "-1e+31"
+    },
+    {
+      "name": "photon_el",
+      "type": "double",
+      "units": "deg",
+      "description": "Elevation angle of the measured photon in the local topocentric frame, scalar.",
+      "fill": "-1e+31"
+    },
+    {
+      "name": "lexi_counts_per_sec",
+      "type": "double",
+      "units": "counts/sec",
+      "description": "Counts per second as observed by LEXI in its field of view, scalar",
+      "fill": "-1e+31"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

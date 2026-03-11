@@ -1,0 +1,124 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "Yaw_V1",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Yaw 1 Valve Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Yaw_V1",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Yaw/V1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Yaw_V2",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Yaw 2 Valve Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Yaw_V2",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Yaw/V2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "InPl_Rear",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "In Plane Rear Valve Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_InPl_Rear",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for InPl/Rear",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "InPl_Frnt",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "In Plane Front Valve Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_InPl_Frnt",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for InPl/Frnt",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "OutPl_Right",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Out Of Plane Right Valve Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_OutPl_Right",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for OutPl/Right",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "OutPl_Left",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Out Of Plane Left Valve Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_OutPl_Left",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for OutPl/Left",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "InLn_V1",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "In Line 1 Valve Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_InLn_V1",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for InLn/V1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "InLn_V2",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "In Line 2 Valve Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_InLn_V2",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for InLn/V2",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

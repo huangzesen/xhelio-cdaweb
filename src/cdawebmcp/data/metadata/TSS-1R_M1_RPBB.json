@@ -1,0 +1,75 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "BMSP_I_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Boom Current (BMSP_I)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "BMSP_I_2_Current_uA",
+      "type": "double",
+      "units": "uA",
+      "description": "Boom Current (BMSP_I)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_BMSP_I",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for BMSP I",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Meas_BMSP_V_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Measured Boom Voltage (MFSP_V)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Meas_BMSP_V_2_Voltage_Volts",
+      "type": "double",
+      "units": "Volts",
+      "description": "Measured Boom Voltage (MFSP_V)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Meas_BMSP_V",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Meas BMSP V",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Cmd_BMSP_V_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Comanded Boom Voltage (CFSP_V)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Cmd_BMSP_V_2_Voltage_Volts",
+      "type": "double",
+      "units": "Volts",
+      "description": "Comanded Boom Voltage (CFSP_V)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Cmd_BMSP_V",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Cmd BMSP V",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

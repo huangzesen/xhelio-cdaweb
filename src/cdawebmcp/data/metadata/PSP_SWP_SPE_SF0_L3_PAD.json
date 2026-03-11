@@ -342,34 +342,6 @@
       ]
     }
   ],
-  "startDate": "2018-10-02T04:03:47.000Z",
-  "stopDate": "2025-07-31T23:46:53.000Z",
-  "_validated": true,
-  "parameters_annotations": {
-    "EFLUX_VS_PA_E_byE_atP": {
-      "_category": "phantom",
-      "_note": "in master CDF but not found in data CDF"
-    },
-    "EFLUX_VS_PA_E_atE_byP": {
-      "_category": "phantom",
-      "_note": "in master CDF but not found in data CDF"
-    }
-  },
-  "_validations": [
-    {
-      "source_file": "psp_swp_spe_sf0_l3_pad_20250315_v04.cdf",
-      "validated_at": "2026-02-19T11:16:15.121653+00:00",
-      "discrepancies": {
-        "EFLUX_VS_PA_E_byE_atP": {
-          "_category": "phantom",
-          "_note": "in master CDF but not found in data CDF"
-        },
-        "EFLUX_VS_PA_E_atE_byP": {
-          "_category": "phantom",
-          "_note": "in master CDF but not found in data CDF"
-        }
-      },
-      "source_url": "https://cdaweb.gsfc.nasa.gov/sp_phys/data/psp/sweap/spe/l3/spe_sf0_pad/2025/psp_swp_spe_sf0_l3_pad_20250315_v04.cdf"
-    }
-  ]
+  "startDate": "",
+  "stopDate": ""
 }

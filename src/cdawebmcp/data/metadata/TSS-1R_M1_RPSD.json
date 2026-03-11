@@ -1,0 +1,124 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "RAM_I_O_Timer1__Tst_1",
+      "type": "double",
+      "units": "unitless",
+      "description": "RAM I/O Timer 1; Test 1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_RAM_I_O_Timer1__Tst_1",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for RAM I/O Timer1: Tst 1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "RAM_I_O_Timer1__Tst_2",
+      "type": "double",
+      "units": "unitless",
+      "description": "RAM I/O Timer 1; Test 2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_RAM_I_O_Timer1__Tst_2",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for RAM I/O Timer1: Tst 2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "RAM_I_O_Timer2__Tst_1",
+      "type": "double",
+      "units": "unitless",
+      "description": "RAM I/O Timer 2; Test 1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_RAM_I_O_Timer2__Tst_1",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for RAM I/O Timer2: Tst 1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "RAM_I_O_Timer2__Tst_2",
+      "type": "double",
+      "units": "unitless",
+      "description": "RAM I/O Timer 2; Test 2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_RAM_I_O_Timer2__Tst_2",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for RAM I/O Timer2: Tst 2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "RAM_2K__Tst_1",
+      "type": "double",
+      "units": "unitless",
+      "description": "2K Dual Ported RAM; Test 1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_RAM_2K__Tst_1",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for RAM 2K: Tst 1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "RAM_2K__Tst_2",
+      "type": "double",
+      "units": "unitless",
+      "description": "2K Dual Ported RAM; Test 2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_RAM_2K__Tst_2",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for RAM 2K: Tst 2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "RAM_8K__Tst_1",
+      "type": "double",
+      "units": "unitless",
+      "description": "8K Dual Ported RAM; Test 1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_RAM_8K__Tst_1",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for RAM 8K: Tst 1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "RAM_8K__Tst_2",
+      "type": "double",
+      "units": "unitless",
+      "description": "8K Dual Ported RAM; Test 2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_RAM_8K__Tst_2",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for RAM 8K: Tst 2",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

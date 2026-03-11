@@ -1,0 +1,75 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "SLA_X_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "SLA-X Acceleration Coarse",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SLA_X_2_Accel_milli_g",
+      "type": "double",
+      "units": "milli-g",
+      "description": "SLA-X Acceleration Coarse",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SLA_X",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for SLA/X",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SLA_Y_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "SLA-Y Acceleration Coarse",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SLA_Y_2_Accel_milli_g",
+      "type": "double",
+      "units": "milli-g",
+      "description": "SLA-Y Acceleration Coarse",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SLA_Y",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for SLA/Y",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SLA_Z_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "SLA-Z Acceleration Coarse",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SLA_Z_2_Accel_milli_g",
+      "type": "double",
+      "units": "milli-g",
+      "description": "SLA-Z Acceleration Coarse",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SLA_Z",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for SLA/Z",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

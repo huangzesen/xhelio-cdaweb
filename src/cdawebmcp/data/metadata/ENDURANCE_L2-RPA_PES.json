@@ -1,0 +1,62 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "PES_A_RPA_DEF",
+      "type": "double",
+      "units": "eV cm-2 s -1 sr-1 eV-1",
+      "description": "High resolution Time/energy spectrogram of Differential Energy Flux of electrons from the 8 combined A-sides of PES. Uncorrected for Spacecraft Potential",
+      "fill": "nan",
+      "size": [
+        37
+      ]
+    },
+    {
+      "name": "PES_B_RPA_DEF",
+      "type": "double",
+      "units": "eV cm-2 s -1 sr-1 eV-1",
+      "description": "High resolution Time/energy spectrogram of Differential Energy Flux of electrons from the 8 combined B-sides of PES. Uncorrected for Spacecraft Potential",
+      "fill": "nan",
+      "size": [
+        37
+      ]
+    },
+    {
+      "name": "PES_A_RPA_DEF_CORR",
+      "type": "double",
+      "units": "eV cm-2 s -1 sr-1 eV-1",
+      "description": "High resolution Time/energy spectrogram of Differential Energy Flux of electrons from the 8 combined A-sides of PES. Corrected for Spacecraft Potential",
+      "fill": "nan",
+      "size": [
+        37
+      ]
+    },
+    {
+      "name": "PES_B_RPA_DEF_CORR",
+      "type": "double",
+      "units": "eV cm-2 s -1 sr-1 eV-1",
+      "description": "High resolution Time/energy spectrogram of Differential Energy Flux of electrons from the 8 combined B-sides of PES. Corrected for Spacecraft Potential",
+      "fill": "nan",
+      "size": [
+        37
+      ]
+    },
+    {
+      "name": "energy",
+      "type": "double",
+      "units": "eV",
+      "description": "Energy of each RPA scan adjusted for spacecraft potential",
+      "fill": "nan",
+      "size": [
+        37
+      ]
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

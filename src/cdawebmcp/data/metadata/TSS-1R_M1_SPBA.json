@@ -1,0 +1,453 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "Space_Beam_Mod_EL1_1_Telemetry_Unitless",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Space Beam Mod. Energy Level #1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Space_Beam_Mod_EL1_2_EL_Unitless",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Space Beam Mod. Energy Level #1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Space_Beam_Mod_EL1",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for Space Beam Mod EL1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Space_Beam_Mod_EL2_1_Telemetry_Unitless",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Space Beam Mod. Energy Level #2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Space_Beam_Mod_EL2_2_EL_Unitless",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Space Beam Mod. Energy Level #2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Space_Beam_Mod_EL2",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for Space Beam Mod EL2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Space_Beam_Mod_EL3_1_Telemetry_Unitless",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Space Beam Mod. Energy Level #3",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Space_Beam_Mod_EL3_2_EL_Unitless",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Space Beam Mod. Energy Level #3",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Space_Beam_Mod_EL3",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for Space Beam Mod EL3",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Space_Beam_Mod_EL4_1_Telemetry_Unitless",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Space Beam Mod. Energy Level #4",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Space_Beam_Mod_EL4_2_EL_Unitless",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Space Beam Mod. Energy Level #4",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Space_Beam_Mod_EL4",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for Space Beam Mod EL4",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Space_Beam_Mod_EL5_1_Telemetry_Unitless",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Space Beam Mod. Energy Level #5",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Space_Beam_Mod_EL5_2_EL_Unitless",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Space Beam Mod. Energy Level #5",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Space_Beam_Mod_EL5",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for Space Beam Mod EL5",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Space_Beam_Mod_EL6_1_Telemetry_Unitless",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Space Beam Mod. Energy Level #6",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Space_Beam_Mod_EL6_2_EL_Unitless",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Space Beam Mod. Energy Level #6",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Space_Beam_Mod_EL6",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for Space Beam Mod EL6",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Space_Beam_Mod_EL7_1_Telemetry_Unitless",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Space Beam Mod. Energy Level #7",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Space_Beam_Mod_EL7_2_EL_Unitless",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Space Beam Mod. Energy Level #7",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Space_Beam_Mod_EL7",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for Space Beam Mod EL7",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Space_Beam_Ch1_1_Telemetry_Unitless",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Space Beam Channel Number #1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Space_Beam_Ch1_2_Ch_Unitless",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Space Beam Channel Number #1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Space_Beam_Ch1",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for Space Beam Ch1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Space_Beam_Ch2_1_Telemetry_Unitless",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Space Beam Channel Number #2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Space_Beam_Ch2_2_Ch_Unitless",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Space Beam Channel Number #2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Space_Beam_Ch2",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for Space Beam Ch2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Space_Beam_Ch3_1_Telemetry_Unitless",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Space Beam Channel Number #3",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Space_Beam_Ch3_2_Ch_Unitless",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Space Beam Channel Number #3",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Space_Beam_Ch3",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for Space Beam Ch3",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Space_Beam_Ch4_1_Telemetry_Unitless",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Space Beam Channel Number #4",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Space_Beam_Ch4_2_Ch_Unitless",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Space Beam Channel Number #4",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Space_Beam_Ch4",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for Space Beam Ch4",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Space_Beam_Ch5_1_Telemetry_Unitless",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Space Beam Channel Number #5",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Space_Beam_Ch5_2_Ch_Unitless",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Space Beam Channel Number #5",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Space_Beam_Ch5",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for Space Beam Ch5",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Space_Beam_Ch6_1_Telemetry_Unitless",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Space Beam Channel Number #6",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Space_Beam_Ch6_2_Ch_Unitless",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Space Beam Channel Number #6",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Space_Beam_Ch6",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for Space Beam Ch6",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Space_Beam_Ch7_1_Telemetry_Unitless",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Space Beam Channel Number #7",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Space_Beam_Ch7_2_Ch_Unitless",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Space Beam Channel Number #7",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Space_Beam_Ch7",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for Space Beam Ch7",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Space_Beam_Mod_Sig1_1_Telemetry_Unitless",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Space Beam Mod. Significance #1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Space_Beam_Mod_Sig1_2_Confidence_Unitless",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Space Beam Mod. Significance #1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Space_Beam_Mod_Sig1",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for Space Beam Mod Sig1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Space_Beam_Mod_Sig2_1_Telemetry_Unitless",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Space Beam Mod. Significance #2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Space_Beam_Mod_Sig2_2_Confidence_Unitless",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Space Beam Mod. Significance #2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Space_Beam_Mod_Sig2",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for Space Beam Mod Sig2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Space_Beam_Mod_Sig3_1_Telemetry_Unitless",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Space Beam Mod. Significance #3",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Space_Beam_Mod_Sig3_2_Confidence_Unitless",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Space Beam Mod. Significance #3",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Space_Beam_Mod_Sig3",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for Space Beam Mod Sig3",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Space_Beam_Mod_Sig4_1_Telemetry_Unitless",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Space Beam Mod. Significance #4",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Space_Beam_Mod_Sig4_2_Confidence_Unitless",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Space Beam Mod. Significance #4",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Space_Beam_Mod_Sig4",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for Space Beam Mod Sig4",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Space_Beam_Mod_Sig5_1_Telemetry_Unitless",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Space Beam Mod. Significance #5",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Space_Beam_Mod_Sig5_2_Confidence_Unitless",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Space Beam Mod. Significance #5",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Space_Beam_Mod_Sig5",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for Space Beam Mod Sig5",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Space_Beam_Mod_Sig6_1_Telemetry_Unitless",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Space Beam Mod. Significance #6",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Space_Beam_Mod_Sig6_2_Confidence_Unitless",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Space Beam Mod. Significance #6",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Space_Beam_Mod_Sig6",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for Space Beam Mod Sig6",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Space_Beam_Mod_Sig7_1_Telemetry_Unitless",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Space Beam Mod. Significance #7",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Space_Beam_Mod_Sig7_2_Confidence_Unitless",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Space Beam Mod. Significance #7",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Space_Beam_Mod_Sig7",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for Space Beam Mod Sig7",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

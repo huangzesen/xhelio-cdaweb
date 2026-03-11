@@ -1,0 +1,285 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "IMU_Body_Rate_X",
+      "type": "double",
+      "units": "deg/s",
+      "description": "IMU Derived Body Rate X-Axis",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_IMU_Body_Rate_X",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for IMU Body Rate X",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "IMU_Body_Rate_Y",
+      "type": "double",
+      "units": "deg/s",
+      "description": "IMU Derived Body Rate Y-Axis",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_IMU_Body_Rate_Y",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for IMU Body Rate Y",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "IMU_Body_Rate_Z",
+      "type": "double",
+      "units": "deg/s",
+      "description": "IMU Derived Body Rate Z-Axis",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_IMU_Body_Rate_Z",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for IMU Body Rate Z",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Q_M50_To_Body_Ele1",
+      "type": "double",
+      "units": "unitless",
+      "description": "M50 To Measured Body Quat Element 1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Q_M50_To_Body_Ele1",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for Q-M50 To Body Ele1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Q_M50_To_Body_Ele2",
+      "type": "double",
+      "units": "unitless",
+      "description": "M50 To Measured Body Quat Element 2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Q_M50_To_Body_Ele2",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for Q-M50 To Body Ele2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Q_M50_To_Body_Ele3",
+      "type": "double",
+      "units": "unitless",
+      "description": "M50 To Measured Body Quat Element 3",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Q_M50_To_Body_Ele3",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for Q-M50 To Body Ele3",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Q_M50_To_Body_Ele4",
+      "type": "double",
+      "units": "unitless",
+      "description": "M50 To Measured Body Quat Element 4",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Q_M50_To_Body_Ele4",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for Q-M50 To Body Ele4",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Q_M50_To_Body_Time",
+      "type": "double",
+      "units": "seconds",
+      "description": "M50 to Body Quat Time",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Q_M50_To_Body_Time",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for Q-M50 To Body Time",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "M50_LV_LH_Q1",
+      "type": "double",
+      "units": "unitless",
+      "description": "M50 WRT Local Vertical Local Horizontal Quat 1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_M50_LV_LH_Q1",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for M50 (LV,LH) Q1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "M50_LV_LH_Q2",
+      "type": "double",
+      "units": "unitless",
+      "description": "M50 WRT Local Vertical Local Horizontal Quat 2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_M50_LV_LH_Q2",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for M50 (LV,LH) Q2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "M50_LV_LH_Q3",
+      "type": "double",
+      "units": "unitless",
+      "description": "M50 WRT Local Vertical Local Horizontal Quat 3",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_M50_LV_LH_Q3",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for M50 (LV,LH) Q3",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "M50_LV_LH_Q4",
+      "type": "double",
+      "units": "unitless",
+      "description": "M50 WRT Local Vertical Local Horizontal Quat 4",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_M50_LV_LH_Q4",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for M50 (LV,LH) Q4",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Roll_Error",
+      "type": "double",
+      "units": "degrees",
+      "description": "Roll Attitude Error",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Roll_Error",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for Roll Error",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Pitch_Error",
+      "type": "double",
+      "units": "degrees",
+      "description": "Pitch Attitude Error",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Pitch_Error",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for Pitch Error",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Yaw_Error",
+      "type": "double",
+      "units": "degrees",
+      "description": "Yaw Attitude Error",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Yaw_Error",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for Yaw Error",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Shuttle_Alt_1_Altitude_feet",
+      "type": "double",
+      "units": "feet",
+      "description": "Altitude Of Shuttle",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Shuttle_Alt_2_Altitude_km",
+      "type": "double",
+      "units": "km",
+      "description": "Altitude Of Shuttle",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Shuttle_Alt",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for Shuttle Alt",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Cur_Apogee_1_Altitude_nautical_miles",
+      "type": "double",
+      "units": "nautical miles",
+      "description": "Current Apogee Altitude",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Cur_Apogee_2_Altitude_km",
+      "type": "double",
+      "units": "km",
+      "description": "Current Apogee Altitude",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Cur_Apogee",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for Cur Apogee",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Cur_Perigee_1_Altitude_nautical_miles",
+      "type": "double",
+      "units": "nautical miles",
+      "description": "Current Perigee Altitude",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Cur_Perigee_2_Altitude_km",
+      "type": "double",
+      "units": "km",
+      "description": "Current Perigee Altitude",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Cur_Perigee",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for Cur Perigee",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

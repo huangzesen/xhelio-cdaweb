@@ -1,0 +1,222 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "Flag_3_Test",
+      "type": "double",
+      "units": "integer",
+      "description": "Flag 3 (Test Only)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Flag_3_Test",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Flag 3 (Test)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "TLC_Buf_1_Error",
+      "type": "double",
+      "units": "integer",
+      "description": "TLC Buffer 1 Type Of Error",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_TLC_Buf_1_Error",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for TLC Buf 1 Error",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "TLC_Buf_2_Error",
+      "type": "double",
+      "units": "integer",
+      "description": "TLC Buffer 2 Type Of Error",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_TLC_Buf_2_Error",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for TLC Buf 2 Error",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Warmup_TmOut",
+      "type": "double",
+      "units": "sec",
+      "description": "Warm Up Timeout",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Warmup_TmOut",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Warmup TmOut",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "TULC_TmOut_1_integer_integer",
+      "type": "double",
+      "units": "integer",
+      "description": "TULC Timeout",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "TULC_TmOut_2_time_sec",
+      "type": "double",
+      "units": "sec",
+      "description": "TULC Timeout",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_TULC_TmOut",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for TULC TmOut",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "AMSAS_Entry_Pnt",
+      "type": "double",
+      "units": "integer",
+      "description": "AMSAS Entry Point",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_AMSAS_Entry_Pnt",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for AMSAS Entry Pnt",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "TULC_1st_NOGO",
+      "type": "double",
+      "units": "integer",
+      "description": "TULC First NOGO",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_TULC_1st_NOGO",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for TULC 1st NOGO",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Scaled_Tm_To_Dock_1_integer_integer",
+      "type": "double",
+      "units": "integer",
+      "description": "Scaled Time To Docking",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Scaled_Tm_To_Dock_2_time_sec",
+      "type": "double",
+      "units": "sec",
+      "description": "Scaled Time To Docking",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Scaled_Tm_To_Dock",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Scaled Tm To Dock",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "I_O_Pl_Oper_Mode",
+      "type": "double",
+      "units": "integer",
+      "description": "I/O Of Plane Operative Mode",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_I_O_Pl_Oper_Mode",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for I/O Pl Oper Mode",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SAS_1st_Run",
+      "type": "double",
+      "units": "integer",
+      "description": "SAS First Run",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SAS_1st_Run",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for SAS 1st Run",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SAS_InLn2_Closed_Sent",
+      "type": "double",
+      "units": "integer",
+      "description": "SAS In Line 2 Closed Sent",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SAS_InLn2_Closed_Sent",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for SAS InLn2 Closed Sent",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SAS_InLn2_Open_Sent",
+      "type": "double",
+      "units": "integer",
+      "description": "SAS In Line 2 Open Sent",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SAS_InLn2_Open_Sent",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for SAS InLn2 Open Sent",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "TUCL_InLn2_Closed_Sent",
+      "type": "double",
+      "units": "integer",
+      "description": "TULC In Line 2 Closed Sent",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_TUCL_InLn2_Closed_Sent",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for TUCL InLn2 Closed Sent",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Unknown",
+      "type": "double",
+      "units": "unitless",
+      "description": "Unknown Byte",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Unknown",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Unknown",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

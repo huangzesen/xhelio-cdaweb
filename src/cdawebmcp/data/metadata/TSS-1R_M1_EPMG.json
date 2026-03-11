@@ -1,0 +1,278 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "Inpt_Cmd_Cntr",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Input Command Counter",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Inpt_Cmd_Cntr",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Inpt Cmd Cntr",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Byte_Cmd_In_Prog",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "BITE Command In Progress",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Byte_Cmd_In_Prog",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Byte Cmd In Prog",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Core_Swtch_Ind",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Core Switch Indicator",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Core_Swtch_Ind",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Core Swtch Ind",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Sync_Ind",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Sync Indicator",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Sync_Ind",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Sync Ind",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_Tele_Fmt",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM Telemetry Format",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_Tele_Fmt",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM Tele Fmt",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_Fmt_Id",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM Format ID",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_Fmt_Id",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM Fmt Id",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_Cmd_Rej_Cnt",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM Command Reject Count",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_Cmd_Rej_Cnt",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM Cmd Rej Cnt",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_Patch_Cntr",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM Patch Counter",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_Patch_Cntr",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM Patch Cntr",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_Pwr_Fail",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM Power Fail Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_Pwr_Fail",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM Pwr Fail",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_FVOS_Err",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM FVOS Error",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_FVOS_Err",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM FVOS Err",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_Byte_Err_Code",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM Byte Error Code",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_Byte_Err_Code",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM Byte Err Code",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "EMP_Byte_Stat_Reg",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "EMP Byte Status Register",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_EMP_Byte_Stat_Reg",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for EMP Byte Stat Reg",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "I_O_Xfer",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "I/O Transfer",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_I_O_Xfer",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for I/O Xfer",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SDIO_Acq_Cmd_FdBk",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SDIO Acquisition Command Feedback",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SDIO_Acq_Cmd_FdBk",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SDIO Acq Cmd FdBk",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Pri_Bkup_Core_Ind",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Primary/Backup Core Indicator",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Pri_Bkup_Core_Ind",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Pri/Bkup Core Ind",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "EMP_Byte_Cmd_Ind",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "EMP BITE Command Indicator",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_EMP_Byte_Cmd_Ind",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for EMP Byte Cmd Ind",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "EPROM_Patch_Test_Sel",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "EPROM Patch Test Selection",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_EPROM_Patch_Test_Sel",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for EPROM Patch Test Sel",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "RAM_Chksum",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "RAM Checksum",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_RAM_Chksum",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for RAM Chksum",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Parser_On_Hold",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Parser on Hold",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Parser_On_Hold",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Parser On Hold",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

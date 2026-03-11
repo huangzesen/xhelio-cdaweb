@@ -1,0 +1,432 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "SFMDM_Cmd_Wd00",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM Command Word 00",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_Cmd_Wd00",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM Cmd Wd00",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_Cmd_Wd01",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM Command Word 01",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_Cmd_Wd01",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM Cmd Wd01",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_Cmd_Wd02",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM Command Word 02",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_Cmd_Wd02",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM Cmd Wd02",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_Cmd_Wd03",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM Command Word 03",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_Cmd_Wd03",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM Cmd Wd03",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_Cmd_Wd04",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM Command Word 04",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_Cmd_Wd04",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM Cmd Wd04",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_Cmd_Wd05",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM Command Word 05",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_Cmd_Wd05",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM Cmd Wd05",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_Cmd_Wd06",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM Command Word 06",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_Cmd_Wd06",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM Cmd Wd06",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_Cmd_Wd07",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM Command Word 07",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_Cmd_Wd07",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM Cmd Wd07",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_Cmd_Wd08",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM Command Word 08",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_Cmd_Wd08",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM Cmd Wd08",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_Cmd_Wd09",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM Command Word 09",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_Cmd_Wd09",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM Cmd Wd09",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_Cmd_Wd10",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM Command Word 10",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_Cmd_Wd10",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM Cmd Wd10",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_Cmd_Wd11",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM Command Word 11",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_Cmd_Wd11",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM Cmd Wd11",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_Cmd_Wd12",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM Command Word 12",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_Cmd_Wd12",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM Cmd Wd12",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_Cmd_Wd13",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM Command Word 13",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_Cmd_Wd13",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM Cmd Wd13",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_Cmd_Wd14",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM Command Word 14",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_Cmd_Wd14",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM Cmd Wd14",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_Cmd_Wd15",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM Command Word 15",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_Cmd_Wd15",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM Cmd Wd15",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_Cmd_Wd16",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM Command Word 16",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_Cmd_Wd16",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM Cmd Wd16",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_Cmd_Wd17",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM Command Word 17",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_Cmd_Wd17",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM Cmd Wd17",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_Cmd_Wd18",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM Command Word 18",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_Cmd_Wd18",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM Cmd Wd18",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_Cmd_Wd19",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM Command Word 19",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_Cmd_Wd19",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM Cmd Wd19",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_Cmd_Wd20",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM Command Word 20",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_Cmd_Wd20",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM Cmd Wd20",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_Cmd_Wd21",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM Command Word 21",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_Cmd_Wd21",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM Cmd Wd21",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_Cmd_Wd22",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM Command Word 22",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_Cmd_Wd22",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM Cmd Wd22",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_Cmd_Wd23",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM Command Word 23",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_Cmd_Wd23",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM Cmd Wd23",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_Cmd_Wd24",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM Command Word 24",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_Cmd_Wd24",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM Cmd Wd24",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_Cmd_Wd25",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM Command Word 25",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_Cmd_Wd25",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM Cmd Wd25",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_Cmd_Wd26",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM Command Word 26",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_Cmd_Wd26",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM Cmd Wd26",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_Cmd_Wd27",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM Command Word 27",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_Cmd_Wd27",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM Cmd Wd27",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_Cmd_Wd28",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM Command Word 28",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_Cmd_Wd28",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM Cmd Wd28",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_Cmd_Wd29",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM Command Word 29",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_Cmd_Wd29",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM Cmd Wd29",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

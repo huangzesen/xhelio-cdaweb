@@ -1,0 +1,390 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "EGA1_Fluid_T_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "EGA1 Fluid Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "EGA1_Fluid_T_2_T_degrees_C",
+      "type": "double",
+      "units": "degrees C",
+      "description": "EGA1 Fluid Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_EGA1_Fluid_T",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for EGA1 Fluid T",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "EGA2_Fluid_T_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "EGA2 Fluid Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "EGA2_Fluid_T_2_T_degrees_C",
+      "type": "double",
+      "units": "degrees C",
+      "description": "EGA2 Fluid Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_EGA2_Fluid_T",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for EGA2 Fluid T",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "EGA1_Head_T_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "EGA1 Head Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "EGA1_Head_T_2_T_degrees_C",
+      "type": "double",
+      "units": "degrees C",
+      "description": "EGA1 Head Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_EGA1_Head_T",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for EGA1 Head T",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "EGA2_Head_T_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "EGA2 Head Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "EGA2_Head_T_2_T_degrees_C",
+      "type": "double",
+      "units": "degrees C",
+      "description": "EGA2 Head Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_EGA2_Head_T",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for EGA2 Head T",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "EGA1_Fila_PS_T_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "EGA1 Filament Power Supply Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "EGA1_Fila_PS_T_2_T_degrees_C",
+      "type": "double",
+      "units": "degrees C",
+      "description": "EGA1 Filament Power Supply Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_EGA1_Fila_PS_T",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for EGA1 Fila PS T",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "EGA2_Fila_PS_T_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "EGA2 Filament Power Supply Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "EGA2_Fila_PS_T_2_T_degrees_C",
+      "type": "double",
+      "units": "degrees C",
+      "description": "EGA2 Filament Power Supply Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_EGA2_Fila_PS_T",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for EGA2 Fila PS T",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "EGA1_Coil_T_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "EGA1 Coil Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "EGA1_Coil_T_2_T_degrees_C",
+      "type": "double",
+      "units": "degrees C",
+      "description": "EGA1 Coil Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_EGA1_Coil_T",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for EGA1 Coil T",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "EGA2_Coil_T_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "EGA2 Coil Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "EGA2_Coil_T_2_T_degrees_C",
+      "type": "double",
+      "units": "degrees C",
+      "description": "EGA2 Coil Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_EGA2_Coil_T",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for EGA2 Coil T",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DVG_T_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "DVG Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DVG_T_2_T_degrees_C",
+      "type": "double",
+      "units": "degrees C",
+      "description": "DVG Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_DVG_T",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for DVG T",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "CEGHS_T_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "CEGHS Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "CEGHS_T_2_T_degrees_C",
+      "type": "double",
+      "units": "degrees C",
+      "description": "CEGHS Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_CEGHS_T",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for CEGHS T",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DV_T_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "DV Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DV_T_2_T_degrees_C",
+      "type": "double",
+      "units": "degrees C",
+      "description": "DV Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_DV_T",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for DV T",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "EGA1_Xfomer_T_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "EGA1 Transformer Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "EGA1_Xfomer_T_2_T_degrees_C",
+      "type": "double",
+      "units": "degrees C",
+      "description": "EGA1 Transformer Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_EGA1_Xfomer_T",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for EGA1 Xfomer T",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "EGA2_Xfomer_T_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "EGA2 Transformer Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "EGA2_Xfomer_T_2_T_degrees_C",
+      "type": "double",
+      "units": "degrees C",
+      "description": "EGA2 Transformer Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_EGA2_Xfomer_T",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for EGA2 Xfomer T",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "PDECU_T1_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "PDECU Temperature 1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "PDECU_T1_2_T_degrees_C",
+      "type": "double",
+      "units": "degrees C",
+      "description": "PDECU Temperature 1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_PDECU_T1",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for PDECU T1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "PDECU_T2_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "PDECU Temperature 2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "PDECU_T2_2_T_degrees_C",
+      "type": "double",
+      "units": "degrees C",
+      "description": "PDECU Temperature 2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_PDECU_T2",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for PDECU T2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "PDECU_T3_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "PDECU Temperature 3",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "PDECU_T3_2_T_degrees_C",
+      "type": "double",
+      "units": "degrees C",
+      "description": "PDECU Temperature 3",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_PDECU_T3",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for PDECU T3",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "PDECU_T4_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "PDECU Temperature 4",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "PDECU_T4_2_T_degrees_C",
+      "type": "double",
+      "units": "degrees C",
+      "description": "PDECU Temperature 4",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_PDECU_T4",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for PDECU T4",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DVG_DDCU_T_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "DVG Temperature (DDCU)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DVG_DDCU_T_2_T_degrees_C",
+      "type": "double",
+      "units": "degrees C",
+      "description": "DVG Temperature (DDCU)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_DVG_DDCU_T",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for DVG DDCU T",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

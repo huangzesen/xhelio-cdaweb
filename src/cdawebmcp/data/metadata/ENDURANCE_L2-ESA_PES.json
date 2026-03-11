@@ -1,0 +1,32 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "PES_A_ESA_DEF",
+      "type": "double",
+      "units": "eV cm-2 s -1 sr-1 eV-1",
+      "description": "Time/energy spectrogram of Differential Energy Flux of electrons from the 8 combined A-sides of PES",
+      "fill": "nan",
+      "size": [
+        35
+      ]
+    },
+    {
+      "name": "PES_B_ESA_DEF",
+      "type": "double",
+      "units": "eV cm-2 s -1 sr-1 eV-1",
+      "description": "Time/energy spectrogram of Differential Energy Flux of electrons from the 8 combined B-sides of PES",
+      "fill": "nan",
+      "size": [
+        35
+      ]
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

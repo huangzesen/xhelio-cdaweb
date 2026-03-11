@@ -1,0 +1,135 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "time",
+      "type": "double",
+      "units": "seconds",
+      "description": "Mission Elapsed Time",
+      "fill": "nan"
+    },
+    {
+      "name": "Yaw",
+      "type": "double",
+      "units": "deg",
+      "description": "Euler Rotation Angle (Yaw)",
+      "fill": "nan"
+    },
+    {
+      "name": "Pitch",
+      "type": "double",
+      "units": "deg",
+      "description": "Euler Rotation Angle (Pitch)",
+      "fill": "nan"
+    },
+    {
+      "name": "Roll",
+      "type": "double",
+      "units": "deg",
+      "description": "Euler Rotation Angle (Roll)",
+      "fill": "nan"
+    },
+    {
+      "name": "RollRate",
+      "type": "double",
+      "units": "Hz",
+      "description": "Roll Rate",
+      "fill": "nan"
+    },
+    {
+      "name": "AoA_T",
+      "type": "double",
+      "units": "deg",
+      "description": "Total Angle of Attack (between Spin Axis X and Velocity)",
+      "fill": "nan"
+    },
+    {
+      "name": "AngleB",
+      "type": "double",
+      "units": "deg",
+      "description": "Angle between Spin Axis X and Magnetic Field",
+      "fill": "nan"
+    },
+    {
+      "name": "DCM",
+      "type": "double",
+      "units": "",
+      "description": "Direction Cosine Matrix (DCM) [No Plot]",
+      "fill": "nan",
+      "size": [
+        3,
+        3
+      ]
+    },
+    {
+      "name": "X_Az",
+      "type": "double",
+      "units": "deg",
+      "description": "X Azimuth",
+      "fill": "nan"
+    },
+    {
+      "name": "X_El",
+      "type": "double",
+      "units": "deg",
+      "description": "X Elevation",
+      "fill": "nan"
+    },
+    {
+      "name": "Y_Az",
+      "type": "double",
+      "units": "deg",
+      "description": "Y Azimuth",
+      "fill": "nan"
+    },
+    {
+      "name": "Y_El",
+      "type": "double",
+      "units": "deg",
+      "description": "Y Elevation",
+      "fill": "nan"
+    },
+    {
+      "name": "Z_Az",
+      "type": "double",
+      "units": "deg",
+      "description": "Z Azimuth",
+      "fill": "nan"
+    },
+    {
+      "name": "Z_El",
+      "type": "double",
+      "units": "deg",
+      "description": "Z Elevation",
+      "fill": "nan"
+    },
+    {
+      "name": "Latgd",
+      "type": "double",
+      "units": "deg",
+      "description": "Geodetic Latitude of the Payload",
+      "fill": "nan"
+    },
+    {
+      "name": "Long",
+      "type": "double",
+      "units": "deg",
+      "description": "Longitude of the Payload",
+      "fill": "nan"
+    },
+    {
+      "name": "Alt",
+      "type": "double",
+      "units": "m",
+      "description": "Geodetic Altitude of the Payload",
+      "fill": "nan"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

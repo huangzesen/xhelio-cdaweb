@@ -1,0 +1,222 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "Crit_Func_Relay_Status",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Critical Function Relay Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Crit_Func_Relay_Status",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Crit Func Relay Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Crit_Func_Rly_Rest_Rly_Cmd",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Critical Function Relays Reset Relay Command Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Crit_Func_Rly_Rest_Rly_Cmd",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Crit Func Rly Rest Rly Cmd",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Ver_Motor_Pwr_Rly_Cmd",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Vernier Motor Power Relay Command Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Ver_Motor_Pwr_Rly_Cmd",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Ver Motor Pwr Rly Cmd",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Ver_Motor_Clu_Eng_Rly_Cmd",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Vernier Motor Clutch Engage Relay Command Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Ver_Motor_Clu_Eng_Rly_Cmd",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Ver Motor Clu Eng Rly Cmd",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Ver_Motor_Rmpdwn_Rly_Cmd",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Vernier Motor Rampdown Relay Command Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Ver_Motor_Rmpdwn_Rly_Cmd",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Ver Motor Rmpdwn Rly Cmd",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "MCA_Pwr_Rly_Cmd",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "MCA Power Relay Command Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_MCA_Pwr_Rly_Cmd",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for MCA Pwr Rly Cmd",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "TT_C_Pwr_On_Rly_Cmd",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "TT&C Power On Relay Command Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_TT_C_Pwr_On_Rly_Cmd",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for TT&C Pwr On Rly Cmd",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Sat_Bat_Htrs_Pwr_Rly_Cmd",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Satellite Battery Heaters Power Relay Command Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Sat_Bat_Htrs_Pwr_Rly_Cmd",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Sat Bat Htrs Pwr Rly Cmd",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Sat_Ext_Pwr_Rly_Cmd",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Satellite External Power Relay Command Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Sat_Ext_Pwr_Rly_Cmd",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Sat Ext Pwr Rly Cmd",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Sat_Rly_Rest_Rly_Cmd",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Satellite Relays Reset Relay Command Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Sat_Rly_Rest_Rly_Cmd",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Sat Rly Rest Rly Cmd",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Dply_Rly_Rest_Rly_Cmd",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Deployer Heaters Power Relay Command Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Dply_Rly_Rest_Rly_Cmd",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Dply Rly Rest Rly Cmd",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Hot_Nest_Pwr_Rly_Cmd",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Hot Nest Power Relay Command Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Hot_Nest_Pwr_Rly_Cmd",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Hot Nest Pwr Rly Cmd",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "MPC_ON_Rly_Cmd",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "MPC ON Relay Command Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_MPC_ON_Rly_Cmd",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for MPC ON Rly Cmd",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "MPC_VCMD_Hi_Rly_Cmd",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "MPC VCMD HIGH Relay Command Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_MPC_VCMD_Hi_Rly_Cmd",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for MPC VCMD Hi Rly Cmd",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Crit_Func_Rly_Cmp",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Critical Function Relay Comparision",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Crit_Func_Rly_Cmp",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Crit Func Rly Cmp",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

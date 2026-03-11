@@ -1,0 +1,726 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "WRA_Temp_1_Telemetry_Unitless",
+      "type": "double",
+      "units": "Unitless",
+      "description": "WRA Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "WRA_Temp_2_Temp_degrees_C",
+      "type": "double",
+      "units": "degrees C",
+      "description": "WRA Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_WRA_Temp",
+      "type": "double",
+      "units": "Integer",
+      "description": "Data Quality Indicator for WRA Temp",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Voltage_Monitor_Corrections_WRA_Temp_CAL0",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Voltage Correction; Sensor 8 for WRA Temp",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Voltage_Monitor_Corrections_WRA_Temp_CAL1",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Voltage Correction; Sensor 10 for WRA Temp",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Voltage_Monitor_Corrections_WRA_Temp_CAL2",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Voltage Correction; Sensor 11 for WRA Temp",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DPU_Int_Temp_1_Telemetry_Unitless",
+      "type": "double",
+      "units": "Unitless",
+      "description": "DPU Internal Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DPU_Int_Temp_2_Temp_degrees_C",
+      "type": "double",
+      "units": "degrees C",
+      "description": "DPU Internal Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_DPU_Int_Temp",
+      "type": "double",
+      "units": "Integer",
+      "description": "Data Quality Indicator for DPU Int Temp",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Voltage_Monitor_Corrections_DPU_Int_Temp_CAL0",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Voltage Correction; Sensor 8 for DPU Int Temp",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Voltage_Monitor_Corrections_DPU_Int_Temp_CAL1",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Voltage Correction; Sensor 10 for DPU Int Temp",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Voltage_Monitor_Corrections_DPU_Int_Temp_CAL2",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Voltage Correction; Sensor 11 for DPU Int Temp",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "ACDP_Temp_1_Telemetry_Unitless",
+      "type": "double",
+      "units": "Unitless",
+      "description": "ACBP Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "ACDP_Temp_2_Temp_degrees_C",
+      "type": "double",
+      "units": "degrees C",
+      "description": "ACBP Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_ACDP_Temp",
+      "type": "double",
+      "units": "Integer",
+      "description": "Data Quality Indicator for ACDP Temp",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Voltage_Monitor_Corrections_ACDP_Temp_CAL0",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Voltage Correction; Sensor 8 for ACDP Temp",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Voltage_Monitor_Corrections_ACDP_Temp_CAL1",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Voltage Correction; Sensor 10 for ACDP Temp",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Voltage_Monitor_Corrections_ACDP_Temp_CAL2",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Voltage Correction; Sensor 11 for ACDP Temp",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DCE_Temp_1_Telemetry_Unitless",
+      "type": "double",
+      "units": "Unitless",
+      "description": "DCE Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DCE_Temp_2_Temp_degrees_C",
+      "type": "double",
+      "units": "degrees C",
+      "description": "DCE Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_DCE_Temp",
+      "type": "double",
+      "units": "Integer",
+      "description": "Data Quality Indicator for DCE Temp",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Voltage_Monitor_Corrections_DCE_Temp_CAL0",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Voltage Correction; Sensor 8 for DCE Temp",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Voltage_Monitor_Corrections_DCE_Temp_CAL1",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Voltage Correction; Sensor 10 for DCE Temp",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Voltage_Monitor_Corrections_DCE_Temp_CAL2",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Voltage Correction; Sensor 11 for DCE Temp",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "RETE_I_1_Telemetry_Unitless",
+      "type": "double",
+      "units": "Unitless",
+      "description": "RETE Current Monitor",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "RETE_I_2_Current_amps",
+      "type": "double",
+      "units": "amps",
+      "description": "RETE Current Monitor",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_RETE_I",
+      "type": "double",
+      "units": "Integer",
+      "description": "Data Quality Indicator for RETE I",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Voltage_Monitor_Corrections_RETE_I_CAL0",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Voltage Correction; Sensor 8 for RETE I",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Voltage_Monitor_Corrections_RETE_I_CAL1",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Voltage Correction; Sensor 10 for RETE I",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Voltage_Monitor_Corrections_RETE_I_CAL2",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Voltage Correction; Sensor 11 for RETE I",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Synth_Ctrl_V_1_Telemetry_Unitless",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Synth Control Voltage",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Synth_Ctrl_V_2_Voltage_volts",
+      "type": "double",
+      "units": "volts",
+      "description": "Synth Control Voltage",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Synth_Ctrl_V",
+      "type": "double",
+      "units": "Integer",
+      "description": "Data Quality Indicator for Synth Ctrl V",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Voltage_Monitor_Corrections_Synth_Ctrl_V_CAL0",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Voltage Correction; Sensor 8 for Synth Ctrl V",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Voltage_Monitor_Corrections_Synth_Ctrl_V_CAL1",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Voltage Correction; Sensor 10 for Synth Ctrl V",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Voltage_Monitor_Corrections_Synth_Ctrl_V_CAL2",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Voltage Correction; Sensor 11 for Synth Ctrl V",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Positive_5V_DCE_1_Telemetry_Unitless",
+      "type": "double",
+      "units": "Unitless",
+      "description": "+5V DCE Monitor",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Positive_5V_DCE_2_Voltage_volts",
+      "type": "double",
+      "units": "volts",
+      "description": "+5V DCE Monitor",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Positive_5V_DCE",
+      "type": "double",
+      "units": "Integer",
+      "description": "Data Quality Indicator for Positive 5V DCE",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Voltage_Monitor_Corrections_Positive_5V_DCE_CAL0",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Voltage Correction; Sensor 8 for Positive 5V DCE",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Voltage_Monitor_Corrections_Positive_5V_DCE_CAL1",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Voltage Correction; Sensor 10 for Positive 5V DCE",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Voltage_Monitor_Corrections_Positive_5V_DCE_CAL2",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Voltage Correction; Sensor 11 for Positive 5V DCE",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Positive_15V_DCE_1_Telemetry_Unitless",
+      "type": "double",
+      "units": "Unitless",
+      "description": "+15V DCE Monitor",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Positive_15V_DCE_2_Voltage_volts",
+      "type": "double",
+      "units": "volts",
+      "description": "+15V DCE Monitor",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Positive_15V_DCE",
+      "type": "double",
+      "units": "Integer",
+      "description": "Data Quality Indicator for Positive 15V DCE",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Voltage_Monitor_Corrections_Positive_15V_DCE_CAL0",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Voltage Correction; Sensor 8 for Positive 15V DCE",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Voltage_Monitor_Corrections_Positive_15V_DCE_CAL1",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Voltage Correction; Sensor 10 for Positive 15V DCE",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Voltage_Monitor_Corrections_Positive_15V_DCE_CAL2",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Voltage Correction; Sensor 11 for Positive 15V DCE",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Negative_15V_DCE_1_Telemetry_Unitless",
+      "type": "double",
+      "units": "Unitless",
+      "description": "-15V DCE Monitor",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Negative_15V_DCE_2_Voltage_volts",
+      "type": "double",
+      "units": "volts",
+      "description": "-15V DCE Monitor",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Negative_15V_DCE",
+      "type": "double",
+      "units": "Integer",
+      "description": "Data Quality Indicator for Negative 15V DCE",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Voltage_Monitor_Corrections_Negative_15V_DCE_CAL0",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Voltage Correction; Sensor 8 for Negative 15V DCE",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Voltage_Monitor_Corrections_Negative_15V_DCE_CAL1",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Voltage Correction; Sensor 10 for Negative 15V DCE",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Voltage_Monitor_Corrections_Negative_15V_DCE_CAL2",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Voltage Correction; Sensor 11 for Negative 15V DCE",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Positive_6V_WRA_Dig_Filters_1_Telemetry_Unitless",
+      "type": "double",
+      "units": "Unitless",
+      "description": "+6V WRA Digital Filters Monitor",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Positive_6V_WRA_Dig_Filters_2_Voltage_volts",
+      "type": "double",
+      "units": "volts",
+      "description": "+6V WRA Digital Filters Monitor",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Positive_6V_WRA_Dig_Filters",
+      "type": "double",
+      "units": "Integer",
+      "description": "Data Quality Indicator for Positive 6V WRA Dig Filters",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Voltage_Monitor_Corrections_Positive_6V_WRA_Dig_Filters_CAL0",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Voltage Correction; Sensor 8 for Positive 6V WRA Dig Filters",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Voltage_Monitor_Corrections_Positive_6V_WRA_Dig_Filters_CAL1",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Voltage Correction; Sensor 10 for Positive 6V WRA Dig Filters",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Voltage_Monitor_Corrections_Positive_6V_WRA_Dig_Filters_CAL2",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Voltage Correction; Sensor 11 for Positive 6V WRA Dig Filters",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Negative_6V_WRA_1_Telemetry_Unitless",
+      "type": "double",
+      "units": "Unitless",
+      "description": "-6V WRA Monitor",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Negative_6V_WRA_2_Voltage_volts",
+      "type": "double",
+      "units": "volts",
+      "description": "-6V WRA Monitor",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Negative_6V_WRA",
+      "type": "double",
+      "units": "Integer",
+      "description": "Data Quality Indicator for Negative 6V WRA",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Voltage_Monitor_Corrections_Negative_6V_WRA_CAL0",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Voltage Correction; Sensor 8 for Negative 6V WRA",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Voltage_Monitor_Corrections_Negative_6V_WRA_CAL1",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Voltage Correction; Sensor 10 for Negative 6V WRA",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Voltage_Monitor_Corrections_Negative_6V_WRA_CAL2",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Voltage Correction; Sensor 11 for Negative 6V WRA",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Negative_18V_WRA_1_Telemetry_Unitless",
+      "type": "double",
+      "units": "Unitless",
+      "description": "-18V WRA Monitor",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Negative_18V_WRA_2_Voltage_volts",
+      "type": "double",
+      "units": "volts",
+      "description": "-18V WRA Monitor",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Negative_18V_WRA",
+      "type": "double",
+      "units": "Integer",
+      "description": "Data Quality Indicator for Negative 18V WRA",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Voltage_Monitor_Corrections_Negative_18V_WRA_CAL0",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Voltage Correction; Sensor 8 for Negative 18V WRA",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Voltage_Monitor_Corrections_Negative_18V_WRA_CAL1",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Voltage Correction; Sensor 10 for Negative 18V WRA",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Voltage_Monitor_Corrections_Negative_18V_WRA_CAL2",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Voltage Correction; Sensor 11 for Negative 18V WRA",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Positive_6V_WRA_1_Telemetry_Unitless",
+      "type": "double",
+      "units": "Unitless",
+      "description": "+6V WRA Receiver Monitor",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Positive_6V_WRA_2_Voltage_volts",
+      "type": "double",
+      "units": "volts",
+      "description": "+6V WRA Receiver Monitor",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Positive_6V_WRA",
+      "type": "double",
+      "units": "Integer",
+      "description": "Data Quality Indicator for Positive 6V WRA",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Voltage_Monitor_Corrections_Positive_6V_WRA_CAL0",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Voltage Correction; Sensor 8 for Positive 6V WRA",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Voltage_Monitor_Corrections_Positive_6V_WRA_CAL1",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Voltage Correction; Sensor 10 for Positive 6V WRA",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Voltage_Monitor_Corrections_Positive_6V_WRA_CAL2",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Voltage Correction; Sensor 11 for Positive 6V WRA",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Positive_5V_DPU_1_Telemetry_Unitless",
+      "type": "double",
+      "units": "Unitless",
+      "description": "+5V DPU Monitor",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Positive_5V_DPU_2_Voltage_volts",
+      "type": "double",
+      "units": "volts",
+      "description": "+5V DPU Monitor",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Positive_5V_DPU",
+      "type": "double",
+      "units": "Integer",
+      "description": "Data Quality Indicator for Positive 5V DPU",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Voltage_Monitor_Corrections_Positive_5V_DPU_CAL0",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Voltage Correction; Sensor 8 for Positive 5V DPU",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Voltage_Monitor_Corrections_Positive_5V_DPU_CAL1",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Voltage Correction; Sensor 10 for Positive 5V DPU",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Voltage_Monitor_Corrections_Positive_5V_DPU_CAL2",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Voltage Correction; Sensor 11 for Positive 5V DPU",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Positive_12V_DPU_1_Telemetry_Unitless",
+      "type": "double",
+      "units": "Unitless",
+      "description": "+12V DPU Monitor",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Positive_12V_DPU_2_Voltage_volts",
+      "type": "double",
+      "units": "volts",
+      "description": "+12V DPU Monitor",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Positive_12V_DPU",
+      "type": "double",
+      "units": "Integer",
+      "description": "Data Quality Indicator for Positive 12V DPU",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Voltage_Monitor_Corrections_Positive_12V_DPU_CAL0",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Voltage Correction; Sensor 8 for Positive 12V DPU",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Voltage_Monitor_Corrections_Positive_12V_DPU_CAL1",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Voltage Correction; Sensor 10 for Positive 12V DPU",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Voltage_Monitor_Corrections_Positive_12V_DPU_CAL2",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Voltage Correction; Sensor 11 for Positive 12V DPU",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Negative_12V_DPU_1_Telemetry_Unitless",
+      "type": "double",
+      "units": "Unitless",
+      "description": "-12V DPU Monitor",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Negative_12V_DPU_2_Voltage_volts",
+      "type": "double",
+      "units": "volts",
+      "description": "-12V DPU Monitor",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Negative_12V_DPU",
+      "type": "double",
+      "units": "Integer",
+      "description": "Data Quality Indicator for Negative 12V DPU",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Voltage_Monitor_Corrections_Negative_12V_DPU_CAL0",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Voltage Correction; Sensor 8 for Negative 12V DPU",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Voltage_Monitor_Corrections_Negative_12V_DPU_CAL1",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Voltage Correction; Sensor 10 for Negative 12V DPU",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Voltage_Monitor_Corrections_Negative_12V_DPU_CAL2",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Voltage Correction; Sensor 11 for Negative 12V DPU",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Ref_Supply_1_Telemetry_Unitless",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Reference Supply",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Ref_Supply_2_Voltage_volts",
+      "type": "double",
+      "units": "volts",
+      "description": "Reference Supply",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Ref_Supply",
+      "type": "double",
+      "units": "Integer",
+      "description": "Data Quality Indicator for Ref Supply",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Voltage_Monitor_Corrections_Ref_Supply_CAL0",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Voltage Correction; Sensor 8 for Ref Supply",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Voltage_Monitor_Corrections_Ref_Supply_CAL1",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Voltage Correction; Sensor 10 for Ref Supply",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Voltage_Monitor_Corrections_Ref_Supply_CAL2",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Voltage Correction; Sensor 11 for Ref Supply",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

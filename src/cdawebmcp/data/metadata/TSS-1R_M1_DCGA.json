@@ -1,0 +1,222 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "EGA1_I_Set_Echo_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "EGA1 Current Setting Echo",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "EGA1_I_Set_Echo_2_current_milliamps",
+      "type": "double",
+      "units": "milliamps",
+      "description": "EGA1 Current Setting Echo",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_EGA1_I_Set_Echo",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for EGA1 I Set Echo",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "EGA2_I_Set_Echo_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "EGA2 Current Setting Echo",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "EGA2_I_Set_Echo_2_current_milliamps",
+      "type": "double",
+      "units": "milliamps",
+      "description": "EGA2 Current Setting Echo",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_EGA2_I_Set_Echo",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for EGA2 I Set Echo",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "EGA1_Tether_I_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "EGA1 Tether Current",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "EGA1_Tether_I_2_current_milliamps",
+      "type": "double",
+      "units": "milliamps",
+      "description": "EGA1 Tether Current",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_EGA1_Tether_I",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for EGA1 Tether I",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "EGA2_Tether_I_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "EGA2 Tether Current",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "EGA2_Tether_I_2_current_milliamps",
+      "type": "double",
+      "units": "milliamps",
+      "description": "EGA2 Tether Current",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_EGA2_Tether_I",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for EGA2 Tether I",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "EGA1_Anode_I_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "EGA1 Anode Current",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "EGA1_Anode_I_2_current_milliamps",
+      "type": "double",
+      "units": "milliamps",
+      "description": "EGA1 Anode Current",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_EGA1_Anode_I",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for EGA1 Anode I",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "EGA2_Anode_I_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "EGA2 Anode Current",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "EGA2_Anode_I_2_current_milliamps",
+      "type": "double",
+      "units": "milliamps",
+      "description": "EGA2 Anode Current",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_EGA2_Anode_I",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for EGA2 Anode I",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "EGA1_Filament_I_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "EGA1 Filament Current",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "EGA1_Filament_I_2_current_amps",
+      "type": "double",
+      "units": "amps",
+      "description": "EGA1 Filament Current",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_EGA1_Filament_I",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for EGA1 Filament I",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "EGA2_Filament_I_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "EGA2 Filament Current",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "EGA2_Filament_I_2_current_amps",
+      "type": "double",
+      "units": "amps",
+      "description": "EGA2 Filament Current",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_EGA2_Filament_I",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for EGA2 Filament I",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "EGA1_Coil_I_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "EGA1 Coil Current",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "EGA1_Coil_I_2_current_amps",
+      "type": "double",
+      "units": "amps",
+      "description": "EGA1 Coil Current",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_EGA1_Coil_I",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for EGA1 Coil I",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "EGA2_Coil_I_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "EGA2 Coil Current",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "EGA2_Coil_I_2_current_amps",
+      "type": "double",
+      "units": "amps",
+      "description": "EGA2 Coil Current",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_EGA2_Coil_I",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for EGA2 Coil I",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

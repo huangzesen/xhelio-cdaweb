@@ -1,0 +1,78 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "Temperature",
+      "type": "double",
+      "units": "K",
+      "description": "Temperature plain images",
+      "fill": "nan",
+      "size": [
+        119,
+        1579
+      ]
+    },
+    {
+      "name": "Temperature_mapped_full",
+      "type": "double",
+      "units": "K",
+      "description": "---> Temperature mapped images large earth",
+      "fill": "nan",
+      "size": [
+        119,
+        1579
+      ]
+    },
+    {
+      "name": "Temperature_mapped_mov_full",
+      "type": "double",
+      "units": "K",
+      "description": "---> Temperature mapped image large earth movie",
+      "fill": "nan",
+      "size": [
+        119,
+        1579
+      ]
+    },
+    {
+      "name": "Latitude",
+      "type": "double",
+      "units": "Degrees",
+      "description": "Pixel Latitude",
+      "fill": "nan",
+      "size": [
+        119,
+        1579
+      ]
+    },
+    {
+      "name": "Longitude",
+      "type": "double",
+      "units": "Degrees",
+      "description": "Pixel Longitude",
+      "fill": "nan",
+      "size": [
+        119,
+        1579
+      ]
+    },
+    {
+      "name": "MLCloud",
+      "type": "integer",
+      "units": "Percentage",
+      "description": "Machine Learning Cloud array 0=no cloud, 100=most likely cloud presence plain images",
+      "fill": "nan",
+      "size": [
+        119,
+        1579
+      ]
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

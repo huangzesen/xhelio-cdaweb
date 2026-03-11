@@ -1,4 +1,4 @@
-"""Mission catalog — load bundled mission JSONs and generate summaries."""
+"""Mission catalog — load mission JSONs from cache and generate summaries."""
 
 import json
 import logging
@@ -6,13 +6,11 @@ from pathlib import Path
 
 logger = logging.getLogger(__name__)
 
-# Package data directory
-_PACKAGE_DATA = Path(__file__).parent / "data"
-
 
 def get_missions_dir() -> Path:
-    """Return the path to the bundled missions directory."""
-    return _PACKAGE_DATA / "missions"
+    """Return the path to the missions directory (bootstrapped cache)."""
+    from cdawebmcp.config import get_cache_root
+    return get_cache_root() / "missions"
 
 
 def load_mission_json(mission_stem: str) -> dict:

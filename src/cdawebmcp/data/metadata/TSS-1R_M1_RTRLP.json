@@ -1,0 +1,362 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "Pnts_Per_Swp",
+      "type": "double",
+      "units": "unitless",
+      "description": "Number of Points Per sweep",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Pnts_Per_Swp",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Pnts Per Swp",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Floating_Pot",
+      "type": "double",
+      "units": "volts",
+      "description": "Floating Potential",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Floating_Pot",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Floating Pot",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Plasma_Pot_2_Tan",
+      "type": "double",
+      "units": "volts",
+      "description": "Plasma Potential (intersection of 2 tangents)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Plasma_Pot_2_Tan",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Plasma Pot (2 Tan)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Plasma_Pot_Max_1st_Drv",
+      "type": "double",
+      "units": "volts",
+      "description": "Plasma Potential (maximum of 1st derivative)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Plasma_Pot_Max_1st_Drv",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Plasma Pot (Max 1st Drv)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Plasma_Temp",
+      "type": "double",
+      "units": "degrees K",
+      "description": "Plasma Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Plasma_Temp",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Plasma Temp",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "e__Den_Max_1st_Drv",
+      "type": "double",
+      "units": "/cm**3",
+      "description": "Electron Density (maximim of 1st derivative)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_e__Den_Max_1st_Drv",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for e- Den (Max 1st Drv)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "e__Den_2_Tan",
+      "type": "double",
+      "units": "/cm**3",
+      "description": "Electron Density (intersection of 2 tangents)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_e__Den_2_Tan",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for e- Den (2 Tan)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "p__Den",
+      "type": "double",
+      "units": "/cm**3",
+      "description": "Ion Density",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_p__Den",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for p+ Den",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "IV_Fit_Qual",
+      "type": "double",
+      "units": "unitless",
+      "description": "I-V Curve Smoothing Quality Flag",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_IV_Fit_Qual",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for IV Fit Qual",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Float_Pot_Qual",
+      "type": "double",
+      "units": "unitless",
+      "description": "Floating Potential Quality Flag",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Float_Pot_Qual",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Float Pot Qual",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "p__Den_Qual",
+      "type": "double",
+      "units": "unitless",
+      "description": "Ion Saturation Fit Quality Flag",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_p__Den_Qual",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for p+ Den Qual",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Plasma_T_Qual",
+      "type": "double",
+      "units": "unitless",
+      "description": "Temperature Quality Flag",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Plasma_T_Qual",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Plasma T Qual",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "e__Den_Qual_linear_fit",
+      "type": "double",
+      "units": "unitless",
+      "description": "Electron Saturation Quality Flag (log fit)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_e__Den_Qual_linear_fit",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for e- Den Qual (linear fit)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "e__Den_Qual_log_fit",
+      "type": "double",
+      "units": "unitless",
+      "description": "Electron Saturation Quality Flag (linear fit)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_e__Den_Qual_log_fit",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for e- Den Qual (log fit)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Plasma_Pot_Qual_2_Tan",
+      "type": "double",
+      "units": "unitless",
+      "description": "Plasma Potential Quality Flag (intersection of 2 tangents)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Plasma_Pot_Qual_2_Tan",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Plasma Pot Qual (2 Tan)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Trans_Fit_Near_Vf",
+      "type": "double",
+      "units": "unitless",
+      "description": "Transition Region Fit Around Vf",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Trans_Fit_Near_Vf",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Trans Fit Near Vf",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Trans_Fit_Below_Vp",
+      "type": "double",
+      "units": "unitless",
+      "description": "Transition Region Fit Just Below Vp",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Trans_Fit_Below_Vp",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Trans Fit Below Vp",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "e__Sat_Fit_Above_Vp",
+      "type": "double",
+      "units": "unitless",
+      "description": "Electron Saturation Fit Above Vp (log fit)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_e__Sat_Fit_Above_Vp",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for e- Sat Fit Above Vp",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "e__Sat_Fit_Near_Vp",
+      "type": "double",
+      "units": "unitless",
+      "description": "Electron Saturation Fit Near Max LP Sweep Potential (log fit)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_e__Sat_Fit_Near_Vp",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for e- Sat Fit Near Vp",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "p__Sat_Fit_Slope_lin_fit",
+      "type": "double",
+      "units": "unitless",
+      "description": "Slope In The Ion Saturation Fit (linear fit)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_p__Sat_Fit_Slope_lin_fit",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for p+ Sat Fit Slope (lin fit)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "p__Sat_Fit_Inter_lin_fit",
+      "type": "double",
+      "units": "unitless",
+      "description": "Offset In The Ion Saturation Fit (linear fit)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_p__Sat_Fit_Inter_lin_fit",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for p+ Sat Fit Inter (lin fit)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "e__Sat_Fit_Slope_log_fit",
+      "type": "double",
+      "units": "unitless",
+      "description": "Slope In The Electron Saturation Fit (log fit)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_e__Sat_Fit_Slope_log_fit",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for e- Sat Fit Slope (log fit)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "e__Sat_Fit_Inter_log_fit",
+      "type": "double",
+      "units": "unitless",
+      "description": "Offset In The Electron Saturation Fit (log fit)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_e__Sat_Fit_Inter_log_fit",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for e- Sat Fit Inter (log fit)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "e__Sat_Fit_Slope_lin_fit",
+      "type": "double",
+      "units": "unitless",
+      "description": "Slope In The Electron Saturation Fit (linear fit)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_e__Sat_Fit_Slope_lin_fit",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for e- Sat Fit Slope (lin fit)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "e__Sat_Fit_Inter_lin_fit",
+      "type": "double",
+      "units": "unitless",
+      "description": "Offset In The Electron Saturation Fit (linear fit)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_e__Sat_Fit_Inter_lin_fit",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for e- Sat Fit Inter (lin fit)",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

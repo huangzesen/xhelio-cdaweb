@@ -1,0 +1,649 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "Hi_Sens_SRPA_Swping_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "High Sensitivity Channel, Sweeping",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        6
+      ]
+    },
+    {
+      "name": "Hi_Sens_SRPA_Swping_2_Power_Db",
+      "type": "double",
+      "units": "Db",
+      "description": "High Sensitivity Channel, Sweeping",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        6
+      ]
+    },
+    {
+      "name": "Data_Quality_Hi_Sens_SRPA_Swping",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Hi Sens SRPA Swping",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Raw_Sweep_Voltage_Telemetry_Hi_Sens_SRPA_Swping_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "LP Sweep Voltage for Hi Sens SRPA Swping",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        6
+      ]
+    },
+    {
+      "name": "Fitted_Sweep_Voltage_Slope_MSB_Hi_Sens_SRPA_Swping_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Fitted Sweep Voltage Slope MSB for Hi Sens SRPA Swping",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        6
+      ]
+    },
+    {
+      "name": "Fitted_Sweep_Voltage_Slope_LSB_Hi_Sens_SRPA_Swping_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Fitted Sweep Voltage Slope LSB for Hi Sens SRPA Swping",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        6
+      ]
+    },
+    {
+      "name": "Fitted_Sweep_Voltage_Offset_MSB_Hi_Sens_SRPA_Swping_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Fitted Sweep Voltage Offset MSB for Hi Sens SRPA Swping",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        6
+      ]
+    },
+    {
+      "name": "Fitted_Sweep_Voltage_Offset_LSB_Hi_Sens_SRPA_Swping_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Fitted Sweep Voltage Offset LSB for Hi Sens SRPA Swping",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        6
+      ]
+    },
+    {
+      "name": "Hi_Sens_SRPA_Flybk_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "High Sensitivity Channel, Flyback",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        6
+      ]
+    },
+    {
+      "name": "Hi_Sens_SRPA_Flybk_2_Power_Db",
+      "type": "double",
+      "units": "Db",
+      "description": "High Sensitivity Channel, Flyback",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        6
+      ]
+    },
+    {
+      "name": "Data_Quality_Hi_Sens_SRPA_Flybk",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Hi Sens SRPA Flybk",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Raw_Sweep_Voltage_Telemetry_Hi_Sens_SRPA_Flybk_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "LP Sweep Voltage for Hi Sens SRPA Flybk",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        6
+      ]
+    },
+    {
+      "name": "Fitted_Sweep_Voltage_Slope_MSB_Hi_Sens_SRPA_Flybk_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Fitted Sweep Voltage Slope MSB for Hi Sens SRPA Flybk",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        6
+      ]
+    },
+    {
+      "name": "Fitted_Sweep_Voltage_Slope_LSB_Hi_Sens_SRPA_Flybk_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Fitted Sweep Voltage Slope LSB for Hi Sens SRPA Flybk",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        6
+      ]
+    },
+    {
+      "name": "Fitted_Sweep_Voltage_Offset_MSB_Hi_Sens_SRPA_Flybk_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Fitted Sweep Voltage Offset MSB for Hi Sens SRPA Flybk",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        6
+      ]
+    },
+    {
+      "name": "Fitted_Sweep_Voltage_Offset_LSB_Hi_Sens_SRPA_Flybk_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Fitted Sweep Voltage Offset LSB for Hi Sens SRPA Flybk",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        6
+      ]
+    },
+    {
+      "name": "Hi_Sens_SRPA_Srch_Mode_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "High Sensitivity Channel, Search Mode",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        6
+      ]
+    },
+    {
+      "name": "Hi_Sens_SRPA_Srch_Mode_2_Power_Db",
+      "type": "double",
+      "units": "Db",
+      "description": "High Sensitivity Channel, Search Mode",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        6
+      ]
+    },
+    {
+      "name": "Data_Quality_Hi_Sens_SRPA_Srch_Mode",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Hi Sens SRPA Srch Mode",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Raw_Sweep_Voltage_Telemetry_Hi_Sens_SRPA_Srch_Mode_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "LP Sweep Voltage for Hi Sens SRPA Srch Mode",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        6
+      ]
+    },
+    {
+      "name": "Fitted_Sweep_Voltage_Slope_MSB_Hi_Sens_SRPA_Srch_Mode_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Fitted Sweep Voltage Slope MSB for Hi Sens SRPA Srch Mode",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        6
+      ]
+    },
+    {
+      "name": "Fitted_Sweep_Voltage_Slope_LSB_Hi_Sens_SRPA_Srch_Mode_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Fitted Sweep Voltage Slope LSB for Hi Sens SRPA Srch Mode",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        6
+      ]
+    },
+    {
+      "name": "Fitted_Sweep_Voltage_Offset_MSB_Hi_Sens_SRPA_Srch_Mode_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Fitted Sweep Voltage Offset MSB for Hi Sens SRPA Srch Mode",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        6
+      ]
+    },
+    {
+      "name": "Fitted_Sweep_Voltage_Offset_LSB_Hi_Sens_SRPA_Srch_Mode_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Fitted Sweep Voltage Offset LSB for Hi Sens SRPA Srch Mode",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        6
+      ]
+    },
+    {
+      "name": "Hi_Sens_SRPA_Short_Swp_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "High Sensitivity Channel, Short Sweep",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        6
+      ]
+    },
+    {
+      "name": "Hi_Sens_SRPA_Short_Swp_2_Power_Db",
+      "type": "double",
+      "units": "Db",
+      "description": "High Sensitivity Channel, Short Sweep",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        6
+      ]
+    },
+    {
+      "name": "Data_Quality_Hi_Sens_SRPA_Short_Swp",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Hi Sens SRPA Short Swp",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Raw_Sweep_Voltage_Telemetry_Hi_Sens_SRPA_Short_Swp_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "LP Sweep Voltage for Hi Sens SRPA Short Swp",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        6
+      ]
+    },
+    {
+      "name": "Fitted_Sweep_Voltage_Slope_MSB_Hi_Sens_SRPA_Short_Swp_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Fitted Sweep Voltage Slope MSB for Hi Sens SRPA Short Swp",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        6
+      ]
+    },
+    {
+      "name": "Fitted_Sweep_Voltage_Slope_LSB_Hi_Sens_SRPA_Short_Swp_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Fitted Sweep Voltage Slope LSB for Hi Sens SRPA Short Swp",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        6
+      ]
+    },
+    {
+      "name": "Fitted_Sweep_Voltage_Offset_MSB_Hi_Sens_SRPA_Short_Swp_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Fitted Sweep Voltage Offset MSB for Hi Sens SRPA Short Swp",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        6
+      ]
+    },
+    {
+      "name": "Fitted_Sweep_Voltage_Offset_LSB_Hi_Sens_SRPA_Short_Swp_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Fitted Sweep Voltage Offset LSB for Hi Sens SRPA Short Swp",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        6
+      ]
+    },
+    {
+      "name": "Low_Sens_SRPA_Swping_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Low Sensitivity Channel, Sweeping",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        6
+      ]
+    },
+    {
+      "name": "Low_Sens_SRPA_Swping_2_Power_Db",
+      "type": "double",
+      "units": "Db",
+      "description": "Low Sensitivity Channel, Sweeping",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        6
+      ]
+    },
+    {
+      "name": "Data_Quality_Low_Sens_SRPA_Swping",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Low Sens SRPA Swping",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Raw_Sweep_Voltage_Telemetry_Low_Sens_SRPA_Swping_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "LP Sweep Voltage for Low Sens SRPA Swping",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        6
+      ]
+    },
+    {
+      "name": "Fitted_Sweep_Voltage_Slope_MSB_Low_Sens_SRPA_Swping_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Fitted Sweep Voltage Slope MSB for Low Sens SRPA Swping",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        6
+      ]
+    },
+    {
+      "name": "Fitted_Sweep_Voltage_Slope_LSB_Low_Sens_SRPA_Swping_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Fitted Sweep Voltage Slope LSB for Low Sens SRPA Swping",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        6
+      ]
+    },
+    {
+      "name": "Fitted_Sweep_Voltage_Offset_MSB_Low_Sens_SRPA_Swping_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Fitted Sweep Voltage Offset MSB for Low Sens SRPA Swping",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        6
+      ]
+    },
+    {
+      "name": "Fitted_Sweep_Voltage_Offset_LSB_Low_Sens_SRPA_Swping_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Fitted Sweep Voltage Offset LSB for Low Sens SRPA Swping",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        6
+      ]
+    },
+    {
+      "name": "Low_Sens_SRPA_Flybk_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Low Sensitivity Channel, Flyback",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        6
+      ]
+    },
+    {
+      "name": "Low_Sens_SRPA_Flybk_2_Power_Db",
+      "type": "double",
+      "units": "Db",
+      "description": "Low Sensitivity Channel, Flyback",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        6
+      ]
+    },
+    {
+      "name": "Data_Quality_Low_Sens_SRPA_Flybk",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Low Sens SRPA Flybk",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Raw_Sweep_Voltage_Telemetry_Low_Sens_SRPA_Flybk_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "LP Sweep Voltage for Low Sens SRPA Flybk",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        6
+      ]
+    },
+    {
+      "name": "Fitted_Sweep_Voltage_Slope_MSB_Low_Sens_SRPA_Flybk_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Fitted Sweep Voltage Slope MSB for Low Sens SRPA Flybk",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        6
+      ]
+    },
+    {
+      "name": "Fitted_Sweep_Voltage_Slope_LSB_Low_Sens_SRPA_Flybk_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Fitted Sweep Voltage Slope LSB for Low Sens SRPA Flybk",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        6
+      ]
+    },
+    {
+      "name": "Fitted_Sweep_Voltage_Offset_MSB_Low_Sens_SRPA_Flybk_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Fitted Sweep Voltage Offset MSB for Low Sens SRPA Flybk",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        6
+      ]
+    },
+    {
+      "name": "Fitted_Sweep_Voltage_Offset_LSB_Low_Sens_SRPA_Flybk_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Fitted Sweep Voltage Offset LSB for Low Sens SRPA Flybk",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        6
+      ]
+    },
+    {
+      "name": "Low_Sens_SRPA_Srch_Mode_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Low Sensitivity Channel, Search Mode",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        6
+      ]
+    },
+    {
+      "name": "Low_Sens_SRPA_Srch_Mode_2_Power_Db",
+      "type": "double",
+      "units": "Db",
+      "description": "Low Sensitivity Channel, Search Mode",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        6
+      ]
+    },
+    {
+      "name": "Data_Quality_Low_Sens_SRPA_Srch_Mode",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Low Sens SRPA Srch Mode",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Raw_Sweep_Voltage_Telemetry_Low_Sens_SRPA_Srch_Mode_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "LP Sweep Voltage for Low Sens SRPA Srch Mode",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        6
+      ]
+    },
+    {
+      "name": "Fitted_Sweep_Voltage_Slope_MSB_Low_Sens_SRPA_Srch_Mode_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Fitted Sweep Voltage Slope MSB for Low Sens SRPA Srch Mode",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        6
+      ]
+    },
+    {
+      "name": "Fitted_Sweep_Voltage_Slope_LSB_Low_Sens_SRPA_Srch_Mode_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Fitted Sweep Voltage Slope LSB for Low Sens SRPA Srch Mode",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        6
+      ]
+    },
+    {
+      "name": "Fitted_Sweep_Voltage_Offset_MSB_Low_Sens_SRPA_Srch_Mode_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Fitted Sweep Voltage Offset MSB for Low Sens SRPA Srch Mode",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        6
+      ]
+    },
+    {
+      "name": "Fitted_Sweep_Voltage_Offset_LSB_Low_Sens_SRPA_Srch_Mode_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Fitted Sweep Voltage Offset LSB for Low Sens SRPA Srch Mode",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        6
+      ]
+    },
+    {
+      "name": "Low_Sens_SRPA_Short_Swp_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Low Sensitivity Channel, Short Sweep",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        6
+      ]
+    },
+    {
+      "name": "Low_Sens_SRPA_Short_Swp_2_Power_Db",
+      "type": "double",
+      "units": "Db",
+      "description": "Low Sensitivity Channel, Short Sweep",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        6
+      ]
+    },
+    {
+      "name": "Data_Quality_Low_Sens_SRPA_Short_Swp",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Low Sens SRPA Short Swp",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Raw_Sweep_Voltage_Telemetry_Low_Sens_SRPA_Short_Swp_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "LP Sweep Voltage for Low Sens SRPA Short Swp",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        6
+      ]
+    },
+    {
+      "name": "Fitted_Sweep_Voltage_Slope_MSB_Low_Sens_SRPA_Short_Swp_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Fitted Sweep Voltage Slope MSB for Low Sens SRPA Short Swp",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        6
+      ]
+    },
+    {
+      "name": "Fitted_Sweep_Voltage_Slope_LSB_Low_Sens_SRPA_Short_Swp_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Fitted Sweep Voltage Slope LSB for Low Sens SRPA Short Swp",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        6
+      ]
+    },
+    {
+      "name": "Fitted_Sweep_Voltage_Offset_MSB_Low_Sens_SRPA_Short_Swp_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Fitted Sweep Voltage Offset MSB for Low Sens SRPA Short Swp",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        6
+      ]
+    },
+    {
+      "name": "Fitted_Sweep_Voltage_Offset_LSB_Low_Sens_SRPA_Short_Swp_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Fitted Sweep Voltage Offset LSB for Low Sens SRPA Short Swp",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        6
+      ]
+    },
+    {
+      "name": "MODE0_AC_Level",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Status Indicator AC Level",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "MODE1_Sweep_Mode_Discrete",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Status Indicator Sweep Mode Discrete",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "MODE2_LP_3_2_KHz_Amp_",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Status Indicator LP 3.2 KHz Amplifer",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

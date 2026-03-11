@@ -1,0 +1,768 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "GYMODE_Prgm_Stat",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "ICOUT Program Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_GYMODE_Prgm_Stat",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for GYMODE Prgm Stat",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "GYOPS_Prgm_Stat",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "GYOPS Program Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_GYOPS_Prgm_Stat",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for GYOPS Prgm Stat",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "GYCO_Prgm_Stat",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "GYCO Program Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_GYCO_Prgm_Stat",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for GYCO Prgm Stat",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "GYWU_Prgm_Stat",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "GYWU Program Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_GYWU_Prgm_Stat",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for GYWU Prgm Stat",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "GYRO_Prgm_Stat",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "GYRO Program Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_GYRO_Prgm_Stat",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for GYRO Prgm Stat",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "ACQGYR_Prgm_Stat",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "ACQGYR Program Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_ACQGYR_Prgm_Stat",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for ACQGYR Prgm Stat",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "ATTITUDE_Prgm_Stat",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "ATTITUDE Program Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_ATTITUDE_Prgm_Stat",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for ATTITUDE Prgm Stat",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "PASSIVE_Prgm_Stat",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "PASSIVE Program Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_PASSIVE_Prgm_Stat",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for PASSIVE Prgm Stat",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SPIN_Prgm_Stat",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SPIN Program Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SPIN_Prgm_Stat",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SPIN Prgm Stat",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "HOLD_Prgm_Stat",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "HOLD Program Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_HOLD_Prgm_Stat",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for HOLD Prgm Stat",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "RETR_Prgm_Stat",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "RETR Program Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_RETR_Prgm_Stat",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for RETR Prgm Stat",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "ONST_Prgm_Stat",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "ONST Program Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_ONST_Prgm_Stat",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for ONST Prgm Stat",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DEPL_Prgm_Stat",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "DEPL Program Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_DEPL_Prgm_Stat",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for DEPL Prgm Stat",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "VRPH1_Prgm_Stat",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "VRPH1 Program Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_VRPH1_Prgm_Stat",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for VRPH1 Prgm Stat",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "VRPH2_Prgm_Stat",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "VRPH2 Program Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_VRPH2_Prgm_Stat",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for VRPH2 Prgm Stat",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "RTUPQ_Prgm_Stat",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "RTUPQ Program Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_RTUPQ_Prgm_Stat",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for RTUPQ Prgm Stat",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "RTUSQ_Prgm_Stat",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "RTUSQ Program Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_RTUSQ_Prgm_Stat",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for RTUSQ Prgm Stat",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "TIMSLEEP_Prgm_Stat",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "TIMSLEEP Program Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_TIMSLEEP_Prgm_Stat",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for TIMSLEEP Prgm Stat",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "TIMCOUNT_Prgm_Stat",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "TIMCOUNT Program Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_TIMCOUNT_Prgm_Stat",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for TIMCOUNT Prgm Stat",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Start_Prgm_Stat",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Start Program Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Start_Prgm_Stat",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Start Prgm Stat",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "IOFIRE_Prgm_Stat",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "IOFIRE Program Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_IOFIRE_Prgm_Stat",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for IOFIRE Prgm Stat",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "CA_Prgm_Stat",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "CA Program Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_CA_Prgm_Stat",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for CA Prgm Stat",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "TFGEN_Prgm_Stat",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "TFGEN Program Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_TFGEN_Prgm_Stat",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for TFGEN Prgm Stat",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "PMQ_Prgm_Stat",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "PMQ Program Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_PMQ_Prgm_Stat",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for PMQ Prgm Stat",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "ICOUT_Prgm_Stat",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "ICOUT Program Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_ICOUT_Prgm_Stat",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for ICOUT Prgm Stat",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "LM_Prgm_Stat",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "LM Program Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_LM_Prgm_Stat",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for LM Prgm Stat",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SRM_Prgm_Stat",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SRM Program Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SRM_Prgm_Stat",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SRM Prgm Stat",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "RERE_Prgm_Stat",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "RERE Program Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_RERE_Prgm_Stat",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for RERE Prgm Stat",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "ROMQ_Prgm_Stat",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "ROMQ Program Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_ROMQ_Prgm_Stat",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for ROMQ Prgm Stat",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "PRPO_Prgm_Stat",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "PRPO Program Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_PRPO_Prgm_Stat",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for PRPO Prgm Stat",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "TTOUT_Prgm_Stat",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "TTOUT Program Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_TTOUT_Prgm_Stat",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for TTOUT Prgm Stat",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SAS_Prgm_Stat",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SAS Program Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SAS_Prgm_Stat",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SAS Prgm Stat",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "TULC_Prgm_Stat",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "TULC Program Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_TULC_Prgm_Stat",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for TULC Prgm Stat",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "PMTC_Prgm_Stat",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "PMTC Program Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_PMTC_Prgm_Stat",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for PMTC Prgm Stat",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "PEPC_Prgm_Stat",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "PEPC Program Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_PEPC_Prgm_Stat",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for PEPC Prgm Stat",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "PWRB_Prgm_Stat",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "PWRB Program Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_PWRB_Prgm_Stat",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for PWRB Prgm Stat",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DPPH_Prgm_Stat",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "DPPH Program Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_DPPH_Prgm_Stat",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for DPPH Prgm Stat",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SWITCH_Prgm_Stat",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SWITCH Program Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SWITCH_Prgm_Stat",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SWITCH Prgm Stat",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "AQTEST_Prgm_Stat",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "AQTEST Program Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_AQTEST_Prgm_Stat",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for AQTEST Prgm Stat",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "CONTROL_Prgm_Stat",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "CONTROL Program Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_CONTROL_Prgm_Stat",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for CONTROL Prgm Stat",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "AFTGEN_Prgm_Stat",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "ATFGEN Program Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_AFTGEN_Prgm_Stat",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for AFTGEN Prgm Stat",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "ACA_Prgm_Stat",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "ACA Program Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_ACA_Prgm_Stat",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for ACA Prgm Stat",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "AICOUT_Prgm_Stat",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "AICOUT Program Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_AICOUT_Prgm_Stat",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for AICOUT Prgm Stat",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SVISOR_Prgm_Stat",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SVISOR Program Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SVISOR_Prgm_Stat",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SVISOR Prgm Stat",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "AMSAS_Prgm_Stat",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "AMSAS Program Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_AMSAS_Prgm_Stat",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for AMSAS Prgm Stat",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "UPDAT_Prgm_Stat",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "UPDAT Program Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_UPDAT_Prgm_Stat",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for UPDAT Prgm Stat",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "AROMQ_Prgm_Stat",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "AROMQ Program Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_AROMQ_Prgm_Stat",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for AROMQ Prgm Stat",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "YAWTH_Prgm_Stat",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "YAWTH Program Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_YAWTH_Prgm_Stat",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for YAWTH Prgm Stat",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "APCO_Prgm_Stat",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "APCO Program Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_APCO_Prgm_Stat",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for APCO Prgm Stat",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "ESCO_Prgm_Stat",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "ESCO Program Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_ESCO_Prgm_Stat",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for ESCO Prgm Stat",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SSTC_Prgm_Stat",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SSTC Program Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SSTC_Prgm_Stat",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SSTC Prgm Stat",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "ESUP_Prgm_Stat",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "ESUP Program Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_ESUP_Prgm_Stat",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for ESUP Prgm Stat",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Unknown_Bit_1",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Unknown Bit 1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Unknown_Bit_1",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Unknown Bit 1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Unknown_Bit_2",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Unknown Bit 2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Unknown_Bit_2",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Unknown Bit 2",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

@@ -1,32 +1,19 @@
 """Prompt assembly — builds mission-specific system prompts."""
 
-import json
 from pathlib import Path
 
-from cdawebmcp.catalog import mission_to_markdown
+from cdawebmcp.catalog import load_mission_json, mission_to_markdown
 
-_PACKAGE_DATA = Path(__file__).parent / "data"
+# Prompt templates are static and stay bundled with the package
+_BUNDLED_PROMPTS = Path(__file__).parent / "data" / "prompts"
 
 
 def _load_prompt_template(filename: str) -> str:
-    """Load a prompt template from the package data directory."""
-    filepath = _PACKAGE_DATA / "prompts" / filename
+    """Load a prompt template from the bundled package data."""
+    filepath = _BUNDLED_PROMPTS / filename
     if not filepath.exists():
         return ""
     return filepath.read_text(encoding="utf-8").strip()
-
-
-def _load_mission_json_from_data(mission_stem: str) -> dict:
-    """Load a mission JSON file using the module-level _PACKAGE_DATA path.
-
-    This exists so that _PACKAGE_DATA can be patched in tests to point
-    at a temporary directory for both prompts and mission JSON files.
-    """
-    filepath = _PACKAGE_DATA / "missions" / f"{mission_stem}.json"
-    if not filepath.exists():
-        raise FileNotFoundError(f"Mission file not found: {filepath}")
-    with open(filepath, "r", encoding="utf-8") as f:
-        return json.load(f)
 
 
 def build_mission_prompt(mission_stem: str) -> str:
@@ -53,7 +40,7 @@ def build_mission_prompt(mission_stem: str) -> str:
     cdaweb_role = _load_prompt_template("cdaweb_role.md")
 
     # Layer 3: Mission data
-    mission = _load_mission_json_from_data(mission_stem)
+    mission = load_mission_json(mission_stem)
     profile = mission.get("profile", {})
 
     # Mission overview

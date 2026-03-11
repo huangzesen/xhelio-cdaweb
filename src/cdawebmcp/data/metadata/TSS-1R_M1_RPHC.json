@@ -1,0 +1,222 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "HVPS_1_Plus_V_1_telemetry_raw",
+      "type": "double",
+      "units": "raw",
+      "description": "High Voltage Power Supply 1 +V Monitor",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "HVPS_1_Plus_V_2_Voltage_volts",
+      "type": "double",
+      "units": "volts",
+      "description": "High Voltage Power Supply 1 +V Monitor",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_HVPS_1_Plus_V",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for HVPS 1 Plus V",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "HVPS_1_Minus_V_1_telemetry_raw",
+      "type": "double",
+      "units": "raw",
+      "description": "High Voltage Power Supply 1 -V Monitor",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "HVPS_1_Minus_V_2_Voltage_volts",
+      "type": "double",
+      "units": "volts",
+      "description": "High Voltage Power Supply 1 -V Monitor",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_HVPS_1_Minus_V",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for HVPS 1 Minus V",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "HVPS_2_Plus_V_1_telemetry_raw",
+      "type": "double",
+      "units": "raw",
+      "description": "High Voltage Power Supply 2 +V Monitor",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "HVPS_2_Plus_V_2_Voltage_volts",
+      "type": "double",
+      "units": "volts",
+      "description": "High Voltage Power Supply 2 +V Monitor",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_HVPS_2_Plus_V",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for HVPS 2 Plus V",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "HVPS_2_Minus_V_1_telemetry_raw",
+      "type": "double",
+      "units": "raw",
+      "description": "High Voltage Power Supply 2 -V Monitor",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "HVPS_2_Minus_V_2_Voltage_volts",
+      "type": "double",
+      "units": "volts",
+      "description": "High Voltage Power Supply 2 -V Monitor",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_HVPS_2_Minus_V",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for HVPS 2 Minus V",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "HVPS_30V_1_telemetry_raw",
+      "type": "double",
+      "units": "raw",
+      "description": "30 V High Voltage Power Supply Voltage Monitor",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "HVPS_30V_2_Voltage_volts",
+      "type": "double",
+      "units": "volts",
+      "description": "30 V High Voltage Power Supply Voltage Monitor",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_HVPS_30V",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for HVPS 30V",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "HVPS_1_I_1_telemetry_raw",
+      "type": "double",
+      "units": "raw",
+      "description": "High Voltage Power Supply 1 Current Monitor",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "HVPS_1_I_2_current_milliamps",
+      "type": "double",
+      "units": "milliamps",
+      "description": "High Voltage Power Supply 1 Current Monitor",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_HVPS_1_I",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for HVPS 1 I",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "HVPS_2_I_1_telemetry_raw",
+      "type": "double",
+      "units": "raw",
+      "description": "High Voltage Power Supply 2 Current Monitor",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "HVPS_2_I_2_current_milliamps",
+      "type": "double",
+      "units": "milliamps",
+      "description": "High Voltage Power Supply 2 Current Monitor",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_HVPS_2_I",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for HVPS 2 I",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "HVPS_30V_I_1_telemetry_raw",
+      "type": "double",
+      "units": "raw",
+      "description": "30 V High Voltage Power Supply Current Monitor",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "HVPS_30V_I_2_current_milliamps",
+      "type": "double",
+      "units": "milliamps",
+      "description": "30 V High Voltage Power Supply Current Monitor",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_HVPS_30V_I",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for HVPS 30V I",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "PPS1_I_1_telemetry_raw",
+      "type": "double",
+      "units": "raw",
+      "description": "PPS 1 Current Monitor",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "PPS1_I_2_current_milliamps",
+      "type": "double",
+      "units": "milliamps",
+      "description": "PPS 1 Current Monitor",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_PPS1_I",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for PPS1 I",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "PPS2_I_1_telemetry_raw",
+      "type": "double",
+      "units": "raw",
+      "description": "PPS 2 Current Monitor",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "PPS2_I_2_current_milliamps",
+      "type": "double",
+      "units": "milliamps",
+      "description": "PPS 2 Current Monitor",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_PPS2_I",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for PPS2 I",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

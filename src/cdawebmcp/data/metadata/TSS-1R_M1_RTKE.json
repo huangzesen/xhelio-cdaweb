@@ -1,0 +1,54 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "Pentode_I_1_Telemetry_Integer",
+      "type": "double",
+      "units": "Integer",
+      "description": "Pentode Current Monitor",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Pentode_I_2_current_uamps",
+      "type": "double",
+      "units": "uamps",
+      "description": "Pentode Current Monitor",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Pentode_I",
+      "type": "double",
+      "units": "Integer",
+      "description": "Data Quality Indicator for Pentode/I",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DCBP_Pot_1_Telemetry_Integer",
+      "type": "double",
+      "units": "Integer",
+      "description": "DCBP Potential",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DCBP_Pot_2_Voltage_volts",
+      "type": "double",
+      "units": "volts",
+      "description": "DCBP Potential",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_DCBP_Pot",
+      "type": "double",
+      "units": "Integer",
+      "description": "Data Quality Indicator for DCBP/Pot",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

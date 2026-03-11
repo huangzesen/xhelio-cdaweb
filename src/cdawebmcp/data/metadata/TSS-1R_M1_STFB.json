@@ -1,0 +1,390 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "FPEG_Pwr",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "FPEG Power Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_FPEG_Pwr",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for FPEG Pwr",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "EGA_Sync1",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Ega Sync 1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_EGA_Sync1",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for EGA Sync1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "EGA_Sync2",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Ega Sync 2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_EGA_Sync2",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for EGA Sync2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "FPEG_Enable_Cmd",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "FPEG Enable Command",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_FPEG_Enable_Cmd",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for FPEG Enable Cmd",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "FPEG_Enable_Pulses_Cmd",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "FPEG Enable Pulses Command",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_FPEG_Enable_Pulses_Cmd",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for FPEG Enable Pulses Cmd",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "FPEG_Enable_Off_Tm_Cmd",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "FPEG Enable Off Time Command",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_FPEG_Enable_Off_Tm_Cmd",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for FPEG Enable Off Tm Cmd",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "FPEG_Enable_On_Tm_Cmd",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "FPEG Enable On Time Command",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_FPEG_Enable_On_Tm_Cmd",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for FPEG Enable On Tm Cmd",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "FPEG_Fila_Cmd",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "FPEG Filament Command",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_FPEG_Fila_Cmd",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for FPEG Fila Cmd",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "FPEG_Fila_Enable_Cmd",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "FPEG Filament Enable Variable",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_FPEG_Fila_Enable_Cmd",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for FPEG Fila Enable Cmd",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "FPEG_Fila_On_Tmr_Set",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "FPEG Filament On Timer Set",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_FPEG_Fila_On_Tmr_Set",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for FPEG Fila On Tmr Set",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "FPEG_Fila_On_Disc",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "FPEG Filament On Discrete",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_FPEG_Fila_On_Disc",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for FPEG Fila On Disc",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "FPEG_HV_Cmd",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "FPEG High Voltage Command",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_FPEG_HV_Cmd",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for FPEG HV Cmd",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "FPEG_HV_Enable_Var",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "FPEG High Voltage Enable Variable",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_FPEG_HV_Enable_Var",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for FPEG HV Enable Var",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "FPEG_HV_Arm",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "FPEG Status HV Arm",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_FPEG_HV_Arm",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for FPEG HV Arm",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "FPEG_HV_On",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "FPEG Status HV On",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_FPEG_HV_On",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for FPEG HV On",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "FPEG_Run_Bar_Cmd",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "FPEG Run Bar Command",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_FPEG_Run_Bar_Cmd",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for FPEG Run Bar Cmd",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "FPEG_Gun1_Select",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "FPEG Status Gun 1 Select",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_FPEG_Gun1_Select",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for FPEG Gun1 Select",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "FPEG_Gun2_Select",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "FPEG Status Gun 2 Select",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_FPEG_Gun2_Select",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for FPEG Gun2 Select",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "FPEG_Run",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "FPEG Status Run",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_FPEG_Run",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for FPEG Run",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "FPEG_Stop",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "FPEG Status Stop",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_FPEG_Stop",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for FPEG Stop",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "FPEG_Stret_Gun_Pulse",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "FPEG Stretched Gun Pulse",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_FPEG_Stret_Gun_Pulse",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for FPEG Stret Gun Pulse",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "FPEG_Go_Cmd",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "FPEG Go Command",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_FPEG_Go_Cmd",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for FPEG Go Cmd",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "FPEG_Send_Cmd",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "FPEG Send Command",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_FPEG_Send_Cmd",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for FPEG Send Cmd",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "FPEG_Ready_Cmd",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "FPEG Ready Command",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_FPEG_Ready_Cmd",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for FPEG Ready Cmd",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "FPEG_Cur_Limit",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "FPEG Current Limit",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_FPEG_Cur_Limit",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for FPEG Cur Limit",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "FPEG_Squel_Enable",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "FPEG Sequencer Enable",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_FPEG_Squel_Enable",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for FPEG Squel Enable",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Gun_Sw_Pulse_Mon",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Gun Switched Pulse Monitor",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Gun_Sw_Pulse_Mon",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Gun Sw Pulse Mon",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

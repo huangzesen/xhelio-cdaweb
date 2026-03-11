@@ -1,0 +1,124 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "Alpha_1_2_Angle",
+      "type": "double",
+      "units": "integer",
+      "description": "Alpha 1/2 Angle",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Alpha_1_2_Angle",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Alpha 1/2 Angle",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Alpha_3_4_Angle",
+      "type": "double",
+      "units": "integer",
+      "description": "Alpha 3/4 Angle",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Alpha_3_4_Angle",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Alpha 3/4 Angle",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Beta_1_2_Angle",
+      "type": "double",
+      "units": "integer",
+      "description": "Beta 1/2 Angle",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Beta_1_2_Angle",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Beta 1/2 Angle",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Beta_3_4_Angle",
+      "type": "double",
+      "units": "integer",
+      "description": "Beta 3/4 Angle",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Beta_3_4_Angle",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Beta 3/4 Angle",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "ES1_Chord_1_Ang",
+      "type": "double",
+      "units": "integer",
+      "description": "ES1 Chord 1 Angle",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_ES1_Chord_1_Ang",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for ES1 Chord 1 Ang",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "ES1_Chord_2_Ang",
+      "type": "double",
+      "units": "integer",
+      "description": "ES1 Chord 2 Angle",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_ES1_Chord_2_Ang",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for ES1 Chord 2 Ang",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "ES2_Chord_1_Ang",
+      "type": "double",
+      "units": "integer",
+      "description": "ES2 Chord 1 Angle",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_ES2_Chord_1_Ang",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for ES2 Chord 1 Ang",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "ES2_Chord_2_Ang",
+      "type": "double",
+      "units": "integer",
+      "description": "ES2 Chord 2 Angle",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_ES2_Chord_2_Ang",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for ES2 Chord 2 Ang",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

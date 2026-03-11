@@ -1,0 +1,432 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "Tank_Pres_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Tank Pressure",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Tank_Pres_2_Pressure_pascals",
+      "type": "double",
+      "units": "pascals",
+      "description": "Tank Pressure",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Tank_Pres",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Tank Pres",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Regulated_Pres_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Regulated Pressure",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Regulated_Pres_2_Pressure_pascals",
+      "type": "double",
+      "units": "pascals",
+      "description": "Regulated Pressure",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Regulated_Pres",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Regulated Pres",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Battery_1_Temp_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Battery 1 Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Battery_1_Temp_2_Temp_degC",
+      "type": "double",
+      "units": "deg(C)",
+      "description": "Battery 1 Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Battery_1_Temp",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Battery 1 Temp",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Battery_2_Temp_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Battery 2 Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Battery_2_Temp_2_Temp_degC",
+      "type": "double",
+      "units": "deg(C)",
+      "description": "Battery 2 Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Battery_2_Temp",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Battery 2 Temp",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Battery_3_Temp_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Battery 3 Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Battery_3_Temp_2_Temp_degC",
+      "type": "double",
+      "units": "deg(C)",
+      "description": "Battery 3 Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Battery_3_Temp",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Battery 3 Temp",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Battery_4_Temp_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Battery 4 Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Battery_4_Temp_2_Temp_degC",
+      "type": "double",
+      "units": "deg(C)",
+      "description": "Battery 4 Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Battery_4_Temp",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Battery 4 Temp",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "APS_Pres_Reg_Temp_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "APS Pressure Regulated Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "APS_Pres_Reg_Temp_2_Temp_degC",
+      "type": "double",
+      "units": "deg(C)",
+      "description": "APS Pressure Regulated Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_APS_Pres_Reg_Temp",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for APS Pres Reg Temp",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "APS_Tank_Sur_Temp_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "APS Tank Surface Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "APS_Tank_Sur_Temp_2_Temp_degC",
+      "type": "double",
+      "units": "deg(C)",
+      "description": "APS Tank Surface Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_APS_Tank_Sur_Temp",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for APS Tank Sur Temp",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "APS_Out_Tank_Temp_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "APS Outlet Tank Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "APS_Out_Tank_Temp_2_Temp_degC",
+      "type": "double",
+      "units": "deg(C)",
+      "description": "APS Outlet Tank Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_APS_Out_Tank_Temp",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for APS Out Tank Temp",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "APS_ATH_1_Temp_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "APS AHT 1 Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "APS_ATH_1_Temp_2_Temp_degC",
+      "type": "double",
+      "units": "deg(C)",
+      "description": "APS AHT 1 Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_APS_ATH_1_Temp",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for APS ATH 1 Temp",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "APS_ATH_3_Temp_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "APS AHT 3 Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "APS_ATH_3_Temp_2_Temp_degC",
+      "type": "double",
+      "units": "deg(C)",
+      "description": "APS AHT 3 Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_APS_ATH_3_Temp",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for APS ATH 3 Temp",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "APS_InLine_1_Temp_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "APS In Line 1 Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "APS_InLine_1_Temp_2_Temp_degC",
+      "type": "double",
+      "units": "deg(C)",
+      "description": "APS In Line 1 Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_APS_InLine_1_Temp",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for APS InLine 1 Temp",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "APS_InLine_2_Temp_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "APS In Line 2 Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "APS_InLine_2_Temp_2_Temp_degC",
+      "type": "double",
+      "units": "deg(C)",
+      "description": "APS In Line 2 Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_APS_InLine_2_Temp",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for APS InLine 2 Temp",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "APS_InPl_Rear_Valve_T_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "APS In Plane Rear Valve Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "APS_InPl_Rear_Valve_T_2_Temp_degC",
+      "type": "double",
+      "units": "deg(C)",
+      "description": "APS In Plane Rear Valve Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_APS_InPl_Rear_Valve_T",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for APS InPl Rear Valve T",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "APS_InPl_Frnt_Valve_T_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "APS In Plane Front Valve Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "APS_InPl_Frnt_Valve_T_2_Temp_degC",
+      "type": "double",
+      "units": "deg(C)",
+      "description": "APS In Plane Front Valve Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_APS_InPl_Frnt_Valve_T",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for APS InPl Frnt Valve T",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "APS_OutPl_Valve_Temp_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "APS Out Of Plane Valve Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "APS_OutPl_Valve_Temp_2_Temp_degC",
+      "type": "double",
+      "units": "deg(C)",
+      "description": "APS Out Of Plane Valve Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_APS_OutPl_Valve_Temp",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for APS OutPl Valve Temp",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "APS_I_OutPl_Iso_Valve_T_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "APS I/O Of Plane Isolation Valve Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "APS_I_OutPl_Iso_Valve_T_2_Temp_degC",
+      "type": "double",
+      "units": "deg(C)",
+      "description": "APS I/O Of Plane Isolation Valve Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_APS_I_OutPl_Iso_Valve_T",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for APS I/OutPl Iso Valve T",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "APS_Yaw_1_2_Valve_Temp_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "APS Yaw 1/2 Valve Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "APS_Yaw_1_2_Valve_Temp_2_Temp_degC",
+      "type": "double",
+      "units": "deg(C)",
+      "description": "APS Yaw 1/2 Valve Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_APS_Yaw_1_2_Valve_Temp",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for APS Yaw 1/2 Valve Temp",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "TX_Final_Stge_Temp_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "TX Final Stage Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "TX_Final_Stge_Temp_2_Temp_degC",
+      "type": "double",
+      "units": "deg(C)",
+      "description": "TX Final Stage Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_TX_Final_Stge_Temp",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for TX Final Stge Temp",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "RX_Temp_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "RX Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "RX_Temp_2_Temp_degC",
+      "type": "double",
+      "units": "deg(C)",
+      "description": "RX Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_RX_Temp",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for RX Temp",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

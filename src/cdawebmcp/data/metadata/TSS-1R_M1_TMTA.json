@@ -1,0 +1,40 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "Tether_Cur__1_Telemetry_Integer",
+      "type": "double",
+      "units": "Integer",
+      "description": "Tether Current",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Tether_Cur__2_Voltage_volts",
+      "type": "double",
+      "units": "volts",
+      "description": "Tether Current",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Tether_Cur__3_current_milliamps",
+      "type": "double",
+      "units": "milliamps",
+      "description": "Tether Current",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Tether_Cur_",
+      "type": "double",
+      "units": "Integer",
+      "description": "Data Quality Indicator for Tether Cur.",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

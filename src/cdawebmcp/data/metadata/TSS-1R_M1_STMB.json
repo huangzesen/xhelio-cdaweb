@@ -1,0 +1,138 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "AMAG_Current_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "AMAG Current",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "AMAG_Current_2_Current_amps",
+      "type": "double",
+      "units": "amps",
+      "description": "AMAG Current",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_AMAG_Current",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for AMAG Current",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SPIB_Current_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SPIB Current",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SPIB_Current_2_Current_amps",
+      "type": "double",
+      "units": "amps",
+      "description": "SPIB Current",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SPIB_Current",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SPIB Current",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SPIB_Voltage_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SPIB Voltage",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SPIB_Voltage_2_Voltage_volts",
+      "type": "double",
+      "units": "volts",
+      "description": "SPIB Voltage",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SPIB_Voltage",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SPIB Voltage",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SPIB_T1_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SPIB Temperature 1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SPIB_T1_2_T_degrees_C",
+      "type": "double",
+      "units": "degrees C",
+      "description": "SPIB Temperature 1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SPIB_T1",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SPIB T1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SPIB_T2_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SPIB Temperature 2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SPIB_T2_2_T_degrees_C",
+      "type": "double",
+      "units": "degrees C",
+      "description": "SPIB Temperature 2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SPIB_T2",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SPIB T2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SPIB_T3_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SPIB Temperature 2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SPIB_T3_2_T_degrees_C",
+      "type": "double",
+      "units": "degrees C",
+      "description": "SPIB Temperature 2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SPIB_T3",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SPIB T3",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

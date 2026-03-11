@@ -1,0 +1,54 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "Time_Stmp",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Time Stamp",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Time_Stmp",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Time Stmp",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Time_Stmp_Frm1",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Time Stamp Frame - 1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Time_Stmp_Frm1",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Time Stmp Frm1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Time_Stmp_Frm2",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Time Stamp Frame - 2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Time_Stmp_Frm2",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Time Stmp Frm2",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

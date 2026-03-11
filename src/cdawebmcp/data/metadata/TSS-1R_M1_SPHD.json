@@ -1,0 +1,75 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "Space_Frm_Cnt",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Space Frame Count",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Space_Frm_Cnt",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Space Frm Cnt",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Space_Frm_Size_1_Telemetry_Unitless",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Space Frame Size",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Space_Frm_Size_2_Bytes_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Space Frame Size",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Space_Frm_Size",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Space Frm Size",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Space_Rot_Num",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Space Rotation Number",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Space_Rot_Num",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Space Rot Num",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Energy_Swp_Num",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Energy Sweep Number",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Energy_Swp_Num",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Energy Swp Num",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

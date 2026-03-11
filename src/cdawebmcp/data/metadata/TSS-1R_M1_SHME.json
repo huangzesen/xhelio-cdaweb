@@ -1,0 +1,82 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "OBDH_FGP___Ovrrun",
+      "type": "double",
+      "units": "integer",
+      "description": "Onboard Data Handling FGP Number Overrun",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_OBDH_FGP___Ovrrun",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for OBDH FGP # Ovrrun",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "OBDH_BGP___Ovrrun",
+      "type": "double",
+      "units": "integer",
+      "description": "Onboard Data Handling BGP Number Overrun",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_OBDH_BGP___Ovrrun",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for OBDH BGP # Ovrrun",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "AMCS_FGP___Ovrrun",
+      "type": "double",
+      "units": "integer",
+      "description": "AMCS FGP Number Overrun",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_AMCS_FGP___Ovrrun",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for AMCS FGP # Ovrrun",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "AMCS_BGP___Ovrrun",
+      "type": "double",
+      "units": "integer",
+      "description": "AMCS BGP Number Overrun",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_AMCS_BGP___Ovrrun",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for AMCS BGP # Ovrrun",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "AMCS_Oper__Mode",
+      "type": "double",
+      "units": "integer",
+      "description": "AMCS Operative Mode",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_AMCS_Oper__Mode",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for AMCS Oper. Mode",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

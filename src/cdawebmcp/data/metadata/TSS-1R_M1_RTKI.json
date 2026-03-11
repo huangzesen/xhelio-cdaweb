@@ -1,0 +1,40 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "HF_Mode",
+      "type": "double",
+      "units": "Integer",
+      "description": "HF Mode",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_HF_Mode",
+      "type": "double",
+      "units": "Integer",
+      "description": "Data Quality Indicator for HF Mode",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "HF_Sens",
+      "type": "double",
+      "units": "Integer",
+      "description": "HF Sensors",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_HF_Sens",
+      "type": "double",
+      "units": "Integer",
+      "description": "Data Quality Indicator for HF Sens",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

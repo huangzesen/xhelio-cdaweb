@@ -1,0 +1,187 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "Altitude",
+      "type": "double",
+      "units": "km",
+      "description": "Altitude",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "CGLat",
+      "type": "double",
+      "units": "deg",
+      "description": "CGLat",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "CGLong",
+      "type": "double",
+      "units": "deg",
+      "description": "---> CGLong",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Latitude",
+      "type": "double",
+      "units": "deg",
+      "description": "Latitude",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Longitude",
+      "type": "double",
+      "units": "deg",
+      "description": "---> Longitude",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "MLT",
+      "type": "double",
+      "units": "hr",
+      "description": "MLT",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "L_shell",
+      "type": "double",
+      "units": "Earth radii",
+      "description": "L-shell",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Eclipse_status",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Eclipse Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "GEI_X",
+      "type": "double",
+      "units": "km",
+      "description": "GEI X",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "GEI_Y",
+      "type": "double",
+      "units": "km",
+      "description": "---> GEI Y",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "GEI_Z",
+      "type": "double",
+      "units": "km",
+      "description": "---> GEI Z",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "GEI_Vx",
+      "type": "double",
+      "units": "km/s",
+      "description": "GEI Vx",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "GEI_Vy",
+      "type": "double",
+      "units": "km/s",
+      "description": "---> GEI Vy",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "GEI_Vz",
+      "type": "double",
+      "units": "km/s",
+      "description": "---> GEI Vz",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "GEI_Sun_X",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "GEI Sun-X",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "GEI_Sun_Y",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "---> GEI Sun-Y",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "GEI_Sun_Z",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "---> GEI Sun-Z",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "GEO_X",
+      "type": "double",
+      "units": "km",
+      "description": "GEO X",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "GEO_Y",
+      "type": "double",
+      "units": "km",
+      "description": "---> GEO Y",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "GEO_Z",
+      "type": "double",
+      "units": "km",
+      "description": "---> GEO Z",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "RA",
+      "type": "double",
+      "units": "deg",
+      "description": "RA",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Declination",
+      "type": "double",
+      "units": "deg",
+      "description": "---> Declination",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Sun_Angle",
+      "type": "double",
+      "units": "deg",
+      "description": "Sun angle",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "B_field_Angle",
+      "type": "double",
+      "units": "deg",
+      "description": "B-field angle",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Spin_period",
+      "type": "double",
+      "units": "ms",
+      "description": "Spin period",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

@@ -1,0 +1,180 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "L_DOT_Cir1_Sec",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "L-DOT Circuit 1 Secondary Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_L_DOT_Cir1_Sec",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for L-DOT Cir1 Sec",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "L_DOT_Cir1_Trig",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "L-DOT Circuit 1 Trigger Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_L_DOT_Cir1_Trig",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for L-DOT Cir1 Trig",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "L_DOT_Cir2_Trig",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "L-DOT Circuit 2 Trigger Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_L_DOT_Cir2_Trig",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for L-DOT Cir2 Trig",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "L_DOT_Cir2",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "L-DOT Circuit 2 Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_L_DOT_Cir2",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for L-DOT Cir2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "L_DOT_Disable1",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "L-DOT Disable 1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_L_DOT_Disable1",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for L-DOT Disable1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "L_DOT_Disable2",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "L-DOT Disable 2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_L_DOT_Disable2",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for L-DOT Disable2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DEL_L_Cir1_Sec",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "DEL-L Circuit 1 Secondary Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_DEL_L_Cir1_Sec",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for DEL-L Cir1 Sec",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DEL_L_Cir1_Trig",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "DEL-L Circuit 1 Trigger Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_DEL_L_Cir1_Trig",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for DEL-L Cir1 Trig",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DEL_L_Cir2_Trig",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "DEL-L Circuit 2 Trigger Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_DEL_L_Cir2_Trig",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for DEL-L Cir2 Trig",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DEL_L_Cir2",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "DEL-L Circuit 2 Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_DEL_L_Cir2",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for DEL-L Cir2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Tklbk_Status",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Talkback Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Tklbk_Status",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Tklbk Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Tklbk_Mon",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Talk Back Monitor",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Tklbk_Mon",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Tklbk Mon",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

@@ -1,0 +1,166 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "I__Boom_Retr_1",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "0% Boom Retraction 1 Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_0__Boom_Retr_1",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for 0% Boom Retr 1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "I__Boom_Retr_2",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "0% Boom Retraction 2 Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_0__Boom_Retr_2",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for 0% Boom Retr 2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "I00__Boom_Exten_1",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "100% Boom Extension 1 Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_100__Boom_Exten_1",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for 100% Boom Exten 1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "I00__Boom_Exten_2",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "100% Boom Extension 2 Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_100__Boom_Exten_2",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for 100% Boom Exten 2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Boom_Exten_Mode",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Boom Extension Mode Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Boom_Exten_Mode",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Boom Exten Mode",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Boom_Retr_Mode",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Boom Retraction Mode Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Boom_Retr_Mode",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Boom Retr Mode",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Boom_Motor_Sel",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Boom Motor Selected",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Boom_Motor_Sel",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Boom Motor Sel",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Boom_Motor_Dir_Rly_Cmd",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Boom Motor Direct Relay Command Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Boom_Motor_Dir_Rly_Cmd",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Boom Motor Dir Rly Cmd",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Boom_Motor_A_ON_Rly_Cmd",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Boom Motor A ON Relay Command Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Boom_Motor_A_ON_Rly_Cmd",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Boom Motor A ON Rly Cmd",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Boom_Motor_B_ON_Rly_Cmd",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Boom Motor B ON Relay Command Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Boom_Motor_B_ON_Rly_Cmd",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Boom Motor B ON Rly Cmd",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Enable_InterBoom_Stop_Rly_Cmd",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Enable Inter Boom Stop Relay Command Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Enable_InterBoom_Stop_Rly_Cmd",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Enable InterBoom Stop Rly Cmd",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

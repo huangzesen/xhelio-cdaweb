@@ -1,0 +1,68 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "Cur_Den_Dir_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Current Probe, Direct Monitor",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Cur_Den_Dir_2_Iden_millimaps_m",
+      "type": "double",
+      "units": "millimaps/m",
+      "description": "Current Probe, Direct Monitor",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Cur_Den_Dir",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Cur Den (Dir)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Charge_Den_Dir_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Charge Probe, Direct Monitor",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Charge_Den_Dir_2_Voltage_volts",
+      "type": "double",
+      "units": "volts",
+      "description": "Charge Probe, Direct Monitor",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Charge_Den_Dir",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Charge Den (Dir)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "MODE0_Current_Probe_Gain",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Status Indicator Current Gain Flag",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "MODE1_Charge__Probe_Gain",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Status Indicator Charge Gain Flag",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

@@ -1,0 +1,348 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "CEP_Plus_5V_1_telemetry_raw",
+      "type": "double",
+      "units": "raw",
+      "description": "CEP +5V Line Monitor",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "CEP_Plus_5V_2_Voltage_volts",
+      "type": "double",
+      "units": "volts",
+      "description": "CEP +5V Line Monitor",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_CEP_Plus_5V",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for CEP Plus 5V",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "CEP_Plus_15V_1_telemetry_raw",
+      "type": "double",
+      "units": "raw",
+      "description": "CEP +15V Line Monitor",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "CEP_Plus_15V_2_Voltage_volts",
+      "type": "double",
+      "units": "volts",
+      "description": "CEP +15V Line Monitor",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_CEP_Plus_15V",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for CEP Plus 15V",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "CEP_Minus_15V_1_telemetry_raw",
+      "type": "double",
+      "units": "raw",
+      "description": "CEP -15V Line Monitor",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "CEP_Minus_15V_2_Voltage_volts",
+      "type": "double",
+      "units": "volts",
+      "description": "CEP -15V Line Monitor",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_CEP_Minus_15V",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for CEP Minus 15V",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "CEP_5V_1_telemetry_raw",
+      "type": "double",
+      "units": "raw",
+      "description": "CEP 5V Calibration Monitor",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "CEP_5V_2_Voltage_volts",
+      "type": "double",
+      "units": "volts",
+      "description": "CEP 5V Calibration Monitor",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_CEP_5V",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for CEP 5V",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "CEP_0V_1_telemetry_raw",
+      "type": "double",
+      "units": "raw",
+      "description": "CEP 0V Calibration Monitor",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "CEP_0V_2_Voltage_volts",
+      "type": "double",
+      "units": "volts",
+      "description": "CEP 0V Calibration Monitor",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_CEP_0V",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for CEP 0V",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "FS__28V_1_telemetry_raw",
+      "type": "double",
+      "units": "raw",
+      "description": "Floating Supply +28V Line Monitor",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "FS__28V_2_Voltage_volts",
+      "type": "double",
+      "units": "volts",
+      "description": "Floating Supply +28V Line Monitor",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_FS__28V",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for FS +28V",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "FS_Plus_5V_1_telemetry_raw",
+      "type": "double",
+      "units": "raw",
+      "description": "Floating Supply +5V Line Monitor",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "FS_Plus_5V_2_Voltage_volts",
+      "type": "double",
+      "units": "volts",
+      "description": "Floating Supply +5V Line Monitor",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_FS_Plus_5V",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for FS Plus 5V",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "FS_Plus_15V_1_telemetry_raw",
+      "type": "double",
+      "units": "raw",
+      "description": "Floating Supply +15V Line Monitor",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "FS_Plus_15V_2_Voltage_volts",
+      "type": "double",
+      "units": "volts",
+      "description": "Floating Supply +15V Line Monitor",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_FS_Plus_15V",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for FS Plus 15V",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "FS_Minus_15V_1_telemetry_raw",
+      "type": "double",
+      "units": "raw",
+      "description": "Floating Supply -15V Line Monitor",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "FS_Minus_15V_2_Voltage_volts",
+      "type": "double",
+      "units": "volts",
+      "description": "Floating Supply -15V Line Monitor",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_FS_Minus_15V",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for FS Minus 15V",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "FS_5V_1_telemetry_raw",
+      "type": "double",
+      "units": "raw",
+      "description": "Floating Supply 5V Calibration Monitor",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "FS_5V_2_Voltage_volts",
+      "type": "double",
+      "units": "volts",
+      "description": "Floating Supply 5V Calibration Monitor",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_FS_5V",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for FS 5V",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "FPS_T_1_telemetry_raw",
+      "type": "double",
+      "units": "raw",
+      "description": "Floating Power Supply Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "FPS_T_2_T_degC",
+      "type": "double",
+      "units": "deg(C)",
+      "description": "Floating Power Supply Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_FPS_T",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for FPS T",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "HVPS1_T_1_telemetry_raw",
+      "type": "double",
+      "units": "raw",
+      "description": "High Voltage Power Supply 1 Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "HVPS1_T_2_T_degC",
+      "type": "double",
+      "units": "deg(C)",
+      "description": "High Voltage Power Supply 1 Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_HVPS1_T",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for HVPS1 T",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "HVPS2_T_1_telemetry_raw",
+      "type": "double",
+      "units": "raw",
+      "description": "High Voltage Power Supply 2 Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "HVPS2_T_2_T_degC",
+      "type": "double",
+      "units": "deg(C)",
+      "description": "High Voltage Power Supply 2 Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_HVPS2_T",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for HVPS2 T",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "CEP_T_1_telemetry_raw",
+      "type": "double",
+      "units": "raw",
+      "description": "CEP Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "CEP_T_2_T_degC",
+      "type": "double",
+      "units": "deg(C)",
+      "description": "CEP Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_CEP_T",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for CEP T",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "CEP_El_T_1_telemetry_raw",
+      "type": "double",
+      "units": "raw",
+      "description": "CEP Electronics Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "CEP_El_T_2_T_degC",
+      "type": "double",
+      "units": "deg(C)",
+      "description": "CEP Electronics Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_CEP_El_T",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for CEP El T",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "MF_Cntr_1_telemetry_raw",
+      "type": "double",
+      "units": "raw",
+      "description": "ROPE Major Frame Counter",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "MF_Cntr_2_telemetry_raw",
+      "type": "double",
+      "units": "raw",
+      "description": "ROPE Major Frame Counter",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_MF_Cntr",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for MF Cntr",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

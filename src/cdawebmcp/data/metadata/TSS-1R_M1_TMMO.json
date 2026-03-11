@@ -1,0 +1,103 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "Out_Bx_1_Telemetry_Integer",
+      "type": "double",
+      "units": "Integer",
+      "description": "Inboard Bx",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Out_Bx_2_BF_nT",
+      "type": "double",
+      "units": "nT",
+      "description": "Inboard Bx",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Out_Bx_3_BF_gauss",
+      "type": "double",
+      "units": "gauss",
+      "description": "Inboard Bx",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Out_Bx",
+      "type": "double",
+      "units": "Integer",
+      "description": "Data Quality Indicator for Out/Bx",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Out_By_1_Telemetry_Integer",
+      "type": "double",
+      "units": "Integer",
+      "description": "Inboard By",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Out_By_2_BF_nT",
+      "type": "double",
+      "units": "nT",
+      "description": "Inboard By",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Out_By_3_BF_gauss",
+      "type": "double",
+      "units": "gauss",
+      "description": "Inboard By",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Out_By",
+      "type": "double",
+      "units": "Integer",
+      "description": "Data Quality Indicator for Out/By",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Out_Bz_1_Telemetry_Integer",
+      "type": "double",
+      "units": "Integer",
+      "description": "Inboard Bz",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Out_Bz_2_BF_nT",
+      "type": "double",
+      "units": "nT",
+      "description": "Inboard Bz",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Out_Bz_3_BF_gauss",
+      "type": "double",
+      "units": "gauss",
+      "description": "Inboard Bz",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Out_Bz",
+      "type": "double",
+      "units": "Integer",
+      "description": "Data Quality Indicator for Out/Bz",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "MODE0_Calibration_Status",
+      "type": "double",
+      "units": "Integer",
+      "description": "Status Indicator Calibration Status",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

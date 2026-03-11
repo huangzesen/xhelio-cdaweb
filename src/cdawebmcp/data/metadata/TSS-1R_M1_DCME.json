@@ -1,0 +1,96 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "Apl_Prgm1_bits0_31",
+      "type": "double",
+      "units": "unitless",
+      "description": "Applicative Programs Data 1 (bits 0-31)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Apl_Prgm1_bits0_31",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Apl Prgm1 bits(0-31)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Apl_Prgm1_bits32_63",
+      "type": "double",
+      "units": "unitless",
+      "description": "Applicative Programs Data 1 (bits 32-63)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Apl_Prgm1_bits32_63",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Apl Prgm1 bits(32-63)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Apl_Prgm1_bits64_95",
+      "type": "double",
+      "units": "unitless",
+      "description": "Applicative Programs Data 1 (bits 64-95)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Apl_Prgm1_bits64_95",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Apl Prgm1 bits(64-95)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Apl_Prgm2_bits0_31",
+      "type": "double",
+      "units": "unitless",
+      "description": "Applicative Programs Data 2 (bits 0-31)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Apl_Prgm2_bits0_31",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Apl Prgm2 bits(0-31)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Apl_Prgm2_bits32_63",
+      "type": "double",
+      "units": "unitless",
+      "description": "Applicative Programs Data 2 (bits 32-63)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Apl_Prgm2_bits32_63",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Apl Prgm2 bits(32-63)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Apl_Prgm2_bits64_95",
+      "type": "double",
+      "units": "unitless",
+      "description": "Applicative Programs Data 2 (bits 64-95)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Apl_Prgm2_bits64_95",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Apl Prgm2 bits(64-95)",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

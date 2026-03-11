@@ -1,0 +1,26 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "DCORE_SETS_Gun_Stat",
+      "type": "double",
+      "units": "Unitless",
+      "description": "DCORE and SETS Gun Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_DCORE_SETS_Gun_Stat",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for DCORE/SETS Gun Stat",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

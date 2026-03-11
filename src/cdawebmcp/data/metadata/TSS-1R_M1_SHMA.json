@@ -1,0 +1,124 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "OBDH_RSMN_1_RTUP",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Onboard Data Handling Test CH RSMN 1 RTUP",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_OBDH_RSMN_1_RTUP",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for OBDH RSMN:1 RTUP",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "OBDH_RSMN_2_RTUP",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Onboard Data Handling Test CH RSMN 2 RTUP",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_OBDH_RSMN_2_RTUP",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for OBDH RSMN:2 RTUP",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "OBDH_RSMN_3_RTUP",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Onboard Data Handling Test CH RSMN 3 RTUP",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_OBDH_RSMN_3_RTUP",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for OBDH RSMN:3 RTUP",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "OBDH_RSMN_4_RTUP",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Onboard Data Handling Test CH RSMN 4 RTUP",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_OBDH_RSMN_4_RTUP",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for OBDH RSMN:4 RTUP",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "OBDH_RSMN_5_RTUP",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Onboard Data Handling Test CH RSMN 5 RTUP",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_OBDH_RSMN_5_RTUP",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for OBDH RSMN:5 RTUP",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "OBDH_RSMN_6_RTUP",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Onboard Data Handling Test CH RSMN 6 RTUP",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_OBDH_RSMN_6_RTUP",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for OBDH RSMN:6 RTUP",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "OBDH_RSMN_7_RTUP",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Onboard Data Handling Test CH RSMN 7 RTUP",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_OBDH_RSMN_7_RTUP",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for OBDH RSMN:7 RTUP",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "OBDH_RSMN_8_RTUP",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Onboard Data Handling Test CH RSMN 8 RTUP",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_OBDH_RSMN_8_RTUP",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for OBDH RSMN:8 RTUP",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

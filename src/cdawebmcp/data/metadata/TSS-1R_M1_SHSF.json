@@ -1,0 +1,222 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "Bat1_Bat2_Cur_Sign",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Battery 1 / Battery 2 Current Sign",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Bat1_Bat2_Cur_Sign",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Bat1/Bat2 Cur Sign",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Bat3_Bat4_Cur_Sign",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Battery 3 / Battery 4 Current Sign",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Bat3_Bat4_Cur_Sign",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Bat3/Bat4 Cur Sign",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Temp1_Warning",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Temperature 1 Warning",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Temp1_Warning",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Temp1 Warning",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Temp2_Warning",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Temperature 2 Warning",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Temp2_Warning",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Temp2 Warning",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "InPl_Rear_Valve",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "In Plane Rear Valve Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_InPl_Rear_Valve",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for InPl Rear Valve",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "InPl_Front_Valve",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "In Plane Front Valve Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_InPl_Front_Valve",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for InPl Front Valve",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "OutPl_Right_Valve",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Out Of Plane Right Valve Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_OutPl_Right_Valve",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for OutPl Right Valve",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "OutPl_Left_Valve",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Out Of Plane Left Valve Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_OutPl_Left_Valve",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for OutPl Left Valve",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "ES1_Pwr",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "ES2 Power Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_ES1_Pwr",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for ES1 Pwr",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "ES1_Status",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "ES1 Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_ES1_Status",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for ES1 Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "ES2_Status",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "ES2 Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_ES2_Status",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for ES2 Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Ranging_Status",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Ranging Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Ranging_Status",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Ranging Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Squelch_Status",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Squelch Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Squelch_Status",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Squelch Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Frame_Valid",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Frame Valid",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Frame_Valid",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Frame Valid",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "ASW_Found",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "ASW Found",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_ASW_Found",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for ASW Found",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

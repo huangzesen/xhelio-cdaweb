@@ -1,0 +1,89 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "SLA_Coarse_T_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "SLA Temperature Sensor Coarse",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SLA_Coarse_T_2_T_deg_C",
+      "type": "double",
+      "units": "deg C",
+      "description": "SLA Temperature Sensor Coarse",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SLA_Coarse_T",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for SLA:Coarse T",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SLA_Fine_T_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "SLA Temperature Sensor Fine",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SLA_Fine_T_2_T_deg_C",
+      "type": "double",
+      "units": "deg C",
+      "description": "SLA Temperature Sensor Fine",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SLA_Fine_T",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for SLA:Fine T",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SLA_Filter_T",
+      "type": "double",
+      "units": "unitless",
+      "description": "SLA Filter Temperature Coarse",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SLA_Filter_T",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for SLA:Filter T",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SLA_DC_DC_Reg_V_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "SLA DC/DC Regulated Voltage",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SLA_DC_DC_Reg_V_2_Voltage_V_dc",
+      "type": "double",
+      "units": "V-dc",
+      "description": "SLA DC/DC Regulated Voltage",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SLA_DC_DC_Reg_V",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for SLA:DC/DC Reg V",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

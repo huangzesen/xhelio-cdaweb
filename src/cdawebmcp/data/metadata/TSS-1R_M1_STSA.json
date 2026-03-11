@@ -1,0 +1,320 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "LangP_Swping_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Langmuir Probe Current, Sweeping",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        6
+      ]
+    },
+    {
+      "name": "LangP_Swping_2_Power_Db",
+      "type": "double",
+      "units": "Db",
+      "description": "Langmuir Probe Current, Sweeping",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        6
+      ]
+    },
+    {
+      "name": "Data_Quality_LangP_Swping",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for LangP Swping",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Raw_Sweep_Voltage_Telemetry_LangP_Swping_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "LP Sweep Voltage for LangP Swping",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        6
+      ]
+    },
+    {
+      "name": "Fitted_Sweep_Voltage_Slope_MSB_LangP_Swping_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Fitted Sweep Voltage Slope MSB for LangP Swping",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        6
+      ]
+    },
+    {
+      "name": "Fitted_Sweep_Voltage_Slope_LSB_LangP_Swping_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Fitted Sweep Voltage Slope LSB for LangP Swping",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        6
+      ]
+    },
+    {
+      "name": "Fitted_Sweep_Voltage_Offset_MSB_LangP_Swping_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Fitted Sweep Voltage Offset MSB for LangP Swping",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        6
+      ]
+    },
+    {
+      "name": "Fitted_Sweep_Voltage_Offset_LSB_LangP_Swping_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Fitted Sweep Voltage Offset LSB for LangP Swping",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        6
+      ]
+    },
+    {
+      "name": "LangP_Flybk_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Langmuir Probe Current, Flyback",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        6
+      ]
+    },
+    {
+      "name": "LangP_Flybk_2_Power_Db",
+      "type": "double",
+      "units": "Db",
+      "description": "Langmuir Probe Current, Flyback",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        6
+      ]
+    },
+    {
+      "name": "Data_Quality_LangP_Flybk",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for LangP Flybk",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Raw_Sweep_Voltage_Telemetry_LangP_Flybk_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "LP Sweep Voltage for LangP Flybk",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        6
+      ]
+    },
+    {
+      "name": "Fitted_Sweep_Voltage_Slope_MSB_LangP_Flybk_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Fitted Sweep Voltage Slope MSB for LangP Flybk",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        6
+      ]
+    },
+    {
+      "name": "Fitted_Sweep_Voltage_Slope_LSB_LangP_Flybk_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Fitted Sweep Voltage Slope LSB for LangP Flybk",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        6
+      ]
+    },
+    {
+      "name": "Fitted_Sweep_Voltage_Offset_MSB_LangP_Flybk_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Fitted Sweep Voltage Offset MSB for LangP Flybk",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        6
+      ]
+    },
+    {
+      "name": "Fitted_Sweep_Voltage_Offset_LSB_LangP_Flybk_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Fitted Sweep Voltage Offset LSB for LangP Flybk",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        6
+      ]
+    },
+    {
+      "name": "LangP_Srch_Mode_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Langmuir Probe Current, Search Mode",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        6
+      ]
+    },
+    {
+      "name": "LangP_Srch_Mode_2_Power_Db",
+      "type": "double",
+      "units": "Db",
+      "description": "Langmuir Probe Current, Search Mode",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        6
+      ]
+    },
+    {
+      "name": "Data_Quality_LangP_Srch_Mode",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for LangP Srch Mode",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Raw_Sweep_Voltage_Telemetry_LangP_Srch_Mode_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "LP Sweep Voltage for LangP Srch Mode",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        6
+      ]
+    },
+    {
+      "name": "Fitted_Sweep_Voltage_Slope_MSB_LangP_Srch_Mode_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Fitted Sweep Voltage Slope MSB for LangP Srch Mode",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        6
+      ]
+    },
+    {
+      "name": "Fitted_Sweep_Voltage_Slope_LSB_LangP_Srch_Mode_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Fitted Sweep Voltage Slope LSB for LangP Srch Mode",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        6
+      ]
+    },
+    {
+      "name": "Fitted_Sweep_Voltage_Offset_MSB_LangP_Srch_Mode_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Fitted Sweep Voltage Offset MSB for LangP Srch Mode",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        6
+      ]
+    },
+    {
+      "name": "Fitted_Sweep_Voltage_Offset_LSB_LangP_Srch_Mode_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Fitted Sweep Voltage Offset LSB for LangP Srch Mode",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        6
+      ]
+    },
+    {
+      "name": "LangP_Short_Swp_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Langmuir Probe Current, Short Sweep",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        6
+      ]
+    },
+    {
+      "name": "LangP_Short_Swp_2_Power_Db",
+      "type": "double",
+      "units": "Db",
+      "description": "Langmuir Probe Current, Short Sweep",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        6
+      ]
+    },
+    {
+      "name": "Data_Quality_LangP_Short_Swp",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for LangP Short Swp",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Raw_Sweep_Voltage_Telemetry_LangP_Short_Swp_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "LP Sweep Voltage for LangP Short Swp",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        6
+      ]
+    },
+    {
+      "name": "Fitted_Sweep_Voltage_Slope_MSB_LangP_Short_Swp_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Fitted Sweep Voltage Slope MSB for LangP Short Swp",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        6
+      ]
+    },
+    {
+      "name": "Fitted_Sweep_Voltage_Slope_LSB_LangP_Short_Swp_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Fitted Sweep Voltage Slope LSB for LangP Short Swp",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        6
+      ]
+    },
+    {
+      "name": "Fitted_Sweep_Voltage_Offset_MSB_LangP_Short_Swp_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Fitted Sweep Voltage Offset MSB for LangP Short Swp",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        6
+      ]
+    },
+    {
+      "name": "Fitted_Sweep_Voltage_Offset_LSB_LangP_Short_Swp_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Fitted Sweep Voltage Offset LSB for LangP Short Swp",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        6
+      ]
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

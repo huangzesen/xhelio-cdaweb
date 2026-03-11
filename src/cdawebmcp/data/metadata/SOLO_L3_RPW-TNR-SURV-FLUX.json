@@ -1,0 +1,109 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "QUALITY_FLAG",
+      "type": "integer",
+      "units": "unitless",
+      "description": "Current record data quality flag",
+      "fill": "255.0"
+    },
+    {
+      "name": "INTERPOL_FLAG",
+      "type": "integer",
+      "units": "unitless",
+      "description": "current record interpolation state flag",
+      "fill": "255.0",
+      "size": [
+        128
+      ]
+    },
+    {
+      "name": "PSD_V2",
+      "type": "double",
+      "units": "V^2/Hz",
+      "description": "Power spectral density before background subtraction and antenna calibration",
+      "fill": "-9.999999848243207e+30",
+      "size": [
+        128
+      ]
+    },
+    {
+      "name": "PSD_FLUX",
+      "type": "double",
+      "units": "W/m^2/Hz",
+      "description": "Flux density in physical units",
+      "fill": "-9.999999848243207e+30",
+      "size": [
+        128
+      ]
+    },
+    {
+      "name": "PSD_SFU",
+      "type": "double",
+      "units": "sfu",
+      "description": "Solar flux units",
+      "fill": "-9.999999848243207e+30",
+      "size": [
+        128
+      ]
+    },
+    {
+      "name": "PSD_FLUX_DB",
+      "type": "double",
+      "units": "unitless",
+      "description": "Normalized radio flux density in dB",
+      "fill": "-9.999999848243207e+30",
+      "size": [
+        128
+      ]
+    },
+    {
+      "name": "SC_POS_HCI",
+      "type": "double",
+      "units": "km",
+      "description": "STEREO spacecraft position in the Heliocentric Inertial (HCI) system in km",
+      "fill": "-9.999999848243207e+30",
+      "size": [
+        3
+      ]
+    },
+    {
+      "name": "GAMMA_LEFF",
+      "type": "double",
+      "units": "m",
+      "description": "Gamma * Leff values",
+      "fill": "-9.999999848243207e+30",
+      "size": [
+        3
+      ]
+    },
+    {
+      "name": "GAMMA_LEFF_ERROR",
+      "type": "double",
+      "units": "m",
+      "description": "Uncertainties on GAMMA_LEFF values",
+      "fill": "-9.999999848243207e+30",
+      "size": [
+        3
+      ]
+    },
+    {
+      "name": "PSD_FLUX_RELATIVE_ERROR",
+      "type": "double",
+      "units": "unitless",
+      "description": "Relative uncertainties on the PDS flux",
+      "fill": "-9.999999848243207e+30",
+      "size": [
+        3
+      ]
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

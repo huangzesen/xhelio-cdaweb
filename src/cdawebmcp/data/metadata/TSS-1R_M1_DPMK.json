@@ -1,0 +1,26 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "Reel_Motor_Cmd_Pwdth",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Reel Motor Command (Pulsewidth)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Reel_Motor_Cmd_Pwdth",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Reel Motor Cmd (Pwdth)",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

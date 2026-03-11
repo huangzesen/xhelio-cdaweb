@@ -1,0 +1,32 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "Pixel",
+      "type": "integer",
+      "units": "Relative Counts",
+      "description": "Auroral luminosity, 557.7nm keogram, all-sky camera at Kilpisjarvi (N69.02,E20.79)",
+      "fill": "0.0",
+      "size": [
+        32
+      ]
+    },
+    {
+      "name": "Pixel2",
+      "type": "integer",
+      "units": "Relative Counts",
+      "description": "Auroral log luminosity, 557.7nm keogram, all-sky camera at Kilpisjarvi (N69.02,E20.79)",
+      "fill": "0.0",
+      "size": [
+        32
+      ]
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

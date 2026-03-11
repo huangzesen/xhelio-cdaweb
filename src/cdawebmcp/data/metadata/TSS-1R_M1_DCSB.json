@@ -1,0 +1,502 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "EGA1_Filament",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "EGA1 Filament Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_EGA1_Filament",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for EGA1 Filament",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "EGA1_HiPwr",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "EGA1 High Power Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_EGA1_HiPwr",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for EGA1 HiPwr",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "EGA1_Unit",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "EGA1 Unit Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_EGA1_Unit",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for EGA1 Unit",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "EGA1_HiPwr_Line",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "EGA1 High Power Line Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_EGA1_HiPwr_Line",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for EGA1 HiPwr Line",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "EGA1_Pwr_Line",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "EGA1 Power Line Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_EGA1_Pwr_Line",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for EGA1 Pwr Line",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "EGA2_Filament",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "EGA2 Filament Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_EGA2_Filament",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for EGA2 Filament",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "EGA2_HiPwr",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "EGA2 High Power Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_EGA2_HiPwr",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for EGA2 HiPwr",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "EGA2_Unit",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "EGA2 Unit Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_EGA2_Unit",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for EGA2 Unit",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "EGA2_HiPwr_Line",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "EGA2 High Power Line Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_EGA2_HiPwr_Line",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for EGA2 HiPwr Line",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "EGA2_Pwr_Line",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "EGA2 Power Line Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_EGA2_Pwr_Line",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for EGA2 Pwr Line",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "CEGHS_Swtch_1",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "CEGHS Switch 1 Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_CEGHS_Swtch_1",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for CEGHS Swtch 1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "CEGHS_Swtch_2",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "CEGHS Switch 2 Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_CEGHS_Swtch_2",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for CEGHS Swtch 2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "CEGHS_Pwr",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "CEGHS Power Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_CEGHS_Pwr",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for CEGHS Pwr",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "CEGHS_Pwr_Line",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "CEGHS Power Line Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_CEGHS_Pwr_Line",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for CEGHS Pwr Line",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "CEGHS_Swtch_1_Ver",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "CEGHS Switch 1 Verification",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_CEGHS_Swtch_1_Ver",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for CEGHS Swtch 1 Ver",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "CEGHS_Swtch_2_Ver",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "CEGHS Switch 2 Verification",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_CEGHS_Swtch_2_Ver",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for CEGHS Swtch 2 Ver",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DV_Pwr",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "DV Power Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_DV_Pwr",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for DV Pwr",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DV_Unit",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "DV Unit Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_DV_Unit",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for DV Unit",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DV_HV_Swtch",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "DV HV Switch Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_DV_HV_Swtch",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for DV HV Swtch",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DV_AutoChk",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "DV Autocheck Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_DV_AutoChk",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for DV AutoChk",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DV_Pwr_Line",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "DV Power Line Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_DV_Pwr_Line",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for DV Pwr Line",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DVG_Pwr",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "DVG Power Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_DVG_Pwr",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for DVG Pwr",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DVG_Unit",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "DVG Unit Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_DVG_Unit",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for DVG Unit",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DVG_Pwr_Line",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "DVG Power Line Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_DVG_Pwr_Line",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for DVG Pwr Line",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "PDECU_Unit",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "PDECU Unit Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_PDECU_Unit",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for PDECU Unit",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "EOFF_Mode",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "EOFF Mode",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_EOFF_Mode",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for EOFF Mode",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "QPM_Mode",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "QPM Mode",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_QPM_Mode",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for QPM Mode",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "PICV_Mode",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "PICV Mode",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_PICV_Mode",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for PICV Mode",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "STB_Mode",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "STB Mode",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_STB_Mode",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for STB Mode",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SIVC_LFCP_Mode",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SIVC/LFCP Mode",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SIVC_LFCP_Mode",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SIVC/LFCP Mode",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "IDLE_Mode",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "IDLE Mode",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_IDLE_Mode",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for IDLE Mode",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DCORE_ChkOut",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "DCORE CHECKOUT",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_DCORE_ChkOut",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for DCORE ChkOut",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Exe_ChkOut",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Executed Checkout",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Exe_ChkOut",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Exe ChkOut",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Trans_Seq_Go_Nogo",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Transition Sequences Go/Nogo",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Trans_Seq_Go_Nogo",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Trans Seq Go/Nogo",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Trans_In_Prog",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Transition In Progress",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Trans_In_Prog",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Trans In Prog",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

@@ -1,0 +1,32 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "VLF12",
+      "type": "double",
+      "units": "(V/m)^{2}/Hz",
+      "description": "VLF12 power spectrum",
+      "fill": "-9.999999848243207e+30",
+      "size": [
+        512
+      ]
+    },
+    {
+      "name": "VLF34",
+      "type": "double",
+      "units": "(V/m)^{2}/Hz",
+      "description": "VLF34 power spectrum",
+      "fill": "-9.999999848243207e+30",
+      "size": [
+        512
+      ]
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

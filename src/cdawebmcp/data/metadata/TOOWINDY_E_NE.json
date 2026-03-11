@@ -1,0 +1,43 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "Altitude",
+      "type": "double",
+      "units": "km",
+      "description": "Altitude of rocket for electric fields",
+      "fill": "-9.999999848243207e+30"
+    },
+    {
+      "name": "Altitude_1",
+      "type": "double",
+      "units": "km",
+      "description": "Altitude of rocket to electron density",
+      "fill": "-9.999999848243207e+30"
+    },
+    {
+      "name": "Electron_density",
+      "type": "double",
+      "units": "cm^-3",
+      "description": "Measured electron density during rocket flight",
+      "fill": "-9.999999848243207e+30"
+    },
+    {
+      "name": "Electric_field",
+      "type": "double",
+      "units": "mV/m",
+      "description": "Measured electric field during rocket flight",
+      "fill": "-9.999999848243207e+30",
+      "size": [
+        2
+      ]
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

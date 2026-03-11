@@ -1,0 +1,75 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "DRBA_Temp_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "DRBA Temperature Monitor",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DRBA_Temp_2_T_degC",
+      "type": "double",
+      "units": "deg(C)",
+      "description": "DRBA Temperature Monitor",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_DRBA_Temp",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for DRBA Temp",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DRBD_Temp_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "DRBD Temperature Monitor",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DRBD_Temp_2_T_degC",
+      "type": "double",
+      "units": "deg(C)",
+      "description": "DRBD Temperature Monitor",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_DRBD_Temp",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for DRBD Temp",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DRBE_Temp_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "DRBE Temperature Monitor",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DRBE_Temp_2_T_degC",
+      "type": "double",
+      "units": "deg(C)",
+      "description": "DRBE Temperature Monitor",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_DRBE_Temp",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for DRBE Temp",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

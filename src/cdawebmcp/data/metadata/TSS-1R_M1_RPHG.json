@@ -1,0 +1,33 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "FPS_I_Monitor_1_telemetry_raw",
+      "type": "double",
+      "units": "raw",
+      "description": "Floating Power Supply Current",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "FPS_I_Monitor_2_current_uamps",
+      "type": "double",
+      "units": "uamps",
+      "description": "Floating Power Supply Current",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_FPS_I_Monitor",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for FPS I/Monitor",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

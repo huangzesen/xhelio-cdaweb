@@ -1,0 +1,40 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "I_O_Pl_Sel_Valve",
+      "type": "double",
+      "units": "integer",
+      "description": "I/O Of Plane Selected Value",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_I_O_Pl_Sel_Valve",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for I/O Pl Sel Valve",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Phase_Id__",
+      "type": "double",
+      "units": "integer",
+      "description": "Phase ID Number",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Phase_Id__",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Phase Id #",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

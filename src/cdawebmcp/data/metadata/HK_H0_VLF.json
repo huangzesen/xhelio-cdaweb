@@ -1,0 +1,59 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "b_spd",
+      "type": "double",
+      "units": "nT**2/Hz",
+      "description": "Magnetic Field Spectral Power Density at 8 Freq (2 - 5620 Hz)",
+      "fill": "-9.999999848243207e+30",
+      "size": [
+        8
+      ]
+    },
+    {
+      "name": "e_spd",
+      "type": "double",
+      "units": "(V/m)(V/m)/Hz",
+      "description": "Electric Spectral Power Density at 16 Frequencies (2 Hz - 178 kHz)",
+      "fill": "-9.999999848243207e+30",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "BAVE",
+      "type": "double",
+      "units": "",
+      "description": "Average magnetic Field Magnitude",
+      "fill": "-9.999999848243207e+30"
+    },
+    {
+      "name": "pos_mag",
+      "type": "double",
+      "units": "",
+      "description": "Hawkeye position in Earth radii, SM magnetic latitude, SM magnetic local time",
+      "fill": "-9.999999848243207e+30",
+      "size": [
+        3
+      ]
+    },
+    {
+      "name": "pos_GSM",
+      "type": "double",
+      "units": "RE",
+      "description": "Cartesian Position GSM",
+      "fill": "-9.999999848243207e+30",
+      "size": [
+        3
+      ]
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

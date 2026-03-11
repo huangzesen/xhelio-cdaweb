@@ -1,0 +1,96 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "InLine_2_Valve",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "In Line 2 Valve Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_InLine_2_Valve",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for InLine 2 Valve",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "I_O_OfPl_Iso_Valve",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "I/O of Plane Isolation Valve Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_I_O_OfPl_Iso_Valve",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for I/O OfPl Iso Valve",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Yaw_1_Valve",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Yaw 1 Valve Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Yaw_1_Valve",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Yaw 1 Valve",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Yaw_2_Valve",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Yaw 2 Valve Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Yaw_2_Valve",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Yaw 2 Valve",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "ES1_Pwr",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "ES1 Power Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_ES1_Pwr",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for ES1 Pwr",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "TX_Pwr",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Tx Power Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_TX_Pwr",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for TX Pwr",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

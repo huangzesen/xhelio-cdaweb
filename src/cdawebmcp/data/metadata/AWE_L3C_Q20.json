@@ -1,0 +1,78 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "Radiance",
+      "type": "double",
+      "units": "kRayleigh",
+      "description": "Q line swath - plain images",
+      "fill": "nan",
+      "size": [
+        595,
+        7875
+      ]
+    },
+    {
+      "name": "Radiance_mapped_full",
+      "type": "double",
+      "units": "kRayleigh",
+      "description": "---> Mapped images",
+      "fill": "nan",
+      "size": [
+        595,
+        7875
+      ]
+    },
+    {
+      "name": "Radiance_mapped_movie",
+      "type": "double",
+      "units": "kRayleigh",
+      "description": "---> Mapped image movie",
+      "fill": "nan",
+      "size": [
+        595,
+        7875
+      ]
+    },
+    {
+      "name": "MLCloud",
+      "type": "integer",
+      "units": "Percentage",
+      "description": "Machine Learning Cloud array - percent cloud chance - plain image",
+      "fill": "nan",
+      "size": [
+        595,
+        7875
+      ]
+    },
+    {
+      "name": "MLCloud_mapped",
+      "type": "integer",
+      "units": "0=no cloud, 100=most likely cloud presence",
+      "description": "---> Mapped images",
+      "fill": "nan",
+      "size": [
+        595,
+        7875
+      ]
+    },
+    {
+      "name": "MLCloud_mapped_movie",
+      "type": "integer",
+      "units": "0=no cloud, 100=most likely cloud presence",
+      "description": "---> Mapped image movie",
+      "fill": "nan",
+      "size": [
+        595,
+        7875
+      ]
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

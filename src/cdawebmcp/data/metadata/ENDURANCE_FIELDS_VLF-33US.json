@@ -1,0 +1,61 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "time",
+      "type": "double",
+      "units": "seconds",
+      "description": "Mission elapsed time",
+      "fill": "-9.999999848243207e+30"
+    },
+    {
+      "name": "vlf12",
+      "type": "double",
+      "units": "mV/m",
+      "description": "VLF12 AC gain phase corrected electric field measurement",
+      "fill": "-9.999999848243207e+30"
+    },
+    {
+      "name": "vlf34",
+      "type": "double",
+      "units": "mV/m",
+      "description": "VLF34 AC gain phase corrected electric field measurement",
+      "fill": "-9.999999848243207e+30"
+    },
+    {
+      "name": "vlf13",
+      "type": "double",
+      "units": "mV/m",
+      "description": "VLF13 AC gain phase corrected electric field measurement",
+      "fill": "-9.999999848243207e+30"
+    },
+    {
+      "name": "vlf24",
+      "type": "double",
+      "units": "mV/m",
+      "description": "VLF24 AC gain phase corrected electric field measurement",
+      "fill": "-9.999999848243207e+30"
+    },
+    {
+      "name": "vlf32",
+      "type": "double",
+      "units": "mV/m",
+      "description": "VLF32 AC gain phase corrected electric field measurement",
+      "fill": "-9.999999848243207e+30"
+    },
+    {
+      "name": "vlf41",
+      "type": "double",
+      "units": "mV/m",
+      "description": "VLF41 AC gain phase corrected electric field measurement",
+      "fill": "-9.999999848243207e+30"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

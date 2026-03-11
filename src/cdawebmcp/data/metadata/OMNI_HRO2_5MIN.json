@@ -66,7 +66,7 @@
       "name": "F",
       "type": "double",
       "units": "nT",
-      "description": "Magnitude of avg. field vector (nT) (last currently-available OMNI B-field data Dec 09, 2025)",
+      "description": "Magnitude of avg. field vector (nT) (last currently-available OMNI B-field data Jan 20, 2026)",
       "fill": "9999.990234375"
     },
     {
@@ -150,7 +150,7 @@
       "name": "proton_density",
       "type": "double",
       "units": "n/cc",
-      "description": "Proton density (n/cc) (last currently-available OMNI plasma data Dec 09, 2025)",
+      "description": "Proton density (n/cc) (last currently-available OMNI plasma data Jan 20, 2026)",
       "fill": "999.989990234375"
     },
     {
@@ -269,28 +269,28 @@
       "name": "SYM_D",
       "type": "integer",
       "units": "nT",
-      "description": "SYM/D - 5-minute SYM/D index,from WDC Kyoto (1981/001-2025/334)",
+      "description": "SYM/D - 5-minute SYM/D index,from WDC Kyoto (1981/001-2026/031)",
       "fill": "99999.0"
     },
     {
       "name": "SYM_H",
       "type": "integer",
       "units": "nT",
-      "description": "SYM/H - 5-minute SYM/H index,from WDC Kyoto (1981/001-2025/334)",
+      "description": "SYM/H - 5-minute SYM/H index,from WDC Kyoto (1981/001-2026/031)",
       "fill": "99999.0"
     },
     {
       "name": "ASY_D",
       "type": "integer",
       "units": "nT",
-      "description": "ASY/D - 5-minute ASY/D index,from WDC Kyoto (1981/001-2025/334)",
+      "description": "ASY/D - 5-minute ASY/D index,from WDC Kyoto (1981/001-2026/031)",
       "fill": "99999.0"
     },
     {
       "name": "ASY_H",
       "type": "integer",
       "units": "nT",
-      "description": "ASY/H - 5-minute ASY/H index,from WDC Kyoto (1981/001-2025/334)",
+      "description": "ASY/H - 5-minute ASY/H index,from WDC Kyoto (1981/001-2026/031)",
       "fill": "99999.0"
     },
     {
@@ -315,6 +315,6 @@
       "fill": "99999.9921875"
     }
   ],
-  "startDate": "1995-01-01T00:00:00.000Z",
-  "stopDate": "2026-01-31T23:55:00.000Z"
+  "startDate": "",
+  "stopDate": ""
 }

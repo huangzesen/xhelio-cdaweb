@@ -1,0 +1,117 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "Onboard_Time_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "On Board Time",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Onboard_Time_2_time_sec",
+      "type": "double",
+      "units": "sec",
+      "description": "On Board Time",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Onboard_Time",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Onboard Time",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Bat1_Bat2_Int_Cur_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Battery 1 / Battery 2 Current Integral",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Bat1_Bat2_Int_Cur_2_Tot_I_amps_hr",
+      "type": "double",
+      "units": "amps/hr",
+      "description": "Battery 1 / Battery 2 Current Integral",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Bat1_Bat2_Int_Cur",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Bat1/Bat2 Int Cur",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Bat3_Bat4_Int_Cur_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Battery 3 / Battery 4 Current Integral",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Bat3_Bat4_Int_Cur_2_Tot_I_amps_hr",
+      "type": "double",
+      "units": "amps/hr",
+      "description": "Battery 3 / Battery 4 Current Integral",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Bat3_Bat4_Int_Cur",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Bat3/Bat4 Int Cur",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Sat_Ener_Consump_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Energy Consumption - Satelite",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Sat_Ener_Consump_2_Tot_Pwr_watts_hr",
+      "type": "double",
+      "units": "watts/hr",
+      "description": "Energy Consumption - Satelite",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Sat_Ener_Consump",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Sat Ener Consump",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "P_L_Ener_Consump_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Payload Energy Consumption",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "P_L_Ener_Consump_2_Tot_Pwr_watts_hr",
+      "type": "double",
+      "units": "watts/hr",
+      "description": "Payload Energy Consumption",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_P_L_Ener_Consump",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for P/L Ener Consump",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

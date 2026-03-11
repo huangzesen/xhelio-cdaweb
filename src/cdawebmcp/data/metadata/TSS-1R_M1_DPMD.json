@@ -1,0 +1,26 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "Tether_Rate_Raw_Tmr_Cnts",
+      "type": "double",
+      "units": "unitless",
+      "description": "Tether Rate Raw Timer Counts",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Tether_Rate_Raw_Tmr_Cnts",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Tether Rate Raw Tmr Cnts",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

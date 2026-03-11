@@ -1,0 +1,82 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "SoftStop_Man_Req",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Softstop Maneuver Requested",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SoftStop_Man_Req",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SoftStop Man Req",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Resume_To_Sta1_Man_Req",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Resume To Station 1 Maneuver Requested",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Resume_To_Sta1_Man_Req",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Resume To Sta1 Man Req",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Resume_To_Sta2_Man_Req",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Resume To Station 2 Maneuver Requested",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Resume_To_Sta2_Man_Req",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Resume To Sta2 Man Req",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Resume_To_Dock_Man_Req",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Resume To Dock Maneuver Requested",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Resume_To_Dock_Man_Req",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Resume To Dock Man Req",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SoftStop_Man_Exe",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Softstop Maneuver Executed",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SoftStop_Man_Exe",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SoftStop Man Exe",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

@@ -1,0 +1,32 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "N_vel",
+      "type": "integer",
+      "units": "m/s",
+      "description": "N Velocity component at 15 latitudes",
+      "fill": "-32768.0",
+      "size": [
+        15
+      ]
+    },
+    {
+      "name": "E_vel",
+      "type": "integer",
+      "units": "m/s",
+      "description": "E Velocity component at 15 latitudes",
+      "fill": "-32768.0",
+      "size": [
+        15
+      ]
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

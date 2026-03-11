@@ -1,17 +1,18 @@
-"""Build the mission catalog from CDAWeb REST API.
+"""Build the observatory catalog from CDAWeb REST API.
 
-Queries CDAWeb's dataset catalog XML, groups datasets by observatory/mission,
-categorizes by InstrumentType, and writes one JSON per mission.
+Queries CDAWeb's observatory groups and dataset catalog, groups datasets by
+observatory group, categorizes by InstrumentType, and writes one JSON per group.
 
 Usage:
-    python -m cdawebmcp.scripts.build_catalog              # Build all
-    python -m cdawebmcp.scripts.build_catalog --mission psp # Build one
-    python -m cdawebmcp.scripts.build_catalog --discover    # Show unmatched datasets
+    python -m cdawebmcp.scripts.build_catalog                    # Build all
+    python -m cdawebmcp.scripts.build_catalog --observatory ace   # Build one
+    python -m cdawebmcp.scripts.build_catalog --list              # List groups
 """
 
 import argparse
 import json
 import logging
+import re
 import sys
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
@@ -21,241 +22,14 @@ from cdawebmcp.http import request_with_retry
 
 logger = logging.getLogger(__name__)
 
-# Output directory for mission JSONs
+# Output directory for observatory JSONs
 MISSIONS_DIR = Path(__file__).parent.parent / "data" / "missions"
 
 # CDAWeb REST API endpoints
-CDAWEB_REST_URL = (
-    "https://cdaweb.gsfc.nasa.gov/WS/cdasr/1/dataviews/sp_phys/datasets"
-)
+CDAWEB_BASE = "https://cdaweb.gsfc.nasa.gov/WS/cdasr/1/dataviews/sp_phys"
+CDAWEB_DATASETS_URL = f"{CDAWEB_BASE}/datasets"
+CDAWEB_OBS_GROUPS_URL = f"{CDAWEB_BASE}/observatoryGroups"
 _NS = {"cda": "http://cdaweb.gsfc.nasa.gov/schema"}
-
-
-# ===================================================================
-# Mission prefix map (CDAWeb entries only — no PDS URN prefixes)
-# ===================================================================
-
-MISSION_PREFIX_MAP = {
-    # --- Parker Solar Probe ---
-    "PSP_FLD": ("psp", "FIELDS/MAG"),
-    "PSP_SWP_SPC": ("psp", "SWEAP"),
-    "PSP_SWP_SPI": ("psp", "SWEAP/SPAN-I"),
-    "PSP_SWP_SPA": ("psp", "SWEAP/SPAN-E"),
-    "PSP_SWP_SPB": ("psp", "SWEAP/SPAN-E"),
-    "PSP_SWP": ("psp", "SWEAP"),
-    "PSP_ISOIS": ("psp", "ISOIS"),
-    "PSP_": ("psp", None),
-    # --- Solar Orbiter ---
-    "SOLO_L2_MAG": ("solo", "MAG"),
-    "SOLO_L2_SWA": ("solo", "SWA-PAS"),
-    "SOLO_": ("solo", None),
-    "SO_": ("solo", None),
-    # --- ACE ---
-    "AC_H": ("ace", None),
-    "AC_K": ("ace", None),
-    "AC_OR": ("ace", None),
-    "AC_AT": ("ace", None),
-    # --- OMNI ---
-    "OMNI_HRO": ("omni", "Combined"),
-    "OMNI_": ("omni", "Combined"),
-    "OMNI2_": ("omni", "Combined"),
-    # --- Wind ---
-    "WIND_": ("wind", None),
-    "WI_H": ("wind", None),
-    "WI_K": ("wind", None),
-    "WI_OR": ("wind", None),
-    "WI_AT": ("wind", None),
-    "WI_": ("wind", None),
-    # --- DSCOVR ---
-    "DSCOVR_H0_MAG": ("dscovr", "MAG"),
-    "DSCOVR_H1_FC": ("dscovr", "FC"),
-    "DSCOVR_": ("dscovr", None),
-    # --- MMS ---
-    "MMS1_FGM": ("mms", "FGM"),
-    "MMS1_FPI": ("mms", "FPI-DIS"),
-    "MMS2_FGM": ("mms", "FGM"),
-    "MMS2_FPI": ("mms", "FPI-DIS"),
-    "MMS3_FGM": ("mms", "FGM"),
-    "MMS3_FPI": ("mms", "FPI-DIS"),
-    "MMS4_FGM": ("mms", "FGM"),
-    "MMS4_FPI": ("mms", "FPI-DIS"),
-    "MMS1_": ("mms", None),
-    "MMS2_": ("mms", None),
-    "MMS3_": ("mms", None),
-    "MMS4_": ("mms", None),
-    # --- STEREO ---
-    "STA_L2_MAG": ("stereo_a", "MAG"),
-    "STA_L2_PLA": ("stereo_a", "PLASTIC"),
-    "STA_L1_MAG": ("stereo_a", "MAG"),
-    "STA_L1_PLA": ("stereo_a", "PLASTIC"),
-    "STA_": ("stereo_a", None),
-    "STB_L2_MAG": ("stereo_b", None),
-    "STB_L2_PLA": ("stereo_b", None),
-    "STB_L1_MAG": ("stereo_b", None),
-    "STB_L1_PLA": ("stereo_b", None),
-    "STB_": ("stereo_b", None),
-    "STEREO_": ("stereo_a", None),
-    # --- THEMIS ---
-    "THAPRED_": ("themis", None),
-    "THBPRED_": ("themis", None),
-    "THCPRED_": ("themis", None),
-    "THDPRED_": ("themis", None),
-    "THEPRED_": ("themis", None),
-    "THG_": ("themis", None),
-    "THA_L2": ("themis", None), "THA_L1": ("themis", None),
-    "THB_L2": ("themis", None), "THB_L1": ("themis", None),
-    "THC_L2": ("themis", None), "THC_L1": ("themis", None),
-    "THD_L2": ("themis", None), "THD_L1": ("themis", None),
-    "THE_L2": ("themis", None), "THE_L1": ("themis", None),
-    "THA_": ("themis", None), "THB_": ("themis", None),
-    "THC_": ("themis", None), "THD_": ("themis", None),
-    "THE_": ("themis", None), "TH_": ("themis", None),
-    # --- Cluster ---
-    "C1_CP": ("cluster", None), "C2_CP": ("cluster", None),
-    "C3_CP": ("cluster", None), "C4_CP": ("cluster", None),
-    "C1_": ("cluster", None), "C2_": ("cluster", None),
-    "C3_": ("cluster", None), "C4_": ("cluster", None),
-    "CL_": ("cluster", None),
-    # --- Van Allen Probes / RBSP ---
-    "RBSP-A-RBSPICE": ("rbsp", None), "RBSP-B-RBSPICE": ("rbsp", None),
-    "RBSP-A": ("rbsp", None), "RBSP-B": ("rbsp", None),
-    "RBSPA_": ("rbsp", None), "RBSPB_": ("rbsp", None),
-    "RBSP_": ("rbsp", None),
-    # --- GOES ---
-    "GOES10_": ("goes", None), "GOES11_": ("goes", None),
-    "GOES12_": ("goes", None), "GOES13_": ("goes", None),
-    "GOES14_": ("goes", None), "GOES15_": ("goes", None),
-    "GOES16_": ("goes", None), "GOES17_": ("goes", None),
-    "GOES18_": ("goes", None), "GOES_": ("goes", None),
-    "G0_": ("goes", None),
-    "G6_": ("goes", None), "G7_": ("goes", None),
-    "G8_": ("goes", None), "G9_": ("goes", None),
-    "G10_": ("goes", None), "G11_": ("goes", None),
-    "G12_": ("goes", None), "G13_": ("goes", None),
-    "G14_": ("goes", None), "G15_": ("goes", None),
-    "G16_": ("goes", None), "G17_": ("goes", None),
-    "G18_": ("goes", None),
-    # --- Voyager ---
-    "VG1_": ("voyager1", None), "VG2_": ("voyager2", None),
-    "VOYAGER-1": ("voyager1", None), "VOYAGER-2": ("voyager2", None),
-    "VOYAGER1_": ("voyager1", None), "VOYAGER2_": ("voyager2", None),
-    # --- Ulysses ---
-    "UY_": ("ulysses", None), "ULYSSES_": ("ulysses", None),
-    # --- Other missions ---
-    "GE_": ("geotail", None),
-    "PO_": ("polar", None), "POLAR_": ("polar", None),
-    "IM_": ("image", None), "IMAGE_": ("image", None),
-    "FA_": ("fast", None), "FAST_": ("fast", None),
-    "SOHO_": ("soho", None),
-    "JUNO_": ("juno", None),
-    "MVN_": ("maven", None), "MAVEN_": ("maven", None),
-    "MESS_": ("messenger", None), "MESSENGER_": ("messenger", None),
-    "CO_": ("cassini", None), "CASSINI_": ("cassini", None),
-    "NEW-HORIZONS": ("new_horizons", None),
-    "NEW_HORIZONS": ("new_horizons", None), "NH_": ("new_horizons", None),
-    "I8_": ("imp8", None), "I1_": ("imp8", None),
-    "I2_": ("imp8", None), "IA_": ("imp8", None),
-    "ISEE": ("isee", None),
-    "ERG_": ("arase", None), "ARASE_": ("arase", None),
-    "TIMED_": ("timed", None),
-    "TWINS1_": ("twins", None), "TWINS2_": ("twins", None), "TWINS_": ("twins", None),
-    "IBEX_": ("ibex", None),
-    "SAMPEX_": ("sampex", None), "SE_": ("sampex", None),
-    "BARREL_": ("barrel", None), "BAR_": ("barrel", None),
-    "CNOFS_": ("cnofs", None),
-    "DMSP": ("dmsp", None),
-    "LANL_": ("lanl", None),
-    "L0_": ("lanl", None), "L1_": ("lanl", None),
-    "L4_": ("lanl", None), "L7_": ("lanl", None),
-    "L9_": ("lanl", None), "A1_": ("lanl", None), "A2_": ("lanl", None),
-    "AMPTECCE": ("ampte", None), "AMPTE_": ("ampte", None),
-    "HAWKEYE_": ("hawkeye", None),
-    "HELIOS1_": ("helios", None), "HELIOS2_": ("helios", None),
-    "HEL1_": ("helios", None), "HEL2_": ("helios", None),
-    "PIONEER10_": ("pioneer", None), "PIONEER11_": ("pioneer", None),
-    "P10_": ("pioneer", None), "P11_": ("pioneer", None),
-    "SNOE_": ("snoe", None),
-    "SWARM": ("swarm", None),
-    "ICON_": ("icon", None),
-    "GOLD_": ("gold", None),
-    "EL": ("elfin", None),
-    "EQ_": ("equator_s", None),
-    "DE1_": ("de", None), "DE2_": ("de", None), "DE_": ("de", None),
-    "PIONEERVENUS_": ("pioneer_venus", None),
-    "NOAA05_": ("noaa", None), "NOAA06_": ("noaa", None),
-    "NOAA07_": ("noaa", None), "NOAA08_": ("noaa", None),
-    "NOAA10_": ("noaa", None), "NOAA12_": ("noaa", None),
-    "NOAA14_": ("noaa", None), "NOAA15_": ("noaa", None),
-    "NOAA16_": ("noaa", None), "NOAA18_": ("noaa", None),
-    "NOAA19_": ("noaa", None),
-    "METOP": ("noaa", None),
-    "CRRES_": ("crres", None),
-    "GPS_": ("gps", None),
-    "ISS_": ("iss", None),
-    "CIRBE_": ("cirbe", None),
-    "CSSWE_": ("csswe", None),
-    "ST5-": ("st5", None),
-}
-
-
-MISSION_NAMES = {
-    "psp": "Parker Solar Probe",
-    "solo": "Solar Orbiter",
-    "ace": "ACE",
-    "omni": "OMNI",
-    "wind": "Wind",
-    "dscovr": "DSCOVR Deep Space Climate Observatory",
-    "mms": "MMS Magnetospheric Multiscale",
-    "stereo_a": "STEREO-A",
-    "stereo_b": "STEREO-B",
-    "themis": "THEMIS",
-    "cluster": "Cluster",
-    "rbsp": "Van Allen Probes",
-    "goes": "GOES",
-    "voyager1": "Voyager 1",
-    "voyager2": "Voyager 2",
-    "ulysses": "Ulysses",
-    "geotail": "Geotail",
-    "polar": "Polar",
-    "image": "IMAGE",
-    "fast": "FAST",
-    "soho": "SOHO",
-    "juno": "Juno",
-    "maven": "MAVEN",
-    "messenger": "MESSENGER",
-    "cassini": "Cassini",
-    "new_horizons": "New Horizons",
-    "imp8": "IMP-8",
-    "isee": "ISEE",
-    "arase": "Arase/ERG",
-    "timed": "TIMED",
-    "twins": "TWINS",
-    "ibex": "IBEX",
-    "sampex": "SAMPEX",
-    "barrel": "BARREL",
-    "cnofs": "C/NOFS",
-    "dmsp": "DMSP",
-    "lanl": "LANL",
-    "ampte": "AMPTE",
-    "hawkeye": "Hawkeye",
-    "helios": "Helios",
-    "pioneer": "Pioneer",
-    "snoe": "SNOE",
-    "swarm": "Swarm",
-    "icon": "ICON",
-    "gold": "GOLD",
-    "elfin": "ELFIN",
-    "equator_s": "Equator-S",
-    "de": "Dynamics Explorer",
-    "pioneer_venus": "Pioneer Venus",
-    "noaa": "NOAA POES",
-    "crres": "CRRES",
-    "gps": "GPS",
-    "iss": "ISS",
-    "cirbe": "CIRBE",
-    "csswe": "CSSWE",
-    "st5": "ST5",
-}
 
 
 # ===================================================================
@@ -350,12 +124,22 @@ INSTRUMENT_TYPE_PRIORITY = [
 # ===================================================================
 
 
-def match_dataset_to_mission(dataset_id: str) -> tuple[str | None, str | None]:
-    """Map a CDAWeb dataset ID to (mission_stem, instrument_hint)."""
-    for prefix, (mission, instrument) in MISSION_PREFIX_MAP.items():
-        if dataset_id.startswith(prefix):
-            return mission, instrument
-    return None, None
+def slugify(name: str) -> str:
+    """Convert an observatory group name to a filesystem-safe slug.
+
+    Examples:
+        'Parker Solar Probe (PSP)' -> 'parker_solar_probe_psp'
+        'OMNI (Combined 1AU IP Data; Magnetic and Solar Indices)' -> 'omni'
+        'Van Allen Probes (RBSP)' -> 'van_allen_probes_rbsp'
+        'IMP (All)' -> 'imp'
+    """
+    s = name.lower()
+    s = re.sub(r"\s*\(all\)", "", s)  # remove "(All)"
+    # For OMNI, strip the long parenthetical
+    s = re.sub(r"\s*\(combined[^)]*\)", "", s)
+    s = re.sub(r"[^a-z0-9]+", "_", s)
+    s = s.strip("_")
+    return s
 
 
 def pick_primary_type(instrument_types: list[str]) -> str | None:
@@ -378,36 +162,6 @@ def get_type_info(instrument_type: str) -> dict:
     return {"id": clean_id, "name": instrument_type, "keywords": []}
 
 
-def get_canonical_id(mission_stem: str) -> str:
-    """Return the canonical mission ID for a stem."""
-    _CANONICAL = {
-        "solo": "SolO",
-        "stereo_a": "STEREO_A",
-        "stereo_b": "STEREO_B",
-    }
-    if mission_stem in _CANONICAL:
-        return _CANONICAL[mission_stem]
-    if "_" in mission_stem:
-        return mission_stem.upper().replace("_", "-")
-    return mission_stem.upper()
-
-
-def create_mission_skeleton(mission_stem: str) -> dict:
-    """Create a minimal mission JSON skeleton."""
-    name = MISSION_NAMES.get(mission_stem, mission_stem.upper())
-    return {
-        "id": get_canonical_id(mission_stem),
-        "name": name,
-        "profile": {
-            "description": f"{name} data from CDAWeb.",
-            "coordinate_systems": [],
-            "typical_cadence": "",
-            "data_caveats": [],
-        },
-        "instruments": {},
-    }
-
-
 # ===================================================================
 # CDAWeb REST API
 # ===================================================================
@@ -421,13 +175,50 @@ def _text(elem, tag: str) -> str:
     return ""
 
 
+def fetch_observatory_groups() -> dict[str, dict]:
+    """Fetch observatory groups from CDAWeb REST API.
+
+    Returns dict mapping group slug to:
+        {"name": "Group Name", "observatory_ids": ["OBS1", "OBS2", ...]}
+    """
+    print("Fetching observatory groups from CDAWeb REST API...")
+    resp = request_with_retry(CDAWEB_OBS_GROUPS_URL)
+
+    try:
+        root = ET.fromstring(resp.content)
+    except ET.ParseError as e:
+        print(f"Error parsing observatory groups XML: {e}")
+        return {}
+
+    groups = {}
+    for og in root.findall("cda:ObservatoryGroupDescription", _NS):
+        name_elem = og.find("cda:Name", _NS)
+        if name_elem is None or not name_elem.text:
+            continue
+        name = name_elem.text.strip()
+        obs_ids = [
+            el.text.strip()
+            for el in og.findall("cda:ObservatoryId", _NS)
+            if el.text and el.text.strip()
+        ]
+        slug = slugify(name)
+        if slug in groups:
+            # Merge observatory IDs if slug collision
+            groups[slug]["observatory_ids"].extend(obs_ids)
+        else:
+            groups[slug] = {"name": name, "observatory_ids": obs_ids}
+
+    print(f"  Found {len(groups)} observatory groups")
+    return groups
+
+
 def fetch_cdaweb_catalog() -> dict[str, dict]:
     """Fetch all dataset metadata from CDAWeb REST API.
 
     Returns dict mapping dataset_id to metadata.
     """
     print("Fetching dataset catalog from CDAWeb REST API...")
-    resp = request_with_retry(CDAWEB_REST_URL)
+    resp = request_with_retry(CDAWEB_DATASETS_URL)
 
     try:
         root = ET.fromstring(resp.content)
@@ -470,51 +261,62 @@ def fetch_cdaweb_catalog() -> dict[str, dict]:
 
 
 # ===================================================================
-# Mission JSON building
+# Observatory JSON building
 # ===================================================================
 
 
-def build_mission_json(mission_stem: str, catalog: dict[str, dict]) -> dict:
-    """Build a complete mission JSON from CDAWeb catalog data.
+def build_obs_id_to_group(groups: dict[str, dict]) -> dict[str, str]:
+    """Build reverse map: observatory_id (case-insensitive) -> group slug."""
+    reverse = {}
+    for slug, info in groups.items():
+        for obs_id in info["observatory_ids"]:
+            reverse[obs_id.lower()] = slug
+    return reverse
+
+
+def build_observatory_json(
+    slug: str,
+    group_name: str,
+    datasets: list[tuple[str, dict]],
+) -> dict:
+    """Build a complete observatory JSON from matched datasets.
 
     Args:
-        mission_stem: Lowercase mission identifier (e.g., 'psp', 'ace').
-        catalog: Full CDAWeb catalog from fetch_cdaweb_catalog().
+        slug: Filesystem slug (e.g., 'ace', 'parker_solar_probe_psp').
+        group_name: CDAWeb observatory group name.
+        datasets: List of (dataset_id, dataset_metadata) tuples.
 
     Returns:
-        Mission dict ready to write as JSON.
+        Observatory dict ready to write as JSON.
     """
-    mission = create_mission_skeleton(mission_stem)
+    obs = {
+        "id": slug,
+        "name": group_name,
+        "profile": {
+            "description": f"{group_name} data from CDAWeb.",
+            "coordinate_systems": [],
+            "typical_cadence": "",
+            "data_caveats": [],
+        },
+        "instruments": {},
+    }
 
-    # Find all datasets belonging to this mission
-    matched = []
-    for ds_id, ds_meta in catalog.items():
-        ds_mission, ds_instrument_hint = match_dataset_to_mission(ds_id)
-        if ds_mission == mission_stem:
-            matched.append((ds_id, ds_meta, ds_instrument_hint))
-
-    print(f"  {mission['name']}: {len(matched)} datasets")
-
-    for ds_id, ds_meta, instrument_hint in matched:
-        # Determine instrument category
+    for ds_id, ds_meta in datasets:
+        # Determine instrument category from InstrumentType
         primary_type = pick_primary_type(ds_meta.get("instrument_types", []))
         if primary_type:
             type_info = get_type_info(primary_type)
             inst_id = type_info["id"]
             inst_name = type_info["name"]
             inst_keywords = type_info["keywords"]
-        elif instrument_hint:
-            inst_id = instrument_hint
-            inst_name = instrument_hint
-            inst_keywords = []
         else:
             inst_id = "General"
             inst_name = "General"
             inst_keywords = []
 
         # Ensure instrument exists
-        if inst_id not in mission["instruments"]:
-            mission["instruments"][inst_id] = {
+        if inst_id not in obs["instruments"]:
+            obs["instruments"][inst_id] = {
                 "name": inst_name,
                 "keywords": inst_keywords,
                 "datasets": {},
@@ -531,94 +333,133 @@ def build_mission_json(mission_stem: str, catalog: dict[str, dict]) -> dict:
         if ds_meta.get("doi"):
             ds_entry["doi"] = ds_meta["doi"]
 
-        mission["instruments"][inst_id]["datasets"][ds_id] = ds_entry
+        obs["instruments"][inst_id]["datasets"][ds_id] = ds_entry
 
     # Add generation metadata
-    mission["_meta"] = {
+    obs["_meta"] = {
         "generated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "source": "CDAWeb REST API",
     }
 
-    return mission
+    return obs
 
 
-def save_mission_json(mission_stem: str, data: dict):
-    """Save a mission JSON file."""
-    MISSIONS_DIR.mkdir(parents=True, exist_ok=True)
-    filepath = MISSIONS_DIR / f"{mission_stem}.json"
+def save_observatory_json(slug: str, data: dict, output_dir: Path | None = None):
+    """Save an observatory JSON file."""
+    out = output_dir or MISSIONS_DIR
+    out.mkdir(parents=True, exist_ok=True)
+    filepath = out / f"{slug}.json"
     with open(filepath, "w", encoding="utf-8") as f:
         json.dump(data, f, indent=2, sort_keys=False, ensure_ascii=False)
         f.write("\n")
     print(f"  Saved {filepath.name}")
 
 
-def discover_unmatched(catalog: dict[str, dict]):
-    """Show CDAWeb datasets that don't match any known mission prefix."""
+def build_all(
+    groups: dict[str, dict],
+    catalog: dict[str, dict],
+    filter_slug: str | None = None,
+    output_dir: Path | None = None,
+) -> list[str]:
+    """Build observatory JSONs for all groups (or one if filtered).
+
+    Args:
+        groups: Observatory groups from fetch_observatory_groups().
+        catalog: Dataset catalog from fetch_cdaweb_catalog().
+        filter_slug: Only build this observatory slug.
+        output_dir: Directory to write JSONs. Defaults to bundled data dir.
+
+    Returns list of built slugs.
+    """
+    obs_id_to_group = build_obs_id_to_group(groups)
+
+    # Build a sorted list of observatory IDs for prefix fallback (longest first)
+    all_obs_ids = sorted(obs_id_to_group.keys(), key=len, reverse=True)
+
+    # Group datasets by observatory group slug
+    grouped: dict[str, list[tuple[str, dict]]] = {}
     unmatched = []
-    for ds_id in catalog:
-        mission, _ = match_dataset_to_mission(ds_id)
-        if mission is None:
-            unmatched.append(ds_id)
+    for ds_id, ds_meta in catalog.items():
+        obs = ds_meta.get("observatory", "")
+        slug = obs_id_to_group.get(obs.lower()) if obs else None
 
-    print(f"\n{len(unmatched)} datasets not matched to any mission:")
-    prefixes: dict[str, list[str]] = {}
-    for ds_id in unmatched:
-        prefix = ds_id.split("_")[0] if "_" in ds_id else ds_id[:5]
-        prefixes.setdefault(prefix, []).append(ds_id)
+        # Fallback: match dataset ID against observatory IDs as prefixes
+        if slug is None:
+            ds_lower = ds_id.lower()
+            for obs_key in all_obs_ids:
+                if ds_lower.startswith(obs_key):
+                    slug = obs_id_to_group[obs_key]
+                    break
 
-    for prefix in sorted(prefixes.keys()):
-        ids = prefixes[prefix]
-        print(f"  {prefix}: {len(ids)} datasets")
-        if len(ids) <= 3:
-            for ds_id in ids:
-                print(f"    {ds_id}")
+        if slug is None:
+            unmatched.append((ds_id, obs))
+            continue
+        if filter_slug and slug != filter_slug:
+            continue
+        grouped.setdefault(slug, []).append((ds_id, ds_meta))
+
+    if unmatched and not filter_slug:
+        print(f"\n  {len(unmatched)} datasets with unrecognized observatory IDs:")
+        obs_counts: dict[str, int] = {}
+        for _, obs in unmatched:
+            obs_counts[obs] = obs_counts.get(obs, 0) + 1
+        for obs, count in sorted(obs_counts.items(), key=lambda x: -x[1])[:10]:
+            print(f"    '{obs}': {count} datasets")
+        if len(obs_counts) > 10:
+            print(f"    ... and {len(obs_counts) - 10} more")
+
+    built = []
+    for slug in sorted(grouped):
+        group_name = groups[slug]["name"]
+        datasets = grouped[slug]
+        obs_data = build_observatory_json(slug, group_name, datasets)
+        save_observatory_json(slug, obs_data, output_dir=output_dir)
+        print(f"  {group_name}: {len(datasets)} datasets")
+        built.append(slug)
+
+    return built
 
 
 def main():
     parser = argparse.ArgumentParser(
-        description="Build mission catalog from CDAWeb REST API"
+        description="Build observatory catalog from CDAWeb REST API"
     )
     parser.add_argument(
-        "--mission", type=str,
-        help="Build only this mission (e.g., psp, ace). Case-insensitive.",
+        "--observatory", type=str,
+        help="Build only this observatory (slug, e.g., ace, psp). Case-insensitive.",
     )
     parser.add_argument(
-        "--discover", action="store_true",
-        help="Show CDAWeb datasets not matching any known mission.",
+        "--list", action="store_true",
+        help="List all observatory groups and their slugs.",
     )
     args = parser.parse_args()
 
     logging.basicConfig(level=logging.INFO)
 
-    # Fetch the full catalog
+    # Fetch observatory groups
+    groups = fetch_observatory_groups()
+    if not groups:
+        print("Error: Could not fetch observatory groups.")
+        sys.exit(1)
+
+    if args.list:
+        print(f"\n{len(groups)} observatory groups:\n")
+        for slug in sorted(groups):
+            info = groups[slug]
+            n_obs = len(info["observatory_ids"])
+            print(f"  {slug:40s} {info['name']} ({n_obs} observatory IDs)")
+        return
+
+    # Fetch dataset catalog
     catalog = fetch_cdaweb_catalog()
     if not catalog:
         print("Error: Could not fetch CDAWeb catalog.")
         sys.exit(1)
 
-    if args.discover:
-        discover_unmatched(catalog)
-        return
+    filter_slug = args.observatory.lower() if args.observatory else None
+    built = build_all(groups, catalog, filter_slug=filter_slug)
 
-    if args.mission:
-        # Build a single mission
-        stem = args.mission.lower()
-        mission = build_mission_json(stem, catalog)
-        save_mission_json(stem, mission)
-    else:
-        # Build all missions found in the catalog
-        discovered_stems: set[str] = set()
-        for ds_id in catalog:
-            mission_stem, _ = match_dataset_to_mission(ds_id)
-            if mission_stem:
-                discovered_stems.add(mission_stem)
-
-        print(f"\nBuilding {len(discovered_stems)} missions...")
-        for stem in sorted(discovered_stems):
-            mission = build_mission_json(stem, catalog)
-            save_mission_json(stem, mission)
-
-    print("\nDone!")
+    print(f"\nDone! Built {len(built)} observatory catalogs.")
 
 
 if __name__ == "__main__":

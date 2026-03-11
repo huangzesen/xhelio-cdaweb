@@ -1,0 +1,412 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "Ex_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Ex",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Ex_2_Pwr_uV__2",
+      "type": "double",
+      "units": "uV**2",
+      "description": "Ex",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Ex_3_PwDen_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Ex",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Ex_4_PwDen_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Ex",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Ex_5_Power_Den_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Ex",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Automatic_Gain_Correction_Ex_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "AutoMatic Gain Correction for Ex",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Setting_Ex_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Attenuation for Ex",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Source_Ex_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Attenuation Source for Ex",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Ey_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Ey",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Ey_2_Pwr_uV__2",
+      "type": "double",
+      "units": "uV**2",
+      "description": "Ey",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Ey_3_PwDen_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Ey",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Ey_4_PwDen_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Ey",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Ey_5_Power_Den_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Ey",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Automatic_Gain_Correction_Ey_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "AutoMatic Gain Correction for Ey",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Setting_Ey_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Attenuation for Ey",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Source_Ey_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Attenuation Source for Ey",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Ez_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Ez",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Ez_2_Pwr_uV__2",
+      "type": "double",
+      "units": "uV**2",
+      "description": "Ez",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Ez_3_PwDen_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Ez",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Ez_4_PwDen_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Ez",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Ez_5_Power_Den_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Ez",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Automatic_Gain_Correction_Ez_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "AutoMatic Gain Correction for Ez",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Setting_Ez_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Attenuation for Ez",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Source_Ez_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Attenuation Source for Ez",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Bx_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Bx",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Bx_2_Pwr_uV__2",
+      "type": "double",
+      "units": "uV**2",
+      "description": "Bx",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Bx_3_PwDen_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Bx",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Bx_4_PwDen_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Bx",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Bx_5_Power_Den_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Bx",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Automatic_Gain_Correction_Bx_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "AutoMatic Gain Correction for Bx",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Setting_Bx_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Attenuation for Bx",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Source_Bx_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Attenuation Source for Bx",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Bz_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Bz",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Bz_2_Pwr_uV__2",
+      "type": "double",
+      "units": "uV**2",
+      "description": "Bz",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Bz_3_PwDen_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Bz",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Bz_4_PwDen_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Bz",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Bz_5_Power_Den_uV__2_Hz",
+      "type": "double",
+      "units": "uV**2/Hz",
+      "description": "Bz",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Automatic_Gain_Correction_Bz_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "AutoMatic Gain Correction for Bz",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Setting_Bz_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Attenuation for Bz",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    },
+    {
+      "name": "Attenuation_Source_Bz_CAL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Attenuation Source for Bz",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        16
+      ]
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

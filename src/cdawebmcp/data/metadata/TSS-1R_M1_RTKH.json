@@ -1,0 +1,40 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "MF_Input_1_Sens",
+      "type": "double",
+      "units": "Integer",
+      "description": "MF Input 1 Sensors",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_MF_Input_1_Sens",
+      "type": "double",
+      "units": "Integer",
+      "description": "Data Quality Indicator for MF Input 1 Sens",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "MF_Input_2_Sens",
+      "type": "double",
+      "units": "Integer",
+      "description": "MF Input 2 Sensors",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_MF_Input_2_Sens",
+      "type": "double",
+      "units": "Integer",
+      "description": "Data Quality Indicator for MF Input 2 Sens",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

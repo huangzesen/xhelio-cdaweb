@@ -1,0 +1,33 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "time",
+      "type": "double",
+      "units": "seconds",
+      "description": "Mission elapsed time",
+      "fill": "nan"
+    },
+    {
+      "name": "avg_v1sv2s",
+      "type": "double",
+      "units": "Volts",
+      "description": "Average of V1S and V2S sphere voltages",
+      "fill": "nan"
+    },
+    {
+      "name": "avg_v3sv4s",
+      "type": "double",
+      "units": "Volts",
+      "description": "Average of V3S and 42S sphere voltages",
+      "fill": "nan"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

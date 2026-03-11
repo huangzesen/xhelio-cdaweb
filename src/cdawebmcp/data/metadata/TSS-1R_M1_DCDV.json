@@ -1,0 +1,145 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "DV_Autochk",
+      "type": "double",
+      "units": "unitless",
+      "description": "DV Autocheck Field",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_DV_Autochk",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for DV/Autochk",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DV_Voltage_Sign_DV_Autochk_CAL",
+      "type": "double",
+      "units": "unitless",
+      "description": "Voltage Sign for DV/Autochk",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DV_Voltage_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "DV Voltage",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DV_Voltage_2_voltage_volts",
+      "type": "double",
+      "units": "volts",
+      "description": "DV Voltage",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_DV_Voltage",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for DV/Voltage",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DV_Voltage_Sign_DV_Voltage_CAL",
+      "type": "double",
+      "units": "unitless",
+      "description": "Voltage Sign for DV/Voltage",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DV_Autochk_Active",
+      "type": "double",
+      "units": "unitless",
+      "description": "DV Autocheck Active",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_DV_Autochk_Active",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for DV/Autochk Active",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DV_Voltage_Sign_DV_Autochk_Active_CAL",
+      "type": "double",
+      "units": "unitless",
+      "description": "Voltage Sign for DV/Autochk Active",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DV_Overflow",
+      "type": "double",
+      "units": "unitless",
+      "description": "DV Overflow",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_DV_Overflow",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for DV/Overflow",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DV_Voltage_Sign_DV_Overflow_CAL",
+      "type": "double",
+      "units": "unitless",
+      "description": "Voltage Sign for DV/Overflow",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DVG_Pressure_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "DVG Pressure +10",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DVG_Pressure_2_voltage_volts",
+      "type": "double",
+      "units": "volts",
+      "description": "DVG Pressure +10",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DVG_Pressure_3_LP_logTorr",
+      "type": "double",
+      "units": "log(Torr)",
+      "description": "DVG Pressure +10",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_DVG_Pressure",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for DVG Pressure",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DV_Voltage_Sign_DVG_Pressure_CAL",
+      "type": "double",
+      "units": "unitless",
+      "description": "Voltage Sign for DVG Pressure",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "MODE0_DV_Range_Field",
+      "type": "double",
+      "units": "unitless",
+      "description": "Status Indicator DV Range",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

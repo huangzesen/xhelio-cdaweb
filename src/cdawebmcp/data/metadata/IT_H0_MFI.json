@@ -1,0 +1,39 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "BF1",
+      "type": "double",
+      "units": "nT",
+      "description": "Magnetic Field Magnitude, 6 sec, scalar",
+      "fill": "-9.999999848243207e+30"
+    },
+    {
+      "name": "B_GSE_cart",
+      "type": "double",
+      "units": "nT",
+      "description": "Magnetic Field, 6 sec, cartesian GSE",
+      "fill": "-9.999999848243207e+30",
+      "size": [
+        3
+      ]
+    },
+    {
+      "name": "B_GSE_polar",
+      "type": "double",
+      "units": "nT",
+      "description": "Magnetic Field, 6 sec, polar GSE",
+      "fill": "-9.999999848243207e+30",
+      "size": [
+        3
+      ]
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

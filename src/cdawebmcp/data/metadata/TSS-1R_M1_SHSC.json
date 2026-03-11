@@ -1,0 +1,40 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "FDS3_FDS4_Status",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "FDS3/FDS4 Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_FDS3_FDS4_Status",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for FDS3/FDS4 Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "FDS3_FDS4_Sun",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "FDS3/FDS4 Sun Presence",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_FDS3_FDS4_Sun",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for FDS3/FDS4 Sun",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

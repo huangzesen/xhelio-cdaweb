@@ -1,0 +1,201 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "DEP_MN_Frm_Cur_Cnt",
+      "type": "double",
+      "units": "Unitless",
+      "description": "DEP Minor Frame Current Count",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_DEP_MN_Frm_Cur_Cnt",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for DEP MN Frm Cur Cnt",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Fault_Code1",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Fault Code 1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Fault_Code1",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for Fault Code1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Fault_Code2",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Fault Code 2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Fault_Code2",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for Fault Code2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "FLT1_Running_Tot",
+      "type": "double",
+      "units": "Unitless",
+      "description": "FLT1 Count Running Total",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_FLT1_Running_Tot",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for FLT1 Running Tot",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "FLT2_Running_Tot",
+      "type": "double",
+      "units": "Unitless",
+      "description": "FLT2 Count Running Total",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_FLT2_Running_Tot",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for FLT2 Running Tot",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Oper_Mode",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Operating Mode",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Oper_Mode",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for Oper Mode",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Oper_Cycle",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Operating Cycle",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Oper_Cycle",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for Oper Cycle",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Oper_Step",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Step In Sub Operating Cycle",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Oper_Step",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for Oper Step",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DEP_Msg_Stat_Wd",
+      "type": "double",
+      "units": "Unitless",
+      "description": "DEP Message Status Word",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_DEP_Msg_Stat_Wd",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for DEP Msg Stat Wd",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DEP_I_1_Telemetry_Unitless",
+      "type": "double",
+      "units": "Unitless",
+      "description": "DEP Current",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DEP_I_2_Current_amps",
+      "type": "double",
+      "units": "amps",
+      "description": "DEP Current",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_DEP_I",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for DEP I",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DEP_T1_1_Telemetry_Unitless",
+      "type": "double",
+      "units": "Unitless",
+      "description": "DEP Temperature 1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DEP_T1_2_T_degrees_C",
+      "type": "double",
+      "units": "degrees C",
+      "description": "DEP Temperature 1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_DEP_T1",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for DEP T1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DEP_T2_1_Telemetry_Unitless",
+      "type": "double",
+      "units": "Unitless",
+      "description": "DEP Temperature 2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DEP_T2_2_T_degrees_C",
+      "type": "double",
+      "units": "degrees C",
+      "description": "DEP Temperature 2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_DEP_T2",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for DEP T2",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

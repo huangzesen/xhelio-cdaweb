@@ -1,0 +1,236 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "FPS_Start_Step",
+      "type": "double",
+      "units": "integer",
+      "description": "FPS Start Step",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_FPS_Start_Step",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for FPS Start Step",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "FPS_Skip_Step",
+      "type": "double",
+      "units": "integer",
+      "description": "FPS Skip Step",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_FPS_Skip_Step",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for FPS Skip Step",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "FPS_Stop_Step",
+      "type": "double",
+      "units": "integer",
+      "description": "FPS Stop Step",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_FPS_Stop_Step",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for FPS Stop Step",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "PPS1_Start_Step",
+      "type": "double",
+      "units": "integer",
+      "description": "PPS1 Start Step",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_PPS1_Start_Step",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for PPS1 Start Step",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "PPS1_Skip_Step",
+      "type": "double",
+      "units": "integer",
+      "description": "PPS1 Skip Step",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_PPS1_Skip_Step",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for PPS1 Skip Step",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "PPS1_Stop_Step",
+      "type": "double",
+      "units": "integer",
+      "description": "PPS1 Stop Step",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_PPS1_Stop_Step",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for PPS1 Stop Step",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "PPS2_Start_Step",
+      "type": "double",
+      "units": "integer",
+      "description": "PPS2 Start Step",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_PPS2_Start_Step",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for PPS2 Start Step",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "PPS2_Skip_Step",
+      "type": "double",
+      "units": "integer",
+      "description": "PPS2 Skip Step",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_PPS2_Skip_Step",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for PPS2 Skip Step",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "PPS2_Stop_Step",
+      "type": "double",
+      "units": "integer",
+      "description": "PPS2 Stop Step",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_PPS2_Stop_Step",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for PPS2 Stop Step",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "HVU_Status",
+      "type": "double",
+      "units": "integer",
+      "description": "HVU Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_HVU_Status",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for HVU Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Grid_Bias_Status",
+      "type": "double",
+      "units": "integer",
+      "description": "Grid Bias Command",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Grid_Bias_Status",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Grid Bias Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Macro_Cmds",
+      "type": "double",
+      "units": "integer",
+      "description": "Macro Commands",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Macro_Cmds",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Macro Cmds",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DIFP_Cmds",
+      "type": "double",
+      "units": "integer",
+      "description": "DIFP Commands",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_DIFP_Cmds",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for DIFP Cmds",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "FPS_Cmds",
+      "type": "double",
+      "units": "integer",
+      "description": "Floating Power Supply Control",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_FPS_Cmds",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for FPS Cmds",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Tele_Test",
+      "type": "double",
+      "units": "integer",
+      "description": "Telemetry Test",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Tele_Test",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Tele Test",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "End_Cmd",
+      "type": "double",
+      "units": "integer",
+      "description": "End Of Command String",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_End_Cmd",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for End Cmd",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

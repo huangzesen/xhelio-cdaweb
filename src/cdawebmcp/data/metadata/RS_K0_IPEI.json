@@ -1,0 +1,138 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "vx_rpy",
+      "type": "double",
+      "units": "m/sec",
+      "description": "Ion drift in S/C LVLH coordinates > x component = along the S/C trajectory vector",
+      "fill": "-1e+31"
+    },
+    {
+      "name": "vy_rpy",
+      "type": "double",
+      "units": "m/sec",
+      "description": "--------------------------> y component = opposite to angular momentum",
+      "fill": "-1e+31"
+    },
+    {
+      "name": "vz_rpy",
+      "type": "double",
+      "units": "m/sec",
+      "description": "--------------------------> z component = toward the Earth Center",
+      "fill": "-1e+31"
+    },
+    {
+      "name": "v1",
+      "type": "double",
+      "units": "m/sec",
+      "description": "Ion drift in Magnetic Field Coordinates > Component parallel to MF",
+      "fill": "-1e+31"
+    },
+    {
+      "name": "v2m",
+      "type": "double",
+      "units": "m/sec",
+      "description": "--------------------------> Meridional component perpendicular to MF",
+      "fill": "-1e+31"
+    },
+    {
+      "name": "v2z",
+      "type": "double",
+      "units": "m/sec",
+      "description": "--------------------------> Zonal component perpendicular to MF",
+      "fill": "-1e+31"
+    },
+    {
+      "name": "Ni",
+      "type": "double",
+      "units": "",
+      "description": "Total ion density in cm^-3",
+      "fill": "-1e+31"
+    },
+    {
+      "name": "logN",
+      "type": "double",
+      "units": "",
+      "description": "Logarithm (base 10) of total ion density in cm^-3",
+      "fill": "-1e+31"
+    },
+    {
+      "name": "temp",
+      "type": "double",
+      "units": "K",
+      "description": "Ion Temperature (K)",
+      "fill": "-1e+31"
+    },
+    {
+      "name": "O",
+      "type": "double",
+      "units": "%",
+      "description": "Ion Composition > percentage of O+ ions",
+      "fill": "-1e+31"
+    },
+    {
+      "name": "H",
+      "type": "double",
+      "units": "%",
+      "description": "---------------> percentage of H+ ions",
+      "fill": "-1e+31"
+    },
+    {
+      "name": "He",
+      "type": "double",
+      "units": "%",
+      "description": "---------------> percentage of He+ ions",
+      "fill": "-1e+31"
+    },
+    {
+      "name": "NO",
+      "type": "double",
+      "units": "%",
+      "description": "---------------> percentage of NO+ ions",
+      "fill": "-1e+31"
+    },
+    {
+      "name": "glat",
+      "type": "double",
+      "units": "degree",
+      "description": "Geographic Latitude",
+      "fill": "-1e+31"
+    },
+    {
+      "name": "glon",
+      "type": "double",
+      "units": "degree",
+      "description": "Geographic Longitude",
+      "fill": "-1e+31"
+    },
+    {
+      "name": "dlat",
+      "type": "double",
+      "units": "degree",
+      "description": "Dip Latitude",
+      "fill": "-1e+31"
+    },
+    {
+      "name": "alt",
+      "type": "double",
+      "units": "km",
+      "description": "Altitude",
+      "fill": "-1e+31"
+    },
+    {
+      "name": "lhr",
+      "type": "double",
+      "units": "hr",
+      "description": "Local Time (hr)",
+      "fill": "-1e+31"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

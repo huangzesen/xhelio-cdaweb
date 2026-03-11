@@ -1,0 +1,124 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "Pot_Seek_Mode",
+      "type": "double",
+      "units": "unitless",
+      "description": "Potential Seek Mode",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Pot_Seek_Mode",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Pot:Seek Mode",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Pot_Track_Mode",
+      "type": "double",
+      "units": "unitless",
+      "description": "Potential Track Mode",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Pot_Track_Mode",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Pot:Track Mode",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Pot_Seek_Track_Fail",
+      "type": "double",
+      "units": "unitless",
+      "description": "Potential Seek Or Track Failure",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Pot_Seek_Track_Fail",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Pot:Seek/Track Fail",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Pwr_Comsump_",
+      "type": "double",
+      "units": "unitless",
+      "description": "Power Consumption Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Pwr_Comsump_",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Pwr Comsump.",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Perf_Pwr_Consump_Chk",
+      "type": "double",
+      "units": "unitless",
+      "description": "Perform Power Consumption Check",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Perf_Pwr_Consump_Chk",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Perf Pwr Consump Chk",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Bad_Readings",
+      "type": "double",
+      "units": "unitless",
+      "description": "Obtained Bad Monitor Readings",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Bad_Readings",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Bad Readings",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Bad_FPS_V_Reading",
+      "type": "double",
+      "units": "unitless",
+      "description": "Bad FPS Voltage Monitor Reading",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Bad_FPS_V_Reading",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Bad FPS/V Reading",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Bad_BMSP_I_Reading",
+      "type": "double",
+      "units": "unitless",
+      "description": "Bad BMSP Current Monitor Reading",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Bad_BMSP_I_Reading",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Bad BMSP/I Reading",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

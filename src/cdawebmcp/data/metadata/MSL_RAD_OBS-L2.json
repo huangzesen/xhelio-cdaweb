@@ -1,0 +1,148 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "ALIVE_TIME_f",
+      "type": "double",
+      "units": "seconds (good Q)",
+      "description": "[Quality filtered] Actual instrument observation time",
+      "fill": "-9.999999848243207e+30"
+    },
+    {
+      "name": "DOSIMETRY_TOTAL_f",
+      "type": "double",
+      "units": "uGray/day (good Q)",
+      "description": "[Quality filtered] Radiation dose rate on Mars (recorded in Si, corrected for MMRTG contribution, and tissue-equivalent plastic)",
+      "fill": "-9.999999848243207e+30",
+      "size": [
+        3
+      ]
+    },
+    {
+      "name": "DOSIMETRY_TIMESLICE_f",
+      "type": "double",
+      "units": "uGray/day (good Q)",
+      "description": "[Quality filtered] Total Dose for an observation at 1/16th timeslice of an observation",
+      "fill": "-9.999999848243207e+30",
+      "size": [
+        16,
+        3
+      ]
+    },
+    {
+      "name": "LET_A1A2_f",
+      "type": "double",
+      "units": "counts (good Q)",
+      "description": "[Quality filtered] LET spectrum on Mars in Si (geometric factor ~ 0.9 cm^2 sr)",
+      "fill": "-1e+31",
+      "size": [
+        52
+      ]
+    },
+    {
+      "name": "HISTOGRAM_NEUTRAL_DE_f",
+      "type": "double",
+      "units": "counts (good Q)",
+      "description": "[Quality filtered] Neutral particle (neutrons + gamma rays) counts on Mars",
+      "fill": "-1e+31",
+      "size": [
+        96
+      ]
+    },
+    {
+      "name": "HISTOGRAM_NEUTRAL_D_f",
+      "type": "double",
+      "units": "counts (good Q)",
+      "description": "[Quality filtered] Neutral particle counts in CsI",
+      "fill": "-1e+31",
+      "size": [
+        96
+      ]
+    },
+    {
+      "name": "HISTOGRAM_NEUTRAL_E_f",
+      "type": "double",
+      "units": "counts (good Q)",
+      "description": "[Quality filtered] Neutral particle counts in tissue-equivalent plastic",
+      "fill": "-1e+31",
+      "size": [
+        96
+      ]
+    },
+    {
+      "name": "ALIVE_TIME",
+      "type": "double",
+      "units": "seconds (All Q)",
+      "description": "[All quality] Actual instrument observation time",
+      "fill": "-9.999999848243207e+30"
+    },
+    {
+      "name": "DOSIMETRY_TOTAL",
+      "type": "double",
+      "units": "uGray/day (All Q)",
+      "description": "[All quality] Radiation dose rate on Mars (recorded in Si, corrected for MMRTG contribution, and tissue-equivalent plastic)",
+      "fill": "-9.999999848243207e+30",
+      "size": [
+        3
+      ]
+    },
+    {
+      "name": "DOSIMETRY_TIMESLICE",
+      "type": "double",
+      "units": "uGray/day (All Q)",
+      "description": "[All quality] Total Dose for an observation at 1/16th timeslice of an observation",
+      "fill": "-9.999999848243207e+30",
+      "size": [
+        16,
+        3
+      ]
+    },
+    {
+      "name": "LET_A1A2",
+      "type": "double",
+      "units": "counts (All Q)",
+      "description": "[All quality] LET spectrum on Mars in Si (geometric factor ~ 0.9 cm^2 sr)",
+      "fill": "-1e+31",
+      "size": [
+        52
+      ]
+    },
+    {
+      "name": "HISTOGRAM_NEUTRAL_DE",
+      "type": "double",
+      "units": "counts (All Q",
+      "description": "[All quality] Neutral particle (neutrons + gamma rays) counts on Mars",
+      "fill": "-1e+31",
+      "size": [
+        96
+      ]
+    },
+    {
+      "name": "HISTOGRAM_NEUTRAL_D",
+      "type": "double",
+      "units": "counts (All Q)",
+      "description": "[All quality] Neutral particle counts in CsI",
+      "fill": "-1e+31",
+      "size": [
+        96
+      ]
+    },
+    {
+      "name": "HISTOGRAM_NEUTRAL_E",
+      "type": "double",
+      "units": "counts (All Q)",
+      "description": "[All quality] Neutral particle counts in tissue-equivalent plastic",
+      "fill": "-1e+31",
+      "size": [
+        96
+      ]
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

@@ -1,0 +1,40 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "DPY_RTR_Pwr",
+      "type": "double",
+      "units": "unitless",
+      "description": "DPY/RTR Power Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_DPY_RTR_Pwr",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for DPY/RTR Pwr",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "JTS_Pwr",
+      "type": "double",
+      "units": "unitless",
+      "description": "JTS Power Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_JTS_Pwr",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for JTS Pwr",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

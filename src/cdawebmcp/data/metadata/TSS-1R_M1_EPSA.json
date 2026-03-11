@@ -1,0 +1,530 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "DMS_Switch_1",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "DMS Switch 1 Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_DMS_Switch_1",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for DMS Switch 1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DMS_Switch_2",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "DMS Switch 2 Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_DMS_Switch_2",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for DMS Switch 2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "EGA1_HP_Enable",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "EGA1 High Power Enable Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_EGA1_HP_Enable",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for EGA1 HP Enable",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "EGA2_HP_Enable",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "EGA2 High Power Enable Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_EGA2_HP_Enable",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for EGA2 HP Enable",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Pre_EGA1_HP_Out_Of_Lim",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Pre-EGA1 High Power Out Of Limits",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Pre_EGA1_HP_Out_Of_Lim",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Pre-EGA1 HP Out Of Lim",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Pre_EGA2_HP_Out_Of_Lim",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Pre-EGA2 High Power Out Of Limits",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Pre_EGA2_HP_Out_Of_Lim",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Pre-EGA2 HP Out Of Lim",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Pre_EGA1_Coil_Cur_Out_Of_Lim",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Pre-EGA1 High Coil Current Out Of Limits",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Pre_EGA1_Coil_Cur_Out_Of_Lim",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Pre-EGA1 Coil Cur Out Of Lim",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Pre_EGA2_Coil_Cur_Out_Of_Lim",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Pre-EGA2 High Coil Current Out Of Limits",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Pre_EGA2_Coil_Cur_Out_Of_Lim",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Pre-EGA2 Coil Cur Out Of Lim",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Pre_DV__5V_Out_Of_Lim",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Pre-DV Volt +5 Out Of Limits",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Pre_DV__5V_Out_Of_Lim",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Pre-DV +5V Out Of Lim",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Pre_DV_Volt_Out_Of_Lim",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Pre-DV Volt Out Of Limits",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Pre_DV_Volt_Out_Of_Lim",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Pre-DV Volt Out Of Lim",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Pre_DV_Ovrflw_Out_Of_Lim",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Pre-DV Overflow Out Of Limits",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Pre_DV_Ovrflw_Out_Of_Lim",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Pre-DV Ovrflw Out Of Lim",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Pre_DVG_Pres_Out_Of_Lim",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Pre-DVG Pressure Out Of Limits",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Pre_DVG_Pres_Out_Of_Lim",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Pre-DVG Pres Out Of Lim",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Dply_Htr_Pwr_K2",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Deployer Heaters Power Status (K2 Bus)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Dply_Htr_Pwr_K2",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Dply Htr Pwr (K2)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DACA_Pwr_K3",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "DACA Power Status (K3 Bus)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_DACA_Pwr_K3",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for DACA Pwr (K3)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Dply_Pri_Func_Pwr_K4",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Deployer Primary Functions Power Status (K4 Bus)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Dply_Pri_Func_Pwr_K4",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Dply Pri Func Pwr (K4)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Sat_Htrs_Cmd_Pwr_K5",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Satellite Heaters And Command Power Status (K5 Bus)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Sat_Htrs_Cmd_Pwr_K5",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Sat Htrs/Cmd Pwr (K5)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Dply_Sec_Func_Pwr_K6",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Deployer Secondary Functions Power Status (K6 Bus)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Dply_Sec_Func_Pwr_K6",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Dply Sec Func Pwr (K6)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Sat_Quies_Htr_Pwr_K7",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Satellite Quiescent Heaters Power Status (K7 Bus)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Sat_Quies_Htr_Pwr_K7",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Sat Quies Htr Pwr (K7)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "EMP_DC_Pwr_K8",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "EMP K8 Bus DC On Monitor",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_EMP_DC_Pwr_K8",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for EMP DC Pwr (K8)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "MPC_Pwr_K9",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "MPC Power Status (K9 Bus)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_MPC_Pwr_K9",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for MPC Pwr (K9)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "EMP_AC_Pwr_K12",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "EMP K12 Bus AC On Monitor",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_EMP_AC_Pwr_K12",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for EMP AC Pwr (K12)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Pallet_Cool_Sys_Pri_Pwr_Pmp1",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Pallet Coolant System Primary Power Status (Pump 1)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Pallet_Cool_Sys_Pri_Pwr_Pmp1",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Pallet Cool Sys Pri Pwr (Pmp1)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Pallet_Cool_Sys_Pri_Pwr_Pmp2",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Pallet Coolant System Primary Power Status (Pump 2)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Pallet_Cool_Sys_Pri_Pwr_Pmp2",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Pallet Cool Sys Pri Pwr (Pmp2)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "MCP_OCP_Setpnt",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "MPC OCP Setpoint",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_MCP_OCP_Setpnt",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for MCP OCP Setpnt",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SPREE_Pwr",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SPREE PWR Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SPREE_Pwr",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SPREE Pwr",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DCORE_Pwr",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "DCORE PWR Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_DCORE_Pwr",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for DCORE Pwr",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SETS_Pwr",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SETS PWR Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SETS_Pwr",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SETS Pwr",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "RTMD_A",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "RTMD A Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_RTMD_A",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for RTMD A",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "RTMD_B",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "RTMD B Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_RTMD_B",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for RTMD B",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "FDR_1",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "FDR 1 Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_FDR_1",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for FDR 1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "FDR_2",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "FDR 2 Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_FDR_2",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for FDR 2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "MCP_A",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "MCP A Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_MCP_A",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for MCP A",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "MCP_B",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "MCP B Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_MCP_B",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for MCP B",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Defl_Plate_A_V",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Deflection Plate Voltage A Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Defl_Plate_A_V",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Defl Plate A V",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Defl_Plate_B_V",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Deflection Plate Voltage B Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Defl_Plate_B_V",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Defl Plate B V",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DDCU_Tmline_Mod",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "DDCS: Timeline Modified Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_DDCU_Tmline_Mod",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for DDCU Tmline Mod",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DDCU_GMT_Mode",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "DDCS: GMT-Mode (Int or Ext)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_DDCU_GMT_Mode",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for DDCU GMT Mode",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

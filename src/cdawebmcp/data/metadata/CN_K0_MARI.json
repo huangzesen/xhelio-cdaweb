@@ -1,0 +1,36 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "CU",
+      "type": "double",
+      "units": "nT",
+      "description": "Local Auroral Electrojet index, Upper bound, CU",
+      "fill": "-9.999999848243207e+30"
+    },
+    {
+      "name": "CL",
+      "type": "double",
+      "units": "nT",
+      "description": "Local Auroral Electrojet index, Lower bound, CL",
+      "fill": "-9.999999848243207e+30"
+    },
+    {
+      "name": "Site_Up",
+      "type": "integer",
+      "units": "",
+      "description": "Site Availability for each station: 0=no data; 1=data available",
+      "fill": "-128.0",
+      "size": [
+        16
+      ]
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

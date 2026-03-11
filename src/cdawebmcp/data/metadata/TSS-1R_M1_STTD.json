@@ -1,0 +1,502 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "TCVM_Pwr",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "TCVM Power Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Dqual_TCVM_Pwr",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for TCVM Pwr",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "TCVM_TVM_LP_FR_B1",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "TCVM TVM LP Filter Bit 1 Relay",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Dqual_TCVM_TVM_LP_FR_B1",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for TCVM TVM/LP/FR B1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "TCVM_TVM_LP_FR_B2",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "TCVM TVM LP Filter Bit 2 Relay",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Dqual_TCVM_TVM_LP_FR_B2",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for TCVM TVM/LP/FR B2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "TCVM_TVM_CAL_A_C",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "TCVM TVM CAL A/C Select",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Dqual_TCVM_TVM_CAL_A_C",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for TCVM TVM/CAL A/C",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "TCVM_TVM_CAL_Neg_IR",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "TCVM TVM CAL Inverting Input Relay",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Dqual_TCVM_TVM_CAL_Neg_IR",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for TCVM TVM/CAL/Neg IR",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "TCVM_TVM_CAL_Plus_IR",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "TCVM TVM CAL Non-inverting Input Relay",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Dqual_TCVM_TVM_CAL_Plus_IR",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for TCVM TVM/CAL/Plus IR",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "TCVM_TVM_Enable",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "TCVM TVM Enable Relay",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Dqual_TCVM_TVM_Enable",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for TCVM TVM/Enable",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "TCVM_TVM_AC_FC",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "TCVM TVM AC Frequency Control Relay",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Dqual_TCVM_TVM_AC_FC",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for TCVM TVM/AC/FC",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "TCVM_TCM_CAL__IR",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "TCVM TCM CAL Inverting Input Relay",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Dqual_TCVM_TCM_CAL__IR",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for TCVM TCM/CAL/+IR",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "TCVM_TCM_LP_FR_B1",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "TCVM TCM LP Filter Bit 1 Relay",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Dqual_TCVM_TCM_LP_FR_B1",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for TCVM TCM/LP/FR B1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "TCVM_TCM_LP_FR_B2",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "TCVM TCM LP Filter Bit 2 Relay",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Dqual_TCVM_TCM_LP_FR_B2",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for TCVM TCM/LP/FR B2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "TCVM_Mux_Add_B0",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "TCVM Mux Address Bit 0",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Dqual_TCVM_Mux_Add_B0",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for TCVM Mux Add B0",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "TCVM_Mux_Add_B1",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "TCVM Mux Address Bit 1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Dqual_TCVM_Mux_Add_B1",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for TCVM Mux Add B1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "TCVM_Mux_Add_B2",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "TCVM Mux Address Bit 2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Dqual_TCVM_Mux_Add_B2",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for TCVM Mux Add B2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "TCVM_Mux_Add_B3",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "TCVM Mux Address Bit 3",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Dqual_TCVM_Mux_Add_B3",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for TCVM Mux Add B3",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "TCVM_Hskp_Enable",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "TCVM Housekeeping Enable",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Dqual_TCVM_Hskp_Enable",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for TCVM Hskp Enable",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "TCVM_CMM_Gain__B1",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "TCVM CMM Gain Bit 1 Relay",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Dqual_TCVM_CMM_Gain__B1",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for TCVM CMM/Gain/ B1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "TCVM_CMM_Gain__B2",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "TCVM CMM Gain Bit 2 Relay",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Dqual_TCVM_CMM_Gain__B2",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for TCVM CMM/Gain/ B2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "TCVM_CMM_LPFR__B1",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "TCVM CMM LP Filter Bit 1 Relay",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Dqual_TCVM_CMM_LPFR__B1",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for TCVM CMM/LPFR/ B1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "TCVM_CMM_LPFR__B2",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "TCVM CMM LP Filter Bit 2 Relay",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Dqual_TCVM_CMM_LPFR__B2",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for TCVM CMM/LPFR/ B2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "TCVM_CMM_LPFR__B3",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "TCVM CMM LP Filter Bit 3 Relay",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Dqual_TCVM_CMM_LPFR__B3",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for TCVM CMM/LPFR/ B3",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "TCVM_CMM_CAL_Neg_IR",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "TCVM CMM CAL Inverting Input Relay",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Dqual_TCVM_CMM_CAL_Neg_IR",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for TCVM CMM/CAL/Neg IR",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "TCVM_CMM_CAL_Plus_IR",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "TCVM CMM CAL Non-Inverting Input Relay",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Dqual_TCVM_CMM_CAL_Plus_IR",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for TCVM CMM/CAL/Plus IR",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "TCVM_CMS_Relay",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "TCVM CMS Relay",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Dqual_TCVM_CMS_Relay",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for TCVM CMS/Relay",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "TCVM_CMS_DOL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "TCVM CMS DOL",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Dqual_TCVM_CMS_DOL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for TCVM CMS/DOL",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "TCVM_CMS_Enable",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "CMS Enable Variable",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Dqual_TCVM_CMS_Enable",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for TCVM CMS/Enable",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "TCVM_Shunt_Rly",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "TCVM Shunt Relay",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Dqual_TCVM_Shunt_Rly",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for TCVM Shunt Rly",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "TCVM_Shunt_DOL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "TCVM Shunt DOL",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Dqual_TCVM_Shunt_DOL",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for TCVM Shunt DOL",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "TCVM_Shunt_Enable",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Shunt Enable Variable",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Dqual_TCVM_Shunt_Enable",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for TCVM Shunt Enable",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "TCVM_2_5_Mohm",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "TCVM 2.5 Mohm Resistor Relay",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Dqual_TCVM_2_5_Mohm",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for TCVM 2.5 Mohm",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "TCVM_250_Kohm",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "TCVM 250 Kohm Resistor Relay",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Dqual_TCVM_250_Kohm",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for TCVM 250 Kohm",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "TCVM_25_Kohm",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "TCVM 25 Kohm Resistor Relay",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Dqual_TCVM_25_Kohm",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for TCVM 25 Kohm",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "TCVM_HV_Prot",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "TCVM High Voltage Protection Relay",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Dqual_TCVM_HV_Prot",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for TCVM HV Prot",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "TCVM_Mech_Mode_Sw",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "TCVM Mechanical Mode Switch Relay",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Dqual_TCVM_Mech_Mode_Sw",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for TCVM Mech Mode Sw",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Prot_Cap_En_Rly",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Prot Capacitor Enable Variable",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Dqual_Prot_Cap_En_Rly",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Prot Cap En Rly",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

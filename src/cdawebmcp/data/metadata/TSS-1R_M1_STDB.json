@@ -1,0 +1,82 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "OCI_Time_To_Go",
+      "type": "double",
+      "units": "seconds",
+      "description": "OCI Time To Go",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_OCI_Time_To_Go",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for OCI Time To Go",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "OMI_Time_To_Go",
+      "type": "double",
+      "units": "seconds",
+      "description": "OMI Time To Go",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_OMI_Time_To_Go",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for OMI Time To Go",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Step_Time_To_Go",
+      "type": "double",
+      "units": "seconds",
+      "description": "Step Time To Go",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Step_Time_To_Go",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for Step Time To Go",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "CPU_Tm_at_Mn_Frm_0_Req",
+      "type": "double",
+      "units": "milliseconds",
+      "description": "CPU Time at Minor Frame 0 Request",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_CPU_Tm_at_Mn_Frm_0_Req",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for CPU Tm at Mn Frm 0 Req",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "TM_Pg_Chksum",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Telemetry Page Checksum",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_TM_Pg_Chksum",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for TM Pg Chksum",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

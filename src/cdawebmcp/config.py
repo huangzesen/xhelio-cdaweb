@@ -8,9 +8,19 @@ Or from internal modules:
     from cdawebmcp.config import get_cache_root
 """
 
+import logging
+import shutil
 from pathlib import Path
 
+logger = logging.getLogger(__name__)
+
 _cache_dir: Path | None = None
+_bootstrapped: bool = False
+
+# Bundled package data directories
+_BUNDLED_DATA = Path(__file__).parent / "data"
+_BUNDLED_MISSIONS = _BUNDLED_DATA / "missions"
+_BUNDLED_METADATA = _BUNDLED_DATA / "metadata"
 
 
 def configure(cache_dir: str | Path | None = None) -> None:
@@ -22,11 +32,12 @@ def configure(cache_dir: str | Path | None = None) -> None:
     Args:
         cache_dir: Root directory for all caches. Defaults to ~/.cdawebmcp/.
     """
-    global _cache_dir
+    global _cache_dir, _bootstrapped
     if cache_dir is not None:
         _cache_dir = Path(cache_dir)
     else:
         _cache_dir = None
+    _bootstrapped = False
 
 
 def get_cache_root() -> Path:
@@ -35,7 +46,34 @@ def get_cache_root() -> Path:
     Resolution order:
     1. Value set by configure(cache_dir=...)
     2. Default: ~/.cdawebmcp/
+
+    On first access, copies bundled data (missions + metadata) into the cache
+    directory if not already present.
     """
-    if _cache_dir is not None:
-        return _cache_dir
-    return Path.home() / ".cdawebmcp"
+    global _bootstrapped
+    root = _cache_dir if _cache_dir is not None else Path.home() / ".cdawebmcp"
+    if not _bootstrapped:
+        _bootstrapped = True
+        _bootstrap(root)
+    return root
+
+
+def _bootstrap(root: Path) -> None:
+    """Copy bundled missions and metadata into cache dir if not already present."""
+    _copy_bundled_dir(_BUNDLED_MISSIONS, root / "missions")
+    _copy_bundled_dir(_BUNDLED_METADATA, root / "metadata")
+
+
+def _copy_bundled_dir(src: Path, dst: Path) -> None:
+    """Copy JSON files from bundled src to dst, skipping files that already exist."""
+    if not src.exists():
+        return
+    dst.mkdir(parents=True, exist_ok=True)
+    copied = 0
+    for src_file in src.glob("*.json"):
+        dst_file = dst / src_file.name
+        if not dst_file.exists():
+            shutil.copy2(src_file, dst_file)
+            copied += 1
+    if copied:
+        logger.info("Bootstrapped %d files from %s to %s", copied, src.name, dst)

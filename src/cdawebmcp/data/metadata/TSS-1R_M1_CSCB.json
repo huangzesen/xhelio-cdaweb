@@ -1,0 +1,54 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "FES_Status",
+      "type": "double",
+      "units": "Unitless",
+      "description": "FES Active Discrete",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_FES_Status",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for FES Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Water_Dump_Status",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Water Dump",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Water_Dump_Status",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for Water Dump Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Thruster_Status",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Thrusters On",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Thruster_Status",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for Thruster Status",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

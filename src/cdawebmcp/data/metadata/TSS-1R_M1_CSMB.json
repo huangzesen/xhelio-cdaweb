@@ -1,0 +1,89 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "KU_A_CH1_Radar_Rng_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "KU-A Channel 1 Radar Range",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "KU_A_CH1_Radar_Rng_2_Length_kilofeet",
+      "type": "double",
+      "units": "kilofeet",
+      "description": "KU-A Channel 1 Radar Range",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "KU_A_CH1_Radar_Rng_3_Length_kilometer",
+      "type": "double",
+      "units": "kilometer",
+      "description": "KU-A Channel 1 Radar Range",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_KU_A_CH1_Radar_Rng",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for KU-A CH1 Radar Rng",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "KU_A_CH1_Targ_Rng_Est_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "KU-A Channel 1 Target Range Estimate",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "KU_A_CH1_Targ_Rng_Est_2_Length_kilofeet",
+      "type": "double",
+      "units": "kilofeet",
+      "description": "KU-A Channel 1 Target Range Estimate",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "KU_A_CH1_Targ_Rng_Est_3_Length_kilometer",
+      "type": "double",
+      "units": "kilometer",
+      "description": "KU-A Channel 1 Target Range Estimate",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_KU_A_CH1_Targ_Rng_Est",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for KU-A CH1 Targ Rng Est",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "KU_A_Comm_Radar_RF_Pwr_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "KU-Band Communications-A/RADAR RF Power",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "KU_A_Comm_Radar_RF_Pwr_2_Power_watts",
+      "type": "double",
+      "units": "watts",
+      "description": "KU-Band Communications-A/RADAR RF Power",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_KU_A_Comm_Radar_RF_Pwr",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for KU-A Comm Radar RF Pwr",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

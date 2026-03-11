@@ -1,0 +1,96 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "CPU_On_Time",
+      "type": "double",
+      "units": "seconds",
+      "description": "CPU Time Since Turn On",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_CPU_On_Time",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for CPU On Time",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Multibus_Tm_Bytes_1_3_1_Telemetry_Unitless",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Multibus Time, Bytes 1-3",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Multibus_Tm_Bytes_1_3_2_Time_seconds",
+      "type": "double",
+      "units": "seconds",
+      "description": "Multibus Time, Bytes 1-3",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Multibus_Tm_Bytes_1_3",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for Multibus Tm Bytes 1-3",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Multibus_Tm_Bytes_4_6_1_Telemetry_Unitless",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Multibus Time, Bytes 4-6",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Multibus_Tm_Bytes_4_6_2_Time_seconds",
+      "type": "double",
+      "units": "seconds",
+      "description": "Multibus Time, Bytes 4-6",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Multibus_Tm_Bytes_4_6",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for Multibus Tm Bytes 4-6",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Mn_Frm_Cnt_0_Time",
+      "type": "double",
+      "units": "milliseconds",
+      "description": "Minor Frame Count 0 Time",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Mn_Frm_Cnt_0_Time",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for Mn Frm Cnt 0 Time",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "GMT",
+      "type": "double",
+      "units": "seconds",
+      "description": "GMT",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_GMT",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for GMT",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

@@ -1,0 +1,110 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "DCORE_Fmt_Cntr",
+      "type": "double",
+      "units": "unitless",
+      "description": "DCORE Format Counter",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_DCORE_Fmt_Cntr",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for DCORE Fmt Cntr",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DCORE_Mem_Addr",
+      "type": "double",
+      "units": "unitless",
+      "description": "DCORE Dump Memory Address",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_DCORE_Mem_Addr",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for DCORE Mem Addr",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DCORE_Dmp_Area2",
+      "type": "double",
+      "units": "unitless",
+      "description": "DCORE Dump Area 2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_DCORE_Dmp_Area2",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for DCORE Dmp Area2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DCORE_Dmp_Area3",
+      "type": "double",
+      "units": "unitless",
+      "description": "DCORE Dump Area 3",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_DCORE_Dmp_Area3",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for DCORE Dmp Area3",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DCORE_Dmp_Area4",
+      "type": "double",
+      "units": "unitless",
+      "description": "DCORE Dump Area 4",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_DCORE_Dmp_Area4",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for DCORE Dmp Area4",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DCORE_Dmp_Area5",
+      "type": "double",
+      "units": "unitless",
+      "description": "DCORE Dump Area 5",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_DCORE_Dmp_Area5",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for DCORE Dmp Area5",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "DCORE_Dmp_Area6",
+      "type": "double",
+      "units": "unitless",
+      "description": "DCORE Dump Area 6",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_DCORE_Dmp_Area6",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for DCORE Dmp Area6",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

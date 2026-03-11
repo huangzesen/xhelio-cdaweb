@@ -1,0 +1,68 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "tof",
+      "type": "double",
+      "units": "s",
+      "description": "Mission elapsed time in seconds",
+      "fill": "nan"
+    },
+    {
+      "name": "alt",
+      "type": "double",
+      "units": "km",
+      "description": "Altitude of Endurance during measurement",
+      "fill": "nan"
+    },
+    {
+      "name": "slp_ni",
+      "type": "double",
+      "units": "/m3",
+      "description": "Thermal Plasma (Electron & Ion) Density in particles per cubic centimeter",
+      "fill": "nan"
+    },
+    {
+      "name": "slp_ni_error",
+      "type": "double",
+      "units": "m3",
+      "description": "Error in Plasma Density in particles per cubic centimeter",
+      "fill": "nan"
+    },
+    {
+      "name": "slp_te",
+      "type": "double",
+      "units": "K",
+      "description": "Thermal Electron Temperature in Kelvin",
+      "fill": "nan"
+    },
+    {
+      "name": "slp_te_error",
+      "type": "double",
+      "units": "k",
+      "description": "Thermal Electron Temperature Error in Kelvin",
+      "fill": "nan"
+    },
+    {
+      "name": "slp_vsc",
+      "type": "double",
+      "units": "V",
+      "description": "Absolute potential difference between plasma and Endurance",
+      "fill": "nan"
+    },
+    {
+      "name": "slp_vsc_error",
+      "type": "double",
+      "units": "V",
+      "description": "Plasma potential error in Volts",
+      "fill": "nan"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

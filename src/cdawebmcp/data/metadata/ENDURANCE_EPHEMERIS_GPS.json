@@ -1,0 +1,82 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "time",
+      "type": "double",
+      "units": "seconds",
+      "description": "Mission Elapsed Time (T=0 at umbilical pull)",
+      "fill": "nan"
+    },
+    {
+      "name": "ecef_x_vel",
+      "type": "double",
+      "units": "m/s",
+      "description": "Earth-centered Earth-fixed velocity of Endurance, X component",
+      "fill": "nan"
+    },
+    {
+      "name": "ecef_y_vel",
+      "type": "double",
+      "units": "m/s",
+      "description": "Earth-centered Earth-fixed velocity of Endurance, y component",
+      "fill": "nan"
+    },
+    {
+      "name": "ecef_z_vel",
+      "type": "double",
+      "units": "m/s",
+      "description": "Earth-centered Earth-fixed velocity of Endurance, Z component",
+      "fill": "nan"
+    },
+    {
+      "name": "lat",
+      "type": "double",
+      "units": "deg",
+      "description": "Geographic Latitude",
+      "fill": "nan"
+    },
+    {
+      "name": "lon",
+      "type": "double",
+      "units": "deg",
+      "description": "Geographic Longitude",
+      "fill": "nan"
+    },
+    {
+      "name": "mlat",
+      "type": "double",
+      "units": "deg",
+      "description": "Magnetic Latitude",
+      "fill": "nan"
+    },
+    {
+      "name": "mlon",
+      "type": "double",
+      "units": "deg",
+      "description": "Magnetic Longitude",
+      "fill": "nan"
+    },
+    {
+      "name": "Alt",
+      "type": "double",
+      "units": "km",
+      "description": "Altitude",
+      "fill": "nan"
+    },
+    {
+      "name": "mlt",
+      "type": "double",
+      "units": "hour",
+      "description": "Magnetic Local Time",
+      "fill": "nan"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

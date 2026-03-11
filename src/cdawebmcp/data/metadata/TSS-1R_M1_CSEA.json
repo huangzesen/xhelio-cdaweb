@@ -1,0 +1,614 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "M_FUS_LT_BL_T_650_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "M-FUS LT BL Temperature at 650",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "M_FUS_LT_BL_T_650_2_T_degrees_F",
+      "type": "double",
+      "units": "degrees F",
+      "description": "M-FUS LT BL Temperature at 650",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "M_FUS_LT_BL_T_650_3_T_degrees_C",
+      "type": "double",
+      "units": "degrees C",
+      "description": "M-FUS LT BL Temperature at 650",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_M_FUS_LT_BL_T_650",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for M-FUS LT BL T@650",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "M_FUS_RT_BL_T_650_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "M-FUS RT BL Temperature at 650",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "M_FUS_RT_BL_T_650_2_T_degrees_F",
+      "type": "double",
+      "units": "degrees F",
+      "description": "M-FUS RT BL Temperature at 650",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "M_FUS_RT_BL_T_650_3_T_degrees_C",
+      "type": "double",
+      "units": "degrees C",
+      "description": "M-FUS RT BL Temperature at 650",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_M_FUS_RT_BL_T_650",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for M-FUS RT BL T@650",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "M_FUS_LT_BL_T_1215_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "M-FUS LT BL Temperature at 1215",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "M_FUS_LT_BL_T_1215_2_T_degrees_F",
+      "type": "double",
+      "units": "degrees F",
+      "description": "M-FUS LT BL Temperature at 1215",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "M_FUS_LT_BL_T_1215_3_T_degrees_C",
+      "type": "double",
+      "units": "degrees C",
+      "description": "M-FUS LT BL Temperature at 1215",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_M_FUS_LT_BL_T_1215",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for M-FUS LT BL T@1215",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "M_FUS_RT_BL_T_1215_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "M-FUS RT BL Temperature at 1215",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "M_FUS_RT_BL_T_1215_2_T_degrees_F",
+      "type": "double",
+      "units": "degrees F",
+      "description": "M-FUS RT BL Temperature at 1215",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "M_FUS_RT_BL_T_1215_3_T_degrees_C",
+      "type": "double",
+      "units": "degrees C",
+      "description": "M-FUS RT BL Temperature at 1215",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_M_FUS_RT_BL_T_1215",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for M-FUS RT BL T@1215",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "M_FUS_L_Sill_Longn_T_650_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "M-FUS L Sill Longn Temperature at 650",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "M_FUS_L_Sill_Longn_T_650_2_T_degrees_F",
+      "type": "double",
+      "units": "degrees F",
+      "description": "M-FUS L Sill Longn Temperature at 650",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "M_FUS_L_Sill_Longn_T_650_3_T_degrees_C",
+      "type": "double",
+      "units": "degrees C",
+      "description": "M-FUS L Sill Longn Temperature at 650",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_M_FUS_L_Sill_Longn_T_650",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for M-FUS L Sill Longn T@650",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "M_FUS_L_Sill_Longn_T_1030_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "M-FUS L Sill Longn Temperature at 1030",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "M_FUS_L_Sill_Longn_T_1030_2_T_degrees_F",
+      "type": "double",
+      "units": "degrees F",
+      "description": "M-FUS L Sill Longn Temperature at 1030",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "M_FUS_L_Sill_Longn_T_1030_3_T_degrees_C",
+      "type": "double",
+      "units": "degrees C",
+      "description": "M-FUS L Sill Longn Temperature at 1030",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_M_FUS_L_Sill_Longn_T_1030",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for M-FUS L Sill Longn T@1030",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "M_FUS_L_Sill_Longn_T_1215_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "M-FUS L Sill Longn Temperature at 1215",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "M_FUS_L_Sill_Longn_T_1215_2_T_degrees_F",
+      "type": "double",
+      "units": "degrees F",
+      "description": "M-FUS L Sill Longn Temperature at 1215",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "M_FUS_L_Sill_Longn_T_1215_3_T_degrees_C",
+      "type": "double",
+      "units": "degrees C",
+      "description": "M-FUS L Sill Longn Temperature at 1215",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_M_FUS_L_Sill_Longn_T_1215",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for M-FUS L Sill Longn T@1215",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "M_FUS_R_Sill_Longn_T_650_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "M-FUS R Sill Longn Temperature at 650",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "M_FUS_R_Sill_Longn_T_650_2_T_degrees_F",
+      "type": "double",
+      "units": "degrees F",
+      "description": "M-FUS R Sill Longn Temperature at 650",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "M_FUS_R_Sill_Longn_T_650_3_T_degrees_C",
+      "type": "double",
+      "units": "degrees C",
+      "description": "M-FUS R Sill Longn Temperature at 650",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_M_FUS_R_Sill_Longn_T_650",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for M-FUS R Sill Longn T@650",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "M_FUS_R_Sill_Longn_T_1030_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "M-FUS R Sill Longn Temperature at 1030",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "M_FUS_R_Sill_Longn_T_1030_2_T_degrees_F",
+      "type": "double",
+      "units": "degrees F",
+      "description": "M-FUS R Sill Longn Temperature at 1030",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "M_FUS_R_Sill_Longn_T_1030_3_T_degrees_C",
+      "type": "double",
+      "units": "degrees C",
+      "description": "M-FUS R Sill Longn Temperature at 1030",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_M_FUS_R_Sill_Longn_T_1030",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for M-FUS R Sill Longn T@1030",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "M_FUS_R_Sill_Longn_T_1215_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "M-FUS R Sill Longn Temperature at 1215",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "M_FUS_R_Sill_Longn_T_1215_2_T_degrees_F",
+      "type": "double",
+      "units": "degrees F",
+      "description": "M-FUS R Sill Longn Temperature at 1215",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "M_FUS_R_Sill_Longn_T_1215_3_T_degrees_C",
+      "type": "double",
+      "units": "degrees C",
+      "description": "M-FUS R Sill Longn Temperature at 1215",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_M_FUS_R_Sill_Longn_T_1215",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for M-FUS R Sill Longn T@1215",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "FCL_1_Evap_Outlet_T_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "FCL 1 Evap Outlet Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "FCL_1_Evap_Outlet_T_2_T_degrees_F",
+      "type": "double",
+      "units": "degrees F",
+      "description": "FCL 1 Evap Outlet Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "FCL_1_Evap_Outlet_T_3_T_degrees_C",
+      "type": "double",
+      "units": "degrees C",
+      "description": "FCL 1 Evap Outlet Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_FCL_1_Evap_Outlet_T",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for FCL 1 Evap Outlet T",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "FCL_2_Evap_Outlet_T_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "FCL 2 Evap Outlet Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "FCL_2_Evap_Outlet_T_2_T_degrees_F",
+      "type": "double",
+      "units": "degrees F",
+      "description": "FCL 2 Evap Outlet Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "FCL_2_Evap_Outlet_T_3_T_degrees_C",
+      "type": "double",
+      "units": "degrees C",
+      "description": "FCL 2 Evap Outlet Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_FCL_2_Evap_Outlet_T",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for FCL 2 Evap Outlet T",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "FCL_1_Rad_Outlet_T_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "FCL 1 Rad Outlet Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "FCL_1_Rad_Outlet_T_2_T_degrees_F",
+      "type": "double",
+      "units": "degrees F",
+      "description": "FCL 1 Rad Outlet Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "FCL_1_Rad_Outlet_T_3_T_degrees_C",
+      "type": "double",
+      "units": "degrees C",
+      "description": "FCL 1 Rad Outlet Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_FCL_1_Rad_Outlet_T",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for FCL 1 Rad Outlet T",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "FCL_2_Rad_Outlet_T_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "FCL 2 Rad Outlet Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "FCL_2_Rad_Outlet_T_2_T_degrees_F",
+      "type": "double",
+      "units": "degrees F",
+      "description": "FCL 2 Rad Outlet Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "FCL_2_Rad_Outlet_T_3_T_degrees_C",
+      "type": "double",
+      "units": "degrees C",
+      "description": "FCL 2 Rad Outlet Temperature",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_FCL_2_Rad_Outlet_T",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for FCL 2 Rad Outlet T",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "FCL_1_V_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Fuel Cell No 1 Voltage",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "FCL_1_V_2_Voltage_volts",
+      "type": "double",
+      "units": "volts",
+      "description": "Fuel Cell No 1 Voltage",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_FCL_1_V",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for FCL 1 V",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "FCL_2_V_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Fuel Cell No 2 Voltage",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "FCL_2_V_2_Voltage_volts",
+      "type": "double",
+      "units": "volts",
+      "description": "Fuel Cell No 2 Voltage",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_FCL_2_V",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for FCL 2 V",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "FCL_3_V_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Fuel Cell No 3 Voltage",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "FCL_3_V_2_Voltage_volts",
+      "type": "double",
+      "units": "volts",
+      "description": "Fuel Cell No 3 Voltage",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_FCL_3_V",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for FCL 3 V",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "FCL_1_I_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Fuel Cell No 1 Current",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "FCL_1_I_2_Current_amps",
+      "type": "double",
+      "units": "amps",
+      "description": "Fuel Cell No 1 Current",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_FCL_1_I",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for FCL 1 I",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "FCL_2_I_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Fuel Cell No 2 Current",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "FCL_2_I_2_Current_amps",
+      "type": "double",
+      "units": "amps",
+      "description": "Fuel Cell No 2 Current",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_FCL_2_I",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for FCL 2 I",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "FCL_3_I_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Fuel Cell No 3 Current",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "FCL_3_I_2_Current_amps",
+      "type": "double",
+      "units": "amps",
+      "description": "Fuel Cell No 3 Current",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_FCL_3_I",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for FCL 3 I",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Mid_PCA_Main_Bus_A_I_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Mid PCA Main Bus A Current",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Mid_PCA_Main_Bus_A_I_2_Current_amps",
+      "type": "double",
+      "units": "amps",
+      "description": "Mid PCA Main Bus A Current",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Mid_PCA_Main_Bus_A_I",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for Mid PCA Main Bus A I",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Mid_PCA_Main_Bus_B_I_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Mid PCA Main Bus B Current",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Mid_PCA_Main_Bus_B_I_2_Current_amps",
+      "type": "double",
+      "units": "amps",
+      "description": "Mid PCA Main Bus B Current",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Mid_PCA_Main_Bus_B_I",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for Mid PCA Main Bus B I",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "P_L_Pri_Main_Bus_B_V_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Payload Primary Main Bus B Voltage",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "P_L_Pri_Main_Bus_B_V_2_Voltage_volts",
+      "type": "double",
+      "units": "volts",
+      "description": "Payload Primary Main Bus B Voltage",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_P_L_Pri_Main_Bus_B_V",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for P/L Pri Main Bus B V",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "P_L_Pri_Main_Bus_C_V_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Payload Primary Main Bus C Voltage",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "P_L_Pri_Main_Bus_C_V_2_Voltage_volts",
+      "type": "double",
+      "units": "volts",
+      "description": "Payload Primary Main Bus C Voltage",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_P_L_Pri_Main_Bus_C_V",
+      "type": "double",
+      "units": "None",
+      "description": "Data Quality Indicator for P/L Pri Main Bus C V",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

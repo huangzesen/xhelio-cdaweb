@@ -1,0 +1,70 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "Mf1",
+      "type": "double",
+      "units": "nT/sqrt(Hz)",
+      "description": "Magnetic Field Fluctuations at 2 freq.",
+      "fill": "-9.999999848243207e+30",
+      "size": [
+        2
+      ]
+    },
+    {
+      "name": "Mf2",
+      "type": "double",
+      "units": "nT/sqrt(Hz)",
+      "description": "Magnetic Field Fluctuations at 5 freq.",
+      "fill": "-9.999999848243207e+30",
+      "size": [
+        5
+      ]
+    },
+    {
+      "name": "Mf3",
+      "type": "double",
+      "units": "A/cm^2/sqrt(Hz)",
+      "description": "Electric Current Fluctuations at 5 freq.",
+      "fill": "-9.999999848243207e+30",
+      "size": [
+        5
+      ]
+    },
+    {
+      "name": "B_abs",
+      "type": "double",
+      "units": "nT",
+      "description": "Magnetic Field average of magnitudes, scalar",
+      "fill": "-9.999999848243207e+30"
+    },
+    {
+      "name": "DB_abs",
+      "type": "double",
+      "units": "nT",
+      "description": "Magnetic Field variance of magnitudes, scalar",
+      "fill": "-9.999999848243207e+30"
+    },
+    {
+      "name": "B_x",
+      "type": "double",
+      "units": "nT",
+      "description": "Magnetic Field GSE Bx, scalar",
+      "fill": "-9.999999848243207e+30"
+    },
+    {
+      "name": "DB_x",
+      "type": "double",
+      "units": "nT",
+      "description": "Magnetic Field variance of GSE Bx (spin axis), scalar",
+      "fill": "-9.999999848243207e+30"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

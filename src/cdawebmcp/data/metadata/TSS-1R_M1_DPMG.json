@@ -1,0 +1,96 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "Mea_Tether_Len_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Measured Tether Length",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Mea_Tether_Len_2_Length_meters",
+      "type": "double",
+      "units": "meters",
+      "description": "Measured Tether Length",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Mea_Tether_Len_3_Length_km",
+      "type": "double",
+      "units": "km",
+      "description": "Measured Tether Length",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Mea_Tether_Len",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Mea Tether Len",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "I000_s_and_100_s_Place_Mea_Tether_Len_CAL",
+      "type": "double",
+      "units": "unitless",
+      "description": "100 & 1000 Places for Mea Tether Len",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "I_1_and_0_01_Place_Mea_Tether_Len_CAL",
+      "type": "double",
+      "units": "unitless",
+      "description": ".01 & .1 Places for Mea Tether Len",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Cmded_Tether_Len_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Commanded Tether Length",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Cmded_Tether_Len_2_Length_meters",
+      "type": "double",
+      "units": "meters",
+      "description": "Commanded Tether Length",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Cmded_Tether_Len_3_Length_km",
+      "type": "double",
+      "units": "km",
+      "description": "Commanded Tether Length",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Cmded_Tether_Len",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Cmded Tether Len",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "I000_s_and_100_s_Place_Cmded_Tether_Len_CAL",
+      "type": "double",
+      "units": "unitless",
+      "description": "100 & 1000 Places for Cmded Tether Len",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "I_1_and_0_01_Place_Cmded_Tether_Len_CAL",
+      "type": "double",
+      "units": "unitless",
+      "description": ".01 & .1 Places for Cmded Tether Len",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

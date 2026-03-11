@@ -1,0 +1,166 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "Coarse_Const_X_Drift",
+      "type": "double",
+      "units": "radians",
+      "description": "Constant Drift X (Coarse)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Coarse_Const_X_Drift",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Coarse Const X Drift",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Coarse_Const_Y_Drift",
+      "type": "double",
+      "units": "radians",
+      "description": "Constant Drift Y (Coarse)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Coarse_Const_Y_Drift",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Coarse Const Y Drift",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Coarse_Const_Z_Drift",
+      "type": "double",
+      "units": "radians",
+      "description": "Constant Drift Z (Coarse)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Coarse_Const_Z_Drift",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Coarse Const Z Drift",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Coarse_Const_S_Drift",
+      "type": "double",
+      "units": "radians",
+      "description": "Constant Drift Skew (Coarse)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Coarse_Const_S_Drift",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Coarse Const S Drift",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Fine_Const_X_Drift",
+      "type": "double",
+      "units": "radians",
+      "description": "Constant Drift X (Fine)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Fine_Const_X_Drift",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Fine Const X Drift",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Fine_Const_Y_Drift",
+      "type": "double",
+      "units": "radians",
+      "description": "Constant Drift Y (Fine)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Fine_Const_Y_Drift",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Fine Const Y Drift",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Fine_Const_Z_Drift",
+      "type": "double",
+      "units": "radians",
+      "description": "Constant Drift Z (Fine)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Fine_Const_Z_Drift",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Fine Const Z Drift",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Fine_Const_S_Drift",
+      "type": "double",
+      "units": "radians",
+      "description": "Constant Drift Skew (Fine)",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Fine_Const_S_Drift",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Fine Const S Drift",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Ref_Hold_Ang",
+      "type": "double",
+      "units": "radians",
+      "description": "Reference Hold Angle",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Ref_Hold_Ang",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Ref Hold Ang",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Const_Ref_Hold_Ang",
+      "type": "double",
+      "units": "radians",
+      "description": "Current Reference Hold Angle",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Const_Ref_Hold_Ang",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Const Ref Hold Ang",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Yaw_Rate",
+      "type": "double",
+      "units": "radians",
+      "description": "Yaw Rate",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Yaw_Rate",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Yaw Rate",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

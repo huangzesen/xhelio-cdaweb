@@ -1453,15 +1453,6 @@
       ]
     }
   ],
-  "startDate": "2018-09-28T00:00:26.000Z",
-  "stopDate": "2025-12-01T23:59:47.000Z",
-  "_validated": true,
-  "_validations": [
-    {
-      "source_file": "psp_isois-epihi_l2-let1-rates60_20210427_v24.cdf",
-      "validated_at": "2026-02-19T10:44:33.656925+00:00",
-      "discrepancies": {},
-      "source_url": "https://cdaweb.gsfc.nasa.gov/sp_phys/data/psp/isois/epihi/l2/let1_rates1min/2021/psp_isois-epihi_l2-let1-rates60_20210427_v24.cdf"
-    }
-  ]
+  "startDate": "",
+  "stopDate": ""
 }

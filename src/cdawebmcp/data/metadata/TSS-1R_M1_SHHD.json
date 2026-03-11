@@ -1,0 +1,152 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "Cmd_Mode",
+      "type": "double",
+      "units": "integer",
+      "description": "Command Mode",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Cmd_Mode",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Cmd Mode",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Ist_Data_Word",
+      "type": "double",
+      "units": "integer",
+      "description": "First Data Word",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_1st_Data_Word",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for 1st Data Word",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Ind_Data_Word",
+      "type": "double",
+      "units": "integer",
+      "description": "Second Data Word",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_2nd_Data_Word",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for 2nd Data Word",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Ird_Data_Word",
+      "type": "double",
+      "units": "integer",
+      "description": "Third Data Word",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_3rd_Data_Word",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for 3rd Data Word",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Updating_Proced_Run",
+      "type": "double",
+      "units": "integer",
+      "description": "Updating Procedure Run",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Updating_Proced_Run",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Updating Proced Run",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Nshot",
+      "type": "double",
+      "units": "integer",
+      "description": "Nshot",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Nshot",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Nshot",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Fire_Pos_Neg",
+      "type": "double",
+      "units": "integer",
+      "description": "Fire POS/NEG",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Fire_Pos_Neg",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Fire Pos/Neg",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Unknown_Byte_1",
+      "type": "double",
+      "units": "unitless",
+      "description": "Unknown Byte 1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Unknown_Byte_1",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Unknown Byte 1",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Unknown_Byte_2",
+      "type": "double",
+      "units": "unitless",
+      "description": "Unknown Byte 2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Unknown_Byte_2",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Unknown Byte 2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Unknown_Byte_3",
+      "type": "double",
+      "units": "unitless",
+      "description": "Unknown Byte 3",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Unknown_Byte_3",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Unknown Byte 3",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

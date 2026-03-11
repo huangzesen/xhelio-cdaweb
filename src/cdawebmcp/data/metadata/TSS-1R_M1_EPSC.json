@@ -1,0 +1,2700 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "SFMDM_D05_Ch00_B_U0_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D05 Channel 00 Bit U0 Lev Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D05_Ch00_B_U0_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D05 Ch00 B/U0 Lev",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D05_Ch00_B_U1_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D05 Channel 00 Bit U1 Lev Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D05_Ch00_B_U1_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D05 Ch00 B/U1 Lev",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D05_Ch00_B_U2_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D05 Channel 00 Bit U2 Lev Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D05_Ch00_B_U2_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D05 Ch00 B/U2 Lev",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D05_Ch00_B_U3_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D05 Channel 00 Bit U3 Lev Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D05_Ch00_B_U3_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D05 Ch00 B/U3 Lev",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D05_Ch00_B_U4_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D05 Channel 00 Bit U4 Lev Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D05_Ch00_B_U4_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D05 Ch00 B/U4 Lev",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D05_Ch00_B_U5_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D05 Channel 00 Bit U5 Lev Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D05_Ch00_B_U5_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D05 Ch00 B/U5 Lev",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D05_Ch00_B_U6_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D05 Channel 00 Bit U6 Lev Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D05_Ch00_B_U6_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D05 Ch00 B/U6 Lev",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D05_Ch00_B_U7_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D05 Channel 00 Bit U7 Lev Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D05_Ch00_B_U7_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D05 Ch00 B/U7 Lev",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D05_Ch00_B_L0_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D05 Channel 00 Bit L0 Lev Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D05_Ch00_B_L0_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D05 Ch00 B/L0 Lev",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D05_Ch00_B_L1_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D05 Channel 00 Bit L1 Lev Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D05_Ch00_B_L1_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D05 Ch00 B/L1 Lev",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D05_Ch00_B_L2_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D05 Channel 00 Bit L2 Lev Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D05_Ch00_B_L2_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D05 Ch00 B/L2 Lev",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D05_Ch00_B_L3_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D05 Channel 00 Bit L3 Lev Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D05_Ch00_B_L3_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D05 Ch00 B/L3 Lev",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D05_Ch00_B_L4_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D05 Channel 00 Bit L4 Lev Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D05_Ch00_B_L4_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D05 Ch00 B/L4 Lev",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D05_Ch00_B_L5_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D05 Channel 00 Bit L5 Lev Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D05_Ch00_B_L5_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D05 Ch00 B/L5 Lev",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D05_Ch00_B_L6_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D05 Channel 00 Bit L6 Lev Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D05_Ch00_B_L6_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D05 Ch00 B/L6 Lev",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D05_Ch00_B_L7_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D05 Channel 00 Bit L7 Lev Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D05_Ch00_B_L7_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D05 Ch00 B/L7 Lev",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D05_Ch01_B_U0_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D05 Channel 01 Bit U0 Lev Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D05_Ch01_B_U0_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D05 Ch01 B/U0 Lev",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D05_Ch01_B_U1_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D05 Channel 01 Bit U1 Lev Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D05_Ch01_B_U1_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D05 Ch01 B/U1 Lev",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D05_Ch01_B_U2_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D05 Channel 01 Bit U2 Lev Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D05_Ch01_B_U2_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D05 Ch01 B/U2 Lev",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D05_Ch01_B_U3_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D05 Channel 01 Bit U3 Lev Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D05_Ch01_B_U3_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D05 Ch01 B/U3 Lev",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D05_Ch01_B_U4_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D05 Channel 01 Bit U4 Lev Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D05_Ch01_B_U4_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D05 Ch01 B/U4 Lev",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D05_Ch01_B_U5_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D05 Channel 01 Bit U5 Lev Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D05_Ch01_B_U5_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D05 Ch01 B/U5 Lev",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D05_Ch01_B_U6_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D05 Channel 01 Bit U6 Lev Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D05_Ch01_B_U6_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D05 Ch01 B/U6 Lev",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D05_Ch01_B_U7_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D05 Channel 01 Bit U7 Lev Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D05_Ch01_B_U7_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D05 Ch01 B/U7 Lev",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D05_Ch01_B_L0_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D05 Channel 01 Bit L0 Lev Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D05_Ch01_B_L0_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D05 Ch01 B/L0 Lev",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D05_Ch01_B_L1_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D05 Channel 01 Bit L1 Lev Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D05_Ch01_B_L1_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D05 Ch01 B/L1 Lev",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D05_Ch01_B_L2_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D05 Channel 01 Bit L2 Lev Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D05_Ch01_B_L2_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D05 Ch01 B/L2 Lev",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D05_Ch01_B_L3_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D05 Channel 01 Bit L3 Lev Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D05_Ch01_B_L3_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D05 Ch01 B/L3 Lev",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D05_Ch01_B_L4_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D05 Channel 01 Bit L4 Lev Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D05_Ch01_B_L4_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D05 Ch01 B/L4 Lev",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D05_Ch01_B_L5_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D05 Channel 01 Bit L5 Lev Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D05_Ch01_B_L5_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D05 Ch01 B/L5 Lev",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D05_Ch01_B_L6_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D05 Channel 01 Bit L6 Lev Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D05_Ch01_B_L6_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D05 Ch01 B/L6 Lev",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D05_Ch01_B_L7_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D05 Channel 01 Bit L7 Lev Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D05_Ch01_B_L7_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D05 Ch01 B/L7 Lev",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D05_Ch02_B_U0_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D05 Channel 02 Bit U0 Lev Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D05_Ch02_B_U0_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D05 Ch02 B/U0 Lev",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D05_Ch02_B_U1_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D05 Channel 02 Bit U1 Lev Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D05_Ch02_B_U1_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D05 Ch02 B/U1 Lev",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D05_Ch02_B_U2_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D05 Channel 02 Bit U2 Lev Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D05_Ch02_B_U2_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D05 Ch02 B/U2 Lev",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D05_Ch02_B_U3_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D05 Channel 02 Bit U3 Lev Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D05_Ch02_B_U3_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D05 Ch02 B/U3 Lev",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D05_Ch02_B_U4_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D05 Channel 02 Bit U4 Lev Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D05_Ch02_B_U4_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D05 Ch02 B/U4 Lev",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D05_Ch02_B_U5_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D05 Channel 02 Bit U5 Lev Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D05_Ch02_B_U5_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D05 Ch02 B/U5 Lev",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D05_Ch02_B_U6_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D05 Channel 02 Bit U6 Lev Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D05_Ch02_B_U6_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D05 Ch02 B/U6 Lev",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D05_Ch02_B_U7_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D05 Channel 02 Bit U7 Lev Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D05_Ch02_B_U7_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D05 Ch02 B/U7 Lev",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D05_Ch02_B_L0_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D05 Channel 02 Bit L0 Lev Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D05_Ch02_B_L0_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D05 Ch02 B/L0 Lev",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D05_Ch02_B_L1_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D05 Channel 02 Bit L1 Lev Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D05_Ch02_B_L1_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D05 Ch02 B/L1 Lev",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D05_Ch02_B_L2_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D05 Channel 02 Bit L2 Lev Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D05_Ch02_B_L2_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D05 Ch02 B/L2 Lev",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D05_Ch02_B_L3_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D05 Channel 02 Bit L3 Lev Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D05_Ch02_B_L3_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D05 Ch02 B/L3 Lev",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D05_Ch02_B_L4_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D05 Channel 02 Bit L4 Lev Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D05_Ch02_B_L4_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D05 Ch02 B/L4 Lev",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D05_Ch02_B_L5_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D05 Channel 02 Bit L5 Lev Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D05_Ch02_B_L5_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D05 Ch02 B/L5 Lev",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D05_Ch02_B_L6_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D05 Channel 02 Bit L6 Lev Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D05_Ch02_B_L6_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D05 Ch02 B/L6 Lev",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D05_Ch02_B_L7_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D05 Channel 02 Bit L7 Lev Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D05_Ch02_B_L7_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D05 Ch02 B/L7 Lev",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D05_Ch00_B_U0_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D05 Channel 00 Bit U0 Pul Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D05_Ch00_B_U0_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D05 Ch00 B/U0 Pul",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D05_Ch00_B_U1_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D05 Channel 00 Bit U1 Pul Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D05_Ch00_B_U1_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D05 Ch00 B/U1 Pul",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D05_Ch00_B_U2_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D05 Channel 00 Bit U2 Pul Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D05_Ch00_B_U2_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D05 Ch00 B/U2 Pul",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D05_Ch00_B_U3_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D05 Channel 00 Bit U3 Pul Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D05_Ch00_B_U3_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D05 Ch00 B/U3 Pul",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D05_Ch00_B_U4_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D05 Channel 00 Bit U4 Pul Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D05_Ch00_B_U4_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D05 Ch00 B/U4 Pul",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D05_Ch00_B_U5_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D05 Channel 00 Bit U5 Pul Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D05_Ch00_B_U5_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D05 Ch00 B/U5 Pul",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D05_Ch00_B_U6_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D05 Channel 00 Bit U6 Pul Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D05_Ch00_B_U6_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D05 Ch00 B/U6 Pul",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D05_Ch00_B_U7_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D05 Channel 00 Bit U7 Pul Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D05_Ch00_B_U7_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D05 Ch00 B/U7 Pul",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D05_Ch00_B_L0_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D05 Channel 00 Bit L0 Pul Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D05_Ch00_B_L0_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D05 Ch00 B/L0 Pul",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D05_Ch00_B_L1_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D05 Channel 00 Bit L1 Pul Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D05_Ch00_B_L1_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D05 Ch00 B/L1 Pul",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D05_Ch00_B_L2_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D05 Channel 00 Bit L2 Pul Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D05_Ch00_B_L2_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D05 Ch00 B/L2 Pul",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D05_Ch00_B_L3_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D05 Channel 00 Bit L3 Pul Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D05_Ch00_B_L3_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D05 Ch00 B/L3 Pul",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D05_Ch00_B_L4_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D05 Channel 00 Bit L4 Pul Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D05_Ch00_B_L4_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D05 Ch00 B/L4 Pul",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D05_Ch00_B_L5_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D05 Channel 00 Bit L5 Pul Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D05_Ch00_B_L5_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D05 Ch00 B/L5 Pul",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D05_Ch00_B_L6_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D05 Channel 00 Bit L6 Pul Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D05_Ch00_B_L6_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D05 Ch00 B/L6 Pul",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D05_Ch00_B_L7_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D05 Channel 00 Bit L7 Pul Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D05_Ch00_B_L7_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D05 Ch00 B/L7 Pul",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D05_Ch01_B_U0_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D05 Channel 01 Bit U0 Pul Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D05_Ch01_B_U0_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D05 Ch01 B/U0 Pul",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D05_Ch01_B_U1_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D05 Channel 01 Bit U1 Pul Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D05_Ch01_B_U1_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D05 Ch01 B/U1 Pul",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D05_Ch01_B_U2_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D05 Channel 01 Bit U2 Pul Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D05_Ch01_B_U2_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D05 Ch01 B/U2 Pul",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D05_Ch01_B_U3_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D05 Channel 01 Bit U3 Pul Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D05_Ch01_B_U3_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D05 Ch01 B/U3 Pul",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D05_Ch01_B_U4_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D05 Channel 01 Bit U4 Pul Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D05_Ch01_B_U4_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D05 Ch01 B/U4 Pul",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D05_Ch01_B_U5_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D05 Channel 01 Bit U5 Pul Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D05_Ch01_B_U5_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D05 Ch01 B/U5 Pul",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D05_Ch01_B_U6_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D05 Channel 01 Bit U6 Pul Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D05_Ch01_B_U6_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D05 Ch01 B/U6 Pul",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D05_Ch01_B_U7_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D05 Channel 01 Bit U7 Pul Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D05_Ch01_B_U7_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D05 Ch01 B/U7 Pul",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D05_Ch01_B_L0_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D05 Channel 01 Bit L0 Pul Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D05_Ch01_B_L0_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D05 Ch01 B/L0 Pul",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D05_Ch01_B_L1_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D05 Channel 01 Bit L1 Pul Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D05_Ch01_B_L1_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D05 Ch01 B/L1 Pul",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D05_Ch01_B_L2_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D05 Channel 01 Bit L2 Pul Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D05_Ch01_B_L2_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D05 Ch01 B/L2 Pul",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D05_Ch01_B_L3_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D05 Channel 01 Bit L3 Pul Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D05_Ch01_B_L3_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D05 Ch01 B/L3 Pul",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D05_Ch01_B_L4_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D05 Channel 01 Bit L4 Pul Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D05_Ch01_B_L4_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D05 Ch01 B/L4 Pul",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D05_Ch01_B_L5_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D05 Channel 01 Bit L5 Pul Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D05_Ch01_B_L5_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D05 Ch01 B/L5 Pul",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D05_Ch01_B_L6_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D05 Channel 01 Bit L6 Pul Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D05_Ch01_B_L6_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D05 Ch01 B/L6 Pul",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D05_Ch01_B_L7_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D05 Channel 01 Bit L7 Pul Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D05_Ch01_B_L7_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D05 Ch01 B/L7 Pul",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D05_Ch02_B_U0_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D05 Channel 02 Bit U0 Pul Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D05_Ch02_B_U0_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D05 Ch02 B/U0 Pul",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D05_Ch02_B_U1_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D05 Channel 02 Bit U1 Pul Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D05_Ch02_B_U1_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D05 Ch02 B/U1 Pul",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D05_Ch02_B_U2_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D05 Channel 02 Bit U2 Pul Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D05_Ch02_B_U2_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D05 Ch02 B/U2 Pul",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D05_Ch02_B_U3_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D05 Channel 02 Bit U3 Pul Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D05_Ch02_B_U3_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D05 Ch02 B/U3 Pul",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D05_Ch02_B_U4_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D05 Channel 02 Bit U4 Pul Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D05_Ch02_B_U4_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D05 Ch02 B/U4 Pul",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D05_Ch02_B_U5_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D05 Channel 02 Bit U5 Pul Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D05_Ch02_B_U5_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D05 Ch02 B/U5 Pul",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D05_Ch02_B_U6_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D05 Channel 02 Bit U6 Pul Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D05_Ch02_B_U6_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D05 Ch02 B/U6 Pul",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D05_Ch02_B_U7_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D05 Channel 02 Bit U7 Pul Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D05_Ch02_B_U7_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D05 Ch02 B/U7 Pul",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D05_Ch02_B_L0_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D05 Channel 02 Bit L0 Pul Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D05_Ch02_B_L0_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D05 Ch02 B/L0 Pul",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D05_Ch02_B_L1_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D05 Channel 02 Bit L1 Pul Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D05_Ch02_B_L1_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D05 Ch02 B/L1 Pul",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D05_Ch02_B_L2_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D05 Channel 02 Bit L2 Pul Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D05_Ch02_B_L2_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D05 Ch02 B/L2 Pul",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D05_Ch02_B_L3_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D05 Channel 02 Bit L3 Pul Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D05_Ch02_B_L3_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D05 Ch02 B/L3 Pul",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D05_Ch02_B_L4_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D05 Channel 02 Bit L4 Pul Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D05_Ch02_B_L4_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D05 Ch02 B/L4 Pul",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D05_Ch02_B_L5_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D05 Channel 02 Bit L5 Pul Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D05_Ch02_B_L5_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D05 Ch02 B/L5 Pul",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D05_Ch02_B_L6_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D05 Channel 02 Bit L6 Pul Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D05_Ch02_B_L6_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D05 Ch02 B/L6 Pul",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D05_Ch02_B_L7_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D05 Channel 02 Bit L7 Pul Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D05_Ch02_B_L7_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D05 Ch02 B/L7 Pul",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D28_Ch00_B_U0_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D28 Channel 00 Bit U0 Lev Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D28_Ch00_B_U0_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D28 Ch00 B/U0 Lev",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D28_Ch00_B_U1_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D28 Channel 00 Bit U1 Lev Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D28_Ch00_B_U1_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D28 Ch00 B/U1 Lev",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D28_Ch00_B_U2_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D28 Channel 00 Bit U2 Lev Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D28_Ch00_B_U2_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D28 Ch00 B/U2 Lev",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D28_Ch00_B_U3_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D28 Channel 00 Bit U3 Lev Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D28_Ch00_B_U3_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D28 Ch00 B/U3 Lev",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D28_Ch00_B_U4_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D28 Channel 00 Bit U4 Lev Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D28_Ch00_B_U4_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D28 Ch00 B/U4 Lev",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D28_Ch00_B_U5_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D28 Channel 00 Bit U5 Lev Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D28_Ch00_B_U5_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D28 Ch00 B/U5 Lev",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D28_Ch00_B_U6_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D28 Channel 00 Bit U6 Lev Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D28_Ch00_B_U6_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D28 Ch00 B/U6 Lev",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D28_Ch00_B_U7_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D28 Channel 00 Bit U7 Lev Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D28_Ch00_B_U7_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D28 Ch00 B/U7 Lev",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D28_Ch00_B_L0_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D28 Channel 00 Bit L0 Lev Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D28_Ch00_B_L0_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D28 Ch00 B/L0 Lev",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D28_Ch00_B_L1_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D28 Channel 00 Bit L1 Lev Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D28_Ch00_B_L1_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D28 Ch00 B/L1 Lev",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D28_Ch00_B_L2_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D28 Channel 00 Bit L2 Lev Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D28_Ch00_B_L2_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D28 Ch00 B/L2 Lev",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D28_Ch00_B_L3_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D28 Channel 00 Bit L3 Lev Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D28_Ch00_B_L3_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D28 Ch00 B/L3 Lev",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D28_Ch00_B_L4_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D28 Channel 00 Bit L4 Lev Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D28_Ch00_B_L4_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D28 Ch00 B/L4 Lev",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D28_Ch00_B_L5_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D28 Channel 00 Bit L5 Lev Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D28_Ch00_B_L5_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D28 Ch00 B/L5 Lev",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D28_Ch00_B_L6_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D28 Channel 00 Bit L6 Lev Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D28_Ch00_B_L6_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D28 Ch00 B/L6 Lev",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D28_Ch00_B_L7_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D28 Channel 00 Bit L7 Lev Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D28_Ch00_B_L7_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D28 Ch00 B/L7 Lev",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D28_Ch01_B_U0_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D28 Channel 01 Bit U0 Lev Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D28_Ch01_B_U0_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D28 Ch01 B/U0 Lev",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D28_Ch01_B_U1_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D28 Channel 01 Bit U1 Lev Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D28_Ch01_B_U1_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D28 Ch01 B/U1 Lev",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D28_Ch01_B_U2_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D28 Channel 01 Bit U2 Lev Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D28_Ch01_B_U2_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D28 Ch01 B/U2 Lev",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D28_Ch01_B_U3_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D28 Channel 01 Bit U3 Lev Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D28_Ch01_B_U3_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D28 Ch01 B/U3 Lev",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D28_Ch01_B_U4_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D28 Channel 01 Bit U4 Lev Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D28_Ch01_B_U4_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D28 Ch01 B/U4 Lev",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D28_Ch01_B_U5_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D28 Channel 01 Bit U5 Lev Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D28_Ch01_B_U5_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D28 Ch01 B/U5 Lev",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D28_Ch01_B_U6_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D28 Channel 01 Bit U6 Lev Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D28_Ch01_B_U6_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D28 Ch01 B/U6 Lev",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D28_Ch01_B_U7_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D28 Channel 01 Bit U7 Lev Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D28_Ch01_B_U7_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D28 Ch01 B/U7 Lev",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D28_Ch01_B_L0_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D28 Channel 01 Bit L0 Lev Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D28_Ch01_B_L0_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D28 Ch01 B/L0 Lev",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D28_Ch01_B_L1_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D28 Channel 01 Bit L1 Lev Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D28_Ch01_B_L1_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D28 Ch01 B/L1 Lev",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D28_Ch01_B_L2_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D28 Channel 01 Bit L2 Lev Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D28_Ch01_B_L2_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D28 Ch01 B/L2 Lev",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D28_Ch01_B_L3_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D28 Channel 01 Bit L3 Lev Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D28_Ch01_B_L3_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D28 Ch01 B/L3 Lev",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D28_Ch01_B_L4_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D28 Channel 01 Bit L4 Lev Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D28_Ch01_B_L4_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D28 Ch01 B/L4 Lev",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D28_Ch01_B_L5_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D28 Channel 01 Bit L5 Lev Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D28_Ch01_B_L5_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D28 Ch01 B/L5 Lev",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D28_Ch01_B_L6_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D28 Channel 01 Bit L6 Lev Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D28_Ch01_B_L6_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D28 Ch01 B/L6 Lev",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D28_Ch01_B_L7_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D28 Channel 01 Bit L7 Lev Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D28_Ch01_B_L7_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D28 Ch01 B/L7 Lev",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D28_Ch02_B_U0_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D28 Channel 02 Bit U0 Lev Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D28_Ch02_B_U0_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D28 Ch02 B/U0 Lev",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D28_Ch02_B_U1_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D28 Channel 02 Bit U1 Lev Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D28_Ch02_B_U1_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D28 Ch02 B/U1 Lev",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D28_Ch02_B_U2_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D28 Channel 02 Bit U2 Lev Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D28_Ch02_B_U2_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D28 Ch02 B/U2 Lev",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D28_Ch02_B_U3_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D28 Channel 02 Bit U3 Lev Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D28_Ch02_B_U3_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D28 Ch02 B/U3 Lev",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D28_Ch02_B_U4_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D28 Channel 02 Bit U4 Lev Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D28_Ch02_B_U4_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D28 Ch02 B/U4 Lev",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D28_Ch02_B_U5_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D28 Channel 02 Bit U5 Lev Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D28_Ch02_B_U5_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D28 Ch02 B/U5 Lev",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D28_Ch02_B_U6_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D28 Channel 02 Bit U6 Lev Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D28_Ch02_B_U6_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D28 Ch02 B/U6 Lev",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D28_Ch02_B_U7_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D28 Channel 02 Bit U7 Lev Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D28_Ch02_B_U7_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D28 Ch02 B/U7 Lev",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D28_Ch02_B_L0_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D28 Channel 02 Bit L0 Lev Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D28_Ch02_B_L0_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D28 Ch02 B/L0 Lev",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D28_Ch02_B_L1_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D28 Channel 02 Bit L1 Lev Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D28_Ch02_B_L1_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D28 Ch02 B/L1 Lev",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D28_Ch02_B_L2_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D28 Channel 02 Bit L2 Lev Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D28_Ch02_B_L2_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D28 Ch02 B/L2 Lev",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D28_Ch02_B_L3_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D28 Channel 02 Bit L3 Lev Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D28_Ch02_B_L3_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D28 Ch02 B/L3 Lev",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D28_Ch02_B_L4_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D28 Channel 02 Bit L4 Lev Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D28_Ch02_B_L4_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D28 Ch02 B/L4 Lev",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D28_Ch02_B_L5_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D28 Channel 02 Bit L5 Lev Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D28_Ch02_B_L5_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D28 Ch02 B/L5 Lev",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D28_Ch02_B_L6_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D28 Channel 02 Bit L6 Lev Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D28_Ch02_B_L6_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D28 Ch02 B/L6 Lev",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D28_Ch02_B_L7_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D28 Channel 02 Bit L7 Lev Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D28_Ch02_B_L7_Lev",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D28 Ch02 B/L7 Lev",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D28_Ch00_B_U0_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D28 Channel 00 Bit U0 Pul Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D28_Ch00_B_U0_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D28 Ch00 B/U0 Pul",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D28_Ch00_B_U1_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D28 Channel 00 Bit U1 Pul Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D28_Ch00_B_U1_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D28 Ch00 B/U1 Pul",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D28_Ch00_B_U2_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D28 Channel 00 Bit U2 Pul Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D28_Ch00_B_U2_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D28 Ch00 B/U2 Pul",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D28_Ch00_B_U3_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D28 Channel 00 Bit U3 Pul Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D28_Ch00_B_U3_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D28 Ch00 B/U3 Pul",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D28_Ch00_B_U4_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D28 Channel 00 Bit U4 Pul Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D28_Ch00_B_U4_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D28 Ch00 B/U4 Pul",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D28_Ch00_B_U5_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D28 Channel 00 Bit U5 Pul Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D28_Ch00_B_U5_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D28 Ch00 B/U5 Pul",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D28_Ch00_B_U6_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D28 Channel 00 Bit U6 Pul Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D28_Ch00_B_U6_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D28 Ch00 B/U6 Pul",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D28_Ch00_B_U7_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D28 Channel 00 Bit U7 Pul Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D28_Ch00_B_U7_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D28 Ch00 B/U7 Pul",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D28_Ch00_B_L0_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D28 Channel 00 Bit L0 Pul Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D28_Ch00_B_L0_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D28 Ch00 B/L0 Pul",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D28_Ch00_B_L1_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D28 Channel 00 Bit L1 Pul Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D28_Ch00_B_L1_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D28 Ch00 B/L1 Pul",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D28_Ch00_B_L2_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D28 Channel 00 Bit L2 Pul Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D28_Ch00_B_L2_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D28 Ch00 B/L2 Pul",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D28_Ch00_B_L3_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D28 Channel 00 Bit L3 Pul Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D28_Ch00_B_L3_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D28 Ch00 B/L3 Pul",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D28_Ch00_B_L4_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D28 Channel 00 Bit L4 Pul Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D28_Ch00_B_L4_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D28 Ch00 B/L4 Pul",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D28_Ch00_B_L5_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D28 Channel 00 Bit L5 Pul Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D28_Ch00_B_L5_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D28 Ch00 B/L5 Pul",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D28_Ch00_B_L6_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D28 Channel 00 Bit L6 Pul Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D28_Ch00_B_L6_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D28 Ch00 B/L6 Pul",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D28_Ch00_B_L7_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D28 Channel 00 Bit L7 Pul Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D28_Ch00_B_L7_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D28 Ch00 B/L7 Pul",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D28_Ch01_B_U0_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D28 Channel 01 Bit U0 Pul Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D28_Ch01_B_U0_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D28 Ch01 B/U0 Pul",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D28_Ch01_B_U1_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D28 Channel 01 Bit U1 Pul Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D28_Ch01_B_U1_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D28 Ch01 B/U1 Pul",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D28_Ch01_B_U2_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D28 Channel 01 Bit U2 Pul Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D28_Ch01_B_U2_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D28 Ch01 B/U2 Pul",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D28_Ch01_B_U3_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D28 Channel 01 Bit U3 Pul Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D28_Ch01_B_U3_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D28 Ch01 B/U3 Pul",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D28_Ch01_B_U4_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D28 Channel 01 Bit U4 Pul Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D28_Ch01_B_U4_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D28 Ch01 B/U4 Pul",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D28_Ch01_B_U5_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D28 Channel 01 Bit U5 Pul Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D28_Ch01_B_U5_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D28 Ch01 B/U5 Pul",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D28_Ch01_B_U6_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D28 Channel 01 Bit U6 Pul Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D28_Ch01_B_U6_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D28 Ch01 B/U6 Pul",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D28_Ch01_B_U7_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D28 Channel 01 Bit U7 Pul Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D28_Ch01_B_U7_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D28 Ch01 B/U7 Pul",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D28_Ch01_B_L0_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D28 Channel 01 Bit L0 Pul Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D28_Ch01_B_L0_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D28 Ch01 B/L0 Pul",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D28_Ch01_B_L1_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D28 Channel 01 Bit L1 Pul Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D28_Ch01_B_L1_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D28 Ch01 B/L1 Pul",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D28_Ch01_B_L2_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D28 Channel 01 Bit L2 Pul Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D28_Ch01_B_L2_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D28 Ch01 B/L2 Pul",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D28_Ch01_B_L3_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D28 Channel 01 Bit L3 Pul Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D28_Ch01_B_L3_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D28 Ch01 B/L3 Pul",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D28_Ch01_B_L4_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D28 Channel 01 Bit L4 Pul Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D28_Ch01_B_L4_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D28 Ch01 B/L4 Pul",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D28_Ch01_B_L5_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D28 Channel 01 Bit L5 Pul Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D28_Ch01_B_L5_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D28 Ch01 B/L5 Pul",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D28_Ch01_B_L6_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D28 Channel 01 Bit L6 Pul Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D28_Ch01_B_L6_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D28 Ch01 B/L6 Pul",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D28_Ch01_B_L7_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D28 Channel 01 Bit L7 Pul Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D28_Ch01_B_L7_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D28 Ch01 B/L7 Pul",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D28_Ch02_B_U0_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D28 Channel 02 Bit U0 Pul Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D28_Ch02_B_U0_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D28 Ch02 B/U0 Pul",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D28_Ch02_B_U1_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D28 Channel 02 Bit U1 Pul Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D28_Ch02_B_U1_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D28 Ch02 B/U1 Pul",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D28_Ch02_B_U2_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D28 Channel 02 Bit U2 Pul Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D28_Ch02_B_U2_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D28 Ch02 B/U2 Pul",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D28_Ch02_B_U3_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D28 Channel 02 Bit U3 Pul Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D28_Ch02_B_U3_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D28 Ch02 B/U3 Pul",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D28_Ch02_B_U4_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D28 Channel 02 Bit U4 Pul Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D28_Ch02_B_U4_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D28 Ch02 B/U4 Pul",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D28_Ch02_B_U5_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D28 Channel 02 Bit U5 Pul Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D28_Ch02_B_U5_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D28 Ch02 B/U5 Pul",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D28_Ch02_B_U6_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D28 Channel 02 Bit U6 Pul Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D28_Ch02_B_U6_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D28 Ch02 B/U6 Pul",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D28_Ch02_B_U7_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D28 Channel 02 Bit U7 Pul Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D28_Ch02_B_U7_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D28 Ch02 B/U7 Pul",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D28_Ch02_B_L0_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D28 Channel 02 Bit L0 Pul Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D28_Ch02_B_L0_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D28 Ch02 B/L0 Pul",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D28_Ch02_B_L1_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D28 Channel 02 Bit L1 Pul Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D28_Ch02_B_L1_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D28 Ch02 B/L1 Pul",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D28_Ch02_B_L2_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D28 Channel 02 Bit L2 Pul Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D28_Ch02_B_L2_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D28 Ch02 B/L2 Pul",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D28_Ch02_B_L3_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D28 Channel 02 Bit L3 Pul Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D28_Ch02_B_L3_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D28 Ch02 B/L3 Pul",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D28_Ch02_B_L4_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D28 Channel 02 Bit L4 Pul Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D28_Ch02_B_L4_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D28 Ch02 B/L4 Pul",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D28_Ch02_B_L5_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D28 Channel 02 Bit L5 Pul Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D28_Ch02_B_L5_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D28 Ch02 B/L5 Pul",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D28_Ch02_B_L6_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D28 Channel 02 Bit L6 Pul Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D28_Ch02_B_L6_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D28 Ch02 B/L6 Pul",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "SFMDM_D28_Ch02_B_L7_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "SFMDM D28 Channel 02 Bit L7 Pul Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_SFMDM_D28_Ch02_B_L7_Pul",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SFMDM D28 Ch02 B/L7 Pul",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

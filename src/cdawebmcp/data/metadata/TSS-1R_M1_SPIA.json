@@ -1,0 +1,60 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "SumIons_A_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Zone Summed Ion Spectra",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        32
+      ]
+    },
+    {
+      "name": "SumIons_A_2_counts_acc_c_acc",
+      "type": "double",
+      "units": "c/acc",
+      "description": "Zone Summed Ion Spectra",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        32
+      ]
+    },
+    {
+      "name": "Data_Quality_SumIons_A",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for SumIons/A",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "MODE0_Power_Status",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Status Indicator Power Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "MODE1_Rotation_Status",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Status Indicator Rotation Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "MODE2_Sweep_Rate",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Status Indicator Sweep Rate",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

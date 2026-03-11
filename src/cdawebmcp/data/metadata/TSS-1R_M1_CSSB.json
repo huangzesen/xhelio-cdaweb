@@ -1,0 +1,180 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "KU_A_RADAR_Pass_Mode",
+      "type": "double",
+      "units": "Unitless",
+      "description": "KU-Band A RADAR Passive Mode",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_KU_A_RADAR_Pass_Mode",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for KU-A RADAR Pass Mode",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "KU_A_RADAR_Out_Med",
+      "type": "double",
+      "units": "Unitless",
+      "description": "KU-Band A RADAR Output-Medium",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_KU_A_RADAR_Out_Med",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for KU-A RADAR Out-Med",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "KU_A_RADAR_Out_Hi",
+      "type": "double",
+      "units": "Unitless",
+      "description": "KU-Band A RADAR Output-High",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_KU_A_RADAR_Out_Hi",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for KU-A RADAR Out-Hi",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "KU_A_CH1_Comm_A_RDR_Mode",
+      "type": "double",
+      "units": "Unitless",
+      "description": "KU-A Channel 1 Comm A/RDR Mode",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_KU_A_CH1_Comm_A_RDR_Mode",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for KU-A CH1 Comm A/RDR Mode",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "KU_A_CH1_Anten_Strg_Auto",
+      "type": "double",
+      "units": "Unitless",
+      "description": "KU-A Channel 1 Antenna Strg Auto",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_KU_A_CH1_Anten_Strg_Auto",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for KU-A CH1 Anten Strg Auto",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "KU_A_CH1_Anten_Strg_GPC_DES",
+      "type": "double",
+      "units": "Unitless",
+      "description": "KU-A Channel 1 Antenna Strg GPC DES",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_KU_A_CH1_Anten_Strg_GPC_DES",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for KU-A CH1 Anten Strg GPC DES",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "KU_A_CH1_Anten_Strg_GPC_AGC",
+      "type": "double",
+      "units": "Unitless",
+      "description": "KU-A Channel 1 Antenna Strg GPC AGC",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_KU_A_CH1_Anten_Strg_GPC_AGC",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for KU-A CH1 Anten Strg GPC AGC",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "KU_A_CH1_Rng_Data",
+      "type": "double",
+      "units": "Unitless",
+      "description": "KU-A Channel 1 Range Data Good",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_KU_A_CH1_Rng_Data",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for KU-A CH1 Rng Data",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "KU_A_CH1_Rng_Rate",
+      "type": "double",
+      "units": "Unitless",
+      "description": "KU-A Channel 1 Range Rate Good",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_KU_A_CH1_Rng_Rate",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for KU-A CH1 Rng Rate",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "GCIL_KU_A_Pwr",
+      "type": "double",
+      "units": "Unitless",
+      "description": "GCIL-KU-Band A Power Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_GCIL_KU_A_Pwr",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for GCIL KU-A Pwr",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Rec_Ops1_Tape_Motion",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Recorder Ops 1 Tape Motion",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Rec_Ops1_Tape_Motion",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for Rec Ops1 Tape Motion",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Rec_Ops2_Tape_Motion",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Recorder Ops 2 Tape Motion",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Rec_Ops2_Tape_Motion",
+      "type": "double",
+      "units": "Unitless",
+      "description": "Data Quality Indicator for Rec Ops2 Tape Motion",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

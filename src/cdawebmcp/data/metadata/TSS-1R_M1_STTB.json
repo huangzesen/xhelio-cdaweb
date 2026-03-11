@@ -1,0 +1,54 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "Tether_V_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Tether Voltages",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Tether_V_2_Voltage_volts",
+      "type": "double",
+      "units": "volts",
+      "description": "Tether Voltages",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Tether_V",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Tether V",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "MODE0_Gain_Flag",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Status Indicator Gain Flag",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "MODE1_Shift_Flag",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Status Indicator Shift Flag",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "MODE2_Output_Mode",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Status Indicator Output Mode",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

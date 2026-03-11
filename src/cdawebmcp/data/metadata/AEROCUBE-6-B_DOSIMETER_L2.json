@@ -1,0 +1,623 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "alt",
+      "type": "double",
+      "units": "km",
+      "description": "Geodetic altitude",
+      "fill": "-9.999999848243207e+30"
+    },
+    {
+      "name": "lat",
+      "type": "double",
+      "units": "deg",
+      "description": "Geodetic latitude",
+      "fill": "-9.999999848243207e+30"
+    },
+    {
+      "name": "lon",
+      "type": "double",
+      "units": "deg",
+      "description": "Geodetic longitude",
+      "fill": "-9.999999848243207e+30"
+    },
+    {
+      "name": "XYZ_GEO",
+      "type": "double",
+      "units": "RE",
+      "description": "Spacecraft Position (GEO)",
+      "fill": "-9.999999848243207e+30",
+      "size": [
+        3
+      ]
+    },
+    {
+      "name": "dos1l",
+      "type": "integer",
+      "units": "Counts",
+      "description": "Dose1 low output",
+      "fill": "-32768.0"
+    },
+    {
+      "name": "dos1m",
+      "type": "integer",
+      "units": "Counts",
+      "description": "Dose1 medium output",
+      "fill": "-32768.0"
+    },
+    {
+      "name": "dos1rate",
+      "type": "double",
+      "units": "#/sec",
+      "description": "Dose1 rate (>43 keV electrons, >370 keV protons AC6-A and B)",
+      "fill": "-9.999999848243207e+30"
+    },
+    {
+      "name": "dos2l",
+      "type": "integer",
+      "units": "Counts",
+      "description": "Dose2 low output",
+      "fill": "-32768.0"
+    },
+    {
+      "name": "dos2m",
+      "type": "integer",
+      "units": "Counts",
+      "description": "Dose2 medium output",
+      "fill": "-32768.0"
+    },
+    {
+      "name": "dos2rate",
+      "type": "double",
+      "units": "#/sec",
+      "description": "Dose2 rate (>530 keV protons AC6-A and B)",
+      "fill": "-9.999999848243207e+30"
+    },
+    {
+      "name": "dos3l",
+      "type": "integer",
+      "units": "Counts",
+      "description": "Dose3 low output",
+      "fill": "-32768.0"
+    },
+    {
+      "name": "dos3m",
+      "type": "integer",
+      "units": "Counts",
+      "description": "Dose3 medium output",
+      "fill": "-32768.0"
+    },
+    {
+      "name": "dos3rate",
+      "type": "double",
+      "units": "#/sec",
+      "description": "Dose3 rate (>860 keV electrons, 12 MeV protons AC6-A;  >11 MeV protons AC6-B)",
+      "fill": "-9.999999848243207e+30"
+    },
+    {
+      "name": "flag",
+      "type": "integer",
+      "units": "",
+      "description": "bitmap: 0 - data OK, 1 - ground contact transmitter noise, 2- crosslink transmitter noise, 4 - dubious attitude, 8 - TLE ephemeris, 16 - dos3-A noisy day",
+      "fill": "255.0"
+    },
+    {
+      "name": "Sample_Rate",
+      "type": "integer",
+      "units": "Hz",
+      "description": "Sample rate, 1 or 10 Hz",
+      "fill": "255.0"
+    },
+    {
+      "name": "Lm_IGRF",
+      "type": "double",
+      "units": "",
+      "description": "McIlwain L for locally mirroring particle, IGRF magnetic field",
+      "fill": "-9.999999848243207e+30"
+    },
+    {
+      "name": "Bmag_IGRF",
+      "type": "double",
+      "units": "nT",
+      "description": "Magnitude of IGRF magnetic field at vehicle",
+      "fill": "-9.999999848243207e+30"
+    },
+    {
+      "name": "MLT_IGRF",
+      "type": "double",
+      "units": "Hours",
+      "description": "Solar local time at equatorial crossing of IGRF magnetic field line through vehicle",
+      "fill": "-9.999999848243207e+30"
+    },
+    {
+      "name": "InvLat_IGRF",
+      "type": "double",
+      "units": "deg",
+      "description": "Invariant latitude (McIlwain L) for locally mirroring particle, IGRF magnetic field",
+      "fill": "-9.999999848243207e+30"
+    },
+    {
+      "name": "Lm_OPQ",
+      "type": "double",
+      "units": "",
+      "description": "McIlwain L for locally mirroring particle, OPQ magnetic field",
+      "fill": "-9.999999848243207e+30"
+    },
+    {
+      "name": "Bmag_OPQ",
+      "type": "double",
+      "units": "nT",
+      "description": "Magnitude of OPQ magnetic field at vehicle",
+      "fill": "-9.999999848243207e+30"
+    },
+    {
+      "name": "MLT_OPQ",
+      "type": "double",
+      "units": "Hours",
+      "description": "Solar local time at equatorial crossing of OPQ magnetic field line through vehicle",
+      "fill": "-9.999999848243207e+30"
+    },
+    {
+      "name": "InvLat_OPQ",
+      "type": "double",
+      "units": "deg",
+      "description": "Invariant latitude (McIlwain L) for locally mirroring particle, OPQ magnetic field",
+      "fill": "-9.999999848243207e+30"
+    },
+    {
+      "name": "Loss_Cone_Type",
+      "type": "integer",
+      "units": "",
+      "description": "0 - trapped, 1 - drift loss cone, 2 - bounce loss cone, -1 = open/unknown, for locally mirroring particles, OPQ magnetic field",
+      "fill": "-128.0"
+    },
+    {
+      "name": "Bxyz_GEO",
+      "type": "double",
+      "units": "nT",
+      "description": "OPQ model magnetic field vector in GEO",
+      "fill": "-9.999999848243207e+30",
+      "size": [
+        3
+      ]
+    },
+    {
+      "name": "Beq",
+      "type": "double",
+      "units": "nT",
+      "description": "Minimum magnetic field strength on field line through vehicle, OPQ magnetic field",
+      "fill": "-9.999999848243207e+30"
+    },
+    {
+      "name": "I",
+      "type": "double",
+      "units": "RE",
+      "description": "Integral invariant for locally mirroring particle, OPQ magnetic field",
+      "fill": "-9.999999848243207e+30"
+    },
+    {
+      "name": "K",
+      "type": "double",
+      "units": "G^(1/2) RE",
+      "description": "Kaufmann invariant for locally mirroring particle, OPQ magnetic field",
+      "fill": "-9.999999848243207e+30"
+    },
+    {
+      "name": "K_Z",
+      "type": "double",
+      "units": "G^(1/2) RE",
+      "description": "Kaufmann invariant for normally incident particle, OPQ magnetic field",
+      "fill": "-9.999999848243207e+30"
+    },
+    {
+      "name": "Lstar",
+      "type": "double",
+      "units": "",
+      "description": "Modified third invariant (L*) for locally mirroring particle, OPQ magnetic field",
+      "fill": "-9.999999848243207e+30"
+    },
+    {
+      "name": "Lstar_Z",
+      "type": "double",
+      "units": "",
+      "description": "Modified third invariant (L*) for normally incident particle, OPQ magnetic field",
+      "fill": "-9.999999848243207e+30"
+    },
+    {
+      "name": "Hmin",
+      "type": "double",
+      "units": "km",
+      "description": "Minimum mirror altitude around drift shell for locally mirroring particle, OPQ magnetic field",
+      "fill": "-9.999999848243207e+30"
+    },
+    {
+      "name": "Hmin_Z",
+      "type": "double",
+      "units": "km",
+      "description": "Minimum mirror altitude around drift shell for normally incident particle, OPQ magnetic field",
+      "fill": "-9.999999848243207e+30"
+    },
+    {
+      "name": "Loss_Cone_Near",
+      "type": "double",
+      "units": "deg",
+      "description": "Polar angle of near hemisphere loss cone (100 km), OPQ magnetic field",
+      "fill": "-9.999999848243207e+30"
+    },
+    {
+      "name": "Loss_Cone_Far",
+      "type": "double",
+      "units": "deg",
+      "description": "Polar angle of opposite hemisphere loss cone (100 km), OPQ magnetic field",
+      "fill": "-9.999999848243207e+30"
+    },
+    {
+      "name": "B100N",
+      "type": "double",
+      "units": "nT",
+      "description": "OPQ magnetic field strength at 100 km altitude, northern hemisphere on field line through vehicle",
+      "fill": "-9.999999848243207e+30"
+    },
+    {
+      "name": "LAT100N",
+      "type": "double",
+      "units": "deg",
+      "description": "Geodetic latitude at 100 km altitude, northern hemisphere, on OPQ magnetic field line through vehicle",
+      "fill": "-9.999999848243207e+30"
+    },
+    {
+      "name": "LON100N",
+      "type": "double",
+      "units": "deg",
+      "description": "Geodetic longitude at 100 km altitude, northern hemisphere, on OPQ magnetic field line through vehicle",
+      "fill": "-9.999999848243207e+30"
+    },
+    {
+      "name": "B100S",
+      "type": "double",
+      "units": "nT",
+      "description": "OPQ magnetic field strength at 100 km altitude, southern hemisphere on field line through vehicle",
+      "fill": "-9.999999848243207e+30"
+    },
+    {
+      "name": "LAT100S",
+      "type": "double",
+      "units": "deg",
+      "description": "Geodetic latitude at 100 km altitude, southern hemisphere, on OPQ magnetic field line through vehicle",
+      "fill": "-9.999999848243207e+30"
+    },
+    {
+      "name": "LON100S",
+      "type": "double",
+      "units": "deg",
+      "description": "Geodetic longitude at 100 km altitude, southern hemisphere, on OPQ magnetic field line through vehicle",
+      "fill": "-9.999999848243207e+30"
+    },
+    {
+      "name": "Alpha",
+      "type": "double",
+      "units": "deg",
+      "description": "Local pitch angle of normally incident particle, OPQ magnetic field",
+      "fill": "-9.999999848243207e+30"
+    },
+    {
+      "name": "Alpha_X",
+      "type": "double",
+      "units": "deg",
+      "description": "Local pitch angle of particle moving along spacecraft X axis, OPQ magnetic field",
+      "fill": "-9.999999848243207e+30"
+    },
+    {
+      "name": "Alpha_Y",
+      "type": "double",
+      "units": "deg",
+      "description": "Local pitch angle of particle moving along spacecraft Y axis, OPQ magnetic field",
+      "fill": "-9.999999848243207e+30"
+    },
+    {
+      "name": "Alpha_Eq",
+      "type": "double",
+      "units": "deg",
+      "description": "Equatorial pitch angle of normally incident particle, OPQ magnetic field",
+      "fill": "-9.999999848243207e+30"
+    },
+    {
+      "name": "Beta",
+      "type": "double",
+      "units": "deg",
+      "description": "Gyrophase angle of normally incident particle, OPQ magnetic field",
+      "fill": "-9.999999848243207e+30"
+    },
+    {
+      "name": "Beta_X",
+      "type": "double",
+      "units": "deg",
+      "description": "Gyrophase angle of particle moving along spacecraft X axis, OPQ magnetic field",
+      "fill": "-9.999999848243207e+30"
+    },
+    {
+      "name": "Beta_Y",
+      "type": "double",
+      "units": "deg",
+      "description": "Gyrophase angle of particle moving along spacecraft Y axis, OPQ magnetic field",
+      "fill": "-9.999999848243207e+30"
+    },
+    {
+      "name": "Phi_B",
+      "type": "double",
+      "units": "deg",
+      "description": "Longitude of OPQ magnetic field in sensor coordinates",
+      "fill": "-9.999999848243207e+30"
+    },
+    {
+      "name": "OmegaXYZ_GEO",
+      "type": "double",
+      "units": "rad/sec",
+      "description": "Spin axis vector in GEO",
+      "fill": "-9.999999848243207e+30",
+      "size": [
+        3
+      ]
+    },
+    {
+      "name": "B_spin",
+      "type": "double",
+      "units": "deg",
+      "description": "Angle between OPQ magnetic field and spin axis",
+      "fill": "-9.999999848243207e+30"
+    },
+    {
+      "name": "Spin_Sun",
+      "type": "double",
+      "units": "deg",
+      "description": "Angle between spin axis and sun",
+      "fill": "-9.999999848243207e+30"
+    },
+    {
+      "name": "Dist_In_Track",
+      "type": "double",
+      "units": "km",
+      "description": "In track distance, AC6A - AC6B",
+      "fill": "-9.999999848243207e+30"
+    },
+    {
+      "name": "Lag_In_Track",
+      "type": "double",
+      "units": "sec",
+      "description": "In track time separation, AC6A - AC6B",
+      "fill": "-9.999999848243207e+30"
+    },
+    {
+      "name": "Dist_Cross_Track_Horiz",
+      "type": "double",
+      "units": "km",
+      "description": "Horizontal cross-track distance, AC6A - AC6B, Positive is East",
+      "fill": "-9.999999848243207e+30"
+    },
+    {
+      "name": "Dist_Cross_Track_Vert",
+      "type": "double",
+      "units": "km",
+      "description": "Vertical cross-track distance, AC6A - AC6B",
+      "fill": "-9.999999848243207e+30"
+    },
+    {
+      "name": "Dist_Total",
+      "type": "double",
+      "units": "Km",
+      "description": "Total separation distance, AC6A - AC6B",
+      "fill": "-9.999999848243207e+30"
+    },
+    {
+      "name": "alt_10Hz",
+      "type": "double",
+      "units": "km",
+      "description": "Geodetic altitude",
+      "fill": "-9.999999848243207e+30"
+    },
+    {
+      "name": "lat_10Hz",
+      "type": "double",
+      "units": "deg",
+      "description": "Geodetic latitude",
+      "fill": "-9.999999848243207e+30"
+    },
+    {
+      "name": "lon_10Hz",
+      "type": "double",
+      "units": "deg",
+      "description": "Geodetic longitude",
+      "fill": "-9.999999848243207e+30"
+    },
+    {
+      "name": "dos1l_10Hz",
+      "type": "integer",
+      "units": "Counts",
+      "description": "Dose1 low output",
+      "fill": "-32768.0"
+    },
+    {
+      "name": "dos1m_10Hz",
+      "type": "integer",
+      "units": "Counts",
+      "description": "Dose1 medium output",
+      "fill": "-32768.0"
+    },
+    {
+      "name": "dos1rate_10Hz",
+      "type": "double",
+      "units": "#/sec",
+      "description": "Dose1 rate (>43 keV electrons, >370 keV protons AC6-A and B)",
+      "fill": "-9.999999848243207e+30"
+    },
+    {
+      "name": "dos2l_10Hz",
+      "type": "integer",
+      "units": "Counts",
+      "description": "Dose2 low output",
+      "fill": "-32768.0"
+    },
+    {
+      "name": "dos2m_10Hz",
+      "type": "integer",
+      "units": "Counts",
+      "description": "Dose2 medium output",
+      "fill": "-32768.0"
+    },
+    {
+      "name": "dos2rate_10Hz",
+      "type": "double",
+      "units": "#/sec",
+      "description": "Dose2 rate (>530 keV electrons AC6-A and B)",
+      "fill": "-9.999999848243207e+30"
+    },
+    {
+      "name": "dos3l_10Hz",
+      "type": "integer",
+      "units": "Counts",
+      "description": "Dose3 low output",
+      "fill": "-32768.0"
+    },
+    {
+      "name": "dos3m_10Hz",
+      "type": "integer",
+      "units": "Counts",
+      "description": "Dose3 medium output",
+      "fill": "-32768.0"
+    },
+    {
+      "name": "dos3rate_10Hz",
+      "type": "double",
+      "units": "#/sec",
+      "description": "Dose3 rate (>860 keV electrons, 12 MeV protons AC6-A;  >11 MeV protons AC6-B)",
+      "fill": "-9.999999848243207e+30"
+    },
+    {
+      "name": "flag_10Hz",
+      "type": "integer",
+      "units": "",
+      "description": "bitmap: 0 - data OK, 1 - ground contact transmitter noise, 2- crosslink transmitter noise, 4 - dubious attitude, 8 - TLE ephemeris, 16 - dos3-A noisy day",
+      "fill": "255.0"
+    },
+    {
+      "name": "Subcom_10Hz",
+      "type": "integer",
+      "units": "",
+      "description": "Slot in multiplexed 10 Hz readout, 0 to 9",
+      "fill": "255.0"
+    },
+    {
+      "name": "Lm_OPQ_10Hz",
+      "type": "double",
+      "units": "",
+      "description": "McIlwain L for locally mirroring particle, OPQ magnetic field",
+      "fill": "-9.999999848243207e+30"
+    },
+    {
+      "name": "Bmag_OPQ_10Hz",
+      "type": "double",
+      "units": "nT",
+      "description": "Magnitude of OPQ magnetic field at vehicle",
+      "fill": "-9.999999848243207e+30"
+    },
+    {
+      "name": "MLT_OPQ_10Hz",
+      "type": "double",
+      "units": "Hours",
+      "description": "Solar local time at equatorial crossing of OPQ magnetic field line through vehicle",
+      "fill": "-9.999999848243207e+30"
+    },
+    {
+      "name": "InvLat_OPQ_10Hz",
+      "type": "double",
+      "units": "deg",
+      "description": "Invariant latitude (McIlwain L) for locally mirroring particle, OPQ magnetic field",
+      "fill": "-9.999999848243207e+30"
+    },
+    {
+      "name": "Loss_Cone_Type_10Hz",
+      "type": "integer",
+      "units": "",
+      "description": "0 - trapped, 1 - drift loss cone, 2 - bounce loss cone, -1 = open/unknown, for locally mirroring particles, OPQ magnetic field",
+      "fill": "-128.0"
+    },
+    {
+      "name": "K_Z_10Hz",
+      "type": "double",
+      "units": "G^(1/2) RE",
+      "description": "Kaufmann invariant for normally incident particle, OPQ magnetic field",
+      "fill": "-9.999999848243207e+30"
+    },
+    {
+      "name": "Lstar_Z_10Hz",
+      "type": "double",
+      "units": "",
+      "description": "Modified third invariant (L*) for normally incident particle, OPQ magnetic field",
+      "fill": "-9.999999848243207e+30"
+    },
+    {
+      "name": "Hmin_Z_10Hz",
+      "type": "double",
+      "units": "km",
+      "description": "Minimum mirror altitude around drift shell for normally incident particle, OPQ magnetic field",
+      "fill": "-9.999999848243207e+30"
+    },
+    {
+      "name": "Alpha_10Hz",
+      "type": "double",
+      "units": "deg",
+      "description": "Local pitch angle of normally incident particle, OPQ magnetic field",
+      "fill": "-9.999999848243207e+30"
+    },
+    {
+      "name": "Beta_10Hz",
+      "type": "double",
+      "units": "deg",
+      "description": "Gyrophase angle of normally incident particle, OPQ magnetic field",
+      "fill": "-9.999999848243207e+30"
+    },
+    {
+      "name": "Dist_In_Track_10Hz",
+      "type": "double",
+      "units": "km",
+      "description": "In track distance, AC6A - AC6B",
+      "fill": "-9.999999848243207e+30"
+    },
+    {
+      "name": "Lag_In_Track_10Hz",
+      "type": "double",
+      "units": "sec",
+      "description": "In track time separation, AC6A - AC6B",
+      "fill": "-9.999999848243207e+30"
+    },
+    {
+      "name": "Dist_Cross_Track_Horiz_10Hz",
+      "type": "double",
+      "units": "km",
+      "description": "Horizontal cross-track distance, AC6A - AC6B, Positive is East",
+      "fill": "-9.999999848243207e+30"
+    },
+    {
+      "name": "Dist_Cross_Track_Vert_10Hz",
+      "type": "double",
+      "units": "km",
+      "description": "Vertical cross-track distance, AC6A - AC6B",
+      "fill": "-9.999999848243207e+30"
+    },
+    {
+      "name": "Dist_Total_10Hz",
+      "type": "double",
+      "units": "km",
+      "description": "Total separation distance, AC6A - AC6B",
+      "fill": "-9.999999848243207e+30"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

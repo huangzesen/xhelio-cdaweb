@@ -1,0 +1,453 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "Bat1_Bat2_I_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Battery 1 / Battery 2 Current",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Bat1_Bat2_I_2_current_amps",
+      "type": "double",
+      "units": "amps",
+      "description": "Battery 1 / Battery 2 Current",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Bat1_Bat2_I",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Bat1/Bat2 I",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Bat4_Bat4_I_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Battery 3 / Battery 4 Current",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Bat4_Bat4_I_2_current_amps",
+      "type": "double",
+      "units": "amps",
+      "description": "Battery 3 / Battery 4 Current",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Bat4_Bat4_I",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Bat4/Bat4 I",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Main_Bus_I_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Main Bus Current",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Main_Bus_I_2_current_amps",
+      "type": "double",
+      "units": "amps",
+      "description": "Main Bus Current",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Main_Bus_I",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Main Bus I",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "OBDH_Bus_I_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Onboard Data Handling Bus Current",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "OBDH_Bus_I_2_current_amps",
+      "type": "double",
+      "units": "amps",
+      "description": "Onboard Data Handling Bus Current",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_OBDH_Bus_I",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for OBDH Bus I",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "TT_C_Bus_I_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "TT&C Bus Current",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "TT_C_Bus_I_2_current_amps",
+      "type": "double",
+      "units": "amps",
+      "description": "TT&C Bus Current",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_TT_C_Bus_I",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for TT&C Bus I",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "PPDA_Bus_I_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "PPDA Bus Current",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "PPDA_Bus_I_2_current_amps",
+      "type": "double",
+      "units": "amps",
+      "description": "PPDA Bus Current",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_PPDA_Bus_I",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for PPDA Bus I",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "AMCS_Bus_I_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "AMCS Bus Current",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "AMCS_Bus_I_2_current_amps",
+      "type": "double",
+      "units": "amps",
+      "description": "AMCS Bus Current",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_AMCS_Bus_I",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for AMCS Bus I",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "PM_Heater_Bus_I_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "PM Heater Bus Current",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "PM_Heater_Bus_I_2_current_amps",
+      "type": "double",
+      "units": "amps",
+      "description": "PM Heater Bus Current",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_PM_Heater_Bus_I",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for PM Heater Bus I",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "D_J_Heater_Bus_I_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "D&J Bus Current",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "D_J_Heater_Bus_I_2_current_amps",
+      "type": "double",
+      "units": "amps",
+      "description": "D&J Bus Current",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_D_J_Heater_Bus_I",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for D&J Heater Bus I",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "I_O_Pl_Sec_Bus_I_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "I/O Of Plane Section Bus Current",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "I_O_Pl_Sec_Bus_I_2_current_amps",
+      "type": "double",
+      "units": "amps",
+      "description": "I/O Of Plane Section Bus Current",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_I_O_Pl_Sec_Bus_I",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for I/O Pl Sec Bus I",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "APS_Bus_I_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "APS Heater Bus Current",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "APS_Bus_I_2_current_amps",
+      "type": "double",
+      "units": "amps",
+      "description": "APS Heater Bus Current",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_APS_Bus_I",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for APS Bus I",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Yaw_Bus_I_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Yaw Section Bus Current",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Yaw_Bus_I_2_current_amps",
+      "type": "double",
+      "units": "amps",
+      "description": "Yaw Section Bus Current",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Yaw_Bus_I",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Yaw Bus I",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Rel_L_Valve_Bus_I_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Rel/L. Valve  Bus Current",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Rel_L_Valve_Bus_I_2_current_amps",
+      "type": "double",
+      "units": "amps",
+      "description": "Rel/L. Valve  Bus Current",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Rel_L_Valve_Bus_I",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Rel/L Valve Bus I",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Bat_2_V_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Battery 2 Voltage",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Bat_2_V_2_voltage_volts",
+      "type": "double",
+      "units": "volts",
+      "description": "Battery 2 Voltage",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Bat_2_V",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Bat 2 V",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Bat_4_V_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Battery 4 Voltage",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Bat_4_V_2_voltage_volts",
+      "type": "double",
+      "units": "volts",
+      "description": "Battery 4 Voltage",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Bat_4_V",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Bat 4 V",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Bat1_Bat2_V_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Battery 1 / Battery 2 Voltage",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Bat1_Bat2_V_2_voltage_volts",
+      "type": "double",
+      "units": "volts",
+      "description": "Battery 1 / Battery 2 Voltage",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Bat1_Bat2_V",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Bat1/Bat2 V",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Bat3_Bat4_V_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Battery 3 / Battery 4 Voltage",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Bat3_Bat4_V_2_voltage_volts",
+      "type": "double",
+      "units": "volts",
+      "description": "Battery 3 / Battery 4 Voltage",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Bat3_Bat4_V",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Bat3/Bat4 V",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Main_Bus_V_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "Main Bus Voltage",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Main_Bus_V_2_voltage_volts",
+      "type": "double",
+      "units": "volts",
+      "description": "Main Bus Voltage",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Main_Bus_V",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for Main Bus V",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "TX_Reg_V_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "TX Regulated Voltage",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "TX_Reg_V_2_voltage_volts",
+      "type": "double",
+      "units": "volts",
+      "description": "TX Regulated Voltage",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_TX_Reg_V",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for TX Reg V",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "RX_Reg_V_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "RX Regulated Voltage",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "RX_Reg_V_2_voltage_volts",
+      "type": "double",
+      "units": "volts",
+      "description": "RX Regulated Voltage",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_RX_Reg_V",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for RX Reg V",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "TX_RF_Output_Pwr_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "TX RF Output Power",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "TX_RF_Output_Pwr_2_power_DbM",
+      "type": "double",
+      "units": "DbM",
+      "description": "TX RF Output Power",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_TX_RF_Output_Pwr",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for TX RF Output Pwr",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

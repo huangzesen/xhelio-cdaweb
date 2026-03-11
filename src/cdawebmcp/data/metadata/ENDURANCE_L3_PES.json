@@ -1,0 +1,33 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "alt",
+      "type": "double",
+      "units": "km",
+      "description": "Altitude of Endurance",
+      "fill": "nan"
+    },
+    {
+      "name": "Potential_Drop",
+      "type": "double",
+      "units": "V",
+      "description": "Potential Drop Below Endurance",
+      "fill": "nan"
+    },
+    {
+      "name": "Potential_Drop_Error",
+      "type": "double",
+      "units": "V",
+      "description": "Error in Potential Drop Below Endurance",
+      "fill": "nan"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

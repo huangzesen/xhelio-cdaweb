@@ -1,0 +1,126 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "p__Sen_3_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Ion Sensor, Spectrometer 3",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        128
+      ]
+    },
+    {
+      "name": "p__Sen_3_2_counts_acc_c_acc",
+      "type": "double",
+      "units": "c/acc",
+      "description": "Ion Sensor, Spectrometer 3",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        128
+      ]
+    },
+    {
+      "name": "p__Sen_3_3_c_acc_c_acc",
+      "type": "double",
+      "units": "c/acc",
+      "description": "Ion Sensor, Spectrometer 3",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        128
+      ]
+    },
+    {
+      "name": "p__Sen_3_4_Count_Rate_c_s",
+      "type": "double",
+      "units": "c/s",
+      "description": "Ion Sensor, Spectrometer 3",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        128
+      ]
+    },
+    {
+      "name": "p__Sen_3_5_NF_cnts_cm__2_ster_s",
+      "type": "double",
+      "units": "cnts/(cm**2-ster-s)",
+      "description": "Ion Sensor, Spectrometer 3",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        128
+      ]
+    },
+    {
+      "name": "p__Sen_3_6_dNF_cnts_cm__2_ster_s_eV",
+      "type": "double",
+      "units": "cnts/(cm**2-ster-s-e",
+      "description": "Ion Sensor, Spectrometer 3",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        128
+      ]
+    },
+    {
+      "name": "p__Sen_3_7_dEF_ergs_cm__2_ster_s_eV",
+      "type": "double",
+      "units": "ergs/(cm**2-ster-s-e",
+      "description": "Ion Sensor, Spectrometer 3",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        128
+      ]
+    },
+    {
+      "name": "p__Sen_3_8_DF_sec__3_km__6",
+      "type": "double",
+      "units": "sec**3/km**6",
+      "description": "Ion Sensor, Spectrometer 3",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        128
+      ]
+    },
+    {
+      "name": "Data_Quality_p__Sen_3",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for p+ Sen 3",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Start_Spin_Angle_p__Sen_3",
+      "type": "double",
+      "units": "Degrees",
+      "description": "Start Spin Angle for p+ Sen 3",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        128
+      ]
+    },
+    {
+      "name": "Pitch_Angle_p__Sen_3",
+      "type": "double",
+      "units": "Degrees",
+      "description": "Pitch Angle for p+ Sen 3",
+      "fill": "-3.3999999521443642e+38",
+      "size": [
+        128
+      ]
+    },
+    {
+      "name": "MODE0_HVPS_Voltage_State",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Status Indicator HV Pwr Supply",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

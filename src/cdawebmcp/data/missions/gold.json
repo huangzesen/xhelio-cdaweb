@@ -1,15 +1,11 @@
 {
-  "id": "GOLD",
+  "id": "gold",
   "name": "GOLD",
-  "keywords": [
-    "gold"
-  ],
   "profile": {
-    "description": "GOLD spacecraft data from CDAWeb.",
+    "description": "GOLD data from CDAWeb.",
     "coordinate_systems": [],
     "typical_cadence": "",
-    "data_caveats": [],
-    "analysis_patterns": []
+    "data_caveats": []
   },
   "instruments": {
     "imaging_itm": {
@@ -26,42 +22,33 @@
           "start_date": "2018-10-05T06:10:42.000Z",
           "stop_date": "2025-10-21T18:33:35.000Z",
           "pi_name": "Richard Eastes",
-          "pi_affiliation": "University of Colorado/LASP",
-          "doi": "10.48322/wjrk-dk56",
-          "notes_url": "https://cdaweb.gsfc.nasa.gov/misc/NotesG.html#GOLD_L2_ON2"
+          "doi": "10.48322/wjrk-dk56"
         },
         "GOLD_L2_NMAX": {
           "description": "GOLD Peak Electron density NMAX L2 Daily Files - Richard Eastes (University of Colorado/LASP)",
           "start_date": "2018-10-05T20:10:48.000Z",
-          "stop_date": "2026-02-02T00:39:04.000Z",
+          "stop_date": "2026-02-16T00:39:01.000Z",
           "pi_name": "Richard Eastes",
-          "pi_affiliation": "University of Colorado/LASP",
-          "doi": "10.48322/2pmw-ee13",
-          "notes_url": "https://cdaweb.gsfc.nasa.gov/misc/NotesG.html#GOLD_L2_NMAX"
+          "doi": "10.48322/2pmw-ee13"
         },
         "GOLD_L2_O2DEN": {
           "description": "GOLD O2DEN L2 Daily Fileof O2 density - Richard Eastes (University of Colorado/LASP)",
           "start_date": "2018-10-19T15:22:12.000Z",
           "stop_date": "2025-10-21T07:47:12.000Z",
-          "pi_name": "Richard Eastes",
-          "pi_affiliation": "University of Colorado/LASP",
-          "notes_url": "https://cdaweb.gsfc.nasa.gov/misc/NotesG.html#GOLD_L2_O2DEN"
+          "pi_name": "Richard Eastes"
         },
         "GOLD_L2_TDISK": {
           "description": "GOLD TDISK Neutral Temperatures - Richard Eastes (University of Colorado/LASP)",
           "start_date": "2018-10-05T06:10:42.000Z",
           "stop_date": "2025-10-21T18:33:35.000Z",
           "pi_name": "Richard Eastes",
-          "pi_affiliation": "University of Colorado/LASP",
-          "doi": "10.48322/cw53-xt80",
-          "notes_url": "https://cdaweb.gsfc.nasa.gov/misc/NotesG.html#GOLD_L2_TDISK"
+          "doi": "10.48322/cw53-xt80"
         }
       }
     }
   },
-  "observatory_group": "GOLD",
   "_meta": {
-    "generated_at": "2026-03-03T22:37:51Z",
-    "source": "CDAS REST + Master CDF"
+    "generated_at": "2026-03-11T01:11:24Z",
+    "source": "CDAWeb REST API"
   }
 }

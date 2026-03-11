@@ -1,0 +1,110 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "CCP_Cur_Filter_In",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "CCP Status Current Filter In",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_CCP_Cur_Filter_In",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for CCP Cur Filter In",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "CCP_Cur_Calib",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "CCP Status Current Calibrate",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_CCP_Cur_Calib",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for CCP Cur Calib",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "CCP_Cur_Enable",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "CCP Status Current Enabled",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_CCP_Cur_Enable",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for CCP Cur Enable",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "CCP_Q_Reset",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "CCP Status Charge Reset",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_CCP_Q_Reset",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for CCP Q Reset",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "CCP_Q_Enable",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "CCP Status Charge Enabled",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_CCP_Q_Enable",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for CCP Q Enable",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "CCP_Relay",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "CCP Relay On",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_CCP_Relay",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for CCP Relay",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "CCP_Pwr",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "CCP Power Status",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_CCP_Pwr",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for CCP Pwr",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

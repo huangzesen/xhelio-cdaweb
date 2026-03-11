@@ -1,0 +1,96 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "Bx_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Bx",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Bx_2_MF_nT",
+      "type": "double",
+      "units": "nT",
+      "description": "Bx",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Bx_3_MF_gauss",
+      "type": "double",
+      "units": "gauss",
+      "description": "Bx",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Bx",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Bx",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "By_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "By",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "By_2_MF_nT",
+      "type": "double",
+      "units": "nT",
+      "description": "By",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "By_3_MF_gauss",
+      "type": "double",
+      "units": "gauss",
+      "description": "By",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_By",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for By",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Bz_1_Telemetry_Dimensionless",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Bz",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Bz_2_MF_nT",
+      "type": "double",
+      "units": "nT",
+      "description": "Bz",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Bz_3_MF_gauss",
+      "type": "double",
+      "units": "gauss",
+      "description": "Bz",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_Bz",
+      "type": "double",
+      "units": "Dimensionless",
+      "description": "Data Quality Indicator for Bz",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

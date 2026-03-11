@@ -1,0 +1,180 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "EGA1_Fila_I_Cyc2_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "EGA1 Filament Current Cycle 2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "EGA1_Fila_I_Cyc2_2_current_amps",
+      "type": "double",
+      "units": "amps",
+      "description": "EGA1 Filament Current Cycle 2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_EGA1_Fila_I_Cyc2",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for EGA1 Fila I Cyc2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "EGA1_Fila_I_Cyc6_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "EGA1 Filament Current Cycle 6",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "EGA1_Fila_I_Cyc6_2_current_amps",
+      "type": "double",
+      "units": "amps",
+      "description": "EGA1 Filament Current Cycle 6",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_EGA1_Fila_I_Cyc6",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for EGA1 Fila I Cyc6",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "EGA2_Fila_I_Cyc2_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "EGA2 Filament Current Cycle 2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "EGA2_Fila_I_Cyc2_2_current_amps",
+      "type": "double",
+      "units": "amps",
+      "description": "EGA2 Filament Current Cycle 2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_EGA2_Fila_I_Cyc2",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for EGA2 Fila I Cyc2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "EGA2_Fila_I_Cyc6_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "EGA2 Filament Current Cycle 6",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "EGA2_Fila_I_Cyc6_2_current_amps",
+      "type": "double",
+      "units": "amps",
+      "description": "EGA2 Filament Current Cycle 6",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_EGA2_Fila_I_Cyc6",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for EGA2 Fila I Cyc6",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "EGA1_Tether_I_Cyc2_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "EGA1 Tether Current Cycle 2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "EGA1_Tether_I_Cyc2_2_current_amps",
+      "type": "double",
+      "units": "amps",
+      "description": "EGA1 Tether Current Cycle 2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_EGA1_Tether_I_Cyc2",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for EGA1 Tether I Cyc2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "EGA1_Tether_I_Cyc6_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "EGA1 Tether Current Cycle 6",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "EGA1_Tether_I_Cyc6_2_current_amps",
+      "type": "double",
+      "units": "amps",
+      "description": "EGA1 Tether Current Cycle 6",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_EGA1_Tether_I_Cyc6",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for EGA1 Tether I Cyc6",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "EGA2_Tether_I_Cyc2_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "EGA2 Tether Current Cycle 2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "EGA2_Tether_I_Cyc2_2_current_amps",
+      "type": "double",
+      "units": "amps",
+      "description": "EGA2 Tether Current Cycle 2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_EGA2_Tether_I_Cyc2",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for EGA2 Tether I Cyc2",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "EGA2_Tether_I_Cyc6_1_telemetry_unitless",
+      "type": "double",
+      "units": "unitless",
+      "description": "EGA2 Tether Current Cycle 6",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "EGA2_Tether_I_Cyc6_2_current_amps",
+      "type": "double",
+      "units": "amps",
+      "description": "EGA2 Tether Current Cycle 6",
+      "fill": "-3.3999999521443642e+38"
+    },
+    {
+      "name": "Data_Quality_EGA2_Tether_I_Cyc6",
+      "type": "double",
+      "units": "unitless",
+      "description": "Data Quality Indicator for EGA2 Tether I Cyc6",
+      "fill": "-3.3999999521443642e+38"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}
