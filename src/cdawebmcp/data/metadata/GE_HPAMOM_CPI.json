@@ -1,0 +1,50 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "Density_i",
+      "type": "double",
+      "units": "/cc",
+      "description": "Ion number density (Hot Plasma Analyzer), scalar",
+      "fill": "-9.999999848243207e+30"
+    },
+    {
+      "name": "Temp_i",
+      "type": "double",
+      "units": "Kelvin",
+      "description": "Kinetic Temperature of Hot Plasma Ions, scalar",
+      "fill": "-9.999999848243207e+30"
+    },
+    {
+      "name": "Velocity_i",
+      "type": "double",
+      "units": "km/sec",
+      "description": "Ion bulk flow velocity, 3 GSE components",
+      "fill": "-9.999999848243207e+30",
+      "size": [
+        3
+      ]
+    },
+    {
+      "name": "Density_e",
+      "type": "double",
+      "units": "/cc",
+      "description": "Electron Number Density (Hot Plasma Analyzer), scalar",
+      "fill": "-9.999999848243207e+30"
+    },
+    {
+      "name": "Temp_e",
+      "type": "double",
+      "units": "Kelvin",
+      "description": "Kinetic Temperature of Hot Plasma Electrons, scalar",
+      "fill": "-9.999999848243207e+30"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

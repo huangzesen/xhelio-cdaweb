@@ -21,8 +21,8 @@ from datetime import UTC, datetime, timedelta
 from pathlib import Path
 
 REPORTS_DIR = Path(__file__).resolve().parent.parent / "reports"
-MAX_FILE_SIZE_BYTES = 500 * 1024 * 1024  # 500 MB — skip huge CDF files
-PER_DATASET_TIMEOUT = 120  # seconds
+MAX_FILE_SIZE_BYTES = 200 * 1024 * 1024  # 200 MB — skip huge CDF files
+PER_DATASET_TIMEOUT = 60  # seconds
 
 
 # ── Dataset enumeration ─────────────────────────────────────────────────────
@@ -51,6 +51,31 @@ def enumerate_datasets(observatory_filter: str | None = None) -> list[dict]:
 
 # ── Single dataset test ──────────────────────────────────────────────────────
 
+def _run_with_timeout(fn, timeout_seconds):
+    """Run fn() in a daemon thread with a timeout. Returns result or raises TimeoutError.
+
+    Note: the daemon thread may leak if fn() is stuck in C code (e.g. cdflib),
+    but this prevents the main thread from blocking indefinitely.
+    """
+    result_box = [None]
+    error_box = [None]
+
+    def wrapper():
+        try:
+            result_box[0] = fn()
+        except Exception as e:
+            error_box[0] = e
+
+    t = threading.Thread(target=wrapper, daemon=True)
+    t.start()
+    t.join(timeout=timeout_seconds)
+    if t.is_alive():
+        raise TimeoutError(f"Exceeded {timeout_seconds}s timeout")
+    if error_box[0] is not None:
+        raise error_box[0]
+    return result_box[0]
+
+
 def test_one_dataset(entry: dict) -> dict:
     """Smoke-test one dataset. Returns result dict."""
     dataset_id = entry["dataset_id"]
@@ -74,12 +99,27 @@ def test_one_dataset(entry: dict) -> dict:
         start_iso = start_dt.strftime("%Y-%m-%dT%H:%M:%SZ")
         stop_iso = stop_dt.strftime("%Y-%m-%dT%H:%M:%SZ")
 
-        from cdawebmcp.fetch import fetch_data
-        result = fetch_data(
-            dataset_id=dataset_id,
-            parameters=[param_name],
-            start=start_iso,
-            stop=stop_iso,
+        # Check file sizes before downloading — skip huge CDFs
+        from cdawebmcp.fetch import _get_cdf_file_list, fetch_data
+        try:
+            file_list = _get_cdf_file_list(dataset_id, start_iso, stop_iso)
+            total_size = sum(f.get("size", 0) for f in file_list)
+            if total_size > MAX_FILE_SIZE_BYTES:
+                return _result(entry, "skipped_large",
+                    f"Total CDF size {total_size / 1024 / 1024:.0f} MB exceeds limit", t0)
+        except ValueError:
+            return _result(entry, "empty", "No CDF files in time range", t0)
+        except Exception:
+            pass  # proceed anyway if size check fails
+
+        result = _run_with_timeout(
+            lambda: fetch_data(
+                dataset_id=dataset_id,
+                parameters=[param_name],
+                start=start_iso,
+                stop=stop_iso,
+            ),
+            timeout_seconds=PER_DATASET_TIMEOUT,
         )
 
         info = result.get(param_name, {})
@@ -173,8 +213,8 @@ def print_summary(results: list[dict]) -> None:
         return
 
     counts = Counter(r["status"] for r in results)
-    order = ["pass", "empty", "no_params", "download_error", "parse_error",
-             "epoch_mismatch", "timeout", "other"]
+    order = ["pass", "empty", "no_params", "skipped_large", "download_error",
+             "parse_error", "epoch_mismatch", "timeout", "other"]
     print(f"\n{'─' * 50}")
     print(f"  Results: {total} datasets tested")
     print(f"{'─' * 50}")

@@ -403,8 +403,7 @@ def _read_cdf_parameter(cdf_path: Path, parameter_id: str) -> pd.DataFrame:
 
     # Find epoch variable — prefer DEPEND_0 attribute, fall back to generic search
     epoch_var = _find_epoch_for_parameter(cdf, info, parameter_id)
-    epoch_data = cdf.varget(epoch_var)
-    times = cdflib.cdfepoch.to_datetime(epoch_data)
+    times = _read_epoch(cdf, info, epoch_var)
 
     if param_data.ndim == 1:
         df = pd.DataFrame({1: param_data}, index=times)
@@ -419,6 +418,50 @@ def _read_cdf_parameter(cdf_path: Path, parameter_id: str) -> pd.DataFrame:
 
     df.index.name = "time"
     return df
+
+
+def _read_epoch(cdf, info, epoch_var: str):
+    """Read epoch data, handling THEMIS-style virtual epochs.
+
+    THEMIS CDF files store time as virtual epoch variables: the CDF_EPOCH
+    variable (e.g. tha_fgs_epoch) has 0 records, but a companion CDF_DOUBLE
+    variable (e.g. tha_fgs_time) contains Unix timestamps. When the epoch
+    variable is empty, we fall back to the companion *_time variable.
+    """
+    import cdflib
+
+    try:
+        epoch_data = cdf.varget(epoch_var)
+        return cdflib.cdfepoch.to_datetime(epoch_data)
+    except ValueError as e:
+        if "No records found" not in str(e):
+            raise
+
+    # Fallback: look for a companion *_time variable with Unix timestamps.
+    # THEMIS pattern: tha_fgs_epoch (empty) → tha_fgs_time (Unix seconds)
+    all_vars = info.zVariables + info.rVariables
+    time_var = None
+
+    # Try replacing _epoch/_epoch16 suffix with _time
+    for suffix in ("_epoch", "_epoch16"):
+        if epoch_var.endswith(suffix):
+            candidate = epoch_var[: -len(suffix)] + "_time"
+            if candidate in all_vars:
+                time_var = candidate
+                break
+
+    if time_var is None:
+        raise ValueError(
+            f"No records found for variable {epoch_var} and no companion "
+            f"*_time variable found"
+        )
+
+    time_data = cdf.varget(time_var)
+
+    # Convert Unix seconds to datetime
+    from datetime import datetime, timezone
+
+    return [datetime.fromtimestamp(t, tz=timezone.utc) for t in time_data]
 
 
 def _find_epoch_for_parameter(cdf, info, parameter_id: str) -> str:

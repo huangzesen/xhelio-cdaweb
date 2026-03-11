@@ -1,0 +1,26 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "E_X",
+      "type": "double",
+      "units": "mV/m",
+      "description": "X component of the electric field, DSC coordinate system",
+      "fill": "-9.999999848243207e+30"
+    },
+    {
+      "name": "E_Y",
+      "type": "double",
+      "units": "mV/m",
+      "description": "Y component of the electric field, DSC coordinate system",
+      "fill": "-9.999999848243207e+30"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

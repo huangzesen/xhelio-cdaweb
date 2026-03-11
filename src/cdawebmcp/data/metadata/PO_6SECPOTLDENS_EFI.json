@@ -1,0 +1,26 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "S_C_Pot",
+      "type": "double",
+      "units": "Volt",
+      "description": "Spacecraft potential",
+      "fill": "-9.999999848243207e+30"
+    },
+    {
+      "name": "n",
+      "type": "double",
+      "units": "cm^(-3)",
+      "description": "plasma density",
+      "fill": "1.0000000200408773e+20"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

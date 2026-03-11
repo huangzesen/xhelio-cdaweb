@@ -1,0 +1,61 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "y",
+      "type": "double",
+      "units": "Hz",
+      "description": "Digitized point, interpreted with digi_type",
+      "fill": "-9.999999848243207e+30"
+    },
+    {
+      "name": "bmag",
+      "type": "double",
+      "units": "nT",
+      "description": "B-Field magnitude used to infer fce",
+      "fill": "-9.999999848243207e+30"
+    },
+    {
+      "name": "fce",
+      "type": "double",
+      "units": "Hz",
+      "description": "Electron cyclotron frequency",
+      "fill": "-9.999999848243207e+30"
+    },
+    {
+      "name": "fpe",
+      "type": "double",
+      "units": "Hz",
+      "description": "Electron plasma frequency",
+      "fill": "-9.999999848243207e+30"
+    },
+    {
+      "name": "wpe_over_wce",
+      "type": "double",
+      "units": "",
+      "description": "Ratio of electron plasma oscillation to cyclotron gyration",
+      "fill": "-9.999999848243207e+30"
+    },
+    {
+      "name": "fuh",
+      "type": "double",
+      "units": "Hz",
+      "description": "Upper hybrid resonance frequency",
+      "fill": "-9.999999848243207e+30"
+    },
+    {
+      "name": "density",
+      "type": "double",
+      "units": "cm**-3",
+      "description": "electron density",
+      "fill": "-9.999999848243207e+30"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

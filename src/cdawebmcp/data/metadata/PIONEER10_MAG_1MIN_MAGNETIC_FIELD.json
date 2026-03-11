@@ -1,0 +1,43 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "B_rtn",
+      "type": "double",
+      "units": "nT",
+      "description": "magnetic field vector in RTN",
+      "fill": "-1e+31",
+      "size": [
+        3
+      ]
+    },
+    {
+      "name": "B_mag",
+      "type": "double",
+      "units": "nT",
+      "description": "magnetic field magnitude",
+      "fill": "-1e+31"
+    },
+    {
+      "name": "light_time_interpol",
+      "type": "double",
+      "units": "s",
+      "description": "interpolated one-way light-time delays",
+      "fill": "-1e+31"
+    },
+    {
+      "name": "light_time",
+      "type": "double",
+      "units": "s",
+      "description": "one-way light-time delays",
+      "fill": "-1e+31"
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}

@@ -1,0 +1,53 @@
+{
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC",
+      "fill": null
+    },
+    {
+      "name": "lat",
+      "type": "double",
+      "units": "deg",
+      "description": "C/NOFS latitude in degrees",
+      "fill": "-9.999999848243207e+30"
+    },
+    {
+      "name": "lon",
+      "type": "double",
+      "units": "deg",
+      "description": "C/NOFS longitude in degrees (east)",
+      "fill": "-9.999999848243207e+30"
+    },
+    {
+      "name": "alt",
+      "type": "double",
+      "units": "km",
+      "description": "C/NOFS altitude in km",
+      "fill": "-9.999999848243207e+30"
+    },
+    {
+      "name": "ldn",
+      "type": "integer",
+      "units": "counts",
+      "description": "Number of samples with white-light irradiance in 1 of 7 bins having lower threshold values: 0.23, 3.7, 11, 23, 39, 60, and 84 mW/m^2 (north-viewing diode)",
+      "fill": "65535.0",
+      "size": [
+        7
+      ]
+    },
+    {
+      "name": "lds",
+      "type": "integer",
+      "units": "counts",
+      "description": "Number of samples with white-light irradiance in 1 of 7 bins having lower threshold values: 0.23, 3.7, 11, 23, 39, 60, and 84 mW/m^2 (south-viewing diode)",
+      "fill": "65535.0",
+      "size": [
+        7
+      ]
+    }
+  ],
+  "startDate": "",
+  "stopDate": ""
+}
