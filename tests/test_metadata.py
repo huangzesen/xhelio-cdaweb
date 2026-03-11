@@ -87,9 +87,9 @@ def test_browse_parameters_includes_validation(tmp_path, monkeypatch):
     }
     (override_dir / "AC_H2_MFI.json").write_text(json.dumps(override))
 
-    # Mock the mission stem lookup
+    # Mock the observatory stem lookup
     with patch("cdawebmcp.metadata.get_cache_dir", return_value=meta_dir):
-        with patch("cdawebmcp.catalog.get_mission_stem_from_dataset", return_value="ace"):
+        with patch("cdawebmcp.catalog.get_observatory_stem_from_dataset", return_value="ace"):
             result = browse_parameters(dataset_id="AC_H2_MFI")
 
     assert result["status"] == "success"

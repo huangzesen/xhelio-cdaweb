@@ -6,6 +6,7 @@ MCP server wrapper (server.py) handles file-writing and metadata-only responses.
 
 import json
 import logging
+from collections.abc import Callable
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 from urllib.parse import urlparse
@@ -14,6 +15,9 @@ import numpy as np
 import pandas as pd
 
 logger = logging.getLogger(__name__)
+
+# Type alias for optional log callback: (level, message) -> None
+LogFn = Callable[[str, str], None] | None
 
 
 def _sync_after_download(dataset_id: str, cdf_path: Path, source_url: str) -> None:
@@ -44,12 +48,21 @@ def get_cache_dir() -> Path:
     return get_cache_root() / "cdf_cache"
 
 
+def _log(log_fn: LogFn, level: str, message: str) -> None:
+    """Send a log message via callback or fall back to Python logging."""
+    if log_fn is not None:
+        log_fn(level, message)
+    else:
+        getattr(logger, level, logger.info)(message)
+
+
 def fetch_data(
     dataset_id: str,
     parameters: list[str],
     start: str,
     stop: str,
     force: bool = False,
+    log_fn: LogFn = None,
 ) -> dict:
     """Fetch CDAWeb timeseries data and return DataFrames with stats.
 
@@ -62,6 +75,8 @@ def fetch_data(
         start: Start time in ISO 8601 format.
         stop: End time in ISO 8601 format.
         force: Override the 1 GB download safety limit.
+        log_fn: Optional callback (level, message) for structured logging.
+                When called from MCP server, this routes to ctx.log().
 
     Returns:
         Dict keyed by parameter_id. Each value has:
@@ -86,7 +101,8 @@ def fetch_data(
     for param_id in parameters:
         try:
             result = _fetch_single_parameter(
-                dataset_id, param_id, start, stop, info, cache_dir, force
+                dataset_id, param_id, start, stop, info, cache_dir, force,
+                log_fn=log_fn,
             )
             df = result["data"]
             stats = compute_stats(df)
@@ -176,6 +192,7 @@ def _fetch_single_parameter(
     info: dict,
     cache_dir: Path,
     force: bool,
+    log_fn: LogFn = None,
 ) -> dict:
     """Fetch a single parameter from CDAWeb CDF files.
 
@@ -198,8 +215,7 @@ def _fetch_single_parameter(
 
     # Get CDF file list
     file_list = _get_cdf_file_list(dataset_id, time_min, time_max)
-    logger.info("Found %d CDF files for %s (%s to %s)",
-                len(file_list), dataset_id, time_min, time_max)
+    _log(log_fn, "info", f"Found {len(file_list)} CDF files for {dataset_id} ({time_min} to {time_max})")
 
     # Download and read each file
     frames = []
@@ -210,7 +226,7 @@ def _fetch_single_parameter(
     if len(file_list) > 1:
         with ThreadPoolExecutor(max_workers=max_workers) as pool:
             futures = {
-                pool.submit(_download_and_read, fi["url"], parameter_id, cache_dir): idx
+                pool.submit(_download_and_read, fi["url"], parameter_id, cache_dir, log_fn): idx
                 for idx, fi in enumerate(file_list)
             }
             results_by_idx = {}
@@ -220,7 +236,7 @@ def _fetch_single_parameter(
     else:
         results_by_idx = {}
         for idx, fi in enumerate(file_list):
-            results_by_idx[idx] = _download_and_read(fi["url"], parameter_id, cache_dir)
+            results_by_idx[idx] = _download_and_read(fi["url"], parameter_id, cache_dir, log_fn)
 
     for idx in range(len(file_list)):
         local_path, data = results_by_idx[idx]
@@ -330,14 +346,14 @@ def _get_cdf_file_list(dataset_id: str, time_min: str, time_max: str) -> list[di
     ]
 
 
-def _download_and_read(url: str, parameter_id: str, cache_dir: Path):
+def _download_and_read(url: str, parameter_id: str, cache_dir: Path, log_fn: LogFn = None):
     """Download a CDF file and read one parameter. Thread-safe."""
-    local_path = _download_cdf_file(url, cache_dir)
+    local_path = _download_cdf_file(url, cache_dir, log_fn)
     data = _read_cdf_parameter(local_path, parameter_id)
     return local_path, data
 
 
-def _download_cdf_file(url: str, cache_base: Path) -> Path:
+def _download_cdf_file(url: str, cache_base: Path, log_fn: LogFn = None) -> Path:
     """Download a CDF file, using local cache if available."""
     from cdawebmcp.http import request_with_retry
 
@@ -355,10 +371,12 @@ def _download_cdf_file(url: str, cache_base: Path) -> Path:
     if local_path.exists() and local_path.stat().st_size > 0:
         return local_path
 
-    logger.info("Downloading: %s", Path(parsed.path).name)
+    filename = Path(parsed.path).name
+    _log(log_fn, "info", f"Downloading: {filename}")
     local_path.parent.mkdir(parents=True, exist_ok=True)
 
-    resp = request_with_retry(url)
+    from cdawebmcp.http import DOWNLOAD_TIMEOUT
+    resp = request_with_retry(url, timeout=DOWNLOAD_TIMEOUT)
 
     import os
     tmp_path = local_path.with_suffix(".tmp")

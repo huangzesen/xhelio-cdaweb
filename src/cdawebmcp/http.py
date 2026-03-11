@@ -7,7 +7,8 @@ import requests
 
 logger = logging.getLogger(__name__)
 
-DEFAULT_TIMEOUT = 10  # seconds
+DEFAULT_TIMEOUT = 30  # seconds
+DOWNLOAD_TIMEOUT = 300  # seconds — for large CDF file downloads
 DEFAULT_RETRIES = 3
 DEFAULT_BACKOFF = 1  # seconds (doubles each retry)
 
@@ -41,8 +42,14 @@ def request_with_retry(
             resp.raise_for_status()
             return resp
         except (requests.exceptions.Timeout,
-                requests.exceptions.ConnectionError) as e:
+                requests.exceptions.ConnectionError,
+                requests.exceptions.HTTPError) as e:
             last_exc = e
+            # Don't retry client errors (4xx) — only transient failures
+            if (isinstance(e, requests.exceptions.HTTPError)
+                    and e.response is not None
+                    and e.response.status_code < 500):
+                raise
             if attempt < retries:
                 wait = backoff * (2 ** (attempt - 1))
                 logger.debug("Retry %d/%d for %s (wait %.1fs): %s",

@@ -1,8 +1,8 @@
-"""Prompt assembly — builds mission-specific system prompts."""
+"""Prompt assembly — builds observatory-specific system prompts."""
 
 from pathlib import Path
 
-from cdawebmcp.catalog import load_mission_json, mission_to_markdown
+from cdawebmcp.catalog import load_observatory_json, observatory_to_markdown
 
 # Prompt templates are static and stay bundled with the package
 _BUNDLED_PROMPTS = Path(__file__).parent / "data" / "prompts"
@@ -16,22 +16,22 @@ def _load_prompt_template(filename: str) -> str:
     return filepath.read_text(encoding="utf-8").strip()
 
 
-def build_mission_prompt(mission_stem: str) -> str:
-    """Build the complete system prompt for a mission.
+def build_observatory_prompt(observatory_stem: str) -> str:
+    """Build the complete system prompt for an observatory.
 
     Assembles three layers:
     1. Generic role instructions
     2. CDAWeb-specific workflow instructions
-    3. Mission profile + full dataset catalog as markdown
+    3. Observatory profile + full dataset catalog as markdown
 
     Args:
-        mission_stem: Lowercase mission identifier (e.g., 'ace', 'psp').
+        observatory_stem: Lowercase observatory identifier (e.g., 'ace', 'parker_solar_probe_psp').
 
     Returns:
         Complete system prompt string.
 
     Raises:
-        FileNotFoundError: If no mission JSON exists.
+        FileNotFoundError: If no observatory JSON exists.
     """
     # Layer 1: Generic role
     generic_role = _load_prompt_template("generic_role.md")
@@ -39,14 +39,14 @@ def build_mission_prompt(mission_stem: str) -> str:
     # Layer 2: CDAWeb-specific
     cdaweb_role = _load_prompt_template("cdaweb_role.md")
 
-    # Layer 3: Mission data
-    mission = load_mission_json(mission_stem)
-    profile = mission.get("profile", {})
+    # Layer 3: Observatory data
+    observatory = load_observatory_json(observatory_stem)
+    profile = observatory.get("profile", {})
 
-    # Mission overview
+    # Observatory overview
     overview_lines = []
-    name = mission.get("name", mission_stem.upper())
-    overview_lines.append(f"## Mission: {name}")
+    name = observatory.get("name", observatory_stem.upper())
+    overview_lines.append(f"## Observatory: {name}")
     if profile.get("description"):
         overview_lines.append(profile["description"])
     coords = profile.get("coordinate_systems", [])
@@ -58,11 +58,11 @@ def build_mission_prompt(mission_stem: str) -> str:
     if profile.get("data_caveats"):
         overview_lines.append("- Data caveats: " + "; ".join(profile["data_caveats"]))
     overview_lines.append("")
-    mission_overview = "\n".join(overview_lines)
+    observatory_overview = "\n".join(overview_lines)
 
     # Dataset catalog
-    dataset_catalog = mission_to_markdown(mission)
+    dataset_catalog = observatory_to_markdown(observatory)
 
     # Assemble
-    parts = [p for p in [generic_role, cdaweb_role, mission_overview, dataset_catalog] if p]
+    parts = [p for p in [generic_role, cdaweb_role, observatory_overview, dataset_catalog] if p]
     return "\n\n".join(parts)

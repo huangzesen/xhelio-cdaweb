@@ -1,4 +1,4 @@
-"""Mission catalog — load mission JSONs from cache and generate summaries."""
+"""Observatory catalog — load observatory JSONs from cache and generate summaries."""
 
 import json
 import logging
@@ -7,46 +7,46 @@ from pathlib import Path
 logger = logging.getLogger(__name__)
 
 
-def get_missions_dir() -> Path:
-    """Return the path to the missions directory (bootstrapped cache)."""
+def get_observatories_dir() -> Path:
+    """Return the path to the observatories directory (bootstrapped cache)."""
     from cdawebmcp.config import get_cache_root
-    return get_cache_root() / "missions"
+    return get_cache_root() / "observatories"
 
 
-def load_mission_json(mission_stem: str) -> dict:
-    """Load a mission JSON file by stem name (e.g., 'ace', 'psp').
+def load_observatory_json(observatory_stem: str) -> dict:
+    """Load an observatory JSON file by stem name (e.g., 'ace', 'parker_solar_probe_psp').
 
     Args:
-        mission_stem: Lowercase mission identifier.
+        observatory_stem: Lowercase observatory identifier.
 
     Returns:
-        Parsed mission dict.
+        Parsed observatory dict.
 
     Raises:
-        FileNotFoundError: If no JSON file exists for this mission.
+        FileNotFoundError: If no JSON file exists for this observatory.
     """
-    filepath = get_missions_dir() / f"{mission_stem}.json"
+    filepath = get_observatories_dir() / f"{observatory_stem}.json"
     if not filepath.exists():
-        raise FileNotFoundError(f"Mission file not found: {filepath}")
+        raise FileNotFoundError(f"Observatory file not found: {filepath}")
     with open(filepath, "r", encoding="utf-8") as f:
         return json.load(f)
 
 
-def browse_missions() -> list[dict]:
-    """List all available missions with summaries.
+def browse_observatories() -> list[dict]:
+    """List all available observatories with summaries.
 
     Returns:
         List of dicts with: id, name, description, dataset_count, instruments.
     """
-    missions_dir = get_missions_dir()
-    if not missions_dir.exists():
+    obs_dir = get_observatories_dir()
+    if not obs_dir.exists():
         return []
 
     results = []
-    for filepath in sorted(missions_dir.glob("*.json")):
+    for filepath in sorted(obs_dir.glob("*.json")):
         try:
             with open(filepath, "r", encoding="utf-8") as f:
-                mission = json.load(f)
+                observatory = json.load(f)
         except (json.JSONDecodeError, OSError) as e:
             logger.warning("Failed to load %s: %s", filepath, e)
             continue
@@ -54,32 +54,32 @@ def browse_missions() -> list[dict]:
         # Count datasets across all instruments
         dataset_count = sum(
             len(inst.get("datasets", {}))
-            for inst in mission.get("instruments", {}).values()
+            for inst in observatory.get("instruments", {}).values()
         )
 
-        profile = mission.get("profile", {})
+        profile = observatory.get("profile", {})
         results.append({
-            "id": mission.get("id", filepath.stem.upper()),
-            "name": mission.get("name", filepath.stem),
+            "id": observatory.get("id", filepath.stem.upper()),
+            "name": observatory.get("name", filepath.stem),
             "description": profile.get("description", ""),
             "dataset_count": dataset_count,
-            "instruments": list(mission.get("instruments", {}).keys()),
+            "instruments": list(observatory.get("instruments", {}).keys()),
         })
 
     return results
 
 
-def mission_to_markdown(mission: dict) -> str:
-    """Convert a mission JSON dict to a readable markdown dataset catalog.
+def observatory_to_markdown(observatory: dict) -> str:
+    """Convert an observatory JSON dict to a readable markdown dataset catalog.
 
     Args:
-        mission: Full mission dict from load_mission_json().
+        observatory: Full observatory dict from load_observatory_json().
 
     Returns:
         Markdown string with dataset catalog.
     """
     lines = ["## Dataset Catalog", ""]
-    for inst_name, inst_data in sorted(mission.get("instruments", {}).items()):
+    for inst_name, inst_data in sorted(observatory.get("instruments", {}).items()):
         lines.append(f"### {inst_name}")
         if inst_data.get("keywords"):
             lines.append(f"Keywords: {', '.join(inst_data['keywords'])}")
@@ -98,24 +98,24 @@ def mission_to_markdown(mission: dict) -> str:
     return "\n".join(lines)
 
 
-def get_mission_stem_from_dataset(dataset_id: str) -> str | None:
-    """Find which mission a dataset belongs to by scanning all mission JSONs.
+def get_observatory_stem_from_dataset(dataset_id: str) -> str | None:
+    """Find which observatory a dataset belongs to by scanning all observatory JSONs.
 
     Args:
         dataset_id: CDAWeb dataset ID (e.g., 'AC_H2_MFI').
 
     Returns:
-        Mission stem (e.g., 'ace') or None.
+        Observatory stem (e.g., 'ace') or None.
     """
-    missions_dir = get_missions_dir()
-    if not missions_dir.exists():
+    obs_dir = get_observatories_dir()
+    if not obs_dir.exists():
         return None
 
-    for filepath in missions_dir.glob("*.json"):
+    for filepath in obs_dir.glob("*.json"):
         try:
             with open(filepath, "r", encoding="utf-8") as f:
-                mission = json.load(f)
-            for inst in mission.get("instruments", {}).values():
+                observatory = json.load(f)
+            for inst in observatory.get("instruments", {}).values():
                 if dataset_id in inst.get("datasets", {}):
                     return filepath.stem
         except (json.JSONDecodeError, OSError):

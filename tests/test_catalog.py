@@ -1,21 +1,21 @@
-"""Tests for mission catalog loading."""
+"""Tests for observatory catalog loading."""
 import json
 import pytest
 from pathlib import Path
 from unittest.mock import patch
 
 from cdawebmcp.catalog import (
-    get_missions_dir,
-    load_mission_json,
-    browse_missions,
-    mission_to_markdown,
+    get_observatories_dir,
+    load_observatory_json,
+    browse_observatories,
+    observatory_to_markdown,
 )
 
 
 @pytest.fixture
-def sample_mission(tmp_path):
-    """Create a minimal mission JSON for testing."""
-    mission = {
+def sample_observatory(tmp_path):
+    """Create a minimal observatory JSON for testing."""
+    observatory = {
         "id": "ACE",
         "name": "ACE",
         "profile": {
@@ -39,34 +39,34 @@ def sample_mission(tmp_path):
             }
         },
     }
-    mission_file = tmp_path / "ace.json"
-    mission_file.write_text(json.dumps(mission))
-    return tmp_path, mission
+    obs_file = tmp_path / "ace.json"
+    obs_file.write_text(json.dumps(observatory))
+    return tmp_path, observatory
 
 
-def test_load_mission_json(sample_mission):
-    missions_dir, expected = sample_mission
-    with patch("cdawebmcp.catalog.get_missions_dir", return_value=missions_dir):
-        result = load_mission_json("ace")
+def test_load_observatory_json(sample_observatory):
+    obs_dir, expected = sample_observatory
+    with patch("cdawebmcp.catalog.get_observatories_dir", return_value=obs_dir):
+        result = load_observatory_json("ace")
     assert result["id"] == "ACE"
     assert "mag" in result["instruments"]
 
 
-def test_browse_missions(sample_mission):
-    missions_dir, _ = sample_mission
-    with patch("cdawebmcp.catalog.get_missions_dir", return_value=missions_dir):
-        result = browse_missions()
+def test_browse_observatories(sample_observatory):
+    obs_dir, _ = sample_observatory
+    with patch("cdawebmcp.catalog.get_observatories_dir", return_value=obs_dir):
+        result = browse_observatories()
     assert len(result) == 1
     assert result[0]["id"] == "ACE"
     assert result[0]["description"] == "ACE spacecraft data from CDAWeb."
     assert result[0]["dataset_count"] == 1
 
 
-def test_mission_to_markdown(sample_mission):
-    missions_dir, _ = sample_mission
-    with patch("cdawebmcp.catalog.get_missions_dir", return_value=missions_dir):
-        mission = load_mission_json("ace")
-    md = mission_to_markdown(mission)
+def test_observatory_to_markdown(sample_observatory):
+    obs_dir, _ = sample_observatory
+    with patch("cdawebmcp.catalog.get_observatories_dir", return_value=obs_dir):
+        observatory = load_observatory_json("ace")
+    md = observatory_to_markdown(observatory)
     assert "## Dataset Catalog" in md
     assert "AC_H2_MFI" in md
     assert "N. Ness" in md

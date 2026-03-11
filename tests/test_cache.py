@@ -122,11 +122,10 @@ def test_refresh_metadata_handles_failure(fake_cache):
 # ---------------------------------------------------------------------------
 
 def test_refresh_time_ranges(tmp_path, monkeypatch):
-    """refresh_time_ranges should update start/stop dates in mission JSONs."""
-    # Set up a fake missions dir with one mission
-    missions_dir = tmp_path / "missions"
-    missions_dir.mkdir()
-    mission_data = {
+    """refresh_time_ranges should update start/stop dates in observatory JSONs."""
+    obs_dir = tmp_path / "observatories"
+    obs_dir.mkdir()
+    obs_data = {
         "id": "ACE",
         "name": "ACE",
         "instruments": {
@@ -141,7 +140,7 @@ def test_refresh_time_ranges(tmp_path, monkeypatch):
             }
         },
     }
-    (missions_dir / "ace.json").write_text(json.dumps(mission_data))
+    (obs_dir / "ace.json").write_text(json.dumps(obs_data))
 
     fake_catalog = {
         "AC_H2_MFI": {
@@ -150,14 +149,14 @@ def test_refresh_time_ranges(tmp_path, monkeypatch):
         }
     }
     with patch("cdawebmcp.cache._fetch_cdaweb_time_ranges", return_value=fake_catalog):
-        with patch("cdawebmcp.cache._get_missions_dir", return_value=missions_dir):
+        with patch("cdawebmcp.cache._get_observatories_dir", return_value=obs_dir):
             result = refresh_time_ranges()
 
     assert result["status"] == "success"
     assert result["datasets_updated"] >= 1
 
     # Verify the JSON was updated
-    updated = json.loads((missions_dir / "ace.json").read_text())
+    updated = json.loads((obs_dir / "ace.json").read_text())
     ds = updated["instruments"]["mag"]["datasets"]["AC_H2_MFI"]
     assert ds["stop_date"] == "2026-03-08T23:59:59Z"
 
@@ -166,10 +165,10 @@ def test_refresh_time_ranges(tmp_path, monkeypatch):
 # rebuild_catalog
 # ---------------------------------------------------------------------------
 
-def test_rebuild_catalog_single_mission(tmp_path):
-    """rebuild_catalog should call build_catalog logic for one mission."""
-    missions_dir = tmp_path / "missions"
-    missions_dir.mkdir()
+def test_rebuild_catalog_single_observatory(tmp_path):
+    """rebuild_catalog should call build_catalog logic for one observatory."""
+    obs_dir = tmp_path / "observatories"
+    obs_dir.mkdir()
 
     fake_catalog = {
         "AC_H2_MFI": {
@@ -185,9 +184,9 @@ def test_rebuild_catalog_single_mission(tmp_path):
     }
 
     with patch("cdawebmcp.cache._fetch_full_cdaweb_catalog", return_value=fake_catalog):
-        with patch("cdawebmcp.cache._get_missions_dir", return_value=missions_dir):
-            result = rebuild_catalog(mission="ace")
+        with patch("cdawebmcp.cache._get_observatories_dir", return_value=obs_dir):
+            result = rebuild_catalog(observatory="ace")
 
     assert result["status"] == "success"
-    assert result["missions_rebuilt"] == 1
-    assert (missions_dir / "ace.json").exists()
+    assert result["observatories_rebuilt"] == 1
+    assert (obs_dir / "ace.json").exists()

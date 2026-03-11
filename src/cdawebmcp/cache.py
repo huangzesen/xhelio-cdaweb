@@ -20,10 +20,10 @@ def _get_cache_root() -> Path:
     return get_cache_root()
 
 
-def _get_missions_dir():
-    """Return the bundled missions directory."""
-    from cdawebmcp.catalog import get_missions_dir
-    return get_missions_dir()
+def _get_observatories_dir():
+    """Return the observatories directory (from cache)."""
+    from cdawebmcp.catalog import get_observatories_dir
+    return get_observatories_dir()
 
 
 def _validate_name(name: str) -> str:
@@ -229,7 +229,7 @@ def cache_status(detail: bool = False) -> dict:
 
 def cache_clean(
     category: str = "all",
-    missions: list[str] | None = None,
+    observatories: list[str] | None = None,
     older_than_days: int | None = None,
     dry_run: bool = True,
 ) -> dict:
@@ -237,7 +237,7 @@ def cache_clean(
 
     Args:
         category: "metadata", "cdf_cache", or "all".
-        missions: Filter CDF cache to specific mission subdirectories.
+        observatories: Filter CDF cache to specific observatory subdirectories.
         older_than_days: Only delete files older than N days.
         dry_run: If True (default), report what would be deleted without deleting.
 
@@ -256,8 +256,8 @@ def cache_clean(
     for cat in targets:
         cat_path = root / cat
 
-        if cat == "cdf_cache" and missions:
-            for name in missions:
+        if cat == "cdf_cache" and observatories:
+            for name in observatories:
                 _validate_name(name)
                 target = cat_path / name
                 if not target.exists():
@@ -311,14 +311,14 @@ def _fetch_from_master_cdf(dataset_id: str) -> dict | None:
 
 def refresh_metadata(
     dataset_ids: list[str] | None = None,
-    mission: str | None = None,
+    observatory: str | None = None,
 ) -> dict:
     """Re-fetch parameter metadata from Master CDFs.
 
     Args:
         dataset_ids: Specific dataset IDs to refresh.
-        mission: Refresh all cached datasets belonging to this mission.
-                 (Scans existing metadata cache files.)
+        observatory: Refresh all cached datasets belonging to this observatory.
+                     (Scans existing metadata cache files.)
 
     Returns:
         Dict with refreshed count, failed count, details.
@@ -330,11 +330,10 @@ def refresh_metadata(
     ids_to_refresh: list[str] = []
     if dataset_ids:
         ids_to_refresh = list(dataset_ids)
-    elif mission:
-        # Scan the observatory JSON for dataset IDs
-        from cdawebmcp.catalog import load_mission_json
+    elif observatory:
+        from cdawebmcp.catalog import load_observatory_json
         try:
-            obs_data = load_mission_json(mission)
+            obs_data = load_observatory_json(observatory)
             for inst in obs_data.get("instruments", {}).values():
                 for ds_id in inst.get("datasets", {}):
                     if (meta_dir / f"{ds_id}.json").exists():
@@ -383,48 +382,48 @@ def _fetch_cdaweb_time_ranges() -> dict[str, dict]:
     }
 
 
-def refresh_time_ranges(mission: str | None = None) -> dict:
-    """Update start/stop dates in bundled mission JSONs from CDAWeb.
+def refresh_time_ranges(observatory: str | None = None) -> dict:
+    """Update start/stop dates in observatory catalog JSONs from CDAWeb.
 
     Fetches the CDAWeb dataset catalog (single HTTP call) and patches
-    all mission JSON files with fresh time coverage.
+    all observatory JSON files with fresh time coverage.
 
     Args:
-        mission: Only refresh this mission stem. If None, refresh all.
+        observatory: Only refresh this observatory stem. If None, refresh all.
 
     Returns:
-        Dict with missions_updated, datasets_updated, datasets_failed.
+        Dict with observatories_updated, datasets_updated, datasets_failed.
     """
-    missions_dir = _get_missions_dir()
+    obs_dir = _get_observatories_dir()
     catalog = _fetch_cdaweb_time_ranges()
 
     if not catalog:
         return {
             "status": "error",
             "message": "Could not fetch CDAWeb catalog",
-            "missions_updated": 0,
+            "observatories_updated": 0,
             "datasets_updated": 0,
             "datasets_failed": 0,
         }
 
-    missions_updated = 0
+    observatories_updated = 0
     datasets_updated = 0
     datasets_failed = 0
 
-    json_files = sorted(missions_dir.glob("*.json"))
+    json_files = sorted(obs_dir.glob("*.json"))
     for filepath in json_files:
         stem = filepath.stem
-        if mission and stem != mission:
+        if observatory and stem != observatory:
             continue
 
         try:
             with open(filepath, "r", encoding="utf-8") as f:
-                mission_data = json.load(f)
+                obs_data = json.load(f)
         except (json.JSONDecodeError, OSError):
             continue
 
         stem_updated = 0
-        for inst in mission_data.get("instruments", {}).values():
+        for inst in obs_data.get("instruments", {}).values():
             for ds_id, ds_entry in inst.get("datasets", {}).items():
                 meta = catalog.get(ds_id)
                 if meta is None:
@@ -439,20 +438,20 @@ def refresh_time_ranges(mission: str | None = None) -> dict:
                 stem_updated += 1
 
         if stem_updated > 0:
-            mission_data.setdefault("_meta", {})
-            mission_data["_meta"]["time_ranges_updated_at"] = (
+            obs_data.setdefault("_meta", {})
+            obs_data["_meta"]["time_ranges_updated_at"] = (
                 datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
             )
             with open(filepath, "w", encoding="utf-8") as f:
-                json.dump(mission_data, f, indent=2, ensure_ascii=False)
+                json.dump(obs_data, f, indent=2, ensure_ascii=False)
                 f.write("\n")
-            missions_updated += 1
+            observatories_updated += 1
 
         datasets_updated += stem_updated
 
     return {
         "status": "success",
-        "missions_updated": missions_updated,
+        "observatories_updated": observatories_updated,
         "datasets_updated": datasets_updated,
         "datasets_failed": datasets_failed,
     }
@@ -464,7 +463,7 @@ def _fetch_full_cdaweb_catalog() -> dict[str, dict]:
     return fetch_cdaweb_catalog()
 
 
-def rebuild_catalog(mission: str | None = None) -> dict:
+def rebuild_catalog(observatory: str | None = None) -> dict:
     """Rebuild observatory catalog JSONs from CDAWeb REST API.
 
     Downloads the full CDAWeb dataset catalog and observatory groups,
@@ -473,25 +472,25 @@ def rebuild_catalog(mission: str | None = None) -> dict:
         python -m cdawebmcp.scripts.build_catalog [--observatory <slug>]
 
     Args:
-        mission: Only rebuild this observatory slug. If None, rebuild all.
+        observatory: Only rebuild this observatory slug. If None, rebuild all.
 
     Returns:
-        Dict with missions_rebuilt count and details.
+        Dict with observatories_rebuilt count and details.
     """
     from cdawebmcp.scripts.build_catalog import (
         build_all,
         fetch_observatory_groups,
     )
 
-    missions_dir = _get_missions_dir()
-    missions_dir.mkdir(parents=True, exist_ok=True)
+    obs_dir = _get_observatories_dir()
+    obs_dir.mkdir(parents=True, exist_ok=True)
 
     groups = fetch_observatory_groups()
     if not groups:
         return {
             "status": "error",
             "message": "Could not fetch CDAWeb observatory groups",
-            "missions_rebuilt": 0,
+            "observatories_rebuilt": 0,
         }
 
     catalog = _fetch_full_cdaweb_catalog()
@@ -499,13 +498,13 @@ def rebuild_catalog(mission: str | None = None) -> dict:
         return {
             "status": "error",
             "message": "Could not fetch CDAWeb catalog",
-            "missions_rebuilt": 0,
+            "observatories_rebuilt": 0,
         }
 
-    built = build_all(groups, catalog, filter_slug=mission, output_dir=missions_dir)
+    built = build_all(groups, catalog, filter_slug=observatory, output_dir=obs_dir)
 
     return {
         "status": "success",
-        "missions_rebuilt": len(built),
-        "missions": built,
+        "observatories_rebuilt": len(built),
+        "observatories": built,
     }

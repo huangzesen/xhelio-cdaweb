@@ -72,10 +72,10 @@ def browse_parameters(
             # Add validation status if available
             try:
                 from cdawebmcp.validation import get_quality_report
-                from cdawebmcp.catalog import get_mission_stem_from_dataset
-                mission_stem = get_mission_stem_from_dataset(ds_id)
-                if mission_stem:
-                    report = get_quality_report(ds_id, mission_stem=mission_stem)
+                from cdawebmcp.catalog import get_observatory_stem_from_dataset
+                obs_stem = get_observatory_stem_from_dataset(ds_id)
+                if obs_stem:
+                    report = get_quality_report(ds_id, mission_stem=obs_stem)
                     if report:
                         entry["validated"] = report["validated"]
                         entry["quality_report"] = report

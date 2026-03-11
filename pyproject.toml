@@ -4,8 +4,8 @@ build-backend = "hatchling.build"
 
 [project]
 name = "xhelio-cdaweb"
-version = "0.2.0"
-description = "NASA CDAWeb data access for heliophysics — browse missions, inspect parameters, fetch CDF data"
+version = "0.3.0"
+description = "NASA CDAWeb data access for heliophysics — browse observatories, inspect parameters, fetch CDF data"
 readme = "README.md"
 license = "MIT"
 requires-python = ">=3.10"

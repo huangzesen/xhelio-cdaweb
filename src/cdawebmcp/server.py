@@ -3,65 +3,118 @@
 Requires the [mcp] extra: pip install xhelio-cdaweb[mcp]
 """
 
+import asyncio
 import json
 import logging
+import threading
 from pathlib import Path
 from typing import Literal
 
 import pandas as pd
 
 try:
-    from mcp.server.fastmcp import FastMCP
+    from mcp.server.fastmcp import Context, FastMCP
 except ImportError:
     raise ImportError(
         "MCP server requires the 'mcp' package. "
         "Install with: pip install xhelio-cdaweb[mcp]"
     )
 
-from cdawebmcp.catalog import browse_missions as _browse_missions
-from cdawebmcp.prompts import build_mission_prompt
-from cdawebmcp.metadata import browse_parameters as _browse_parameters
+from cdawebmcp.catalog import browse_observatories as _browse_observatories
+from cdawebmcp.config import mark_time_range_refreshed, needs_time_range_refresh
 from cdawebmcp.fetch import fetch_data as _fetch_data
+from cdawebmcp.metadata import browse_parameters as _browse_parameters
+from cdawebmcp.prompts import build_observatory_prompt
 
 logger = logging.getLogger(__name__)
+
+
+def _make_log_fn(ctx: Context, loop: asyncio.AbstractEventLoop):
+    """Create a sync log function that delegates to ctx.log() (async).
+
+    MCP's ctx.log() is async, but library functions are sync. This wrapper
+    schedules the async log call on the server's event loop without blocking.
+
+    Args:
+        ctx: MCP Context object with async log() method.
+        loop: The running asyncio event loop (captured from the async tool handler).
+    """
+    def log_fn(level: str, message: str) -> None:
+        asyncio.run_coroutine_threadsafe(ctx.log(level, message), loop)
+
+    return log_fn
+
+
+def _maybe_refresh_time_ranges(ctx: Context | None, loop: asyncio.AbstractEventLoop) -> None:
+    """Refresh dataset time ranges if not done in the last 24 hours.
+
+    Runs in a background thread so the tool call returns immediately.
+    Logs progress to the MCP client via ctx.log().
+    """
+    if ctx is None or not needs_time_range_refresh():
+        return
+
+    log_fn = _make_log_fn(ctx, loop)
+
+    def _run():
+        try:
+            from cdawebmcp.cache import refresh_time_ranges
+            log_fn("info", "Refreshing dataset time ranges from CDAWeb...")
+            result = refresh_time_ranges()
+            updated = result.get("datasets_updated", 0)
+            if updated:
+                log_fn("info", f"Updated time ranges for {updated} datasets")
+            elif result.get("status") == "error":
+                log_fn("warning", f"Time range refresh failed: {result.get('message', 'unknown error')}")
+            mark_time_range_refreshed()
+        except Exception as e:
+            log_fn("debug", f"Time range refresh failed: {e}")
+
+    thread = threading.Thread(target=_run, daemon=True)
+    thread.start()
 
 
 def create_server() -> FastMCP:
     """Create and configure the MCP server with all tools."""
     mcp = FastMCP(
         "cdawebmcp",
-        instructions="MCP server for NASA CDAWeb — browse missions, inspect parameters, fetch heliophysics data",
+        instructions="MCP server for NASA CDAWeb — browse observatories, inspect parameters, fetch heliophysics data",
     )
 
     @mcp.tool()
-    def browse_missions() -> str:
-        """List all available CDAWeb missions with descriptions, dataset counts, and instrument names.
+    async def browse_observatories(ctx: Context) -> str:
+        """List all available CDAWeb observatories with descriptions, dataset counts, and instrument names.
 
-        Call this first to discover what missions are available. Returns a JSON array of mission summaries.
+        Call this first to discover what observatories are available. Returns a JSON array of observatory summaries.
         """
-        missions = _browse_missions()
-        return json.dumps(missions, indent=2)
+        loop = asyncio.get_running_loop()
+        _maybe_refresh_time_ranges(ctx, loop)
+        observatories = _browse_observatories()
+        return json.dumps(observatories, indent=2)
 
     @mcp.tool()
-    def load_mission(mission_id: str) -> str:
-        """Load the complete system prompt for a CDAWeb mission.
+    async def load_observatory(observatory_id: str, ctx: Context) -> str:
+        """Load the complete system prompt for a CDAWeb observatory.
 
         Returns a detailed text prompt containing:
         - Role instructions for acting as a CDAWeb data specialist
         - CDAWeb-specific workflow (how to discover and fetch data)
-        - Full dataset catalog for this mission (instruments, dataset IDs, descriptions, time coverage)
+        - Full dataset catalog for this observatory (instruments, dataset IDs, descriptions, time coverage)
 
-        Use the returned text as context/instructions to work with this mission's data.
+        Use the returned text as context/instructions to work with this observatory's data.
 
         Args:
-            mission_id: Mission identifier — use the lowercase stem from browse_missions
-                        (e.g., 'ace', 'psp', 'wind', 'solo').
+            observatory_id: Observatory identifier — use the lowercase stem from browse_observatories
+                            (e.g., 'ace', 'parker_solar_probe_psp', 'wind', 'solar_orbiter').
         """
-        return build_mission_prompt(mission_id)
+        loop = asyncio.get_running_loop()
+        _maybe_refresh_time_ranges(ctx, loop)
+        return build_observatory_prompt(observatory_id)
 
     @mcp.tool()
-    def browse_parameters(
+    async def browse_parameters(
         dataset_id: str,
+        ctx: Context,
         dataset_ids: list[str] | None = None,
     ) -> str:
         """Browse all parameters (variables) for one or more CDAWeb datasets.
@@ -75,6 +128,8 @@ def create_server() -> FastMCP:
             dataset_id: Dataset ID (e.g., 'AC_H2_MFI', 'PSP_FLD_L2_MAG_RTN_1MIN').
             dataset_ids: Additional dataset IDs to query at once (batched with dataset_id).
         """
+        loop = asyncio.get_running_loop()
+        _maybe_refresh_time_ranges(ctx, loop)
         all_ids = [dataset_id]
         if dataset_ids:
             all_ids.extend(dataset_ids)
@@ -85,12 +140,13 @@ def create_server() -> FastMCP:
         return json.dumps(result, indent=2)
 
     @mcp.tool()
-    def fetch_data(
+    async def fetch_data(
         dataset_id: str,
         parameters: list[str],
         start: str,
         stop: str,
         output_dir: str,
+        ctx: Context,
         format: Literal["csv", "json"] = "csv",
     ) -> str:
         """Fetch timeseries data from CDAWeb, write to a file, return metadata + stats.
@@ -110,12 +166,17 @@ def create_server() -> FastMCP:
             output_dir: Directory for the output file. Must be provided.
             format: Output file format — 'csv' (default) or 'json'.
         """
+        loop = asyncio.get_running_loop()
+        _maybe_refresh_time_ranges(ctx, loop)
+        log_fn = _make_log_fn(ctx, loop)
+
         # Call the library function — returns DataFrames
         lib_result = _fetch_data(
             dataset_id=dataset_id,
             parameters=parameters,
             start=start,
             stop=stop,
+            log_fn=log_fn,
         )
 
         out_dir = Path(output_dir)
@@ -179,10 +240,11 @@ def create_server() -> FastMCP:
         }, indent=2, default=str)
 
     @mcp.tool()
-    def manage_cache(
+    async def manage_cache(
         action: Literal["status", "clean", "refresh_metadata", "refresh_time_ranges", "rebuild_catalog"],
+        ctx: Context,
         category: Literal["metadata", "cdf_cache", "all"] = "all",
-        mission: str | None = None,
+        observatory: str | None = None,
         dataset_ids: list[str] | None = None,
         older_than_days: int | None = None,
         dry_run: bool = True,
@@ -192,15 +254,15 @@ def create_server() -> FastMCP:
 
         Actions:
         - "status": Show disk usage for metadata and CDF caches. Set detail=True for per-subdirectory breakdown.
-        - "clean": Delete cached files. Defaults to dry_run=True (preview only). Filter by category, mission, or age.
-        - "refresh_metadata": Re-download Master CDF parameter metadata. Specify dataset_ids or mission to scope.
-        - "refresh_time_ranges": Update start/stop dates in mission catalog JSONs from CDAWeb API. Optionally filter by mission.
-        - "rebuild_catalog": Regenerate mission catalog JSONs from CDAWeb REST API. Optionally filter by mission.
+        - "clean": Delete cached files. Defaults to dry_run=True (preview only). Filter by category, observatory, or age.
+        - "refresh_metadata": Re-download Master CDF parameter metadata. Specify dataset_ids or observatory to scope.
+        - "refresh_time_ranges": Update start/stop dates in observatory catalog JSONs from CDAWeb API. Optionally filter by observatory.
+        - "rebuild_catalog": Regenerate observatory catalog JSONs from CDAWeb REST API. Optionally filter by observatory.
 
         Args:
             action: One of "status", "clean", "refresh_metadata", "refresh_time_ranges", "rebuild_catalog".
             category: For "clean" — "metadata", "cdf_cache", or "all" (default).
-            mission: Filter to a single mission stem (e.g., "ace", "psp").
+            observatory: Filter to a single observatory stem (e.g., "ace", "parker_solar_probe_psp").
             dataset_ids: For "refresh_metadata" — specific dataset IDs to refresh.
             older_than_days: For "clean" — only delete files older than N days.
             dry_run: For "clean" — if True (default), preview without deleting.
@@ -217,11 +279,11 @@ def create_server() -> FastMCP:
         if action == "status":
             return json.dumps(cache_status(detail=detail), indent=2)
         elif action == "clean":
-            missions_list = [mission] if mission else None
+            obs_list = [observatory] if observatory else None
             return json.dumps(
                 cache_clean(
                     category=category,
-                    missions=missions_list,
+                    observatories=obs_list,
                     older_than_days=older_than_days,
                     dry_run=dry_run,
                 ),
@@ -229,17 +291,17 @@ def create_server() -> FastMCP:
             )
         elif action == "refresh_metadata":
             return json.dumps(
-                refresh_metadata(dataset_ids=dataset_ids, mission=mission),
+                refresh_metadata(dataset_ids=dataset_ids, observatory=observatory),
                 indent=2,
             )
         elif action == "refresh_time_ranges":
             return json.dumps(
-                refresh_time_ranges(mission=mission),
+                refresh_time_ranges(observatory=observatory),
                 indent=2,
             )
         elif action == "rebuild_catalog":
             return json.dumps(
-                rebuild_catalog(mission=mission),
+                rebuild_catalog(observatory=observatory),
                 indent=2,
             )
         else:

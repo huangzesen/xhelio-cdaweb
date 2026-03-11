@@ -10,7 +10,7 @@ Or from internal modules:
 
 import logging
 import shutil
-import threading
+import time
 from pathlib import Path
 
 logger = logging.getLogger(__name__)
@@ -20,8 +20,11 @@ _bootstrapped: bool = False
 
 # Bundled package data directories
 _BUNDLED_DATA = Path(__file__).parent / "data"
-_BUNDLED_MISSIONS = _BUNDLED_DATA / "missions"
+_BUNDLED_OBSERVATORIES = _BUNDLED_DATA / "observatories"
 _BUNDLED_METADATA = _BUNDLED_DATA / "metadata"
+
+_REFRESH_STAMP = "last_time_range_refresh"
+_REFRESH_INTERVAL_SECONDS = 86400  # 24 hours
 
 
 def configure(cache_dir: str | Path | None = None) -> None:
@@ -48,7 +51,7 @@ def get_cache_root() -> Path:
     1. Value set by configure(cache_dir=...)
     2. Default: ~/.cdawebmcp/
 
-    On first access, copies bundled data (missions + metadata) into the cache
+    On first access, copies bundled data (observatories + metadata) into the cache
     directory if not already present.
     """
     global _bootstrapped
@@ -60,30 +63,31 @@ def get_cache_root() -> Path:
 
 
 def _bootstrap(root: Path) -> None:
-    """Copy bundled missions and metadata into cache dir if not already present.
-
-    Also kicks off a background refresh of dataset time ranges from CDAWeb
-    so that start/stop dates stay current.
-    """
-    _copy_bundled_dir(_BUNDLED_MISSIONS, root / "missions")
+    """Copy bundled observatories and metadata into cache dir if not already present."""
+    _copy_bundled_dir(_BUNDLED_OBSERVATORIES, root / "observatories")
     _copy_bundled_dir(_BUNDLED_METADATA, root / "metadata")
-    _refresh_time_ranges_background()
 
 
-def _refresh_time_ranges_background() -> None:
-    """Refresh dataset time ranges from CDAWeb in a background thread."""
-    def _run():
-        try:
-            from cdawebmcp.cache import refresh_time_ranges
-            result = refresh_time_ranges()
-            updated = result.get("datasets_updated", 0)
-            if updated:
-                logger.info("Background refresh: updated %d dataset time ranges", updated)
-        except Exception as e:
-            logger.debug("Background time range refresh failed: %s", e)
+def needs_time_range_refresh() -> bool:
+    """Check whether dataset time ranges should be refreshed.
 
-    thread = threading.Thread(target=_run, daemon=True)
-    thread.start()
+    Returns True if no refresh has been done today (based on a timestamp
+    file in the cache directory). Safe to call frequently — just a stat().
+    """
+    root = get_cache_root()
+    stamp = root / _REFRESH_STAMP
+    if not stamp.exists():
+        return True
+    age = time.time() - stamp.stat().st_mtime
+    return age > _REFRESH_INTERVAL_SECONDS
+
+
+def mark_time_range_refreshed() -> None:
+    """Record that a time range refresh was completed."""
+    root = get_cache_root()
+    stamp = root / _REFRESH_STAMP
+    stamp.parent.mkdir(parents=True, exist_ok=True)
+    stamp.write_text("")
 
 
 def _copy_bundled_dir(src: Path, dst: Path) -> None:

@@ -23,7 +23,7 @@ from cdawebmcp.http import request_with_retry
 logger = logging.getLogger(__name__)
 
 # Output directory for observatory JSONs
-MISSIONS_DIR = Path(__file__).parent.parent / "data" / "missions"
+OBSERVATORIES_DIR = Path(__file__).parent.parent / "data" / "observatories"
 
 # CDAWeb REST API endpoints
 CDAWEB_BASE = "https://cdaweb.gsfc.nasa.gov/WS/cdasr/1/dataviews/sp_phys"
@@ -181,13 +181,13 @@ def fetch_observatory_groups() -> dict[str, dict]:
     Returns dict mapping group slug to:
         {"name": "Group Name", "observatory_ids": ["OBS1", "OBS2", ...]}
     """
-    print("Fetching observatory groups from CDAWeb REST API...")
+    logger.info("Fetching observatory groups from CDAWeb REST API...")
     resp = request_with_retry(CDAWEB_OBS_GROUPS_URL)
 
     try:
         root = ET.fromstring(resp.content)
     except ET.ParseError as e:
-        print(f"Error parsing observatory groups XML: {e}")
+        logger.error("Error parsing observatory groups XML: %s", e)
         return {}
 
     groups = {}
@@ -208,7 +208,7 @@ def fetch_observatory_groups() -> dict[str, dict]:
         else:
             groups[slug] = {"name": name, "observatory_ids": obs_ids}
 
-    print(f"  Found {len(groups)} observatory groups")
+    logger.info("Found %d observatory groups", len(groups))
     return groups
 
 
@@ -217,13 +217,13 @@ def fetch_cdaweb_catalog() -> dict[str, dict]:
 
     Returns dict mapping dataset_id to metadata.
     """
-    print("Fetching dataset catalog from CDAWeb REST API...")
+    logger.info("Fetching dataset catalog from CDAWeb REST API...")
     resp = request_with_retry(CDAWEB_DATASETS_URL)
 
     try:
         root = ET.fromstring(resp.content)
     except ET.ParseError as e:
-        print(f"Error parsing CDAWeb XML: {e}")
+        logger.error("Error parsing CDAWeb XML: %s", e)
         return {}
 
     result = {}
@@ -256,7 +256,7 @@ def fetch_cdaweb_catalog() -> dict[str, dict]:
             "stop_date": stop_date,
         }
 
-    print(f"  Found {len(result)} datasets")
+    logger.info("Found %d datasets", len(result))
     return result
 
 
@@ -346,13 +346,13 @@ def build_observatory_json(
 
 def save_observatory_json(slug: str, data: dict, output_dir: Path | None = None):
     """Save an observatory JSON file."""
-    out = output_dir or MISSIONS_DIR
+    out = output_dir or OBSERVATORIES_DIR
     out.mkdir(parents=True, exist_ok=True)
     filepath = out / f"{slug}.json"
     with open(filepath, "w", encoding="utf-8") as f:
         json.dump(data, f, indent=2, sort_keys=False, ensure_ascii=False)
         f.write("\n")
-    print(f"  Saved {filepath.name}")
+    logger.debug("Saved %s", filepath.name)
 
 
 def build_all(
@@ -399,14 +399,12 @@ def build_all(
         grouped.setdefault(slug, []).append((ds_id, ds_meta))
 
     if unmatched and not filter_slug:
-        print(f"\n  {len(unmatched)} datasets with unrecognized observatory IDs:")
+        logger.info("%d datasets with unrecognized observatory IDs", len(unmatched))
         obs_counts: dict[str, int] = {}
         for _, obs in unmatched:
             obs_counts[obs] = obs_counts.get(obs, 0) + 1
         for obs, count in sorted(obs_counts.items(), key=lambda x: -x[1])[:10]:
-            print(f"    '{obs}': {count} datasets")
-        if len(obs_counts) > 10:
-            print(f"    ... and {len(obs_counts) - 10} more")
+            logger.debug("  Unmatched observatory '%s': %d datasets", obs, count)
 
     built = []
     for slug in sorted(grouped):
@@ -414,7 +412,7 @@ def build_all(
         datasets = grouped[slug]
         obs_data = build_observatory_json(slug, group_name, datasets)
         save_observatory_json(slug, obs_data, output_dir=output_dir)
-        print(f"  {group_name}: {len(datasets)} datasets")
+        logger.debug("%s: %d datasets", group_name, len(datasets))
         built.append(slug)
 
     return built
