@@ -28,6 +28,9 @@ from cdawebmcp.prompts import build_observatory_prompt
 
 logger = logging.getLogger(__name__)
 
+_refresh_in_flight = False
+_refresh_lock = threading.Lock()
+
 
 def _make_log_fn(ctx: Context, loop: asyncio.AbstractEventLoop):
     """Create a sync log function that delegates to ctx.log() (async).
@@ -50,13 +53,21 @@ def _maybe_refresh_time_ranges(ctx: Context | None, loop: asyncio.AbstractEventL
 
     Runs in a background thread so the tool call returns immediately.
     Logs progress to the MCP client via ctx.log().
+    Uses a module-level flag to prevent concurrent refresh spawns.
     """
+    global _refresh_in_flight
     if ctx is None or not needs_time_range_refresh():
         return
+
+    with _refresh_lock:
+        if _refresh_in_flight:
+            return
+        _refresh_in_flight = True
 
     log_fn = _make_log_fn(ctx, loop)
 
     def _run():
+        global _refresh_in_flight
         try:
             from cdawebmcp.cache import refresh_time_ranges
             log_fn("info", "Refreshing dataset time ranges from CDAWeb...")
@@ -69,6 +80,8 @@ def _maybe_refresh_time_ranges(ctx: Context | None, loop: asyncio.AbstractEventL
             mark_time_range_refreshed()
         except Exception as e:
             log_fn("debug", f"Time range refresh failed: {e}")
+        finally:
+            _refresh_in_flight = False
 
     thread = threading.Thread(target=_run, daemon=True)
     thread.start()
@@ -128,8 +141,6 @@ def create_server() -> FastMCP:
             dataset_id: Dataset ID (e.g., 'AC_H2_MFI', 'PSP_FLD_L2_MAG_RTN_1MIN').
             dataset_ids: Additional dataset IDs to query at once (batched with dataset_id).
         """
-        loop = asyncio.get_running_loop()
-        _maybe_refresh_time_ranges(ctx, loop)
         all_ids = [dataset_id]
         if dataset_ids:
             all_ids.extend(dataset_ids)
@@ -167,7 +178,6 @@ def create_server() -> FastMCP:
             format: Output file format — 'csv' (default) or 'json'.
         """
         loop = asyncio.get_running_loop()
-        _maybe_refresh_time_ranges(ctx, loop)
         log_fn = _make_log_fn(ctx, loop)
 
         # Call the library function — returns DataFrames

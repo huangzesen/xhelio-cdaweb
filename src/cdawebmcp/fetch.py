@@ -97,12 +97,18 @@ def fetch_data(
     except Exception:
         info = {"parameters": []}
 
+    # Fetch file list once for the whole dataset (all parameters share the same CDF files)
+    try:
+        file_list = _get_cdf_file_list(dataset_id, start, stop)
+    except ValueError as e:
+        return {param_id: {"error": str(e)} for param_id in parameters}
+
     results = {}
     for param_id in parameters:
         try:
             result = _fetch_single_parameter(
                 dataset_id, param_id, start, stop, info, cache_dir, force,
-                log_fn=log_fn,
+                file_list=file_list, log_fn=log_fn,
             )
             df = result["data"]
             stats = compute_stats(df)
@@ -192,6 +198,7 @@ def _fetch_single_parameter(
     info: dict,
     cache_dir: Path,
     force: bool,
+    file_list: list[dict] | None = None,
     log_fn: LogFn = None,
 ) -> dict:
     """Fetch a single parameter from CDAWeb CDF files.
@@ -213,8 +220,9 @@ def _fetch_single_parameter(
     except ValueError:
         cdf_native = True
 
-    # Get CDF file list
-    file_list = _get_cdf_file_list(dataset_id, time_min, time_max)
+    # Get CDF file list (prefer pre-fetched list from fetch_data)
+    if file_list is None:
+        file_list = _get_cdf_file_list(dataset_id, time_min, time_max)
     _log(log_fn, "info", f"Found {len(file_list)} CDF files for {dataset_id} ({time_min} to {time_max})")
 
     # Download and read each file
@@ -239,11 +247,10 @@ def _fetch_single_parameter(
             results_by_idx[idx] = _download_and_read(fi["url"], parameter_id, cache_dir, log_fn)
 
     for idx in range(len(file_list)):
-        local_path, data = results_by_idx[idx]
+        local_path, data, attrs = results_by_idx[idx]
         if not frames:
+            # Use attrs returned from _read_cdf_parameter (no need to re-open the CDF)
             try:
-                cdf = cdflib.CDF(str(local_path))
-                attrs = cdf.varattsget(parameter_id)
                 if cdf_native:
                     units = attrs.get("UNITS", "") or ""
                     if isinstance(units, np.ndarray):
@@ -347,10 +354,13 @@ def _get_cdf_file_list(dataset_id: str, time_min: str, time_max: str) -> list[di
 
 
 def _download_and_read(url: str, parameter_id: str, cache_dir: Path, log_fn: LogFn = None):
-    """Download a CDF file and read one parameter. Thread-safe."""
+    """Download a CDF file and read one parameter. Thread-safe.
+
+    Returns (local_path, DataFrame, var_attrs).
+    """
     local_path = _download_cdf_file(url, cache_dir, log_fn)
-    data = _read_cdf_parameter(local_path, parameter_id)
-    return local_path, data
+    data, attrs = _read_cdf_parameter(local_path, parameter_id)
+    return local_path, data, attrs
 
 
 def _download_cdf_file(url: str, cache_base: Path, log_fn: LogFn = None) -> Path:
@@ -376,18 +386,48 @@ def _download_cdf_file(url: str, cache_base: Path, log_fn: LogFn = None) -> Path
     local_path.parent.mkdir(parents=True, exist_ok=True)
 
     from cdawebmcp.http import DOWNLOAD_TIMEOUT
-    resp = request_with_retry(url, timeout=DOWNLOAD_TIMEOUT)
+    resp = request_with_retry(url, timeout=DOWNLOAD_TIMEOUT, stream=True)
 
+    # Reject HTML error pages (CDAWeb sometimes returns HTML on errors)
+    content_type = resp.headers.get("Content-Type", "")
+    if "html" in content_type.lower():
+        resp.close()
+        raise ValueError(
+            f"CDAWeb returned HTML instead of CDF for {filename} "
+            f"(Content-Type: {content_type})"
+        )
+
+    # Stream to disk to avoid loading entire file into memory
     import os
     tmp_path = local_path.with_suffix(".tmp")
-    tmp_path.write_bytes(resp.content)
+    written = 0
+    try:
+        with open(tmp_path, "wb") as f:
+            for chunk in resp.iter_content(chunk_size=65536):
+                written += len(chunk)
+                if written > _BLOCK_THRESHOLD_BYTES:
+                    raise ValueError(
+                        f"CDF file exceeds {_BLOCK_THRESHOLD_BYTES // (1024*1024)} MB "
+                        f"limit: {filename}"
+                    )
+                f.write(chunk)
+    except Exception:
+        tmp_path.unlink(missing_ok=True)
+        raise
+    finally:
+        resp.close()
+
+    if written > _WARN_THRESHOLD_BYTES:
+        _log(log_fn, "warning",
+             f"Large CDF file: {filename} ({written / (1024*1024):.0f} MB)")
+
     os.replace(tmp_path, local_path)
 
     return local_path
 
 
-def _read_cdf_parameter(cdf_path: Path, parameter_id: str) -> pd.DataFrame:
-    """Extract one parameter from a CDF file. Returns DataFrame."""
+def _read_cdf_parameter(cdf_path: Path, parameter_id: str) -> tuple[pd.DataFrame, dict]:
+    """Extract one parameter from a CDF file. Returns (DataFrame, var_attrs)."""
     import cdflib
 
     cdf = cdflib.CDF(str(cdf_path))
@@ -400,6 +440,12 @@ def _read_cdf_parameter(cdf_path: Path, parameter_id: str) -> pd.DataFrame:
         raise ValueError(
             f"Variable '{parameter_id}' not found in {cdf_path.name}. Available: {all_vars}"
         ) from e
+
+    # Read variable attributes once (reused by caller to avoid re-opening the CDF)
+    try:
+        attrs = cdf.varattsget(parameter_id)
+    except Exception:
+        attrs = {}
 
     # Find epoch variable — prefer DEPEND_0 attribute, fall back to generic search
     epoch_var = _find_epoch_for_parameter(cdf, info, parameter_id)
@@ -417,7 +463,7 @@ def _read_cdf_parameter(cdf_path: Path, parameter_id: str) -> pd.DataFrame:
         df = pd.DataFrame({i + 1: flat[:, i] for i in range(ncols)}, index=times)
 
     df.index.name = "time"
-    return df
+    return df, attrs
 
 
 def _read_epoch(cdf, info, epoch_var: str):
@@ -494,7 +540,7 @@ def _find_epoch_variable(cdf, info) -> str:
     for var_name in all_vars:
         try:
             var_info = cdf.varinq(var_name)
-            if var_info.Data_Type_Description in _EPOCH_TYPES:
+            if var_info.Data_Type_Description.split()[0] in _EPOCH_TYPES:
                 return var_name
         except Exception:
             continue

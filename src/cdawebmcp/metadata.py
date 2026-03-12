@@ -173,14 +173,15 @@ def _extract_metadata(cdf_path: Path) -> dict:
             continue
 
         dtype_desc = var_inq.Data_Type_Description
-        if dtype_desc in _SKIP_TYPES:
+        if dtype_desc.split()[0] in _SKIP_TYPES:
             continue
 
-        param_type = _CDF_TYPE_MAP.get(dtype_desc)
+        param_type = _CDF_TYPE_MAP.get(dtype_desc.split()[0])
         if param_type is None:
             continue
 
-        # Check VAR_TYPE
+        # Check VAR_TYPE (and keep attrs for reuse below)
+        attrs = {}
         try:
             attrs = cdf.varattsget(var_name)
             var_type = attrs.get("VAR_TYPE", "")
@@ -190,11 +191,6 @@ def _extract_metadata(cdf_path: Path) -> dict:
                 continue
         except Exception:
             pass
-
-        try:
-            attrs = cdf.varattsget(var_name)
-        except Exception:
-            attrs = {}
 
         description = _get_str_attr(attrs, "CATDESC") or _get_str_attr(attrs, "FIELDNAM") or ""
         units = _get_str_attr(attrs, "UNITS") or ""

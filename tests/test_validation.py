@@ -173,7 +173,7 @@ def test_sync_metadata_detects_phantom(tmp_path, monkeypatch):
             dataset_id="AC_H2_MFI",
             cdf_path=Path("/fake/data.cdf"),
             source_url="https://example.com/data.cdf",
-            mission_stem="ace",
+            observatory_stem="ace",
         )
 
     # Check override was written
@@ -223,7 +223,7 @@ def test_sync_metadata_detects_undocumented(tmp_path, monkeypatch):
             dataset_id="AC_H2_MFI",
             cdf_path=Path("/fake/data.cdf"),
             source_url="https://example.com/data.cdf",
-            mission_stem="ace",
+            observatory_stem="ace",
         )
 
     override = json.loads(
@@ -260,7 +260,7 @@ def test_sync_metadata_skips_already_validated(tmp_path, monkeypatch):
             dataset_id="AC_H2_MFI",
             cdf_path=Path("/fake/data.cdf"),
             source_url="https://example.com/data.cdf",
-            mission_stem="ace",
+            observatory_stem="ace",
         )
         mock_cdflib.CDF.assert_not_called()
 
@@ -288,8 +288,8 @@ def test_sync_metadata_appends_validation(tmp_path, monkeypatch):
     with patch("cdawebmcp.validation.cdflib") as mock_cdflib:
         mock_cdflib.CDF.return_value = mock_cdf
 
-        sync_metadata("AC_H2_MFI", Path("/f1.cdf"), source_url="url1", mission_stem="ace")
-        sync_metadata("AC_H2_MFI", Path("/f2.cdf"), source_url="url2", mission_stem="ace")
+        sync_metadata("AC_H2_MFI", Path("/f1.cdf"), source_url="url1", observatory_stem="ace")
+        sync_metadata("AC_H2_MFI", Path("/f2.cdf"), source_url="url2", observatory_stem="ace")
 
     override = json.loads(
         (tmp_path / "overrides" / "ace" / "AC_H2_MFI.json").read_text()

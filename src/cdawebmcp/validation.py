@@ -56,7 +56,7 @@ def inspect_cdf_variables(cdf_path: Path) -> list[dict]:
     for var_name in all_vars:
         try:
             var_inq = data_cdf.varinq(var_name)
-            if var_inq.Data_Type_Description in _SKIP_TYPES:
+            if var_inq.Data_Type_Description.split()[0] in _SKIP_TYPES:
                 continue
             var_attrs = data_cdf.varattsget(var_name)
             var_type = var_attrs.get("VAR_TYPE", "")
@@ -166,7 +166,7 @@ def sync_metadata(
     cdf_path: Path,
     *,
     source_url: str = "",
-    mission_stem: str | None = None,
+    observatory_stem: str | None = None,
 ) -> None:
     """Compare data CDF variables against cached metadata and record discrepancies.
 
@@ -182,7 +182,7 @@ def sync_metadata(
         dataset_id: CDAWeb dataset ID.
         cdf_path: Path to the downloaded data CDF file.
         source_url: URL the CDF was downloaded from (for dedup).
-        mission_stem: Mission stem (e.g., 'ace'). Auto-detected if None.
+        observatory_stem: Observatory stem (e.g., 'ace'). Auto-detected if None.
     """
     from cdawebmcp.metadata import get_cache_dir
 
@@ -199,16 +199,16 @@ def sync_metadata(
         logger.debug("Metadata sync skipped for %s: cache read failed: %s", dataset_id, e)
         return
 
-    # Auto-detect mission_stem if not provided
-    if mission_stem is None:
-        from cdawebmcp.catalog import get_mission_stem_from_dataset
-        mission_stem = get_mission_stem_from_dataset(dataset_id)
-        if mission_stem is None:
-            logger.debug("Metadata sync skipped for %s: unknown mission", dataset_id)
+    # Auto-detect observatory_stem if not provided
+    if observatory_stem is None:
+        from cdawebmcp.catalog import get_observatory_stem_from_dataset
+        observatory_stem = get_observatory_stem_from_dataset(dataset_id)
+        if observatory_stem is None:
+            logger.debug("Metadata sync skipped for %s: unknown observatory", dataset_id)
             return
 
     # Check existing override for prior validations
-    existing_override = load_override(dataset_id, mission_stem=mission_stem)
+    existing_override = load_override(dataset_id, mission_stem=observatory_stem)
     if existing_override:
         existing_validations = existing_override.get("_validations", [])
         if source_url and any(
@@ -288,7 +288,7 @@ def sync_metadata(
         override_patch["parameters_annotations"] = discrepancies
     override_patch["_validations"] = existing_validations + [validation_record]
 
-    save_override(dataset_id, override_patch, mission_stem=mission_stem)
+    save_override(dataset_id, override_patch, mission_stem=observatory_stem)
 
 
 def get_quality_report(dataset_id: str, mission_stem: str) -> dict | None:

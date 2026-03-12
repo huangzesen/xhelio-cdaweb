@@ -449,6 +449,9 @@ def refresh_time_ranges(observatory: str | None = None) -> dict:
 
         datasets_updated += stem_updated
 
+    from cdawebmcp.catalog import invalidate_observatory_cache
+    invalidate_observatory_cache()
+
     return {
         "status": "success",
         "observatories_updated": observatories_updated,
@@ -502,6 +505,9 @@ def rebuild_catalog(observatory: str | None = None) -> dict:
         }
 
     built = build_all(groups, catalog, filter_slug=observatory, output_dir=obs_dir)
+
+    from cdawebmcp.catalog import invalidate_observatory_cache
+    invalidate_observatory_cache()
 
     return {
         "status": "success",

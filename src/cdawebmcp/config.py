@@ -10,6 +10,7 @@ Or from internal modules:
 
 import logging
 import shutil
+import threading
 import time
 from pathlib import Path
 
@@ -17,6 +18,7 @@ logger = logging.getLogger(__name__)
 
 _cache_dir: Path | None = None
 _bootstrapped: bool = False
+_bootstrap_lock = threading.Lock()
 
 # Bundled package data directories
 _BUNDLED_DATA = Path(__file__).parent / "data"
@@ -57,8 +59,10 @@ def get_cache_root() -> Path:
     global _bootstrapped
     root = _cache_dir if _cache_dir is not None else Path.home() / ".cdawebmcp"
     if not _bootstrapped:
-        _bootstrapped = True
-        _bootstrap(root)
+        with _bootstrap_lock:
+            if not _bootstrapped:
+                _bootstrap(root)
+                _bootstrapped = True
     return root
 
 

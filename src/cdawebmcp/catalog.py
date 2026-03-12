@@ -2,9 +2,17 @@
 
 import json
 import logging
+import re
 from pathlib import Path
 
 logger = logging.getLogger(__name__)
+
+_SAFE_NAME_RE = re.compile(r"^[a-zA-Z0-9_\-]+$")
+
+# In-memory caches
+_observatory_cache: list[dict] | None = None
+_observatory_cache_mtime: float = 0
+_dataset_to_observatory: dict[str, str] | None = None
 
 
 def get_observatories_dir() -> Path:
@@ -25,6 +33,8 @@ def load_observatory_json(observatory_stem: str) -> dict:
     Raises:
         FileNotFoundError: If no JSON file exists for this observatory.
     """
+    if not observatory_stem or not _SAFE_NAME_RE.match(observatory_stem):
+        raise ValueError(f"Invalid observatory name: {observatory_stem!r}")
     filepath = get_observatories_dir() / f"{observatory_stem}.json"
     if not filepath.exists():
         raise FileNotFoundError(f"Observatory file not found: {filepath}")
@@ -35,12 +45,26 @@ def load_observatory_json(observatory_stem: str) -> dict:
 def browse_observatories() -> list[dict]:
     """List all available observatories with summaries.
 
+    Results are cached in memory and invalidated when the observatories
+    directory mtime changes.
+
     Returns:
         List of dicts with: id, name, description, dataset_count, instruments.
     """
+    global _observatory_cache, _observatory_cache_mtime
+
     obs_dir = get_observatories_dir()
     if not obs_dir.exists():
         return []
+
+    # Check directory mtime to decide if cache is still valid
+    try:
+        dir_mtime = obs_dir.stat().st_mtime
+    except OSError:
+        dir_mtime = 0
+
+    if _observatory_cache is not None and dir_mtime == _observatory_cache_mtime:
+        return _observatory_cache
 
     results = []
     for filepath in sorted(obs_dir.glob("*.json")):
@@ -66,6 +90,8 @@ def browse_observatories() -> list[dict]:
             "instruments": list(observatory.get("instruments", {}).keys()),
         })
 
+    _observatory_cache = results
+    _observatory_cache_mtime = dir_mtime
     return results
 
 
@@ -99,7 +125,10 @@ def observatory_to_markdown(observatory: dict) -> str:
 
 
 def get_observatory_stem_from_dataset(dataset_id: str) -> str | None:
-    """Find which observatory a dataset belongs to by scanning all observatory JSONs.
+    """Find which observatory a dataset belongs to.
+
+    Uses a cached reverse map (dataset_id -> observatory stem) that is built
+    once from all observatory JSONs and invalidated by invalidate_observatory_cache().
 
     Args:
         dataset_id: CDAWeb dataset ID (e.g., 'AC_H2_MFI').
@@ -107,17 +136,29 @@ def get_observatory_stem_from_dataset(dataset_id: str) -> str | None:
     Returns:
         Observatory stem (e.g., 'ace') or None.
     """
-    obs_dir = get_observatories_dir()
-    if not obs_dir.exists():
-        return None
+    global _dataset_to_observatory
 
-    for filepath in obs_dir.glob("*.json"):
-        try:
-            with open(filepath, "r", encoding="utf-8") as f:
-                observatory = json.load(f)
-            for inst in observatory.get("instruments", {}).values():
-                if dataset_id in inst.get("datasets", {}):
-                    return filepath.stem
-        except (json.JSONDecodeError, OSError):
-            continue
-    return None
+    if _dataset_to_observatory is None:
+        _dataset_to_observatory = {}
+        obs_dir = get_observatories_dir()
+        if not obs_dir.exists():
+            return None
+        for filepath in sorted(obs_dir.glob("*.json")):
+            try:
+                with open(filepath, "r", encoding="utf-8") as f:
+                    data = json.load(f)
+                for inst in data.get("instruments", {}).values():
+                    for ds_id in inst.get("datasets", {}):
+                        _dataset_to_observatory[ds_id] = filepath.stem
+            except (json.JSONDecodeError, OSError):
+                continue
+
+    return _dataset_to_observatory.get(dataset_id)
+
+
+def invalidate_observatory_cache() -> None:
+    """Invalidate in-memory caches. Call after rebuild_catalog or refresh_time_ranges."""
+    global _observatory_cache, _observatory_cache_mtime, _dataset_to_observatory
+    _observatory_cache = None
+    _observatory_cache_mtime = 0
+    _dataset_to_observatory = None

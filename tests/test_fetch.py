@@ -78,7 +78,7 @@ def test_sync_after_download_is_called():
                     index=pd.to_datetime(["2024-01-01T00:00:00", "2024-01-01T00:01:00"]),
                 )
                 df.index.name = "time"
-                mock_dl.return_value = (Path("/fake/f1.cdf"), df)
+                mock_dl.return_value = (Path("/fake/f1.cdf"), df, {})
 
                 from cdawebmcp.fetch import _fetch_single_parameter
                 _fetch_single_parameter(
@@ -90,3 +90,46 @@ def test_sync_after_download_is_called():
         mock_sync.assert_called_once()
         args = mock_sync.call_args
         assert args[0][0] == "AC_H2_MFI"
+
+
+def test_fetch_data_queries_file_list_once(monkeypatch):
+    """PERF-3: file list should be fetched once per dataset, not once per parameter."""
+    call_count = [0]
+
+    def counting_get(dataset_id, time_min, time_max):
+        call_count[0] += 1
+        raise ValueError("No CDF files found")
+
+    import cdawebmcp.fetch as fetch_mod
+    monkeypatch.setattr(fetch_mod, "_get_cdf_file_list", counting_get)
+    monkeypatch.setattr(
+        "cdawebmcp.metadata._resolve_metadata",
+        lambda ds: {"parameters": [{"name": "P1"}, {"name": "P2"}, {"name": "P3"}]},
+    )
+
+    result = fetch_mod.fetch_data("TEST", ["P1", "P2", "P3"], "2024-01-01", "2024-01-02")
+
+    # Should have called _get_cdf_file_list exactly once, not 3 times
+    assert call_count[0] == 1
+    # All parameters should have the same error
+    for p in ("P1", "P2", "P3"):
+        assert "error" in result[p]
+
+
+def test_download_cdf_file_rejects_html_response(tmp_path, monkeypatch):
+    """ROBUST-7: HTML error pages from CDAWeb should not be saved as CDF files."""
+    mock_resp = MagicMock()
+    mock_resp.headers = {"Content-Type": "text/html; charset=utf-8"}
+    mock_resp.content = b"<html>Error</html>"
+    mock_resp.iter_content = lambda chunk_size: [b"<html>Error</html>"]
+
+    import cdawebmcp.http
+    monkeypatch.setattr(cdawebmcp.http, "request_with_retry",
+                        lambda *a, **kw: mock_resp)
+
+    import cdawebmcp.fetch as fetch_mod
+    with pytest.raises(ValueError, match="HTML"):
+        fetch_mod._download_cdf_file(
+            "https://cdaweb.gsfc.nasa.gov/sp_phys/data/ace/test.cdf",
+            tmp_path,
+        )
