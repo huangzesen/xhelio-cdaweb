@@ -191,6 +191,78 @@
           "stop_date": "2006-06-22T23:59:30.000Z",
           "pi_name": "H. Singer"
         },
+        "DN_MAGN-L2-HIRES_G08": {
+          "description": "GOES-08 Magnetometer L2 - Rob Redmon, Paul Loto'aniu, Howard Singer (DOC/NOAA/NCEI and DOC/NOAA/NWS/SWPC respectively)",
+          "start_date": "1995-07-01T00:00:00.000Z",
+          "stop_date": "2001-12-09T23:59:59.000Z",
+          "pi_name": "Rob Redmon, Paul Loto'aniu, Howard Singer"
+        },
+        "DN_MAGN-L2-HIRES_G09": {
+          "description": "GOES-09 Magnetometer L2 - Rob Redmon, Paul Loto'aniu, Howard Singer (DOC/NOAA/NCEI and DOC/NOAA/NWS/SWPC respectively)",
+          "start_date": "1995-06-16T00:00:00.000Z",
+          "stop_date": "2001-12-24T23:59:59.000Z",
+          "pi_name": "Rob Redmon, Paul Loto'aniu, Howard Singer"
+        },
+        "DN_MAGN-L2-HIRES_G11": {
+          "description": "GOES-11 Magnetometer L2 - Rob Redmon, Paul Loto'aniu, Howard Singer (DOC/NOAA/NCEI and DOC/NOAA/NWS/SWPC respectively)",
+          "start_date": "2000-01-01T12:00:00.000Z",
+          "stop_date": "2010-04-13T23:59:59.000Z",
+          "pi_name": "Rob Redmon, Paul Loto'aniu, Howard Singer"
+        },
+        "DN_MAGN-L2-HIRES_G10": {
+          "description": "GOES-10 Magnetometer L2 - Rob Redmon, Paul Loto'aniu, Howard Singer (DOC/NOAA/NCEI and DOC/NOAA/NWS/SWPC respectively)",
+          "start_date": "1997-05-06T00:00:00.000Z",
+          "stop_date": "2005-05-31T23:59:59.000Z",
+          "pi_name": "Rob Redmon, Paul Loto'aniu, Howard Singer"
+        },
+        "DN_MAGN-L2-HIRES_G13": {
+          "description": "GOES-13 Magnetometer L2 - Rob Redmon, Paul Loto'aniu, Howard Singer (DOC/NOAA/NCEI and DOC/NOAA/NWS/SWPC respectively)",
+          "start_date": "2010-05-04T00:00:00.000Z",
+          "stop_date": "2017-12-09T23:59:59.000Z",
+          "pi_name": "Rob Redmon, Paul Loto'aniu, Howard Singer"
+        },
+        "DN_MAGN-L2-HIRES_G12": {
+          "description": "GOES-12 Magnetometer L2 - Rob Redmon, Paul Loto'aniu, Howard Singer (DOC/NOAA/NCEI and DOC/NOAA/NWS/SWPC respectively)",
+          "start_date": "2000-01-01T12:00:00.000Z",
+          "stop_date": "2009-09-16T23:59:59.000Z",
+          "pi_name": "Rob Redmon, Paul Loto'aniu, Howard Singer"
+        },
+        "DN_MAGN-L2-HIRES_G15": {
+          "description": "GOES-15 Magnetometer L2 - Rob Redmon, Paul Loto'aniu, Howard Singer (DOC/NOAA/NCEI and DOC/NOAA/NWS/SWPC respectively)",
+          "start_date": "2011-01-01T00:00:00.000Z",
+          "stop_date": "2017-12-09T23:59:59.000Z",
+          "pi_name": "Rob Redmon, Paul Loto'aniu, Howard Singer"
+        },
+        "DN_MAGN-L2-HIRES_G14": {
+          "description": "GOES-14 Magnetometer L2 - Rob Redmon, Paul Loto'aniu, Howard Singer (DOC/NOAA/NCEI and DOC/NOAA/NWS/SWPC respectively)",
+          "start_date": "2012-10-01T00:00:00.000Z",
+          "stop_date": "2017-12-07T23:59:59.000Z",
+          "pi_name": "Rob Redmon, Paul Loto'aniu, Howard Singer"
+        },
+        "DN_MAGN-L2-HIRES_G17": {
+          "description": "GOES-17 Magnetometer L2 - Rob Redmon, Paul Loto'aniu, Howard Singer (DOC/NOAA/NCEI and DOC/NOAA/NWS/SWPC respectively)",
+          "start_date": "2018-08-01T00:00:00.000Z",
+          "stop_date": "2023-03-14T23:59:59.000Z",
+          "pi_name": "Rob Redmon, Paul Loto'aniu, Howard Singer"
+        },
+        "DN_MAGN-L2-HIRES_G16": {
+          "description": "GOES-16 Magnetometer L2 - Rob Redmon, Paul Loto'aniu, Howard Singer (DOC/NOAA/NCEI and DOC/NOAA/NWS/SWPC respectively)",
+          "start_date": "2018-08-29T00:00:00.000Z",
+          "stop_date": "2025-04-07T23:59:59.000Z",
+          "pi_name": "Rob Redmon, Paul Loto'aniu, Howard Singer"
+        },
+        "DN_MAGN-L2-HIRES_G19": {
+          "description": "GOES-19 Magnetometer L2 Geomagnetic Field 10 Hz Product with Complete Coordinate Frames - Rob Redmon, Paul Loto'aniu (DOC/NOAA/NESDIS/NCEI/OGSSD/STP)",
+          "start_date": "2025-06-01T00:00:00.000Z",
+          "stop_date": "2026-03-04T23:59:59.000Z",
+          "pi_name": "Rob Redmon, Paul Loto'aniu"
+        },
+        "DN_MAGN-L2-HIRES_G18": {
+          "description": "GOES-18 Magnetometer L2 - Rob Redmon, Paul Loto'aniu (DOC/NOAA/NESDIS/NCEI/OGSSD/STP)",
+          "start_date": "2022-08-08T00:00:00.000Z",
+          "stop_date": "2026-03-04T23:59:59.000Z",
+          "pi_name": "Rob Redmon, Paul Loto'aniu"
+        },
         "G7_K1_MAG": {
           "description": "GOES-7 Magnetometer Calculated PSD for Hn - R. Zwickl (NOAA SEL)",
           "start_date": "1995-02-11T04:00:30.000Z",
@@ -290,7 +362,8 @@
     }
   },
   "_meta": {
-    "generated_at": "2026-03-11T01:11:24Z",
+    "generated_at": "2026-03-12T06:14:15Z",
     "source": "CDAWeb REST API"
-  }
+  },
+  "short_name": "goes"
 }

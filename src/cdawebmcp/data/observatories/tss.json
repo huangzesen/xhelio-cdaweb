@@ -1,5 +1,5 @@
 {
-  "id": "tss_1r",
+  "id": "tss",
   "name": "TSS-1R",
   "profile": {
     "description": "TSS-1R data from CDAWeb.",
@@ -1317,7 +1317,8 @@
     }
   },
   "_meta": {
-    "generated_at": "2026-03-11T01:11:24Z",
+    "generated_at": "2026-03-12T06:14:15Z",
     "source": "CDAWeb REST API"
-  }
+  },
+  "short_name": "tss"
 }

@@ -95,15 +95,26 @@ def mark_time_range_refreshed() -> None:
 
 
 def _copy_bundled_dir(src: Path, dst: Path) -> None:
-    """Copy JSON files from bundled src to dst, skipping files that already exist."""
+    """Sync JSON files from bundled src to dst.
+
+    Copies new files, and removes cache files that no longer exist in the
+    bundled data (e.g. after observatory renames).
+    """
     if not src.exists():
         return
     dst.mkdir(parents=True, exist_ok=True)
+    bundled_names = {f.name for f in src.glob("*.json")}
     copied = 0
     for src_file in src.glob("*.json"):
         dst_file = dst / src_file.name
         if not dst_file.exists():
             shutil.copy2(src_file, dst_file)
             copied += 1
-    if copied:
-        logger.info("Bootstrapped %d files from %s to %s", copied, src.name, dst)
+    # Remove stale cache files not in bundled data
+    removed = 0
+    for dst_file in dst.glob("*.json"):
+        if dst_file.name not in bundled_names:
+            dst_file.unlink()
+            removed += 1
+    if copied or removed:
+        logger.info("Bootstrap %s: %d copied, %d stale removed", src.name, copied, removed)

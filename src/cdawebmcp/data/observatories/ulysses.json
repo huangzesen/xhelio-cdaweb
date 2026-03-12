@@ -206,12 +206,33 @@
         "electron"
       ],
       "datasets": {
+        "UY_PROTON-FIT-PARAMETERS_SWOOPS": {
+          "description": "Fitting parameters of the distribution function of protons. - David. J. McComas (Princeton/PPPL)",
+          "start_date": "1990-11-18T02:52:56.000Z",
+          "stop_date": "2009-06-30T15:54:11.000Z",
+          "pi_name": "David. J. McComas",
+          "doi": "10.48322/e85v-8y23"
+        },
         "UY_M1_SWI": {
           "description": "Ulysses SWI 3.5 hour average. - J Geiss, G Gloeckler (International Space Science Institute, )",
           "start_date": "1990-12-07T20:02:48.000Z",
           "stop_date": "2009-06-30T00:00:00.000Z",
           "pi_name": "J Geiss, G Gloeckler",
           "doi": "10.48322/6gsv-6k69"
+        },
+        "UY_ALPHA-DISTRIBUTIONS_SWOOPS": {
+          "description": "Distribution function of alpha particles - David. J. McComas (Princeton/PPPL)",
+          "start_date": "1990-11-18T12:56:11.000Z",
+          "stop_date": "2009-06-30T15:38:12.000Z",
+          "pi_name": "David. J. McComas",
+          "doi": "10.48322/sgf3-hb74"
+        },
+        "UY_ALPHA-MOMENTS_SWOOPS": {
+          "description": "Moments of the distribution function of alpha particles      - David. J. McComas (Princeton/PPPL)",
+          "start_date": "1990-11-18T12:56:11.000Z",
+          "stop_date": "2009-06-30T15:38:12.000Z",
+          "pi_name": "David. J. McComas",
+          "doi": "10.48322/1xad-2j98"
         },
         "UY_M1_BAI": {
           "description": "Ulysses BAI 1 hour average. - D McComas (Southwest Research Institute, USA)",
@@ -226,6 +247,27 @@
           "stop_date": "2009-06-30T00:00:00.000Z",
           "pi_name": "J Geiss, G Gloeckler",
           "doi": "10.48322/qx8j-rj13"
+        },
+        "UY_ALPHA-FIT-PARAMETERS_SWOOPS": {
+          "description": "Fitting parameters to the distribution function of alphas. - David. J. McComas (Princeton/PPPL)",
+          "start_date": "1990-11-18T12:56:11.000Z",
+          "stop_date": "2009-06-30T15:38:12.000Z",
+          "pi_name": "David. J. McComas",
+          "doi": "10.48322/zb4k-7w57"
+        },
+        "UY_PROTON-DISTRIBUTIONS_SWOOPS": {
+          "description": "Distribution function of protons - David. J. McComas (Princeton/PPPL)",
+          "start_date": "1990-11-18T02:52:56.000Z",
+          "stop_date": "2009-06-30T15:54:11.000Z",
+          "pi_name": "David. J. McComas",
+          "doi": "10.48322/qsjs-3s31"
+        },
+        "UY_PROTON-MOMENTS_SWOOPS": {
+          "description": "Moments of the distribution function of protons              - David. J. McComas (Princeton/PPPL)",
+          "start_date": "1990-11-18T02:52:56.000Z",
+          "stop_date": "2009-06-30T15:54:11.000Z",
+          "pi_name": "David. J. McComas",
+          "doi": "10.48322/tmpv-yg85"
         },
         "UY_H0_GLG": {
           "description": "Ulysses/SWICS full resolution matrix rate data - G. Gloeckler, J. Geiss (Department of Physics, University of Maryland, College Park, Maryland, USA; )",
@@ -322,7 +364,8 @@
     }
   },
   "_meta": {
-    "generated_at": "2026-03-11T01:11:24Z",
+    "generated_at": "2026-03-12T06:14:15Z",
     "source": "CDAWeb REST API"
-  }
+  },
+  "short_name": "ulysses"
 }

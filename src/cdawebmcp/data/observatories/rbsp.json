@@ -1,5 +1,5 @@
 {
-  "id": "van_allen_probes_rbsp",
+  "id": "rbsp",
   "name": "Van Allen Probes (RBSP)",
   "profile": {
     "description": "Van Allen Probes (RBSP) data from CDAWeb.",
@@ -1105,7 +1105,8 @@
     }
   },
   "_meta": {
-    "generated_at": "2026-03-11T01:11:24Z",
+    "generated_at": "2026-03-12T06:14:15Z",
     "source": "CDAWeb REST API"
-  }
+  },
+  "short_name": "rbsp"
 }

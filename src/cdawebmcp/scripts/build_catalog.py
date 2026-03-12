@@ -15,7 +15,7 @@ import logging
 import re
 import sys
 import xml.etree.ElementTree as ET
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 from cdawebmcp.http import request_with_retry
@@ -250,6 +250,7 @@ def fetch_cdaweb_catalog() -> dict[str, dict]:
             "instrument_types": instrument_types,
             "label": _text(ds, "cda:Label") or "",
             "observatory": _text(ds, "cda:Observatory") or "",
+            "observatory_group": _text(ds, "cda:ObservatoryGroup") or "",
             "pi_name": _text(ds, "cda:PiName") or "",
             "doi": _text(ds, "cda:Doi") or "",
             "start_date": start_date,
@@ -355,6 +356,50 @@ def save_observatory_json(slug: str, data: dict, output_dir: Path | None = None)
     logger.debug("Saved %s", filepath.name)
 
 
+def _build_group_name_to_slug(groups: dict[str, dict]) -> dict[str, str]:
+    """Build reverse map: group display name (case-insensitive) -> slug."""
+    result = {}
+    for slug, info in groups.items():
+        result[info["name"].lower()] = slug
+    return result
+
+
+def _resolve_short_name(slug: str, datasets: list[tuple[str, dict]]) -> str:
+    """Derive the CDAWeb top-level data folder name for an observatory group.
+
+    Queries the CDAWeb orig_data endpoint for a sample dataset to extract the
+    canonical folder name from the data file URL path (e.g. sp_phys/data/ace/...).
+    Falls back to the slugified group name if no files are available.
+    """
+    from cdawebmcp.fetch import CDAWEB_REST_BASE, _iso_to_cdaweb_time
+
+    for ds_id, ds_meta in datasets[:5]:  # try up to 5 datasets
+        start = ds_meta.get("start_date", "")[:10]
+        if not start:
+            continue
+        try:
+            dt = datetime.strptime(start, "%Y-%m-%d")
+            s = _iso_to_cdaweb_time((dt + timedelta(days=1)).strftime("%Y-%m-%d"))
+            e = _iso_to_cdaweb_time((dt + timedelta(days=8)).strftime("%Y-%m-%d"))
+            url = f"{CDAWEB_REST_BASE}/datasets/{ds_id}/orig_data/{s},{e}"
+            resp = request_with_retry(url, headers={"Accept": "application/json"}, timeout=15)
+            data = resp.json()
+            file_descs = (data.get("FileDescription")
+                          or data.get("FileDescriptionList", {}).get("FileDescription")
+                          or [])
+            if file_descs:
+                file_url = file_descs[0].get("Name", "")
+                marker = "sp_phys/data/"
+                idx = file_url.find(marker)
+                if idx >= 0:
+                    folder = file_url[idx + len(marker):].split("/")[0]
+                    if folder:
+                        return folder
+        except Exception:
+            continue
+    return slug  # fallback
+
+
 def build_all(
     groups: dict[str, dict],
     catalog: dict[str, dict],
@@ -372,6 +417,7 @@ def build_all(
     Returns list of built slugs.
     """
     obs_id_to_group = build_obs_id_to_group(groups)
+    group_name_to_slug = _build_group_name_to_slug(groups)
 
     # Build a sorted list of observatory IDs for prefix fallback (longest first)
     all_obs_ids = sorted(obs_id_to_group.keys(), key=len, reverse=True)
@@ -383,13 +429,19 @@ def build_all(
         obs = ds_meta.get("observatory", "")
         slug = obs_id_to_group.get(obs.lower()) if obs else None
 
-        # Fallback: match dataset ID against observatory IDs as prefixes
+        # Fallback 1: match dataset ID against observatory IDs as prefixes
         if slug is None:
             ds_lower = ds_id.lower()
             for obs_key in all_obs_ids:
                 if ds_lower.startswith(obs_key):
                     slug = obs_id_to_group[obs_key]
                     break
+
+        # Fallback 2: use the dataset's ObservatoryGroup field directly
+        if slug is None:
+            obs_group = ds_meta.get("observatory_group", "")
+            if obs_group:
+                slug = group_name_to_slug.get(obs_group.lower())
 
         if slug is None:
             unmatched.append((ds_id, obs))
@@ -406,14 +458,47 @@ def build_all(
         for obs, count in sorted(obs_counts.items(), key=lambda x: -x[1])[:10]:
             logger.debug("  Unmatched observatory '%s': %d datasets", obs, count)
 
-    built = []
+    # Resolve short names (CDAWeb data folder names) for each group
+    logger.info("Resolving CDAWeb short names for %d groups...", len(grouped))
+    short_names: dict[str, str] = {}
     for slug in sorted(grouped):
-        group_name = groups[slug]["name"]
-        datasets = grouped[slug]
-        obs_data = build_observatory_json(slug, group_name, datasets)
-        save_observatory_json(slug, obs_data, output_dir=output_dir)
+        short_name = _resolve_short_name(slug, grouped[slug])
+        short_names[slug] = short_name
+        if short_name != slug:
+            logger.info("  %s → short_name: %s", slug, short_name)
+
+    # Detect short_name collisions (e.g. PSP and Parker Solar Probe both → psp)
+    # Merge groups that resolve to the same short_name
+    merged: dict[str, list[tuple[str, dict]]] = {}
+    merged_names: dict[str, str] = {}
+    for slug in sorted(grouped):
+        sn = short_names[slug]
+        if sn in merged:
+            merged[sn].extend(grouped[slug])
+            logger.info("  Merging %s into %s (same short_name: %s)",
+                        slug, merged_names[sn], sn)
+        else:
+            merged[sn] = list(grouped[slug])
+            merged_names[sn] = groups[slug]["name"]
+
+    # Remove stale observatory files not in the new build
+    out = output_dir or OBSERVATORIES_DIR
+    if out.exists():
+        new_slugs = set(merged.keys())
+        for old_file in out.glob("*.json"):
+            if old_file.stem not in new_slugs:
+                logger.info("  Removing stale: %s", old_file.name)
+                old_file.unlink()
+
+    built = []
+    for short_name in sorted(merged):
+        group_name = merged_names[short_name]
+        datasets = merged[short_name]
+        obs_data = build_observatory_json(short_name, group_name, datasets)
+        obs_data["short_name"] = short_name
+        save_observatory_json(short_name, obs_data, output_dir=output_dir)
         logger.debug("%s: %d datasets", group_name, len(datasets))
-        built.append(slug)
+        built.append(short_name)
 
     return built
 

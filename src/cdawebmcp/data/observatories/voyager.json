@@ -49,6 +49,12 @@
           "pi_name": "E. C. Stone",
           "doi": "10.48322/rmq3-1z61"
         },
+        "VOYAGER-1_LECP_LEV-2-DAILY-AVG": {
+          "description": "Voyager I LECP Ion-Electron daily averaged fluxes and uncertainties. - Stamatios M.Krimigis (The John Hopkins Applied Physics Laboratory)",
+          "start_date": "1991-01-01T21:55:54.000Z",
+          "stop_date": "2021-12-16T01:15:45.000Z",
+          "pi_name": "Stamatios M.Krimigis"
+        },
         "VOYAGER-2_LECP_LEV-1-RATES": {
           "description": "Voyager II LECP Ion-Electron count rates and uncertainties. - Stamatios M.Krimigis (The John Hopkins Applied Physics Laboratory)",
           "start_date": "1991-01-01T00:01:57.000Z",
@@ -321,7 +327,8 @@
     }
   },
   "_meta": {
-    "generated_at": "2026-03-11T01:11:24Z",
+    "generated_at": "2026-03-12T06:14:15Z",
     "source": "CDAWeb REST API"
-  }
+  },
+  "short_name": "voyager"
 }
