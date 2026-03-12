@@ -98,10 +98,17 @@ def fetch_data(
         info = {"parameters": []}
 
     # Fetch file list once for the whole dataset (all parameters share the same CDF files)
+    _log(log_fn, "info", f"Fetching {dataset_id}: {len(parameters)} parameter(s), {start} to {stop}")
     try:
         file_list = _get_cdf_file_list(dataset_id, start, stop)
     except ValueError as e:
+        _log(log_fn, "warning", f"No CDF files for {dataset_id}: {e}")
         return {param_id: {"error": str(e)} for param_id in parameters}
+
+    total_size = sum(f.get("size", 0) for f in file_list)
+    _log(log_fn, "info",
+         f"Found {len(file_list)} CDF file(s) for {dataset_id} "
+         f"({total_size / 1024:.0f} KB total)")
 
     results = {}
     for param_id in parameters:
@@ -223,7 +230,6 @@ def _fetch_single_parameter(
     # Get CDF file list (prefer pre-fetched list from fetch_data)
     if file_list is None:
         file_list = _get_cdf_file_list(dataset_id, time_min, time_max)
-    _log(log_fn, "info", f"Found {len(file_list)} CDF files for {dataset_id} ({time_min} to {time_max})")
 
     # Download and read each file
     frames = []
@@ -234,7 +240,10 @@ def _fetch_single_parameter(
     if len(file_list) > 1:
         with ThreadPoolExecutor(max_workers=max_workers) as pool:
             futures = {
-                pool.submit(_download_and_read, fi["url"], parameter_id, cache_dir, log_fn): idx
+                pool.submit(
+                    _download_and_read, fi["url"], parameter_id, cache_dir,
+                    log_fn, fi.get("size", 0), fi.get("last_modified", ""),
+                ): idx
                 for idx, fi in enumerate(file_list)
             }
             results_by_idx = {}
@@ -244,7 +253,10 @@ def _fetch_single_parameter(
     else:
         results_by_idx = {}
         for idx, fi in enumerate(file_list):
-            results_by_idx[idx] = _download_and_read(fi["url"], parameter_id, cache_dir, log_fn)
+            results_by_idx[idx] = _download_and_read(
+                fi["url"], parameter_id, cache_dir, log_fn,
+                fi.get("size", 0), fi.get("last_modified", ""),
+            )
 
     for idx in range(len(file_list)):
         local_path, data, attrs = results_by_idx[idx]
@@ -348,23 +360,38 @@ def _get_cdf_file_list(dataset_id: str, time_min: str, time_max: str) -> list[di
 
     return [
         {"url": fd.get("Name", ""), "start_time": fd.get("StartTime", ""),
-         "end_time": fd.get("EndTime", ""), "size": fd.get("Length", 0)}
+         "end_time": fd.get("EndTime", ""), "size": fd.get("Length", 0),
+         "last_modified": fd.get("LastModified", "")}
         for fd in file_descs if fd.get("Name")
     ]
 
 
-def _download_and_read(url: str, parameter_id: str, cache_dir: Path, log_fn: LogFn = None):
+def _download_and_read(
+    url: str, parameter_id: str, cache_dir: Path,
+    log_fn: LogFn = None, remote_size: int = 0, remote_modified: str = "",
+):
     """Download a CDF file and read one parameter. Thread-safe.
 
     Returns (local_path, DataFrame, var_attrs).
     """
-    local_path = _download_cdf_file(url, cache_dir, log_fn)
+    local_path = _download_cdf_file(url, cache_dir, log_fn,
+                                    remote_size=remote_size,
+                                    remote_modified=remote_modified)
     data, attrs = _read_cdf_parameter(local_path, parameter_id)
     return local_path, data, attrs
 
 
-def _download_cdf_file(url: str, cache_base: Path, log_fn: LogFn = None) -> Path:
-    """Download a CDF file, using local cache if available."""
+def _download_cdf_file(
+    url: str, cache_base: Path, log_fn: LogFn = None,
+    remote_size: int = 0, remote_modified: str = "",
+) -> Path:
+    """Download a CDF file, using local cache if available.
+
+    Cache validation: if the cached file exists but its size differs from
+    the remote size reported by CDAWeb's file list API, re-download it
+    (the file was likely reprocessed). When remote_size is 0 (unknown),
+    any non-empty cached file is accepted.
+    """
     from cdawebmcp.http import request_with_retry
 
     parsed = urlparse(url)
@@ -377,12 +404,22 @@ def _download_cdf_file(url: str, cache_base: Path, log_fn: LogFn = None) -> Path
         rel_path = Path(parsed.path).name
 
     local_path = cache_base / rel_path
-
-    if local_path.exists() and local_path.stat().st_size > 0:
-        return local_path
-
     filename = Path(parsed.path).name
-    _log(log_fn, "info", f"Downloading: {filename}")
+
+    # Check cache — validate size against remote if available
+    if local_path.exists():
+        local_size = local_path.stat().st_size
+        if local_size > 0:
+            if remote_size > 0 and local_size != remote_size:
+                _log(log_fn, "info",
+                     f"Cache stale (size {local_size} != remote {remote_size}), "
+                     f"re-downloading: {filename}")
+            else:
+                _log(log_fn, "debug", f"Cache hit: {filename} ({local_size / 1024:.0f} KB)")
+                return local_path
+
+    size_str = f" ({remote_size / 1024:.0f} KB)" if remote_size > 0 else ""
+    _log(log_fn, "info", f"Downloading: {filename}{size_str}")
     local_path.parent.mkdir(parents=True, exist_ok=True)
 
     from cdawebmcp.http import DOWNLOAD_TIMEOUT
@@ -423,6 +460,7 @@ def _download_cdf_file(url: str, cache_base: Path, log_fn: LogFn = None) -> Path
 
     os.replace(tmp_path, local_path)
 
+    _log(log_fn, "info", f"Downloaded: {filename} ({written / 1024:.0f} KB)")
     return local_path
 
 
