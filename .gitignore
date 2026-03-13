@@ -27,3 +27,17 @@ docs/plans/
 
 # Claude
 CLAUDE.md
+.claude/
+
+# MCP config
+.mcp.json
+
+# Reports / data output
+reports/
+
+# Scripts (local-only)
+scripts/test_mcp_workflow.py
+scripts/run_remaining.py
+
+# Lock files
+uv.lock

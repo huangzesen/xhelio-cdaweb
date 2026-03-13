@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "xhelio-cdaweb"
-version = "0.3.3"
+version = "0.3.6"
 description = "NASA CDAWeb data access for heliophysics — browse observatories, inspect parameters, fetch CDF data"
 readme = "README.md"
 license = "MIT"
@@ -40,6 +40,9 @@ dev = [
 
 [project.scripts]
 xhelio-cdaweb-mcp = "cdawebmcp:main"
+
+[tool.hatch.build.targets.sdist]
+exclude = ["reports/", ".claude/", ".mcp.json", "uv.lock"]
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/cdawebmcp"]

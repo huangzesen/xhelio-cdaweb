@@ -73,7 +73,7 @@ cdawebmcp.configure(cache_dir="/path/to/cache")
 
 ```
 ~/.cdawebmcp/                  # or custom path via configure()
-├── missions/                  # Observatory catalog JSONs (bootstrapped from package)
+├── observatories/                  # Observatory catalog JSONs (bootstrapped from package)
 ├── metadata/                  # Parameter metadata JSONs (bootstrapped from package)
 ├── cdf_cache/                 # Downloaded CDF data files (permanent, reused across fetches)
 │   └── ace/mfi/               #   organized by observatory/instrument path
@@ -83,7 +83,7 @@ cdawebmcp.configure(cache_dir="/path/to/cache")
         └── AC_H2_MFI.json
 ```
 
-- **`missions/`** — Observatory catalog JSONs. Bootstrapped from bundled package data on first use.
+- **`observatories/`** — Observatory catalog JSONs. Bootstrapped from bundled package data on first use.
 - **`metadata/`** — Parameter metadata JSONs. Bootstrapped from bundled package data on first use. New metadata is fetched on demand from Master CDFs.
 - **`cdf_cache/`** — Permanent cache of downloaded CDF files. Once a CDF file is downloaded, it is never re-downloaded. Use `manage_cache(action="clean", category="cdf_cache")` to free disk space.
 - **`overrides/`** — Validation results from comparing fetched data against metadata. Append-only, one JSON per dataset.
@@ -92,8 +92,8 @@ cdawebmcp.configure(cache_dir="/path/to/cache")
 
 | Tool | Description |
 |------|-------------|
-| `browse_missions()` | List all 65 CDAWeb observatories with descriptions, dataset counts, and instruments |
-| `load_mission(mission_id)` | Get the complete system prompt for an observatory (role instructions + full dataset catalog) |
+| `browse_observatories()` | List all 65 CDAWeb observatories with descriptions, dataset counts, and instruments |
+| `load_observatory(observatory_id)` | Get the complete system prompt for an observatory (role instructions + full dataset catalog) |
 | `browse_parameters(dataset_id)` | Browse all variables in a dataset — name, type, units, description, plus validation status if available |
 | `fetch_data(dataset_id, parameters, start, stop, output_dir)` | Download CDF data, write to file, return metadata + per-column stats (min, max, mean, std, nan_ratio) |
 | `manage_cache(action, ...)` | Cache management — status, clean, refresh metadata, refresh time ranges, rebuild catalog |
@@ -101,7 +101,7 @@ cdawebmcp.configure(cache_dir="/path/to/cache")
 ### Typical workflow
 
 ```
-browse_missions  →  load_mission("ace")  →  browse_parameters("AC_H2_MFI")  →  fetch_data(...)
+browse_observatories  →  load_observatory("ace")  →  browse_parameters("AC_H2_MFI")  →  fetch_data(...)
 ```
 
 1. Discover available observatories
@@ -112,16 +112,16 @@ browse_missions  →  load_mission("ace")  →  browse_parameters("AC_H2_MFI")  
 ## Python Library
 
 ```python
-from cdawebmcp.catalog import browse_missions
-from cdawebmcp.prompts import build_mission_prompt
+from cdawebmcp.catalog import browse_observatories
+from cdawebmcp.prompts import build_observatory_prompt
 from cdawebmcp.metadata import browse_parameters
 from cdawebmcp.fetch import fetch_data
 
 # List all 65 observatories
-missions = browse_missions()
+observatories = browse_observatories()
 
 # Get observatory-specific system prompt
-prompt = build_mission_prompt("ace")
+prompt = build_observatory_prompt("ace")
 
 # Browse dataset parameters (instant — uses bundled metadata)
 params = browse_parameters(dataset_id="AC_H2_MFI")
@@ -165,7 +165,7 @@ python -m cdawebmcp.scripts.build_catalog --list
 
 # Rebuild parameter metadata from Master CDFs
 python -m cdawebmcp.scripts.build_metadata
-python -m cdawebmcp.scripts.build_metadata --mission psp
+python -m cdawebmcp.scripts.build_metadata --observatory psp
 ```
 
 ## Development
