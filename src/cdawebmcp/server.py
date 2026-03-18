@@ -107,18 +107,17 @@ def create_server() -> FastMCP:
 
     @mcp.tool()
     async def load_observatory(observatory_id: str, ctx: Context) -> str:
-        """Load the complete system prompt for a CDAWeb observatory.
+        """Load the full dataset catalog and usage instructions for a CDAWeb observatory.
 
-        Returns a detailed text prompt containing:
-        - Role instructions for acting as a CDAWeb data specialist
-        - CDAWeb-specific workflow (how to discover and fetch data)
-        - Full dataset catalog for this observatory (instruments, dataset IDs, descriptions, time coverage)
-
-        Use the returned text as context/instructions to work with this observatory's data.
+        Returns:
+        - Usage instructions (how to use browse_parameters / fetch_data)
+        - CDAWeb data access workflow
+        - Observatory profile (name, description, coordinate systems)
+        - Full dataset catalog: every instrument, dataset ID, description, and time coverage
 
         Args:
             observatory_id: Observatory identifier — use the lowercase stem from browse_observatories
-                            (e.g., 'ace', 'parker_solar_probe_psp', 'wind', 'solar_orbiter').
+                            (e.g., 'ace', 'psp', 'wind', 'solar_orbiter').
         """
         loop = asyncio.get_running_loop()
         _maybe_refresh_time_ranges(ctx, loop)

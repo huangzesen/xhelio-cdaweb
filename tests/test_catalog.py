@@ -69,4 +69,4 @@ def test_observatory_to_markdown(sample_observatory):
     md = observatory_to_markdown(observatory)
     assert "## Dataset Catalog" in md
     assert "AC_H2_MFI" in md
-    assert "N. Ness" in md
+    assert "Coverage:" in md

@@ -95,6 +95,27 @@ def browse_observatories() -> list[dict]:
     return results
 
 
+def _strip_pi_from_description(desc: str, pi_name: str | None) -> str:
+    """Remove trailing PI info from CDAWeb description to avoid redundancy."""
+    if not pi_name or not desc:
+        return desc
+    # CDAWeb descriptions often end with " - PI Name (email) (Institution)"
+    # Find the last occurrence of " - " followed by PI-like text
+    last_dash = desc.rfind(" - ")
+    if last_dash > 0:
+        after = desc[last_dash + 3 :]
+        # Check if PI name (first+last) appears in the trailing text
+        pi_parts = pi_name.split()
+        if len(pi_parts) >= 2 and pi_parts[-1] in after:
+            return desc[:last_dash].rstrip()
+    return desc
+
+
+def _date_only(iso: str) -> str:
+    """Truncate ISO timestamp to date only: '2024-01-01T00:00:00.000Z' → '2024-01-01'."""
+    return iso[:10] if len(iso) >= 10 else iso
+
+
 def observatory_to_markdown(observatory: dict) -> str:
     """Convert an observatory JSON dict to a readable markdown dataset catalog.
 
@@ -105,21 +126,19 @@ def observatory_to_markdown(observatory: dict) -> str:
         Markdown string with dataset catalog.
     """
     lines = ["## Dataset Catalog", ""]
-    for inst_name, inst_data in sorted(observatory.get("instruments", {}).items()):
-        lines.append(f"### {inst_name}")
-        if inst_data.get("keywords"):
-            lines.append(f"Keywords: {', '.join(inst_data['keywords'])}")
+    for inst_key, inst_data in sorted(observatory.get("instruments", {}).items()):
+        display_name = inst_data.get("name", inst_key)
+        lines.append(f"### {display_name}")
         lines.append("")
         for ds_id, ds_info in sorted(inst_data.get("datasets", {}).items()):
-            desc = ds_info.get("description", "")
-            start = ds_info.get("start_date", "?")
-            stop = ds_info.get("stop_date", "?")
+            pi_name = ds_info.get("pi_name")
+            desc = _strip_pi_from_description(
+                ds_info.get("description", ""), pi_name
+            )
+            start = _date_only(ds_info.get("start_date", "?"))
+            stop = _date_only(ds_info.get("stop_date", "?"))
             lines.append(f"- **{ds_id}**: {desc}")
             lines.append(f"  Coverage: {start} to {stop}")
-            if ds_info.get("pi_name"):
-                lines.append(f"  PI: {ds_info['pi_name']}")
-            if ds_info.get("doi"):
-                lines.append(f"  DOI: {ds_info['doi']}")
         lines.append("")
     return "\n".join(lines)
 

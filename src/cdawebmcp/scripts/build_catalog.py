@@ -481,9 +481,11 @@ def build_all(
             merged[sn] = list(grouped[slug])
             merged_names[sn] = groups[slug]["name"]
 
-    # Remove stale observatory files not in the new build
+    # Remove stale observatory files not in the new build.
+    # Only clean up when doing a full (unfiltered) rebuild — a filtered rebuild
+    # intentionally builds a subset and must not delete the rest.
     out = output_dir or OBSERVATORIES_DIR
-    if out.exists():
+    if out.exists() and not filter_slug:
         new_slugs = set(merged.keys())
         for old_file in out.glob("*.json"):
             if old_file.stem not in new_slugs:

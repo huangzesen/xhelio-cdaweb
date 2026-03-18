@@ -1,8 +1,9 @@
-"""Prompt assembly — builds observatory-specific system prompts."""
+"""Prompt assembly — builds observatory catalog text for load_observatory."""
 
 from pathlib import Path
 
 from cdawebmcp.catalog import load_observatory_json, observatory_to_markdown
+from cdawebmcp.config import get_cache_root
 
 # Prompt templates are static and stay bundled with the package
 _BUNDLED_PROMPTS = Path(__file__).parent / "data" / "prompts"
@@ -17,29 +18,29 @@ def _load_prompt_template(filename: str) -> str:
 
 
 def build_observatory_prompt(observatory_stem: str) -> str:
-    """Build the complete system prompt for an observatory.
+    """Build the complete catalog text for an observatory.
 
-    Assembles three layers:
-    1. Generic role instructions
+    Assembles:
+    1. Usage instructions (how to use browse_parameters / fetch_data)
     2. CDAWeb-specific workflow instructions
     3. Observatory profile + full dataset catalog as markdown
 
     Args:
-        observatory_stem: Lowercase observatory identifier (e.g., 'ace', 'parker_solar_probe_psp').
+        observatory_stem: Lowercase observatory identifier (e.g., 'ace', 'psp').
 
     Returns:
-        Complete system prompt string.
+        Formatted text with observatory catalog and usage instructions.
 
     Raises:
         FileNotFoundError: If no observatory JSON exists.
     """
-    # Layer 1: Generic role
+    # Usage instructions
     generic_role = _load_prompt_template("generic_role.md")
 
-    # Layer 2: CDAWeb-specific
+    # CDAWeb workflow
     cdaweb_role = _load_prompt_template("cdaweb_role.md")
 
-    # Layer 3: Observatory data
+    # Observatory data
     observatory = load_observatory_json(observatory_stem)
     profile = observatory.get("profile", {})
 
@@ -63,6 +64,16 @@ def build_observatory_prompt(observatory_stem: str) -> str:
     # Dataset catalog
     dataset_catalog = observatory_to_markdown(observatory)
 
+    # Cache paths
+    root = get_cache_root()
+    cache_info = "\n".join([
+        "## Cache Locations",
+        "",
+        f"- Observatory catalogs (JSON): `{root / 'observatories'}/`",
+        f"- Parameter metadata (JSON): `{root / 'metadata'}/`",
+        f"- Downloaded CDF files: `{root / 'cdf'}/`",
+    ])
+
     # Assemble
-    parts = [p for p in [generic_role, cdaweb_role, observatory_overview, dataset_catalog] if p]
+    parts = [p for p in [generic_role, cdaweb_role, cache_info, observatory_overview, dataset_catalog] if p]
     return "\n\n".join(parts)

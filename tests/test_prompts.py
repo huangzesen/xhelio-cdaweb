@@ -32,8 +32,8 @@ def mock_catalog(tmp_path):
     # Prompt templates
     prompts_dir = tmp_path / "prompts"
     prompts_dir.mkdir()
-    (prompts_dir / "generic_role.md").write_text("You are a CDAWeb specialist.")
-    (prompts_dir / "cdaweb_role.md").write_text("## CDAWeb Access\nUse browse_parameters.")
+    (prompts_dir / "generic_role.md").write_text("Use browse_parameters to inspect variables.")
+    (prompts_dir / "cdaweb_role.md").write_text("## CDAWeb Data Access\nDataset IDs follow CDAWeb naming.")
 
     return tmp_path, observatory
 
@@ -43,8 +43,8 @@ def test_build_observatory_prompt(mock_catalog):
     with patch("cdawebmcp.prompts._BUNDLED_PROMPTS", prompts_dir / "prompts"):
         with patch("cdawebmcp.prompts.load_observatory_json", return_value=observatory):
             prompt = build_observatory_prompt("ace")
-    assert "CDAWeb specialist" in prompt
-    assert "CDAWeb Access" in prompt
+    assert "browse_parameters" in prompt
+    assert "CDAWeb Data Access" in prompt
     assert "AC_H2_MFI" in prompt
     assert "Dataset Catalog" in prompt
 
