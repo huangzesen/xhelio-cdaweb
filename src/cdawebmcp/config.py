@@ -9,6 +9,7 @@ Or from internal modules:
 """
 
 import logging
+import os
 import shutil
 import threading
 import time
@@ -51,13 +52,15 @@ def get_cache_root() -> Path:
 
     Resolution order:
     1. Value set by configure(cache_dir=...)
-    2. Default: ~/.cdawebmcp/
+    2. XHELIO_CDAWEB_CACHE_DIR environment variable
+    3. Default: ~/.cdawebmcp/
 
     On first access, copies bundled data (observatories + metadata) into the cache
     directory if not already present.
     """
     global _bootstrapped
-    root = _cache_dir if _cache_dir is not None else Path.home() / ".cdawebmcp"
+    env_cache = os.environ.get("XHELIO_CDAWEB_CACHE_DIR")
+    root = _cache_dir if _cache_dir is not None else Path(env_cache) if env_cache else Path.home() / ".cdawebmcp"
     if not _bootstrapped:
         with _bootstrap_lock:
             if not _bootstrapped:

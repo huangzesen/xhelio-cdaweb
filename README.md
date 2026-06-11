@@ -64,7 +64,11 @@ All runtime data is stored under a single root directory. Defaults to `~/.cdaweb
 
 On first use, bundled data (observatory catalogs and parameter metadata) is copied into the cache directory. This ensures all reads and writes happen in one writable location, even for non-editable installs from PyPI.
 
-Configure via `--cache-dir` (MCP server) or `cdawebmcp.configure()` (library):
+Configure via `--cache-dir` (MCP server), the `XHELIO_CDAWEB_CACHE_DIR` environment variable, or `cdawebmcp.configure()` (library):
+
+```bash
+XHELIO_CDAWEB_CACHE_DIR=/path/to/cache xhelio-cdaweb-mcp
+```
 
 ```python
 import cdawebmcp
@@ -174,6 +178,19 @@ python -m cdawebmcp.scripts.build_metadata --observatory psp
 pip install -e ".[dev]"
 pytest tests/ -v
 ```
+
+For a CI-safe MCP check that does not fetch CDAWeb data, run:
+
+```bash
+uv run --extra mcp python scripts/smoke_mcp_list_tools.py --json
+```
+
+The smoke starts the stdio server with an isolated temporary cache, runs MCP
+`initialize` + `list_tools`, and verifies the advertised tool names.
+
+## MCP registry manifest
+
+This repository includes `server.json` for MCP registry publishing. Keep its version in sync with `pyproject.toml` and `src/cdawebmcp/__init__.py`.
 
 ## License
 

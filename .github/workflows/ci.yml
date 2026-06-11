@@ -28,3 +28,6 @@ jobs:
 
       - name: Run tests
         run: pytest tests/ -x -q
+
+      - name: Run MCP list-tools smoke
+        run: python scripts/smoke_mcp_list_tools.py --json
